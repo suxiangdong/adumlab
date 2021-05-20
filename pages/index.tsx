@@ -1,5 +1,5 @@
-import Layout from '../layouts/default'
 import ReactSlick from 'react-slick'
+import Layout from '../layouts/default'
 
 export default function Home() {
   var settings = {

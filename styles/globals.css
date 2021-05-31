@@ -2,9 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Open Sans', 'YuGothic_Family', 'YuGothic', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  color: #333;
 }
 
 a {
@@ -20,10 +19,70 @@ a {
   content: '';
   position: absolute;
   height: 0;
-  bottom: 8px;
+  bottom: -5px;
   left: 0;
   right: 0;
   margin: auto;
   width: 3rem;
   border-top: 3px solid #fff;
+}
+
+.bg-202020 {
+  background-color: #202020;
+}
+
+.bg-333 {
+  background-color: #333;
+}
+
+.bg-404040 {
+  background-color: #404040;
+}
+
+.bg-orange {
+  background-color: #e59703;
+}
+
+.text-ccc {
+  color: #cccccc;
+}
+
+.text-999 {
+  color: #999;
+}
+
+.text-666 {
+  color: #666;
+}
+
+.text-green {
+  color: #4ba53a;
+}
+
+.text-coffee {
+  color: #d59c66;
+}
+
+.footer-news-literal {
+  background-image: linear-gradient(to bottom, #404040 0%, #333 200px);
+}
+
+.h-custom-90 {
+  height: 90px;
+}
+
+.border-999 {
+  border-color: #999;
+}
+
+.price::before {
+  line-height: 1em;
+  content: '¥ ';
+  font-size: 1.125rem;
+}
+
+.price::after {
+  line-height: 1em;
+  content: '（税込）';
+  font-size: 0.75rem;
 }

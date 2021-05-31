@@ -4,7 +4,7 @@ import Layout from '../layouts/default'
 export default function Home() {
   var settings = {
     dots: true,
-		arrow: false
+    arrow: false
   }
   return (
     <Layout>
@@ -26,42 +26,27 @@ export default function Home() {
         <h2 className="text-4xl text-center mb-4">人气爆品</h2>
         <div className="flex max-w-7xl mx-auto">
           <a className="w-1/5" href="">
-            <img
-              className="hover:opacity-80"
-              src="https://www.balmuda.com/jp/index/img/desktop/popular/0.jpg?20210429"
-            />
+            <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/0.jpg?20210429" />
             <p className="">BALMUDA THE Cleaner</p>
             <p className="">DCモーター扇風機</p>
           </a>
           <a className="w-1/5" href="">
-            <img
-              className="hover:opacity-80"
-              src="https://www.balmuda.com/jp/index/img/desktop/popular/9.jpg?20210429"
-            />
+            <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/9.jpg?20210429" />
             <p className="">BALMUDA THE Cleaner</p>
             <p className="">DCモーター扇風機</p>
           </a>
           <a className="w-1/5" href="">
-            <img
-              className="hover:opacity-80"
-              src="https://www.balmuda.com/jp/index/img/desktop/popular/7.jpg?20210429"
-            />
+            <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/7.jpg?20210429" />
             <p className="">BALMUDA THE Cleaner</p>
             <p className="">DCモーター扇風機</p>
           </a>
           <a className="w-1/5" href="">
-            <img
-              className="hover:opacity-80"
-              src="https://www.balmuda.com/jp/index/img/desktop/popular/10.jpg?20210429"
-            />
+            <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/10.jpg?20210429" />
             <p className="">BALMUDA THE Cleaner</p>
             <p className="">DCモーター扇風機</p>
           </a>
           <a className="w-1/5" href="">
-            <img
-              className="hover:opacity-80"
-              src="https://www.balmuda.com/jp/index/img/desktop/popular/13.jpg?20210429"
-            />
+            <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/13.jpg?20210429" />
             <p className="">BALMUDA THE Cleaner</p>
             <p className="">DCモーター扇風機</p>
           </a>
@@ -70,108 +55,57 @@ export default function Home() {
 
       <section className="max-w-5xl mx-auto py-16 text-left grid grid-cols-3 grid-rows-3 gap-4">
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
         <a href="">
-          <img
-            className="mb-6 hover:opacity-80"
-            src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429"
-            alt=""
-          />
+          <img className="mb-6 hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/post/5.jpg?20210429" alt="" />
           <h4 className="mb-2">バルミューダについて</h4>
-          <p className="text-sm text-gray-200">
-            バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。
-          </p>
+          <p className="text-sm text-gray-200">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
         </a>
       </section>
-      <section className="py-16">
-        <h2 className="text-4xl text-center mb-4">つながる</h2>
-        <div className="flex"></div>
+      <section className="py-8 bg-orange text-white">
+        <h4 className="text-xl font-bold mb-4">重要なお知らせ</h4>
+        <p>悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</p>
+        <p>悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</p>
+        <p>悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</p>
+        <p>悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</p>
       </section>
     </Layout>
   )

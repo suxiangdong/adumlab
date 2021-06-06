@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Products() {
   return (
-    <div className="flex justify-center gap-8 bg-404040 text-white text-left pt-12 pb-6">
+    <div className="flex flex-col md:flex-row justify-center gap-8 bg-404040 text-white text-left pt-12 pb-6 px-4">
       <div className="">
         <h4 className="border-b border-gray-300 mb-6 pb-2">Kitchen</h4>
         <Link href="/">

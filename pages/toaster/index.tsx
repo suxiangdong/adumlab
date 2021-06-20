@@ -55,7 +55,7 @@ export default function ProductDetail() {
         <img className="max-w-5xl mx-auto" src="//www.balmuda.com/jp/toaster/img/index/desktop/main@2x.jpg?20210505" alt="main image" />
         <h2 className="text-4xl mb-8">感動のトースター</h2>
         <span className="block text-999 text-xs border border-999 h-8 leading-8 w-44 mx-auto mb-8">スチームトースター</span>
-        <p className="text-xl mb-12 max-w-5xl px-6 mx-auto">BALMUDA The Toasterは、感動の香りと食感を実現するトースター。スチームテクノロジーと温度制御により、窯から出したばかりの焼きたての味を再現します。温度制御を進化させ、上質なデザインにリニューアルしました。 多くの方に愛されてきた、特別なおいしさをお楽しみください。</p>
+        <p className="text-xl mb-12 max-w-5xl px-6 mx-auto leading-7">BALMUDA The Toasterは、感動の香りと食感を実現するトースター。<br />スチームテクノロジーと温度制御により、窯から出したばかりの焼きたての味を再現します。<br />温度制御を進化させ、上質なデザインにリニューアルしました。 <br />多くの方に愛されてきた、特別なおいしさをお楽しみください。</p>
         <p className="price text-4xl">25,850</p>
         <p className="text-999 text-sm">ブラック／ホワイト／ベージュ</p>
       </section>
@@ -179,7 +179,7 @@ export default function ProductDetail() {
           </Link>
         </ReactSlick>
         <Link href="/">
-          <a className="bg-black bg-opacity-50 text-white text-center text-xs block rounded-full w-72 h-11 px-1 leading-9 mt-16 mx-auto">トースターレシピの一覧</a>
+          <a className="bg-black bg-opacity-50 text-white text-center text-xs block rounded-full w-72 h-11 py-1 leading-9 mt-16 mx-auto">トースターレシピの一覧</a>
         </Link>
       </section>
       <section className="text-white relative">

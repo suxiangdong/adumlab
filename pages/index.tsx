@@ -104,7 +104,7 @@ export default function Home() {
           <p className="text-sm text-gray-200">トースター、ケトル、炊飯器、オーブンレンジあわせて100品を超えるレシピをご紹介。</p>
         </a>
       </section>
-      <section className="py-8 bg-orange text-white">
+      <section className="py-8 bg-orange text-white text-center">
         <h4 className="text-xl font-bold mb-4">重要なお知らせ</h4>
         <p>悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</p>
         <p>悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意</p>

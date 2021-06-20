@@ -19,12 +19,16 @@ a {
   content: '';
   position: absolute;
   height: 0;
-  bottom: -5px;
+  bottom: 5px;
   left: 0;
   right: 0;
   margin: auto;
   width: 3rem;
   border-top: 3px solid #fff;
+}
+
+.product-container:hover .hidden {
+	display: block;
 }
 
 .bg-202020 {

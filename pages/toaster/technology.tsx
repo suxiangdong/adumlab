@@ -50,40 +50,31 @@ export default function ProductDetail() {
             </a>
           </Link>
           <div className="text-xs">
-            <Link href="/">
-              <a className="mr-6">概要</a>
+            <Link href="/toaster/index">
+              <a className="text-green mr-6">概要</a>
             </Link>
-            <Link href="/">
+            <Link href="/toaster/taste">
               <a className="mr-6">特別なおいしさ</a>
             </Link>
-            <Link href="/">
-              <a className="text-green mr-6">トーストを科学する</a>
+            <Link href="/toaster/technology">
+              <a className="mr-6">トーストを科学する</a>
             </Link>
-            <Link href="/">
+            <Link href="/toaster/howto">
               <a className="mr-6">使い方</a>
             </Link>
-            <Link href="/">
-              <a className="mr-6">レシピ</a>
-            </Link>
-            <Link href="/">
+            <Link href="/toaster/story">
               <a className="mr-6">ストーリー</a>
             </Link>
-            <Link href="/">
+            <Link href="/toaster/spec">
               <a className="mr-6">スペック</a>
-            </Link>
-            <Link href="/">
-              <a className="mr-6">アクセサリ</a>
-            </Link>
-            <Link href="/">
-              <a className="mr-6">販売店</a>
             </Link>
           </div>
         </div>
       </div>
 
       <section className="py-24 text-center">
-        <h2 className="text-4xl mb-8">味、香り、そして食感</h2>
-        <p className="text-lg mb-12 max-w-3xl px-3 leading-7 tracking-wide mx-auto">おいしさは味と香り、そして食感から生み出されます。BALMUDA The Toasterはスチームテクノロジーと細やかな温度制御で、さまざまなパンのおいしさを引き出します。温度が選べるクラシックモードでは、パン以外の食材もすばやく美味しく仕上げます。</p>
+        <h2 className="text-4xl mb-8">トーストを科学する</h2>
+        <p className="text-lg mb-12 max-w-4xl px-3 leading-7 tracking-wide mx-auto">表面はさっくりと焼けたきつね色、中はたっぷりの水分を含みつつ熱々に温まった感動のトースト。トーストを科学の目線で徹底的に追求したBALMUA The Toasterでは、独自のスチームテクノロジーと細やかな温度制御によって誰でも簡単に、驚くほどおいしいトーストを作ることができます。</p>
       </section>
       {data.map((item, index) => (
         <section key={index} className="text-white relative">

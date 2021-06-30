@@ -12,17 +12,20 @@ export default function ProductDetail() {
           </a>
         </Link>
         <div className="text-xs">
-          <Link href="/">
+          <Link href="/pot/index">
             <a className="text-green mr-6">概要</a>
           </Link>
-          <Link href="/">
-            <a className="mr-6">デザイン</a>
+          <Link href="/pot/feature">
+            <a className="mr-6">風の気持ちよさ</a>
           </Link>
-          <Link href="/">
-            <a className="mr-6">淹れ方</a>
+          <Link href="/pot/design">
+            <a className="mr-6">使いやすさ</a>
           </Link>
-          <Link href="/">
+          <Link href="/pot/story">
             <a className="mr-6">ストーリー</a>
+          </Link>
+          <Link href="/pot/spec">
+            <a className="mr-6">スペック</a>
           </Link>
         </div>
       </div>

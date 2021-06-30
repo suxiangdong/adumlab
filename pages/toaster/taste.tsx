@@ -50,32 +50,23 @@ export default function ProductDetail() {
             </a>
           </Link>
           <div className="text-xs">
-            <Link href="/">
-              <a className="mr-6">概要</a>
+            <Link href="/toaster/index">
+              <a className="text-green mr-6">概要</a>
             </Link>
-            <Link href="/">
-              <a className="text-green mr-6">特別なおいしさ</a>
+            <Link href="/toaster/taste">
+              <a className="mr-6">特別なおいしさ</a>
             </Link>
-            <Link href="/">
+            <Link href="/toaster/technology">
               <a className="mr-6">トーストを科学する</a>
             </Link>
-            <Link href="/">
+            <Link href="/toaster/howto">
               <a className="mr-6">使い方</a>
             </Link>
-            <Link href="/">
-              <a className="mr-6">レシピ</a>
-            </Link>
-            <Link href="/">
+            <Link href="/toaster/story">
               <a className="mr-6">ストーリー</a>
             </Link>
-            <Link href="/">
+            <Link href="/toaster/spec">
               <a className="mr-6">スペック</a>
-            </Link>
-            <Link href="/">
-              <a className="mr-6">アクセサリ</a>
-            </Link>
-            <Link href="/">
-              <a className="mr-6">販売店</a>
             </Link>
           </div>
         </div>

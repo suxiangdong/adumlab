@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import ReactSlick from 'react-slick'
-import Layout from '../layouts/default'
+import Layout from '../../layouts/default'
 
 export default function About() {
   return (

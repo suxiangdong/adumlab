@@ -1,91 +1,176 @@
+import { useState } from 'react'
 import Link from 'next/link'
+import Head from 'next/head'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
-  const data = [
-    {
-      icon: 'https://www.balmuda.com/jp/toaster/img/svg/mode-toast.min.svgz?20200903',
-      backgroundImage: 'https://www.balmuda.com/jp/toaster/img/taste/desktop/section--01@2x.jpg?20200901',
-      title: '感動のトースト',
-      description: 'BALMUDA The Toasterで焼いたトーストは、表面がサックリとしたきつね色、中は水分と香りが十分に残ったまま熱々の仕上がり。鮮烈で、香ばしい小麦の匂いが印象的です。新鮮なバターや季節のジャム、ハチミツをたっぷりとかけてお召し上がりください。'
-    },
-    {
-      icon: 'https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.min.svgz?20200903',
-      backgroundImage: 'https://www.balmuda.com/jp/toaster/img/taste/desktop/section--02@2x.jpg?20200901',
-      title: '究極のチーズトースト',
-      description: 'とけて、少しだけ焦げたチーズの素晴らしさに異論をとなえる人はいないでしょう。BALMUDA The Toasterはスチームの力でチーズの水分と風味をたっぷりと残したまま、細やかな温度制御で絶妙な焦げ目をつけます。シンプルなチーズトーストからピザトーストまで、感動の仕上がりをお約束します。',
-      align: 'right'
-    },
-    {
-      icon: 'https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.min.svgz?20200903',
-      backgroundImage: 'https://www.balmuda.com/jp/toaster/img/taste/desktop/section--03@2x.jpg?20200901',
-      title: '幸せのクロワッサン',
-      description: 'トースターで温めると黒く焦げてしまいやすいクロワッサン。BALMUDA The Toasterでは、焦がさず表面はサクッと焼き上げ、窯から出したばかりの焼きたてのクロワッサンを再現します。香りたつバターと積層されたパイ生地。クロワッサン本来のおいしさを自宅でも楽しむことができます。'
-    },
-    {
-      icon: 'https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.min.svgz?20200903',
-      backgroundImage: 'https://www.balmuda.com/jp/toaster/img/taste/desktop/section--04@2x.jpg?20200901',
-      title: '三ツ星のバゲット',
-      description: 'バゲットをトーストすると水分は飛び、表面も中身も硬くなってしまっていました。BALMUDA The Toasterは、スチームテクノロジーと細やかな温度制御で、パリッとした表面の歯ごたえと、中の柔らかさを同時に実現します。その香ばしさと食感はまさにレストランのバゲットです。',
-      align: 'right'
-    },
-    {
-      backgroundImage: 'https://www.balmuda.com/jp/toaster/img/taste/desktop/section--06@2x.jpg?20200901',
-      title: '冷凍したパンもおいしく',
-      description: 'BALMUDA The Toasterは、スチームテクノロジーと細やかな温度制御で、冷凍されたパンも簡単に、おいしく焼きあげます。いつもの焼き方に1分追加。たったそれだけで香ばしく、熱々に仕上がります。'
-    },
-    {
-      backgroundImage: 'https://www.balmuda.com/jp/toaster/img/taste/desktop/section--05@2x.jpg?20200901',
-      title: 'パンだけでなく料理にも',
-      description: 'スチームを使用せず、上下のヒーターだけをシンプルにつけるクラシックモード。170、200、230℃の3つの温度から選べます。お餅の焼き上げやグラタンなどはもちろん、庫内を一定の温度に保って焼き続けるので、クッキーなどの簡単なお菓子作りにも。BALMUDA The Toaster1台でお料理の幅がみるみる広がります。'
-    }
-  ]
+  const [playing, setPlaying] = useState(false)
+  const handlePlay = () => {
+    setPlaying(true)
+    const video = document.getElementById('v1b') as HTMLVideoElement
+    video.play()
+  }
+
+  const handlePause = () => {
+    setPlaying(false)
+    const video = document.getElementById('v1b') as HTMLVideoElement
+    video.pause()
+  }
   return (
     <Layout>
-      <div className="shadow-lg">
-        <div className="flex flex-col justify-between h-custom-90 max-w-5xl mx-auto pt-6 pb-3 px-3 text-left">
-          <Link href="/">
-            <a className="block w-72">
-              <img src="https://www.balmuda.com/_theme/img/svg/balmuda-the-toaster.min.svgz" alt="BALMUDA The Toaster" />
+      <Head>
+        <link rel="stylesheet" media="(max-width: 640px)" href="/toaster/style/mobile.css?20210701173839"></link>
+        <link rel="stylesheet" media="(min-width: 641px)" href="/toaster/style/desktop.css?20210701173839"></link>
+      </Head>
+      <div className="pagemap--desktop __header __is_desktop" id="greedynav">
+        <div className="pagemap__content">
+          <a href="/toaster/" className="pagemap__content--logo">
+            <img className="w-full" src="/_theme/img/svg/balmuda-the-toaster.min.svgz" alt="BALMUDA The Toaster" />
+          </a>
+          <ul className="pagemap__main" id="greedynav-links">
+            <li className={`pagemap__content__item `}>
+              <Link href="/toaster/index">概要</Link>
+            </li>
+            <li className={`pagemap__content__item`}>
+              <Link href="/toaster/taste">特別なおいしさ</Link>
+            </li>
+            <li className={`pagemap__content__item __current`}>
+              <Link href="/toaster/technology">トーストを科学する</Link>
+            </li>
+            <li className={`pagemap__content__item`}>
+              <Link href="/toaster/howto">使い方</Link>
+            </li>
+            <li className={`pagemap__content__item`}>
+              <Link href="/toaster/story">ストーリー</Link>
+            </li>
+            <li className={`pagemap__content__item `}>
+              <Link href="/toaster/spec">スペック</Link>
+            </li>
+          </ul>
+          <div className="pagemap__dropdown hidden" id="greedynav--btn">
+            <span className="pagemap__dropdown__btn"></span>
+            <ul className="pagemap__dropdown__content"></ul>
+          </div>
+          <div className="pagemap__btns">
+            <a href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A" className="btn btn--pagemap">
+              購入
             </a>
-          </Link>
-          <div className="text-xs">
-            <Link href="/toaster/index">
-              <a className="text-green mr-6">概要</a>
-            </Link>
-            <Link href="/toaster/taste">
-              <a className="mr-6">特別なおいしさ</a>
-            </Link>
-            <Link href="/toaster/technology">
-              <a className="mr-6">トーストを科学する</a>
-            </Link>
-            <Link href="/toaster/howto">
-              <a className="mr-6">使い方</a>
-            </Link>
-            <Link href="/toaster/story">
-              <a className="mr-6">ストーリー</a>
-            </Link>
-            <Link href="/toaster/spec">
-              <a className="mr-6">スペック</a>
-            </Link>
+          </div>
+        </div>
+
+        <div className="modal__cashless">
+          <div className="modal__cashless__box">
+            <p className="modal__cashless__txt">オンラインストア、正規販売店で30日間返金保証。ぜひお試しください。</p>
+            <a href="//www.balmuda.com/jp/toaster/30-days" className="modal__cashless__link">
+              詳しくはこちら
+            </a>
+            <div className="modal__cashless__btn"></div>
           </div>
         </div>
       </div>
 
-      <section className="py-24 text-center">
-        <h2 className="text-4xl mb-8">トーストを科学する</h2>
-        <p className="text-lg mb-12 max-w-4xl px-3 leading-7 tracking-wide mx-auto">表面はさっくりと焼けたきつね色、中はたっぷりの水分を含みつつ熱々に温まった感動のトースト。トーストを科学の目線で徹底的に追求したBALMUA The Toasterでは、独自のスチームテクノロジーと細やかな温度制御によって誰でも簡単に、驚くほどおいしいトーストを作ることができます。</p>
-      </section>
-      {data.map((item, index) => (
-        <section key={index} className="text-white relative">
-          <img src={item.backgroundImage} alt="" />
-          <div className={`flex flex-col justify-center absolute inset-0 m-auto transform ${item.align === 'right' ? '' : '-'}translate-x-2/4 max-w-md`}>
-            {item.icon && <img className="w-28 mb-7" src={item.icon} alt="" />}
-            <h2 className="text-4xl mb-8">{item.title}</h2>
-            <p className="text-lg mb-4 leading-8">{item.description}</p>
+      <div className="section section--technology section--00">
+        <div className="viewport">
+          <div className="__content">
+            <h2 className="page__title">トーストを科学する</h2>
+            <p>表面はさっくりと焼けたきつね色、中はたっぷりの水分を含みつつ熱々に温まった感動のトースト。トーストを科学の目線で徹底的に追求したBALMUA The Toasterでは、独自のスチームテクノロジーと細やかな温度制御によって誰でも簡単に、驚くほどおいしいトーストを作ることができます。</p>
           </div>
-        </section>
-      ))}
+
+          <div className="__fig">
+            <img data-mobile="//www.balmuda.com/jp/toaster/img/technology/mobile/the-toast.jpg?20200915" data-desktop="//www.balmuda.com/jp/toaster/img/technology/desktop/the-toast.jpg?20200915" data-retina="//www.balmuda.com/jp/toaster/img/technology/desktop/the-toast@2x.jpg?20200915" className="__toast adaptiveimage" src="//www.balmuda.com/jp/toaster/img/technology/desktop/the-toast@2x.jpg?20200915" />
+          </div>
+        </div>
+      </div>
+
+      <div className="section_wrap">
+        <div className="section section--technology section--01 scrollLoader lazyload loaded">
+          <img src="//www.balmuda.com/jp/toaster/img/technology/mobile/section--01.jpg" className="__image __is_mobile" />
+          <div className="viewport scrollLoader fadeInUp loaded">
+            <div className="__content">
+              <h2 className="section__title __wb">
+                <span>水分と香りを閉じ込める</span>
+                <span>スチームテクノロジー</span>
+              </h2>
+              <p>BALMUDA The Toasterで調理をする時は、給水口に5ccの水を入れてください。運転が始まるとスチームが庫内に充満し、パンの表面は薄い水分の膜で覆われます。水分は空気よりもはるかに速く加熱されるため、パンの表面だけが軽く焼けた状態になり、パンの中の水分やバターなどの油脂成分、香りをしっかり閉じ込めたまま、本格的なヒーター制御で焼き上げます。</p>
+              <span className="video_play __is_desktop" data-video-target="v1b" onClick={handlePlay}>
+                動画で確認
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className={`section_overlay section_overlay--v1b ${playing ? 'visible' : ''}`} id="overlay--v1b">
+          <video controls={true} playsInline={true} poster="./img/technology/mobile/v1b-thumb.jpg" width="100%" height="100%" id="v1b">
+            <source src="//s3.balmuda.com/www/jp/toaster/movie/v1b.mp4" type="video/mp4" />
+          </video>
+          <div className="video_stop __is_desktop" data-video-target="v1b" onClick={handlePause}></div>
+        </div>
+      </div>
+
+      <div className="section section--technology section--02 scrollLoader lazyload loaded" id="temperature-control">
+        <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="__content">
+            <div className="head">
+              <div className="head__info">
+                <h2 className="section__title __wb">
+                  <span>進化した1秒単位の</span>
+                  <span>細やかな温度制御</span>
+                </h2>
+                <p>BALMUDA The Toasterは、3つの温度帯を細かく制御します。パンの中のやわらかさと風味がよみがえる（デンプンのα化）60℃前後の温度、表面がきつね色に色づき始める160℃前後の温度、そして焦げつき（炭化）が始まる220℃前後の温度帯です。また、パンの種類によって異なる食感と香りのバランスを考え、各モードごとに上面と下面のヒーターの強さを設定。感動の焼き上がりを実現します。</p>
+              </div>
+              <div className="head__img">
+                <img data-mobile="//www.balmuda.com/jp/toaster/img/technology/mobile/section--02.png?20200915" data-desktop="//www.balmuda.com/jp/toaster/img/technology/desktop/section--02.png?20200915" data-retina="//www.balmuda.com/jp/toaster/img/technology/desktop/section--02@2x.png?20200915" className="__image adaptiveimage" src="//www.balmuda.com/jp/toaster/img/technology/desktop/section--02@2x.png?20200915" />
+              </div>
+            </div>
+            <div className="mode">
+              <h3 className="mode__title">
+                モードごとに
+                <br className="sp" />
+                最適な焼き上がり
+              </h3>
+              <ul className="mode__list">
+                <li className="mode__list_item">
+                  <p className="mode__list_title">トーストモード</p>
+                  <p className="mode__list_point">焼き上げ時は上面のヒーターを強く</p>
+                  <img data-mobile="//www.balmuda.com/jp/toaster/img/technology/mobile/mode--01.png?20200915" data-desktop="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--01.png?20200915" data-retina="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--01@2x.png?20200915" className="__image adaptiveimage" src="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--01@2x.png?20200915" />
+                </li>
+                <li className="mode__list_item">
+                  <p className="mode__list_title">チーズトーストモード</p>
+                  <p className="mode__list_point">焼き始めから上面のヒーターを強く</p>
+                  <img data-mobile="//www.balmuda.com/jp/toaster/img/technology/mobile/mode--02.png?20200915" data-desktop="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--02.png?20200915" data-retina="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--02@2x.png?20200915" className="__image adaptiveimage" src="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--02@2x.png?20200915" />
+                </li>
+                <li className="mode__list_item">
+                  <p className="mode__list_title">フランスパンモード</p>
+                  <p className="mode__list_point">
+                    上下の強さは変えず
+                    <br className="sp" />
+                    一定の温度で焼き上げ
+                  </p>
+                  <img data-mobile="//www.balmuda.com/jp/toaster/img/technology/mobile/mode--03.png?20200915" data-desktop="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--03.png?20200915" data-retina="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--03@2x.png?20200915" className="__image adaptiveimage" src="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--03@2x.png?20200915" />
+                </li>
+                <li className="mode__list_item">
+                  <p className="mode__list_title">クロワッサンモード</p>
+                  <p className="mode__list_point">
+                    庫内の温度を高く保ちながら、
+                    <br className="sp" />
+                    上面は弱く
+                  </p>
+                  <img data-mobile="//www.balmuda.com/jp/toaster/img/technology/mobile/mode--04.png?20200915" data-desktop="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--04.png?20200915" data-retina="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--04@2x.png?20200915" className="__image adaptiveimage" src="//www.balmuda.com/jp/toaster/img/technology/desktop/mode--04@2x.png?20200915" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+			<div className="section section--technology section--03 scrollLoader lazyload loaded">
+        <img src="//www.balmuda.com/jp/toaster/img/technology/mobile/section--03.jpg?20200915" className="__image __is_mobile" />
+        <div className="viewport scrollLoader fadeInUp loaded">
+            <div className="__content">
+                <h2 className="section__title __wb"><span>4つのモードと、</span><span>クラシックモード</span></h2>
+                <p>BALMUDA The Toasterには、パンの種類に合わせた4つのモードの他に、スチームを使わず一定の温度で焼き上げるクラシックモードを用意しています。予熱いらずで、餅やグラタンなどのトースター調理や、簡単なお菓子作りもできます。</p>
+            </div>
+        </div>
+    </div>
     </Layout>
   )
 }

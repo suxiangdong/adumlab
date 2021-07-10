@@ -45,16 +45,6 @@ export default function ProductDetail() {
             </a>
           </div>
         </div>
-
-        <div className="modal__cashless">
-          <div className="modal__cashless__box">
-            <p className="modal__cashless__txt">オンラインストア、正規販売店で30日間返金保証。ぜひお試しください。</p>
-            <a href="https://www.balmuda.com/jp/toaster/30-days" className="modal__cashless__link">
-              詳しくはこちら
-            </a>
-            <div className="modal__cashless__btn"></div>
-          </div>
-        </div>
       </div>
 			<div className="section section--taste section--00 scrollLoader lazyload loaded">
         <div className="viewport">

@@ -258,3 +258,9 @@
   opacity: 0.75;
   color: black;
 }
+
+
+.slick_selector_wrapper li {
+	display: inline-block;
+}
+

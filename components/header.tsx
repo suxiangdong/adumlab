@@ -25,7 +25,7 @@ export default function Header() {
           <div className="__wrapper">
             <ul className="pagemap__content">
               <li className="pagemap__content__item pagemap__content__item--index __current">
-                <Link href="/greenfan/index">概要</Link>
+                <Link href="/greenfan">概要</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--feature">
                 <Link href="/greenfan/feature">風の気持ちよさ</Link>
@@ -70,14 +70,14 @@ export default function Header() {
                       <em>Kitchen</em>
                     </span>
                     <div className="__category__wrap __accordion">
-                      <Link href="/toaster/index">
+                      <Link href="/toaster">
                         <a className="__item __item--toaster">
                           <span className="__name">
                             <em>BALMUDA The Toaster</em>
                           </span>
                         </a>
                       </Link>
-                      <Link href="/pot/index">
+                      <Link href="/pot">
                         <a className="__item __item--pot">
                           <span className="__name">
                             <em>BALMUDA The Pot</em>
@@ -92,7 +92,7 @@ export default function Header() {
                       <em>Air</em>
                     </span>
                     <div className="__category__wrap __accordion">
-                      <Link href="/greenfan/index">
+                      <Link href="/greenfan">
                         <a className="__item __item--greenfan">
                           <span className="__name">
                             <em>The GreenFan</em>
@@ -100,7 +100,7 @@ export default function Header() {
                         </a>
                       </Link>
 
-                      <Link href="/greenfan-cirq/index">
+                      <Link href="/greenfan-cirq">
                         <a className="__item __item--cirq">
                           <span className="__name">
                             <em>GreenFan Cirq</em>
@@ -108,14 +108,14 @@ export default function Header() {
                         </a>
                       </Link>
 
-                      <Link href="/pure/index">
+                      <Link href="/pure">
                         <a className="__item __item--pure">
                           <span className="__name">
                             <em>BALMUDA The Pure</em>
                           </span>
                         </a>
                       </Link>
-                      <Link href="/rain/index">
+                      <Link href="/rain">
                         <a className="__item __item--rain">
                           <span className="__name">
                             <em>Rain</em>
@@ -131,14 +131,14 @@ export default function Header() {
                         <em>Lighting</em>
                       </span>
                       <div className="__category__wrap __accordion">
-                        <Link href="/lantern/index">
+                        <Link href="/lantern">
                           <a className="__item __item--lantern">
                             <span className="__name">
                               <em>BALMUDA The Lantern</em>
                             </span>
                           </a>
                         </Link>
-                        <Link href="/light/index">
+                        <Link href="/light">
                           <a className="__item __item--light">
                             <span className="__name">
                               <em>BALMUDA The Light</em>
@@ -153,7 +153,7 @@ export default function Header() {
                           <em>Audio</em>
                         </span>
                         <div className="__category__wrap __accordion">
-                          <Link href="/speaker/index">
+                          <Link href="/speaker">
                             <a className="__item __item--speaker">
                               <span className="__name">
                                 <em>BALMUDA The Speaker</em>
@@ -167,7 +167,7 @@ export default function Header() {
                           <em>Cleaner</em>
                         </span>
                         <div className="__category__wrap __accordion">
-                          <Link href="/cleaner/index">
+                          <Link href="/cleaner">
                             <a className="__item __item--cleaner">
                               <span className="__name">
                                 <em>BALMUDA The Cleaner</em>
@@ -184,7 +184,7 @@ export default function Header() {
                       <em>Audio</em>
                     </span>
                     <div className="__category__wrap __accordion">
-                      <Link href="/speaker/index">
+                      <Link href="/speaker">
                         <a className="__item __item--speaker">
                           <span className="__name">
                             <em>BALMUDA The Speaker</em>
@@ -213,7 +213,7 @@ export default function Header() {
             </div>
           </li>
           <li className="navigation__item">
-            <Link href="/about/index">
+            <Link href="/about">
               <a className="__item about">
                 <em>About</em>
               </a>

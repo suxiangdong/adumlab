@@ -17,6 +17,7 @@ export default function ProductDetail() {
     setPlaying(false)
     const video = document.getElementById('v1') as HTMLVideoElement
     video.style.opacity = '0'
+		video.pause()
   }
   return (
     <Layout>

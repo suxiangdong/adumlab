@@ -11,7 +11,7 @@ export default function News() {
         <div id="ContainerLayer">
           <div id="Nav">
             <div id="PageTitle">
-              <a href="/jp/news/">
+              <a href="/news/">
                 <span>News</span>
               </a>
             </div>

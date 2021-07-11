@@ -433,7 +433,7 @@ export default function About() {
               <ul>
                 会社概要
                 <li>
-                  <a href="/about/">バルミューダについて</a>
+                  <a href="/about/index">バルミューダについて</a>
                 </li>
               </ul>
             </div>

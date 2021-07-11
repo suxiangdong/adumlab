@@ -1,13 +1,22 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import { useRouter } from 'next/router'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
-  const router = useRouter()
-  const { item } = router.query
+export async function getServerSideProps() {
+  try {
+    const [banners, evaluations] = await Promise.all([
+      API.getBannersByCategory(0),
+      API.getEvaluationsByCategory(0)
+    ])
+    return { props: { data: { banners, evaluations } } }
+  } catch (error) {
+    return { data: {} }
+  }
+}
 
+export default function ({ data: { banners, evaluations } }) {
   return (
     <Layout>
       <Head>
@@ -63,14 +72,16 @@ export default function ProductDetail() {
         </div>
       </div>
       <ReactSlick arrows={false} dots>
-        {[0, 1, 2, 3, 4, 5].map((item, index) => (
-          <div key={index}>
-            <img
-              className="w-full"
-              src={`//www.balmuda.com/jp/toaster/img/index/desktop/billboard--0${index}@2x.jpg?20210505`}
-            />
-          </div>
-        ))}
+        {banners && Array.isArray(banners.data)
+          ? banners.data.map((item) => <img key={item.id} className="w-full" src={item.path} />)
+          : [0, 1, 2, 3, 4, 5].map((_, index) => (
+              <div key={index}>
+                <img
+                  className="w-full"
+                  src={`//www.balmuda.com/jp/toaster/img/index/desktop/billboard--0${index}@2x.jpg?20210505`}
+                />
+              </div>
+            ))}
       </ReactSlick>
       <div className="section section--index section--00">
         <div className="__mainimage">
@@ -401,106 +412,29 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <ReactSlick className="py-24" arrows={false} centerMode dots>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            誰でも簡単に、毎日食べるパンをもっとおいしく。
-            <br />
-            魔法のようなこのトースターがあれば、毎日の
-            <br />
-            パンライフがきっと変わるはず！
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">2019.09.20　Hanako.tokyo</p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="https://hanako.tokyo/news/food/106907/"
-            target="_blank">
-            https://hanako.tokyo/news/food/106907/
-          </a>
+      <div className="section section--index section--blockquote">
+        <div className="viewport">
+          <ReactSlick className="blockquotes" arrows={false} dots>
+            {evaluations.data?.map((item) => (
+              <div className="blockquote">
+                <blockquote>
+                  <span>BALMUDA The Cleanerは、家事スタイルを快適に変える</span>
+                  <span>新しい暮らしの</span>
+                  <span>道具といっていいだろう。</span>
+                </blockquote>
+                <p className="__media">2020.12.28　日経電子版　MONO TRENDY モノ・フラッシュ</p>
+                <a
+                  href="https://style.nikkei.com/article/DGXMZO67332670V11C20A2000000?channel=DF260120166491&page=2"
+                  target="_blank"
+                  className="__link">
+                  https://style.nikkei.com/article/DGXMZO67332670V11C20A2000000?channel=DF260120166491&page=2
+                </a>
+              </div>
+            ))}
+          </ReactSlick>
         </div>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            「世界一のトースター」ではなく、
-            <br />
-            「世界一のトーストが焼けるトースター」という
-            <br />
-            開発コンセプトはまさにお見事。
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">2018.10.17　360.life</p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="https://the360.life/U1301.doit?id=5157"
-            target="_blank">
-            https://the360.life/U1301.doit?id=5157
-          </a>
-        </div>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            ただパンを焼くだけでここまでおいしく
-            <br />
-            仕上がるのは、ほかのトースターではなかなか
-            <br />
-            できない経験です。
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">2018.08.03　食楽web</p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="https://www.syokuraku-web.com/column/20856/4/"
-            target="_blank">
-            https://www.syokuraku-web.com/column/20856/4/
-          </a>
-        </div>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            トースターに対する価値観を根底から覆すレベル
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">2015.07.10　Gigazine</p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="http://gigazine.net/news/20150710-balmuda-the-toaster/"
-            target="_blank">
-            http://gigazine.net/news/20150710-balmuda-the-toaster/
-          </a>
-        </div>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            ひと口食べてみれば宣言してしまうはずだ「買います！」
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">
-            2015.07.02　モノ・マガジン　741号
-          </p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="http://www.monoshop.co.jp/products/detail.php?product_id=4377"
-            target="_blank">
-            http://www.monoshop.co.jp/products/detail.php?product_id=4377
-          </a>
-        </div>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            めちゃうめええええ！パン焼きたての味 すげーぞ
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">2015.05.27　週刊アスキー</p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="http://weekly.ascii.jp/elem/000/000/340/340110/"
-            target="_blank">
-            http://weekly.ascii.jp/elem/000/000/340/340110/
-          </a>
-        </div>
-        <div className="p-24">
-          <blockquote className="tracking-widest mb-3 text-3xl text-center max-w-3xl mx-auto">
-            パンを食べるために早起きしたくなる。そんな魅力に満ちたトースターだ。
-          </blockquote>
-          <p className="text-ccc text-xs text-right max-w-3xl mx-auto">2015.08.15　Pen　386号</p>
-          <a
-            className="block text-ccc text-xs text-right max-w-3xl mx-auto"
-            href="https://www.pen-online.jp/magazine/pen/pen-386-hawaii/"
-            target="_blank">
-            https://www.pen-online.jp/magazine/pen/pen-386-hawaii/
-          </a>
-        </div>
-      </ReactSlick>
+      </div>
+
       <section className="py-24 max-w-4xl mx-auto">
         <h2 className="text-4xl mb-8">ギャラリー</h2>
         <div className="grid grid-cols-3 grid-rows-2 gap-5">

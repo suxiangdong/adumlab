@@ -213,7 +213,7 @@ export default function Header() {
             </div>
           </li>
           <li className="navigation__item">
-            <Link href="/about">
+            <Link href="/about/index">
               <a className="__item about">
                 <em>About</em>
               </a>

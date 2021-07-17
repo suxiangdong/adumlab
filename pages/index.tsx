@@ -8,7 +8,7 @@ export async function getServerSideProps() {
   try {
     const [banners, hots, topics, notifications] = await Promise.all([
       API.getBannersByCategory(0),
-      API.getHotProducts(1),
+      API.getHotProducts(),
       API.getHomeTopics(),
       API.getNotifications(),
     ])

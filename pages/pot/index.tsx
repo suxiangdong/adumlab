@@ -2,8 +2,25 @@ import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
+export async function getServerSideProps() {
+  try {
+    const [banners] = await Promise.all([API.getBannersByCategory(2)])
+    return { props: { banners } }
+  } catch (error) {
+    return { props: { banners: {} } }
+  }
+}
+
+export default function ProductDetail({ banners }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/pot/img/index/desktop/billboard--0${i}@2x.jpg?20201006`
+    }))
+  }
+
   return (
     <Layout>
       <Head>
@@ -26,13 +43,13 @@ export default function ProductDetail() {
               <Link href="/pot/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/pot/design">デザイン</Link>
+              <Link href="/pot/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/pot/story">ストーリー</Link>
+              <Link href="/pot/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/pot/spec">スペック</Link>
+              <Link href="/pot/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -48,32 +65,13 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <ReactSlick arrows={false} dots>
-        <div>
-          <img
-            className="w-full"
-            src="//www.balmuda.com/jp/pot/img/index/desktop/billboard--00@2x.jpg?20201006"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full"
-            src="//www.balmuda.com/jp/pot/img/index/desktop/billboard--01@2x.jpg?20201006"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full"
-            src="//www.balmuda.com/jp/pot/img/index/desktop/billboard--02@2x.jpg?20201006"
-          />
-        </div>
-        <div>
-          <img
-            className="w-full"
-            src="//www.balmuda.com/jp/pot/img/index/desktop/billboard--03@2x.jpg?20201006"
-          />
-        </div>
-      </ReactSlick>
+      <div className="billboard__wrapper">
+        <ReactSlick className="billboard" dots>
+          {banners.data.map((item) => (
+            <img key={item.id} className="w-full" src={item.path} />
+          ))}
+        </ReactSlick>
+      </div>
 
       <div className="section section--index section--00">
         <div className="__mainimage">
@@ -96,7 +94,7 @@ export default function ProductDetail() {
           <p className="overview_text">
             BALMUDA The Potは、毎日使いたくなる
             <br />
-            今までにない美しいデザインの電気ケトルです。
+            今までにない美しい设计の電気ケトルです。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
@@ -110,17 +108,17 @@ export default function ProductDetail() {
       <div className="section section--index section--01 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h3 className="section__subtitle">デザイン</h3>
+            <h3 className="section__subtitle">设计</h3>
             <h2 className="section__title __wb">
               <span>小さなサイズだから、</span>
               <span>湯沸かしがより</span>
               <span>手軽に。</span>
             </h2>
             <p>
-              収納スペースをとらない600mlのちょうどいいサイズ。注ぎごこちにこだわったノズルとハンドルの形。毎日、手軽に、気持ちよく使うためにデザインしました。
+              収納スペースをとらない600mlのちょうどいいサイズ。注ぎごこちにこだわったノズルとハンドルの形。毎日、手軽に、気持ちよく使うために设计しました。
             </p>
             <Link href="/pot/design">
-              <a className="btn btn--page btn--page--white">続きを読む</a>
+              <a className="btn btn--page btn--page--white">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -140,7 +138,7 @@ export default function ProductDetail() {
               コーヒー、紅茶、日本茶のおいしさをさらに広げます。毎日のお茶の時間がもっと楽しくなる淹れ方をご紹介します。
             </p>
             <Link href="/pot/brewing">
-              <a className="btn btn--page">続きを読む</a>
+              <a className="btn btn--page">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -149,7 +147,7 @@ export default function ProductDetail() {
       <div className="section section--index section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h3 className="section__subtitle">ストーリー</h3>
+            <h3 className="section__subtitle">故事</h3>
             <h2 className="section__title __wb">
               <span>BALMUDA The Potが</span>
               <span>生まれるまで</span>
@@ -159,7 +157,7 @@ export default function ProductDetail() {
               The Potとともに素晴らしいひとときを。
             </p>
             <Link href="/pot/story">
-              <a className="btn btn--page">続きを読む</a>
+              <a className="btn btn--page">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -168,7 +166,7 @@ export default function ProductDetail() {
       <div className="section section--index section--gallery">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">ギャラリー</h2>
+            <h2 className="section__title">画廊</h2>
           </div>
 
           <div className="gallery__content" data-pswp-uid="1">

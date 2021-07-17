@@ -26,13 +26,13 @@ export default function ProductDetail() {
               <Link href="/pot/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/pot/design">デザイン</Link>
+              <Link href="/pot/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story __current">
-              <Link href="/pot/story">ストーリー</Link>
+              <Link href="/pot/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/pot/spec">スペック</Link>
+              <Link href="/pot/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">

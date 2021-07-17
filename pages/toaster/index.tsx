@@ -7,16 +7,22 @@ import API from '../../effects/api'
 export async function getServerSideProps() {
   try {
     const [banners, evaluations] = await Promise.all([
-      API.getBannersByCategory(0),
-      API.getEvaluationsByCategory(0)
+      API.getBannersByCategory(1),
+      API.getEvaluationsByCategory(1)
     ])
-    return { props: { data: { banners, evaluations } } }
+    return { props: { banners, evaluations } }
   } catch (error) {
-    return { data: {} }
+    return { props: { banners: {}, evaluations: {} } }
   }
 }
 
-export default function ({ data: { banners, evaluations } }) {
+export default function ({ banners, evaluations }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/toaster/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
+    }))
+  }
   return (
     <Layout>
       <Head>
@@ -43,19 +49,19 @@ export default function ({ data: { banners, evaluations } }) {
               <Link href="/toaster/index">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/taste">特別なおいしさ</Link>
+              <Link href="/toaster/taste">特别的美味</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/technology">トーストを科学する</Link>
+              <Link href="/toaster/technology">科学与设计</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/howto">使い方</Link>
+              <Link href="/toaster/howto">使用方法</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/story">ストーリー</Link>
+              <Link href="/toaster/story">故事</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/spec">スペック</Link>
+              <Link href="/toaster/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -71,18 +77,14 @@ export default function ({ data: { banners, evaluations } }) {
           </div>
         </div>
       </div>
-      <ReactSlick arrows={false} dots>
-        {banners && Array.isArray(banners.data)
-          ? banners.data.map((item) => <img key={item.id} className="w-full" src={item.path} />)
-          : [0, 1, 2, 3, 4, 5].map((_, index) => (
-              <div key={index}>
-                <img
-                  className="w-full"
-                  src={`//www.balmuda.com/jp/toaster/img/index/desktop/billboard--0${index}@2x.jpg?20210505`}
-                />
-              </div>
-            ))}
-      </ReactSlick>
+      <div className="billboard__wrapper">
+        <ReactSlick dots className="billboard">
+          {banners.data.map((item) => (
+            <img key={item.id} className="w-full" src={item.path} />
+          ))}
+        </ReactSlick>
+      </div>
+
       <div className="section section--index section--00">
         <div className="__mainimage">
           <div className="__inner">
@@ -101,32 +103,18 @@ export default function ({ data: { banners, evaluations } }) {
           </div>
         </div>
         <div className="viewport">
-          <h2 className="page__title">感動のトースター</h2>
-          <span className="label__block">スチームトースター</span>
+          <h2 className="page__title">令人感动的电烤箱</h2>
+          <span className="label__block">蒸汽烤面包机</span>
           <p className="overview_text __wb">
-            <span>BALMUDA The Toasterは、</span>
-            <span>感動の香りと食感を実現する</span>
-            <span>トースター。</span>
-            <br className="pc" />
-            <span>スチームテクノロジーと</span>
-            <span>温度制御により、</span>
-            <span>窯から出したばかりの</span>
-            <span>焼きたての味を再現します。</span>
-            <br className="pc" />
-            <span>温度制御を進化させ、</span>
-            <span>上質なデザインに</span>
-            <span>リニューアルしました。</span>
-            <br className="pc" />
-            <span>多くの方に愛されてきた、</span>
-            <span>特別なおいしさを</span>
-            <span>お楽しみください。</span>
+            BALMUDA电烤箱是可以将口感与香气以绝佳状态呈现的感动电烤箱。
+            蒸气技术与完美的温度控制，再现刚出炉般的美味。更有经典模式，让各种料理更加简单，充满乐趣。
           </p>
 
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               25,850
             </p>
-            <p className="colores">ブラック／ホワイト／ベージュ／グレー</p>
+            <p className="colores">黑色/白色/米色/灰色</p>
           </div>
 
           <div className="__is_mobile">
@@ -153,16 +141,14 @@ export default function ({ data: { banners, evaluations } }) {
 
           <div className="book-info-text">
             <p className="info-bold">
-              オンラインストアにて
-              <br className="spbr" />
-              ご購入のお客様にプレゼント
+              给在线商店购买的顾客礼物
               <br />
-              オリジナルレシピブック
+              原创书籍
             </p>
             <p>
               <span>
-                これまでウェブサイトで公開してきたトースターのレシピを約100ページのボリュームでご紹介するこだわりの一冊です。
-                <span>＊1台につき1冊ずつプレゼントいたします。</span>
+                这是一本非常讲究的书，用约100页的篇幅介绍了迄今为止在网站上公开的烤面包机菜谱。
+                <span>* 1台赠送1册。</span>
               </span>
             </p>
           </div>
@@ -172,13 +158,12 @@ export default function ({ data: { banners, evaluations } }) {
       <div className="section section--index section--01 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">特別なおいしさ</h2>
+            <h2 className="section__title">特别的美味</h2>
             <p>
-              BALMUDA The
-              Toasterには、特別なおいしさを実現するためにトースト、チーズトースト、フランスパン、クロワッサン、クラシックの5つのモードが用意されています。それぞれのモードで実現できるおいしさについてご紹介します。
+              BALMUDA电烤箱为了实现理想的美味，配备了吐司、芝士吐司、法式面包、牛角面包、经典模式5种模式。为您介绍每种模式可以带来的美味。
             </p>
             <Link href="/toaster/taste">
-              <a className="btn section__btn">続きを読む</a>
+              <a className="btn section__btn">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -187,13 +172,12 @@ export default function ({ data: { banners, evaluations } }) {
       <div className="section section--index section--02 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">トーストを科学する</h2>
+            <h2 className="section__title">科学与设计</h2>
             <p>
-              BALMUDA The
-              Toasterを使えば誰でも簡単に感動のトーストが焼け、クロワッサンなら焼きたての状態を再現できます。これらを実現する、独自のスチームテクノロジーと細やかな温度制御を解説します。
+              BALMUDA电烤箱可以让使用者简单的烤出惊艳美味的切片吐司、亦能将牛角包再现刚出炉的状态。下面为您介绍将这一切变为可能的两大技术：巴慕达独有的蒸汽技术、及完美的温度控制。
             </p>
             <Link href="/toaster/technology">
-              <a className="btn section__btn">続きを読む</a>
+              <a className="btn section__btn">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -202,13 +186,12 @@ export default function ({ data: { banners, evaluations } }) {
       <div className="section section--index section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">使い方</h2>
+            <h2 className="section__title">使用方法</h2>
             <p>
-              BALMUDA The
-              Toasterならパンの種類に合わせて焼くことができるので、パン本来のおいしさを楽しめます。また、一般的なオーブントースターのようにお餅やグラタンなどの調理も可能です。
+              BALMUDA电烤箱可以针对不同种类的面包进行烘烤，再现各自的绝佳风味。亦可如其他烤箱般制作各类烤箱料理。
             </p>
             <Link href="/toaster/howto">
-              <a className="btn section__btn">続きを読む</a>
+              <a className="btn section__btn">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -217,13 +200,13 @@ export default function ({ data: { banners, evaluations } }) {
       <div className="section section--index section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">進化した温度制御</h2>
+            <h2 className="section__title">进化的温度控制</h2>
             <p>
-              リニューアルしたBALMUDA The
-              Toasterの温度制御は、より緻密に進化しています。上下のヒーターの強さや、焼き上げ時間をモードごとに再設定。さまざまなパンのおいしさを引き出します。
+              全新 BALMUDA The Toaster 的温度控制更加精确。
+              上下加热器的强度和烘烤时间为每种模式重新设置。 带出各种面包的美味。
             </p>
             <Link href="/tosater/technology#temperature-control">
-              <a className="btn section__btn">進化した温度制御について</a>
+              <a className="btn section__btn">关于高级温度控制</a>
             </Link>
           </div>
         </div>
@@ -233,19 +216,19 @@ export default function ({ data: { banners, evaluations } }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              <span>限定カラーの</span>
+              <span>限定颜色的</span>
               <br className="sp" />
-              <span>「グレー」が登場</span>
+              <span>“灰色”登场</span>
             </h2>
             <p>
-              マットで落ち着いた質感を持ち、クールな印象のグレー。
+              在垫子上有沉着的质感，酷酷的印象的灰色。
               <br className="pc" />
-              洗練されたデザインで、インテリアとの相性も抜群です。
+              被洗练的设计，和室内装饰的投缘也出众。
               <br className="pc" />
-              カラーはブラック、ホワイト、ベージュと合わせて4色に。好みに合わせてお選びいただけます。
+              颜色为黑色、白色、米色共4种颜色。可以根据自己的喜好来选择。{' '}
             </p>
             <a href="#gallery" className="btn section__btn">
-              カラーバリエーションを見る
+              查看颜色变化
             </a>
           </div>
         </div>
@@ -257,29 +240,29 @@ export default function ({ data: { banners, evaluations } }) {
           alt=""
         />
         <div className="flex flex-col justify-center absolute inset-0 m-auto transform -translate-y-28 max-w-4xl">
-          <h2 className="text-4xl mb-8">新しくなったデザインとカラー</h2>
+          <h2 className="text-4xl mb-8">全新的设计和颜色</h2>
           <p className="text-lg text-black mb-4 leading-8">
-            これまでのデザインを継承しながら、窓枠の形状やダイヤル・取手のサイズを再設計。
+            继承至今的设计的同时，窗框的形状和转盘·取手的尺寸重新设计。
             <br />
-            電源ボタンを追加することで使いやすさも向上しています。
+            由于电源按钮的追加使用方法也提高了。
             <br />
-            カラーはブラック、ホワイトに加え、様々なテイストのキッチンに馴染む新色ベージュを追加しました。
+            在黑色、白色的基础上，增加了与各种风味厨房相适应的新颜色米色。
           </p>
           <Link href="/design">
-            <a className="text-xs text-black">ギャラリーを見る</a>
+            <a className="text-xs text-black">查看</a>
           </Link>
         </div>
       </section>
-      <section className="bg-recipe py-24">
+      <section className="bg-recipe text-center py-24">
         <img
           className="h-20 mb-9 mx-auto"
           src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipes-logo@2x.png?"
           alt=""
         />
         <p className="max-w-4xl px-3 mb-9 mx-auto text-center">
-          毎朝のトーストから週末のごちそうまで、BALMUDA The Toasterで作れるメニューは無限大。
+          从每天早上的烤面包到周末的美食，BALMUDA The Toaster能做的菜单无限大。
           <br />
-          バルミューダのキッチンチームやプロの方々からのレシピをご紹介します。
+          下面介绍来自巴慕达厨房团队和专业人士的食谱。
         </p>
         <ReactSlick slidesToShow={3} centerMode infinite dots={false}>
           <Link href="/">
@@ -289,7 +272,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_010@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">クロワッサンサンド</p>
+              <p className="text-lg text-center">牛角面包三明治</p>
             </a>
           </Link>
           <Link href="/">
@@ -299,9 +282,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_041@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">
-                スモークサーモンとサワークリームのベーグルサンド
-              </p>
+              <p className="text-lg text-center">熏鲑鱼加酸奶油的百吉果三明治</p>
             </a>
           </Link>
           <Link href="/">
@@ -311,7 +292,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_006@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">カリカリのベーコンエッグトースト</p>
+              <p className="text-lg text-center">脆脆的培根煎蛋吐司</p>
             </a>
           </Link>
           <Link href="/">
@@ -321,7 +302,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_008@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">チョコバナナトースト</p>
+              <p className="text-lg text-center">巧克力香蕉吐司</p>
             </a>
           </Link>
           <Link href="/">
@@ -331,7 +312,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_042@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">カマンベールフルーツトースト</p>
+              <p className="text-lg text-center">卡曼贝尔水果吐司</p>
             </a>
           </Link>
           <Link href="/">
@@ -341,7 +322,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_035@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">黒胡椒とコンビーフサンドのレモン添え</p>
+              <p className="text-lg text-center">黑胡椒配柠檬牛肉三明治</p>
             </a>
           </Link>
           <Link href="/">
@@ -351,7 +332,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_053@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">エッグ「バル」マフィン</p>
+              <p className="text-lg text-center">蛋饼</p>
             </a>
           </Link>
           <Link href="/">
@@ -361,7 +342,7 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_044@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">オニオングラタンスープ</p>
+              <p className="text-lg text-center">芫荽汤</p>
             </a>
           </Link>
           <Link href="/">
@@ -371,13 +352,13 @@ export default function ({ data: { banners, evaluations } }) {
                 src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_054@2x.jpg?20200901"
                 alt=""
               />
-              <p className="text-lg text-center">球場のホットドッグ</p>
+              <p className="text-lg text-center">球场上的热狗</p>
             </a>
           </Link>
         </ReactSlick>
         <Link href="/">
           <a className="bg-black bg-opacity-50 text-white text-center text-xs block rounded-full w-72 h-11 py-1 leading-9 mt-16 mx-auto">
-            トースターレシピの一覧
+            烤面包机食谱列表
           </a>
         </Link>
       </section>
@@ -385,14 +366,14 @@ export default function ({ data: { banners, evaluations } }) {
       <div className="section section--index section--story2 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">ストーリー</h2>
+            <h2 className="section__title">故事</h2>
             <p>
               BALMUDA The
-              Toasterの開発ストーリーは、1991年のスペイン南部の町ロンダから始まりました。
-              <span>驚きや発見に満ちたBALMUDA The Toaster完成までの道のりをご紹介します。</span>
+              Toaster的开发故事始于1991年西班牙南部的小镇隆达。下面介绍充满惊喜和发现的BALMUDA The
+              Toaster完成的过程。
             </p>
             <Link href="/toaster/story">
-              <a className="btn section__btn btn">続きを読む</a>
+              <a className="btn section__btn btn">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -401,13 +382,13 @@ export default function ({ data: { banners, evaluations } }) {
       <div className="section section--index section--acce scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">アクセサリ</h2>
+            <h2 className="section__title">配件</h2>
             <p>
-              <span>トースター調理の幅が広がるBALMUDA The Toasterのアクセサリ。</span>
-              オリジナルレシピブックや野田琺瑯のホワイトバットをご用意しています。
+              面包机烹饪的范围扩大的BALMUDA The
+              Toaster的配件。为您准备了原创食谱和野田珐琅出品的白球棒。
             </p>
             <Link href="/toaster/accessory">
-              <a className="btn section__btn btn">詳しく</a>
+              <a className="btn section__btn btn">详细</a>
             </Link>
           </div>
         </div>
@@ -416,18 +397,13 @@ export default function ({ data: { banners, evaluations } }) {
         <div className="viewport">
           <ReactSlick className="blockquotes" arrows={false} dots>
             {evaluations.data?.map((item) => (
-              <div className="blockquote">
-                <blockquote>
-                  <span>BALMUDA The Cleanerは、家事スタイルを快適に変える</span>
-                  <span>新しい暮らしの</span>
-                  <span>道具といっていいだろう。</span>
-                </blockquote>
-                <p className="__media">2020.12.28　日経電子版　MONO TRENDY モノ・フラッシュ</p>
-                <a
-                  href="https://style.nikkei.com/article/DGXMZO67332670V11C20A2000000?channel=DF260120166491&page=2"
-                  target="_blank"
-                  className="__link">
-                  https://style.nikkei.com/article/DGXMZO67332670V11C20A2000000?channel=DF260120166491&page=2
+              <div key={item.id} className="blockquote">
+                <blockquote>{item.content}</blockquote>
+                <p className="__media">{`${new Date(item.publish_at).toLocaleDateString('zh')} ${
+                  item.source
+                }`}</p>
+                <a href={item.source_url} target="_blank" className="__link">
+                  {item.source_url}
                 </a>
               </div>
             ))}
@@ -436,7 +412,7 @@ export default function ({ data: { banners, evaluations } }) {
       </div>
 
       <section className="py-24 max-w-4xl mx-auto">
-        <h2 className="text-4xl mb-8">ギャラリー</h2>
+        <h2 className="text-4xl mb-8">画廊</h2>
         <div className="grid grid-cols-3 grid-rows-2 gap-5">
           {[1, 2, 3, 4, 5, 6].map((item) => (
             <img

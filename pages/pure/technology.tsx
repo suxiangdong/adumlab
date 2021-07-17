@@ -54,16 +54,16 @@ export default function ProductDetail() {
               <Link href="/pure/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology __current">
-              <Link href="/pure/technology">テクノロジー</Link>
+              <Link href="/pure/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/pure/design">デザイン</Link>
+              <Link href="/pure/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
-              <Link href="/pure/howto">使い方</Link>
+              <Link href="/pure/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/pure/spec">スペック</Link>
+              <Link href="/pure/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -365,7 +365,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空気清浄機および臭気ガスを投入し空気清浄機を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -394,7 +394,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空気清浄機および臭気ガスを投入し空気清浄機を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -423,7 +423,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空気清浄機および臭気ガスを投入し空気清浄機を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -452,7 +452,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空気清浄機および臭気ガスを投入し空気清浄機を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -482,7 +482,7 @@ export default function ProductDetail() {
           <div className="__content">
             <p>
               BALMUDA The Pure
-              には、空気を送り出すファンの上に、整流翼が用意されています。従来、航空機のジェットエンジンなどで使われるこのテクノロジーを、BALMUDA
+              には、空気を送り出すファンの上に、整流翼が用意されています。従来、航空機のジェットエンジンなどで使われるこの科技を、BALMUDA
               The Pure
               のために流体力学に基づき再設計しました。これにより、より大容量の空気を、静かに、循環させることが可能になりました。
             </p>

@@ -29,16 +29,16 @@ export default function ProductDetail() {
               <Link href="/greenfan-cirq/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--features">
-              <Link href="/greenfan-cirq/features">室温が変わる</Link>
+              <Link href="/greenfan-cirq/features">改变室温</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology __current">
-              <Link href="/greenfan-cirq/technology">15m先まで</Link>
+              <Link href="/greenfan-cirq/technology">远达15米的送风距离</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/greenfan-cirq/design">デザイン</Link>
+              <Link href="/greenfan-cirq/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--specs">
-              <Link href="/greenfan-cirq/specs">スペック</Link>
+              <Link href="/greenfan-cirq/specs">规格</Link>
             </li>
           </ul>
 
@@ -63,10 +63,10 @@ export default function ProductDetail() {
           />
         </div>
         <div className="__content">
-          <h2 className="page__title __wb">15m先まで届く送風能力</h2>
+          <h2 className="page__title __wb">远达15米的送风距离届く送風能力</h2>
           <p>
             GreenFan
-            Cirqは独自の二重構造の羽根と直進性を高めるファンガードにより15m先まで届く力強い風を送り出します。6畳の部屋であればわずか1分で不快な温度差を解消し、室温を均一にします。
+            Cirqは独自の二重構造の羽根と直進性を高めるファンガードにより远达15米的送风距离届く力強い風を送り出します。6畳の部屋であればわずか1分で不快な温度差を解消し、室温を均一にします。
           </p>
         </div>
       </div>
@@ -125,7 +125,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title __wb">
               <span>グリーンファン</span>
-              <span>テクノロジー</span>
+              <span>科技</span>
             </h2>
             <img
               data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--03.png"
@@ -135,7 +135,7 @@ export default function ProductDetail() {
               src="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03@2x.png"
             />
             <p>
-              バルミューダ独自のグリーンファンテクノロジーは、1枚のファンから
+              バルミューダ独自のグリーンファン科技は、1枚のファンから
               2種類の速度の風を送り出すことによって 風の方向性と運動を変える技術。GreenFan
               Cirqの場合、この技術を多くの風を送り出す事、そして、その風を遠くまで届ける事のために活用しています。少ない回転数で大きく動く風。グリーンファンだけの、特別な風です。
             </p>

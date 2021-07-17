@@ -34,16 +34,16 @@ export default function ProductDetail() {
               <Link href="/pure/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/pure/technology">テクノロジー</Link>
+              <Link href="/pure/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/pure/design">デザイン</Link>
+              <Link href="/pure/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
-              <Link href="/pure/howto">使い方</Link>
+              <Link href="/pure/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec __current">
-              <Link href="/pure/spec">スペック</Link>
+              <Link href="/pure/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -336,7 +336,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">受賞歴</h2>
             <p>
-              BALMUDA The Pureは、2019年度 グッドデザイン賞、2020年度 キッズデザイン賞 優秀賞
+              BALMUDA The Pureは、2019年度 グッド设计賞、2020年度 キッズ设计賞 優秀賞
               経済産業大臣賞を受賞しました。
             </p>
 
@@ -344,22 +344,22 @@ export default function ProductDetail() {
               <div className="column __award__if">
                 <p>
                   ドイツ「iF International Forum Design
-                  GmbH」が主催する半世紀以上の歴史がある世界的に権威あるデザイン賞で、全世界の工業製品を対象に優れた工業デザインを選定しています。
+                  GmbH」が主催する半世紀以上の歴史がある世界的に権威ある设计賞で、全世界の工業製品を対象に優れた工業设计を選定しています。
                 </p>
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本デザイン振興会が主催する、1957年に創設された日本で唯一の総合的なデザイン賞で、国内外の多くの企業やデザイナーが参加しています。
+                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
                 </p>
               </div>
               <div className="column __award__kids">
                 <p>優秀賞 経済産業大臣賞受賞</p>
                 <p>
-                  キッズデザイン賞は「子どもたちの安全・安心に貢献するデザイン」「子どもたちの創造性と未来を拓くデザイン」「子どもたちを産み育てやすいデザイン」の3つの視点において優れた製品が選ばれます。
+                  キッズ设计賞は「子どもたちの安全・安心に貢献する设计」「子どもたちの創造性と未来を拓く设计」「子どもたちを産み育てやすい设计」の3つの視点において優れた製品が選ばれます。
                   <br />
                   <br />
                   優秀賞
-                  経済産業大臣賞受賞理由として、「最新のテクノロジーにより、大容量の空気の循環を実現した空気清浄機である。また上部にあるファンに巻き込まれてケガをしないよう、ロックされていないとファンが回らない構造になっている。回っている最中に外蓋を取り外そうとすると、その瞬間にファンが止まる機能もある。非常に高い安全性と衛生空間を実現している点を、洗練されたフォルムとともに高く評価した。」とコメントをいただきました。
+                  経済産業大臣賞受賞理由として、「最新の科技により、大容量の空気の循環を実現した空气净化器である。また上部にあるファンに巻き込まれてケガをしないよう、ロックされていないとファンが回らない構造になっている。回っている最中に外蓋を取り外そうとすると、その瞬間にファンが止まる機能もある。非常に高い安全性と衛生空間を実現している点を、洗練されたフォルムとともに高く評価した。」とコメントをいただきました。
                 </p>
               </div>
             </div>

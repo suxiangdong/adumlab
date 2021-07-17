@@ -31,16 +31,16 @@ export default function ProductDetail() {
               <Link href="/greenfan/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--feature ">
-              <Link href="/greenfan/feature">風の気持ちよさ</Link>
+              <Link href="/greenfan/feature">先进性</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design __current">
-              <Link href="/greenfan/design">使いやすさ</Link>
+              <Link href="/greenfan/design">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/greenfan/story">ストーリー</Link>
+              <Link href="/greenfan/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/greenfan/spec">スペック</Link>
+              <Link href="/greenfan/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -56,11 +56,11 @@ export default function ProductDetail() {
       <div className="section section--design section--00">
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title __wb">使いやすさ</h2>
+            <h2 className="page__title __wb">使用方法</h2>
             <p>
               暑い夏を過ごしやすくするグリーンファンは、
               <br />
-              暮らしの中のさまざまなシーンで活躍する使いやすさを備えています。
+              暮らしの中のさまざまなシーンで活躍する使用方法を備えています。
             </p>
           </div>
         </div>

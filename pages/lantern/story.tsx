@@ -28,10 +28,10 @@ export default function ProductDetail() {
               <Link href="/lantern/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story __current">
-              <Link href="/lantern/story">ストーリー</Link>
+              <Link href="/lantern/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/lantern/spec">スペック</Link>
+              <Link href="/lantern/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -120,10 +120,10 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">デザインの変遷</h2>
+            <h2 className="section__title">设计の変遷</h2>
             <p>
-              どんな製品も、そのデザインを探る旅は、いつも長くて辛い道のりです。今回のBALMUDA The
-              Lanternも。この製品が持つルックスの中で最も重要なのは、言うまでもなく光そのものでした。上部に配置されたLEDの光は、中心の筒に導光され、最初から間接照明として発光しています。またろうそく色の光は、焚き火やろうそくの炎の揺らめきを再現するために複雑に明るさが変化します。そして何よりも難しかったのは、外観のデザインでした。ロッジや暖炉、古い街灯などモチーフに始まったデザインは、終盤まで四角柱で進みました。しかし、この形状には致命的な欠点があったのです。それはご馳走を並べたテーブルに似合わないこと。こうして決定寸前だったデザイン案は覆され、昔ながらのランタンから引用したものに再設計されました。
+              どんな製品も、その设计を探る旅は、いつも長くて辛い道のりです。今回のBALMUDA The
+              Lanternも。この製品が持つルックスの中で最も重要なのは、言うまでもなく光そのものでした。上部に配置されたLEDの光は、中心の筒に導光され、最初から間接照明として発光しています。またろうそく色の光は、焚き火やろうそくの炎の揺らめきを再現するために複雑に明るさが変化します。そして何よりも難しかったのは、外観の设计でした。ロッジや暖炉、古い街灯などモチーフに始まった设计は、終盤まで四角柱で進みました。しかし、この形状には致命的な欠点があったのです。それはご馳走を並べたテーブルに似合わないこと。こうして決定寸前だった设计案は覆され、昔ながらのランタンから引用したものに再設計されました。
             </p>
           </div>
         </div>

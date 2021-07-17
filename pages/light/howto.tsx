@@ -28,13 +28,13 @@ export default function ProductDetail() {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology ">
-              <Link href="/light/technology">テクノロジー</Link>
+              <Link href="/light/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto __current">
-              <Link href="/light/howto">使い方</Link>
+              <Link href="/light/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/light/spec">スペック</Link>
+              <Link href="/light/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -56,7 +56,7 @@ export default function ProductDetail() {
             />
             <p>
               BALMUDA The
-              Lightの特徴を最大限に引き出す、効果的な設置方法と使い方を3つのステップでご紹介します。
+              Lightの特徴を最大限に引き出す、効果的な設置方法と使用方法を3つのステップでご紹介します。
             </p>
           </div>
           <div className="__img">

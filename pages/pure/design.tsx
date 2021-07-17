@@ -33,16 +33,16 @@ export default function ProductDetail() {
               <Link href="/pure/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/pure/technology">テクノロジー</Link>
+              <Link href="/pure/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design __current">
-              <Link href="/pure/design">デザイン</Link>
+              <Link href="/pure/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
-              <Link href="/pure/howto">使い方</Link>
+              <Link href="/pure/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/pure/spec">スペック</Link>
+              <Link href="/pure/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -77,7 +77,7 @@ export default function ProductDetail() {
             <p>
               空気清浄の強さと共に、明るさが変化するBALMUDA The Pure の流路。
               <br />
-              本体は極力シンプルに。そして光をデザインの一部に取り込みました。
+              本体は極力シンプルに。そして光を设计の一部に取り込みました。
               <br />
               光の柱を通ることで、部屋の空気は清浄されていきます。
               <br />

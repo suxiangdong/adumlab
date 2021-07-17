@@ -3,8 +3,28 @@ import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
 import { useState } from 'react'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
+export async function getServerSideProps() {
+	try {
+    const [banners, evaluations] = await Promise.all([
+      API.getBannersByCategory(5),
+      API.getEvaluationsByCategory(5)
+    ])
+    return { props: { banners, evaluations } }
+  } catch (error) {
+    return { props: { banners: {}, evaluations: {} } }
+  }
+}
+
+export default function ProductDetail({ banners, evaluations }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3, 4].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/pure/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
+    }))
+  }
+
   const [playing, setPlaying] = useState(false)
 
   const handlePlay = () => {
@@ -49,16 +69,16 @@ export default function ProductDetail() {
               <Link href="/pure/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/pure/technology">テクノロジー</Link>
+              <Link href="/pure/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/pure/design">デザイン</Link>
+              <Link href="/pure/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
-              <Link href="/pure/howto">使い方</Link>
+              <Link href="/pure/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/pure/spec">スペック</Link>
+              <Link href="/pure/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -106,57 +126,13 @@ export default function ProductDetail() {
             </div>
           </div>
         </div>
-        <ReactSlick
-          dots
-          className="blockquotes slick-initialized slick-slider slick-dotted"
-          style={{ visibility: 'visible', opacity: 1 }}
-          id="billboard">
-          <div className="billboard--00">
-            <img
-              data-mobile="//www.balmuda.com/jp/pure/img/index/mobile/billboard--00.jpg?20180329"
-              data-desktop="//www.balmuda.com/jp/pure/img/index/desktop/billboard--00.jpg?20180329"
-              data-retina="//www.balmuda.com/jp/pure/img/index/desktop/billboard--00@2x.jpg?20180329"
-              src="//www.balmuda.com/jp/pure/img/index/desktop/billboard--00@2x.jpg?20180329"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--01">
-            <img
-              data-mobile="//www.balmuda.com/jp/pure/img/index/mobile/billboard--01.jpg?20180329"
-              data-desktop="//www.balmuda.com/jp/pure/img/index/desktop/billboard--01.jpg?20180329"
-              data-retina="//www.balmuda.com/jp/pure/img/index/desktop/billboard--01@2x.jpg?20180329"
-              src="//www.balmuda.com/jp/pure/img/index/desktop/billboard--01@2x.jpg?20180329"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--02">
-            <img
-              data-mobile="//www.balmuda.com/jp/pure/img/index/mobile/billboard--02.jpg?20180329"
-              data-desktop="//www.balmuda.com/jp/pure/img/index/desktop/billboard--02.jpg?20180329"
-              data-retina="//www.balmuda.com/jp/pure/img/index/desktop/billboard--02@2x.jpg?20180329"
-              src="//www.balmuda.com/jp/pure/img/index/desktop/billboard--02@2x.jpg?20180329"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--03">
-            <img
-              data-mobile="//www.balmuda.com/jp/pure/img/index/mobile/billboard--03.jpg?20180329"
-              data-desktop="//www.balmuda.com/jp/pure/img/index/desktop/billboard--03.jpg?20180329"
-              data-retina="//www.balmuda.com/jp/pure/img/index/desktop/billboard--03@2x.jpg?20180329"
-              src="//www.balmuda.com/jp/pure/img/index/desktop/billboard--03@2x.jpg?20180329"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--04">
-            <img
-              data-mobile="//www.balmuda.com/jp/pure/img/index/mobile/billboard--04.jpg?20180329"
-              data-desktop="//www.balmuda.com/jp/pure/img/index/desktop/billboard--04.jpg?20180329"
-              data-retina="//www.balmuda.com/jp/pure/img/index/desktop/billboard--04@2x.jpg?20180329"
-              src="//www.balmuda.com/jp/pure/img/index/desktop/billboard--04@2x.jpg?20180329"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-        </ReactSlick>
+        <div className="billboard__wrapper">
+          <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+            {banners.data.map((item) => (
+              <img key={item.id} className="w-full" src={item.path} />
+            ))}
+          </ReactSlick>
+        </div>
       </div>
       <div className="section section--index section--00 scrollLoader lazyload loaded">
         <div className="__mainimage">
@@ -175,14 +151,14 @@ export default function ProductDetail() {
             <br className="sp" />
             きれいにする
             <br />
-            空気清浄機
+            空气净化器
           </h2>
-          <span className="label__block">タワー型 空気清浄機</span>
+          <span className="label__block">タワー型 空气净化器</span>
           <p className="overview_text">
             <span>
               部屋の空気をすみずみまで、きれいに。
               <br />
-              バルミューダの空気清浄機は、独自の構造で天井まで届く大風量を実現。
+              バルミューダの空气净化器は、独自の構造で天井まで届く大風量を実現。
             </span>
             <span>
               部屋中の空気を循環させ、花粉・ウィルス、ペットやタバコの臭いなどを強力吸引、​
@@ -202,7 +178,7 @@ export default function ProductDetail() {
             <p className="price price--excl_tax" id="price2">
               57,200
             </p>
-            <p className="colores">ホワイト／ダークグレー</p>
+            <p className="colores">白色/深灰色</p>
           </div>
 
           <div className="__trailer __is_mobile">
@@ -252,7 +228,7 @@ export default function ProductDetail() {
             </h3>
             <p className="section__desc">
               BALMUDA The Pure
-              は、吸気口と流路が点灯し、この光の柱を通って空気が清浄されていきます。そして本体のデザインは極力シンプルに。さまざまな部屋と調和するようにデザインしました。
+              は、吸気口と流路が点灯し、この光の柱を通って空気が清浄されていきます。そして本体の设计は極力シンプルに。さまざまな部屋と調和するように设计しました。
             </p>
             <a href="./design" className="section__btn">
               さらに詳しく
@@ -265,10 +241,10 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h3 className="section__subtitle">
-              <span>効果的な使い方</span>
+              <span>効果的な使用方法</span>
             </h3>
             <p className="section__desc">
-              BALMUDA The Pureをもっと効果的にお使いいただくために。おすすめの使い方を紹介します。
+              BALMUDA The Pureをもっと効果的にお使いいただくために。おすすめの使用方法を紹介します。
             </p>
             <a href="./howto" className="section__btn">
               さらに詳しく
@@ -287,58 +263,18 @@ export default function ProductDetail() {
             />
             <span className="__caption">様々なメディアに取り上げられています</span>
           </h2>
-          <ReactSlick dots className="blockquotes" id="blockquotes">
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>空気を磨く手腕は</span>
-                <span>文句なし。</span>
-                <span>花粉除去能力は</span>
-                <span>全製品中No.1でした​</span>
-              </blockquote>
-              <p className="__media">家電批評　2019年4月号​</p>
-              <a
-                href="//www.fujisan.co.jp/product/1281683835/b/1792093/"
-                target="_blank"
-                className="__link">
-                https://www.fujisan.co.jp/product/1281683835/b/1792093/
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>家電アワード​</span>
-                <span>2019 WINNER : </span>
-                <span>基本性能も高く、</span>
-                <span>特に「臭い」に強い製品</span>
-              </blockquote>
-              <p className="__media">デジモノステーション​</p>
-              <a href="//www.digimonostation.jp/0000119881/" target="_blank" className="__link">
-                https://www.digimonostation.jp/0000119881/
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>大きく吸って大きく吐く。​</span>
-                <span>これにより部屋全体の空気を</span>
-                <span>大きく循環させている</span>
-              </blockquote>
-              <p className="__media">ギズモード・ジャパン</p>
-              <a
-                href="//www.gizmodo.jp/2019/02/balmuda-the-pure.html"
-                target="_blank"
-                className="__link">
-                https://www.gizmodo.jp/2019/02/balmuda-the-pure.html
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>機能とデザインが両立、​</span>
-                <span>完璧すぎる空気清浄機</span>
-              </blockquote>
-              <p className="__media">Precious.jp​</p>
-              <a href="//precious.jp/articles/-/10093" target="_blank" className="__link">
-                https://precious.jp/articles/-/10093
-              </a>
-            </div>
+          <ReactSlick className="blockquotes" arrows={false} dots>
+            {evaluations.data?.map((item) => (
+              <div key={item.id} className="blockquote">
+                <blockquote>{item.content}</blockquote>
+                <p className="__media">{`${new Date(item.publish_at).toLocaleDateString('zh')} ${
+                  item.source
+                }`}</p>
+                <a href={item.source_url} target="_blank" className="__link">
+                  {item.source_url}
+                </a>
+              </div>
+            ))}
           </ReactSlick>
         </div>
       </div>
@@ -346,99 +282,90 @@ export default function ProductDetail() {
       <div className="gallery scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="gallery__h">ギャラリー</h2>
+            <h2 className="gallery__h">画廊</h2>
           </div>
 
           <div className="gallery__content" data-pswp-uid="1">
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/1@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/1.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/1@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/1@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/1@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/1.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/1@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/1@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/2@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/2.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/2@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/2@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/2@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/2.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/2@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/2@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/3@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/3.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/3@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/3@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/3@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/3.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/3@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/3@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/4@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/4.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/4@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/4@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/4@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/4.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/4@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/4@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/5@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/5.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/5@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/5@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/5@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/5.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/5@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/5@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/6@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/6.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/6@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/6@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/6@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/6.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/6@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/6@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/7@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/7.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/7@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/7@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/7@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/7.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/7@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/7@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/8@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/8.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/8@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/8@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/8@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/8.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/8@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/8@2x.jpg?20210502"
+              />
             </figure>
             <figure>
-
-                <img
-                  data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/9@2x.jpg?20210502"
-                  data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/9.jpg?20210502"
-                  data-retina="//www.balmuda.com/jp/pure/img/index/gallery/9@2x.jpg?20210502"
-                  className="__clip adaptiveimage"
-                  src="//www.balmuda.com/jp/pure/img/index/gallery/9@2x.jpg?20210502"
-                />
+              <img
+                data-mobile="//www.balmuda.com/jp/pure/img/index/gallery/9@2x.jpg?20210502"
+                data-desktop="//www.balmuda.com/jp/pure/img/index/gallery/9.jpg?20210502"
+                data-retina="//www.balmuda.com/jp/pure/img/index/gallery/9@2x.jpg?20210502"
+                className="__clip adaptiveimage"
+                src="//www.balmuda.com/jp/pure/img/index/gallery/9@2x.jpg?20210502"
+              />
             </figure>
           </div>
         </div>

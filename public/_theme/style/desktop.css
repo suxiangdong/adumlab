@@ -1,109 +1,5 @@
 @charset "UTF-8";
-/*
-scss variables
 
-# z-index
-# colors
-
-*/
-/* use iscroll.js inline style */
-/*
-$z-index--scrollbar: 9999
-*/
-/* use modal.js inline style */
-/*
-$z-index--modal--in: 9999
-$z-index--modal--out: -9999
-*/
-/* desktop */
-/* mobile */
-/* link $z-index--modal--out */
-/* brand */
-/* web color */
-/* text */
-/* border */
-/* header */
-/*
-scss function
-
-# x-strip-units
-
-*/
-/*
-scss mixin
-
-# rem
-# media queries
-# background-image-retina
-# icon-font
-# grid
-
-*/
-/*
-.hoge {
-    @include rem(margin, .2rem 4% 3px 2rem);
-    @include rem(font-size, 1.2rem);
-}
- */
-/* usage */
-/*
-// desktop
-@include desktop {
-    width: 100%;
-}
-// mobile
-@include mobile {
-    width: 50%;
-}
-*/
-/* about */
-/*
-必須引数として「拡張子を除く画像パス」と「拡張子」を指定することで、メディアクエリのRetina対応コードを出力。
-*/
-/* usage */
-/*
-// --- scss code
-.section--index.section--01.loaded {
-    @include background-image-retina('../img/index/desktop/section--01', 'jpg');
-    background-size: 1308px 600px;
-}
-
-// --- output css
-.section--index.section--01.loaded {
-    background-image:url("../img/index/desktop/section--01.jpg");
-    background-size:1308px 600px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
-    .section--index.section--01.loaded {
-        background-image:url("../img/index/desktop/section--01@2x.jpg");
-    }
-}
----
-*/
-/*
-// usage
-&:before {
-    @include icon-font;
-    content: "\e020";
-}
-
- */
-/*
-// usage
-.hoge {
-    @include valign;
-}
- */
-/*
-Animation keyframes
-
-# zoomIn, zoomOut : modal.js
-# fadeIn          : drawer.js, pagemap.js
-# fadeInUp        : scrollLoader.js
-# a to b          : buynow modal window
-# bounce          : buynow modal window
-
-*/
 @-webkit-keyframes zoomIn {
   from {
     opacity: 0;
@@ -790,10 +686,10 @@ a:hover {
   line-height: 1em;
 }
 .price.price--excl_tax:after {
-  content: "（税込）";
+  content: "（含税）";
 }
 .price.price--incl_tax:after {
-  content: "（税込）";
+  content: "（含税）";
 }
 .price.__de:before {
   content: "€ ";
@@ -2572,7 +2468,7 @@ input[type=checkbox]:disabled:checked + label:after {
   }
 }
 .navigation .__wrap .__item.__item--lantern .__name:after {
-  content: "ポータブルLEDランタン";
+  content: "便携式LED灯";
 }
 .navigation .__wrap .__item.__item--greenfan-c2:before {
   content: "";
@@ -2581,7 +2477,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--greenfan-c2 .__name:after {
-  content: "ポータブルサーキュレーター";
+  content: "空气循环机";
 }
 .navigation .__wrap .__item.__item--pure:before {
   content: "";
@@ -2590,7 +2486,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--pure .__name:after {
-  content: "空気清浄機";
+  content: "空气净化器";
 }
 .navigation .__wrap .__item.__item--light:before {
   content: "󩇳";
@@ -2599,7 +2495,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--light .__name:after {
-  content: "太陽光LEDデスクライト";
+  content: "太阳能LED台灯";
 }
 .navigation .__wrap .__item.__item--toaster:before {
   content: "";
@@ -2608,7 +2504,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--toaster .__name:after {
-  content: "スチームトースター";
+  content: "蒸汽电烤箱";
 }
 .navigation .__wrap .__item.__item--pot:before {
   content: "";
@@ -2617,7 +2513,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--pot .__name:after {
-  content: "電気ケトル";
+  content: "手冲咖啡壶";
 }
 .navigation .__wrap .__item.__item--range:before {
   content: "";
@@ -2662,7 +2558,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--greenfan .__name:after {
-  content: "扇風機";
+  content: "自然风果岭风扇";
 }
 .navigation .__wrap .__item.__item--cirq:before {
   content: "";
@@ -2671,7 +2567,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--cirq .__name:after {
-  content: "サーキュレーター";
+  content: "空气循环机";
 }
 .navigation .__wrap .__item.__item--airengine:before {
   content: "";
@@ -2680,7 +2576,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--airengine .__name:after {
-  content: "空気清浄機";
+  content: "空气净化器";
 }
 .navigation .__wrap .__item.__item--rain:before {
   content: "";
@@ -2734,7 +2630,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--speaker .__name:after {
-  content: "ワイヤレススピーカー";
+  content: "无线扬声器";
 }
 .navigation .__wrap .__item.__item--cleaner:before {
   content: "";
@@ -2762,7 +2658,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--cleaner .__name:after {
-  content: "ホバー式クリーナー";
+  content: "悬臂式吸尘器";
 }
 .navigation .__wrap.__wrap--cart .__item.__item--cart:before {
   content: "";
@@ -2885,101 +2781,6 @@ input[type=checkbox]:disabled:checked + label:after {
   margin-top: 0.3rem;
 }
 
-/**
-# header
-# brand
-# navigation (megamenu)
- */
-/*
-scss mixin
-
-# rem
-# media queries
-# background-image-retina
-# icon-font
-# grid
-
-*/
-/*
-.hoge {
-    @include rem(margin, .2rem 4% 3px 2rem);
-    @include rem(font-size, 1.2rem);
-}
- */
-/* usage */
-/*
-// desktop
-@include desktop {
-    width: 100%;
-}
-// mobile
-@include mobile {
-    width: 50%;
-}
-*/
-/* about */
-/*
-必須引数として「拡張子を除く画像パス」と「拡張子」を指定することで、メディアクエリのRetina対応コードを出力。
-*/
-/* usage */
-/*
-// --- scss code
-.section--index.section--01.loaded {
-    @include background-image-retina('../img/index/desktop/section--01', 'jpg');
-    background-size: 1308px 600px;
-}
-
-// --- output css
-.section--index.section--01.loaded {
-    background-image:url("../img/index/desktop/section--01.jpg");
-    background-size:1308px 600px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
-    .section--index.section--01.loaded {
-        background-image:url("../img/index/desktop/section--01@2x.jpg");
-    }
-}
----
-*/
-/*
-// usage
-&:before {
-    @include icon-font;
-    content: "\e020";
-}
-
- */
-/*
-// usage
-.hoge {
-    @include valign;
-}
- */
-/*
-scss variables
-
-# z-index
-# colors
-
-*/
-/* use iscroll.js inline style */
-/*
-$z-index--scrollbar: 9999
-*/
-/* use modal.js inline style */
-/*
-$z-index--modal--in: 9999
-$z-index--modal--out: -9999
-*/
-/* desktop */
-/* mobile */
-/* link $z-index--modal--out */
-/* brand */
-/* web color */
-/* text */
-/* border */
-/* header */
-/* header */
 .header {
   width: 100%;
   height: 50px;
@@ -2998,9 +2799,8 @@ $z-index--modal--out: -9999
   cursor: pointer;
   top: 26px;
   left: 50%;
-  width: 140px;
-  height: 19.47px;
-  margin-left: -70px;
+  height: 20px;
+	transform: translateX(-50%);
   border: none;
   outline: none;
 }
@@ -3899,104 +3699,6 @@ body.store .navigation .cart {
   content: "";
 }
 
-/**
-  # footer
-  # feed
-  # sitemap
-  # widget
-  # legal
-  # subscribe
- */
-/*
-scss mixin
-
-# rem
-# media queries
-# background-image-retina
-# icon-font
-# grid
-
-*/
-/*
-.hoge {
-    @include rem(margin, .2rem 4% 3px 2rem);
-    @include rem(font-size, 1.2rem);
-}
- */
-/* usage */
-/*
-// desktop
-@include desktop {
-    width: 100%;
-}
-// mobile
-@include mobile {
-    width: 50%;
-}
-*/
-/* about */
-/*
-必須引数として「拡張子を除く画像パス」と「拡張子」を指定することで、メディアクエリのRetina対応コードを出力。
-*/
-/* usage */
-/*
-// --- scss code
-.section--index.section--01.loaded {
-    @include background-image-retina('../img/index/desktop/section--01', 'jpg');
-    background-size: 1308px 600px;
-}
-
-// --- output css
-.section--index.section--01.loaded {
-    background-image:url("../img/index/desktop/section--01.jpg");
-    background-size:1308px 600px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
-    .section--index.section--01.loaded {
-        background-image:url("../img/index/desktop/section--01@2x.jpg");
-    }
-}
----
-*/
-/*
-// usage
-&:before {
-    @include icon-font;
-    content: "\e020";
-}
-
- */
-/*
-// usage
-.hoge {
-    @include valign;
-}
- */
-/*
-scss variables
-
-# z-index
-# colors
-
-*/
-/* use iscroll.js inline style */
-/*
-$z-index--scrollbar: 9999
-*/
-/* use modal.js inline style */
-/*
-$z-index--modal--in: 9999
-$z-index--modal--out: -9999
-*/
-/* desktop */
-/* mobile */
-/* link $z-index--modal--out */
-/* brand */
-/* web color */
-/* text */
-/* border */
-/* header */
-/* footer */
 .footer {
   position: relative;
   padding-top: 20px;

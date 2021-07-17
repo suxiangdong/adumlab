@@ -29,16 +29,16 @@ export default function ProductDetail() {
               <Link href="/greenfan-cirq/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--features">
-              <Link href="/greenfan-cirq/features">室温が変わる</Link>
+              <Link href="/greenfan-cirq/features">改变室温</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology ">
-              <Link href="/greenfan-cirq/technology">15m先まで</Link>
+              <Link href="/greenfan-cirq/technology">远达15米的送风距离</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design __current">
-              <Link href="/greenfan-cirq/design">デザイン</Link>
+              <Link href="/greenfan-cirq/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--specs">
-              <Link href="/greenfan-cirq/specs">スペック</Link>
+              <Link href="/greenfan-cirq/specs">规格</Link>
             </li>
           </ul>
 

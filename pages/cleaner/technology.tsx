@@ -37,22 +37,22 @@ export default function CleanerDetail() {
               <Link href="/cleaner/">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/function">特徴と性能</Link>
+              <Link href="/cleaner/function">特点和性能</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/design">デザイン</Link>
+              <Link href="/cleaner/design">设计</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/feature">シーン別の使い方</Link>
+              <Link href="/cleaner/feature">不同场景的使用方法</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
-              <Link href="/cleaner/technology">テクノロジー</Link>
+              <Link href="/cleaner/technology">科技</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/story">ストーリー</Link>
+              <Link href="/cleaner/story">故事</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/spec">スペック</Link>
+              <Link href="/cleaner/spec">规格</Link>
             </li>
           </ul>
 
@@ -86,7 +86,7 @@ export default function CleanerDetail() {
               <br />
               <span>自在な動きを生む</span>
             </p>
-            <h2 className="page__title">ホバーテクノロジー</h2>
+            <h2 className="page__title">ホバー科技</h2>
           </div>
         </div>
         <img
@@ -147,7 +147,7 @@ export default function CleanerDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              ホバーテクノロジーによる
+              ホバー科技による
               <br />
               自由自在な動きで、
               <br className="sp" />

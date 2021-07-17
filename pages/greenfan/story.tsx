@@ -30,16 +30,16 @@ export default function ProductDetail() {
               <Link href="/greenfan/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--feature ">
-              <Link href="/greenfan/feature">風の気持ちよさ</Link>
+              <Link href="/greenfan/feature">先进性</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/greenfan/design">使いやすさ</Link>
+              <Link href="/greenfan/design">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story __current">
-              <Link href="/greenfan/story">ストーリー</Link>
+              <Link href="/greenfan/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/greenfan/spec">スペック</Link>
+              <Link href="/greenfan/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -97,7 +97,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">壁に風を当てる</h2>
             <p>
-              扇風機の風を変えるヒントは、町工場の職人さんたちの扇風機の使い方にありました。彼らは扇風機の風を壁にあて、跳ね返った風にあたっていたのです。「なぜ？」「こうすると風が優しくなるんだよ」
+              扇風機の風を変えるヒントは、町工場の職人さんたちの扇風機の使用方法にありました。彼らは扇風機の風を壁にあて、跳ね返った風にあたっていたのです。「なぜ？」「こうすると風が優しくなるんだよ」
               試してみると、確かに優しくなります。扇風機の風が壁にぶつかることで渦成分が壊れ、面で進む風に生まれ変わっていたのです。
             </p>
             <p>この風を目指そう。</p>

@@ -27,16 +27,16 @@ export default function ProductDetail() {
               <Link href="/speaker/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/speaker/technology">テクノロジー</Link>
+              <Link href="/speaker/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story __current">
-              <Link href="/speaker/story">ストーリー</Link>
+              <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting">
-              <Link href="/speaker/setting">セッティング</Link>
+              <Link href="/speaker/setting">设置</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/speaker/spec">スペック</Link>
+              <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -148,11 +148,11 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">デザインと光</h2>
+            <h2 className="section__title __wb">设计と光</h2>
             <p className="section__txt--large">B</p>
             <p className="section__txt">
               ALMUDA The Speaker
-              の外見上の最も大きな特徴は、もちろんその光。目指したのはあたかもライブステージを見ているかのような、臨場感を感じられること。音に合わせて光るだけではなく、音楽が持つ複雑さを表現しようと試行錯誤しました。どのような工夫をしたのかは企業秘密ですが、とても音楽的な光になったと思っています。同時に考えられていたのは、それらの光が明滅する場所。メインの光源は真空管風のチューブの中に閉じ込め、周囲には支柱、それらを覆う外郭の透明部品。このように、縦方向のオブジェクトを重層的に配置することで、複雑な反射光も作り出しています。そしてもう一つ。個人的に音楽時代から慣れ親しんできたヴィンテージの音楽機材の雰囲気を持たせようと思っていました。ラジオ放送の始まりとともに生まれ、一歩ずつ進歩してきたそれらの機材は、サウンドはもちろん、外見にも言葉にできない温かみを持っています。私はこれらの昔の機材を会社に持ち込み、デザイナーたちと特徴を解析しました。ワイヤレススピーカーという現代の道具だからこそ。古き善きものから引用し、温かみのある道具に仕上げたいと考えました。
+              の外見上の最も大きな特徴は、もちろんその光。目指したのはあたかもライブステージを見ているかのような、臨場感を感じられること。音に合わせて光るだけではなく、音楽が持つ複雑さを表現しようと試行錯誤しました。どのような工夫をしたのかは企業秘密ですが、とても音楽的な光になったと思っています。同時に考えられていたのは、それらの光が明滅する場所。メインの光源は真空管風のチューブの中に閉じ込め、周囲には支柱、それらを覆う外郭の透明部品。このように、縦方向のオブジェクトを重層的に配置することで、複雑な反射光も作り出しています。そしてもう一つ。個人的に音楽時代から慣れ親しんできたヴィンテージの音楽機材の雰囲気を持たせようと思っていました。ラジオ放送の始まりとともに生まれ、一歩ずつ進歩してきたそれらの機材は、サウンドはもちろん、外見にも言葉にできない温かみを持っています。私はこれらの昔の機材を会社に持ち込み、デザイナーたちと特徴を解析しました。无线扬声器という現代の道具だからこそ。古き善きものから引用し、温かみのある道具に仕上げたいと考えました。
             </p>
           </div>
         </div>

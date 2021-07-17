@@ -29,7 +29,7 @@ export default function News() {
                 <p>
                   <img src="https://s3.balmuda.com/jp/news/wp-content/uploads/2021/06/16174423/main_img.jpg" alt="" width="600" height="400" className="alignnone size-medium wp-image-989" data-no-retina="" />
                   <br />
-                  スチームテクノロジーと温度制御により、パンのおいしさを最大限に引き出すBALMUDA The Toasterに、新色「グレー」が新登場。マットで落ち着いた質感で、クールな印象のカラーです。
+                  スチーム科技と温度制御により、パンのおいしさを最大限に引き出すBALMUDA The Toasterに、新色「グレー」が新登場。マットで落ち着いた質感で、クールな印象のカラーです。
                 </p>
                 <p>
                   バルミューダオンラインストア、ブランドショップのみでお求め頂ける特別なモデルです。
@@ -152,7 +152,7 @@ export default function News() {
                 <p>
                   <img src="https://s3.balmuda.com/jp/news/wp-content/uploads/2021/03/24111113/NozzleSet_1200800_v2-253x169.png" alt="" width="600" height="400" className="alignnone size-medium wp-image-960" data-no-retina="" srcSet="https://s3.balmuda.com/jp/news/wp-content/uploads/2021/03/24111113/NozzleSet_1200800_v2-253x169.png 253w, https://s3.balmuda.com/jp/news/wp-content/uploads/2021/03/24111113/NozzleSet_1200800_v2-200x133.png 200w, https://s3.balmuda.com/jp/news/wp-content/uploads/2021/03/24111113/NozzleSet_1200800_v2-768x512.png 768w, https://s3.balmuda.com/jp/news/wp-content/uploads/2021/03/24111113/NozzleSet_1200800_v2-506x337.png 506w, https://s3.balmuda.com/jp/news/wp-content/uploads/2021/03/24111113/NozzleSet_1200800_v2.png 1200w" sizes="(max-width: 600px) 100vw, 600px" />
                   <br />
-                  2020年11月に発売したホバー式クリーナー「BALMUDA The Cleaner」の専用ノズルセットが登場しました。
+                  2020年11月に発売した悬臂式吸尘器「BALMUDA The Cleaner」の専用ノズルセットが登場しました。
                   <br />
                   5種の専用ノズルが、すみずみまで行き届いた心地よい掃除を実現します。
                   <br />

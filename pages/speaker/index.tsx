@@ -2,8 +2,27 @@ import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
+export async function getServerSideProps() {
+  try {
+    const [banners, evaluations] = await Promise.all([
+      API.getBannersByCategory(9),
+      API.getEvaluationsByCategory(9)
+    ])
+    return { props: { banners, evaluations } }
+  } catch (error) {
+    return { props: { banners: {}, evaluations: {} } }
+  }
+}
+
+export default function ProductDetail({ banners, evaluations }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3, 4, 5].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/speaker/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
+    }))
+  }
   return (
     <Layout>
       <Head>
@@ -28,16 +47,16 @@ export default function ProductDetail() {
               <Link href="/speaker/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/speaker/technology">テクノロジー</Link>
+              <Link href="/speaker/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/speaker/story">ストーリー</Link>
+              <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting">
-              <Link href="/speaker/setting">セッティング</Link>
+              <Link href="/speaker/setting">设置</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/speaker/spec">スペック</Link>
+              <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -49,7 +68,13 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      //TODO
+      <div className="billboard__wrapper">
+        <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+          {banners.data.map((item) => (
+            <img key={item.id} className="w-full" src={item.path} />
+          ))}
+        </ReactSlick>
+      </div>
       <div className="section section--index section--00 scrollLoader lazyload loaded">
         <div className="__mainimage">
           <img
@@ -65,7 +90,7 @@ export default function ProductDetail() {
           <h2 className="page__title __wb">
             <span>今までにない音楽体験</span>
           </h2>
-          <span className="label__block">ワイヤレススピーカー</span>
+          <span className="label__block">无线扬声器</span>
           <p className="overview_text">
             まったく新しいスピーカーの登場です。
             <br />
@@ -184,49 +209,25 @@ export default function ProductDetail() {
       </div>
       <div className="section section--index section--blockquote">
         <div className="viewport">
-          <ReactSlick dots className="blockquotes" id="blockquotes">
-            <div className="blockquote">
-              <blockquote>
-                <span>複雑な光り方が実に美しく、</span>
-                <span>眺めているだけで</span>
-                <span>気持ちが良い。</span>
-              </blockquote>
-              <p className="__media">AV Watch</p>
-              <a
-                href="https://av.watch.impress.co.jp/docs/review/review/1251187.html"
-                target="_blank"
-                className="__link">
-                https://av.watch.impress.co.jp/docs/review/review/1251187.html
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote>
-                厚みのあるボーカルや、こもらず抜けの良い高音など、聴き始めてすぐに“いい音だ”と分かる。
-              </blockquote>
-              <p className="__media">家電Watch</p>
-              <a
-                href="https://kaden.watch.impress.co.jp/docs/column_review/kaden/1251598.html"
-                target="_blank"
-                className="__link">
-                https://kaden.watch.impress.co.jp/docs/column_review/kaden/1251598.html
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote>
-                お部屋のどこにおいても、お部屋のどこから聴いても、常に心地よいサウンドを提供してくれます。
-              </blockquote>
-              <p className="__media">価格.comマガジン</p>
-              <a href="https://kakakumag.com/av-kaden/?id=15423" target="_blank" className="__link">
-                https://kakakumag.com/av-kaden/?id=15423
-              </a>
-            </div>
+          <ReactSlick className="blockquotes" arrows={false} dots>
+            {evaluations.data?.map((item) => (
+              <div key={item.id} className="blockquote">
+                <blockquote>{item.content}</blockquote>
+                <p className="__media">{`${new Date(item.publish_at).toLocaleDateString('zh')} ${
+                  item.source
+                }`}</p>
+                <a href={item.source_url} target="_blank" className="__link">
+                  {item.source_url}
+                </a>
+              </div>
+            ))}
           </ReactSlick>
         </div>
       </div>
       <div className="section section--index section--gallery">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">ギャラリー</h2>
+            <h2 className="section__title">画廊</h2>
           </div>
 
           <div className="gallery__content" data-pswp-uid="1">

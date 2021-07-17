@@ -2,8 +2,28 @@ import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
+export async function getServerSideProps() {
+  try {
+    const [banners, evaluations] = await Promise.all([
+      API.getBannersByCategory(8),
+      API.getEvaluationsByCategory(8)
+    ])
+    return { props: { banners, evaluations } }
+  } catch (error) {
+    return { props: { banners: {}, evaluations: {} } }
+  }
+}
+
+export default function ProductDetail({ banners, evaluations }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3, 4, 5].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/light/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
+    }))
+  }
+
   return (
     <Layout>
       <Head>
@@ -28,13 +48,13 @@ export default function ProductDetail() {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/light/technology">テクノロジー</Link>
+              <Link href="/light/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
-              <Link href="/light/howto">使い方</Link>
+              <Link href="/light/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/light/spec">スペック</Link>
+              <Link href="/light/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -48,64 +68,10 @@ export default function ProductDetail() {
       </div>
 
       <div className="billboard__wrapper">
-        <ReactSlick dots className="billboard" id="billboard">
-          <div className="billboard--02">
-            <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/billboard--02.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/billboard--02.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/billboard--02@2x.jpg?20201006"
-              src="//www.balmuda.com/jp/light/img/index/desktop/billboard--02@2x.jpg?20201006"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--08">
-            <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/billboard--08.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/billboard--08.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/billboard--08@2x.jpg?20201006"
-              src="//www.balmuda.com/jp/light/img/index/desktop/billboard--08@2x.jpg?20201006"
-              className="__image adaptiveimage slick--lazy"
-            />
-            <Link href="/light/review/002">
-              <div className="__overlay">イラスト　窪之内英策</div>
-            </Link>
-          </div>
-          <div className="billboard--04">
-            <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/billboard--04.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/billboard--04.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/billboard--04@2x.jpg?20201006"
-              src="//www.balmuda.com/jp/light/img/index/desktop/billboard--04@2x.jpg?20201006"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--07">
-            <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/billboard--07.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/billboard--07.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/billboard--07@2x.jpg?20201006"
-              src="//www.balmuda.com/jp/light/img/index/desktop/billboard--07@2x.jpg?20201006"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--00">
-            <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/billboard--00.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/billboard--00.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/billboard--00@2x.jpg?20201006"
-              src="//www.balmuda.com/jp/light/img/index/desktop/billboard--00@2x.jpg?20201006"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
-          <div className="billboard--01">
-            <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/billboard--01.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/billboard--01.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/billboard--01@2x.jpg?20201006"
-              src="//www.balmuda.com/jp/light/img/index/desktop/billboard--01@2x.jpg?20201006"
-              className="__image adaptiveimage slick--lazy"
-            />
-          </div>
+        <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+          {banners.data.map((item) => (
+            <img key={item.id} className="w-full" src={item.path} />
+          ))}
         </ReactSlick>
       </div>
 
@@ -130,7 +96,7 @@ export default function ProductDetail() {
             <span>子どもたちの</span>
             <span>目を守る光</span>
           </h2>
-          <span className="label__block">太陽光LEDデスクライト</span>
+          <span className="label__block">太阳能LED台灯</span>
           <p className="overview_text __wb">
             <span>BALMUDA The Lightは</span>
             <span>独自の光拡散技術により、</span>
@@ -160,7 +126,7 @@ export default function ProductDetail() {
             </h3>
             <h4 className="section__h __wb">
               <span>フォワードビーム</span>
-              <span>テクノロジー</span>
+              <span>科技</span>
               <span>
                 <em>（特許登録済）</em>
               </span>
@@ -234,78 +200,18 @@ export default function ProductDetail() {
             />
             <span className="__caption">様々なメディアに取り上げられています</span>
           </h2>
-          <ReactSlick dots className="blockquotes" id="blockquotes">
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>頭が影を作ることもなく、</span>
-                <span>眩しくもなく、</span>
-                <span>手元を明るく照らせる</span>
-              </blockquote>
-              <p className="__media">家電Watch</p>
-              <a
-                href="//kaden.watch.impress.co.jp/docs/news/1142021.html"
-                target="_blank"
-                className="__link">
-                https://kaden.watch.impress.co.jp/docs/news/1142021.html
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>気がつくと、姿勢わるく、</span>
-                <span>机に近づいて</span>
-                <span>作業している。</span>
-                <span>これに切り込むプロダクト</span>
-              </blockquote>
-              <p className="__media">ROOMIE</p>
-              <a href="//www.roomie.jp/2018/09/452500/" target="_blank" className="__link">
-                https://www.roomie.jp/2018/09/452500/
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>ライトの光が</span>
-                <span>目に入ることがなく、</span>
-                <span>手元にだけスルッと入り込む</span>
-              </blockquote>
-              <p className="__media">デジモノステーション（d.365）</p>
-              <a href="//www.digimonostation.jp/0000156554/" target="_blank" className="__link">
-                https://www.digimonostation.jp/0000156554/
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>普及が進んだLEDが</span>
-                <span>光の質を競う時代に入った。</span>
-              </blockquote>
-              <p className="__media">日本経済新聞</p>
-              <a
-                href="//www.nikkei.com/article/DGXMZO35065450W8A900C1TJ2000/"
-                target="_blank"
-                className="__link">
-                https://www.nikkei.com/article/DGXMZO35065450W8A900C1TJ2000/
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>子どもの想像力の創出と、</span>
-                <span>未来の目を</span>
-                <span>守るためのライト。</span>
-              </blockquote>
-              <p className="__media">家電批評（2018年11月号）</p>
-              <a href="//www.shinyusha.co.jp/media/kh1811/" target="_blank" className="__link">
-                http://www.shinyusha.co.jp/media/kh1811/
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="__wb">
-                <span>子どもの将来のためにも、</span>
-                <span>ぜひ買ってあげたい家電</span>
-              </blockquote>
-              <p className="__media">VERY</p>
-              <a href="//veryweb.jp/kids/26965/" target="_blank" className="__link">
-                https://veryweb.jp/kids/26965/
-              </a>
-            </div>
+          <ReactSlick className="blockquotes" arrows={false} dots>
+            {evaluations.data?.map((item) => (
+              <div key={item.id} className="blockquote">
+                <blockquote>{item.content}</blockquote>
+                <p className="__media">{`${new Date(item.publish_at).toLocaleDateString('zh')} ${
+                  item.source
+                }`}</p>
+                <a href={item.source_url} target="_blank" className="__link">
+                  {item.source_url}
+                </a>
+              </div>
+            ))}
           </ReactSlick>
         </div>
       </div>
@@ -313,7 +219,7 @@ export default function ProductDetail() {
       <div className="gallery scrollLoader lazyload loaded">
         <div className="viewport">
           <div className="__content">
-            <h2 className="gallery__h">ギャラリー</h2>
+            <h2 className="gallery__h">画廊</h2>
           </div>
 
           <div className="gallery__content" data-pswp-uid="1">

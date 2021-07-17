@@ -2,137 +2,150 @@ import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../layouts/default'
+import API from '../effects/api'
 
-export default function Home() {
+export async function getServerSideProps() {
+  try {
+    const [banners, hots, topics, notifications] = await Promise.all([
+      API.getBannersByCategory(0),
+      API.getHotProducts(1),
+      API.getHomeTopics(),
+      API.getNotifications(),
+    ])
+    return { props: { banners, hots, topics, notifications } }
+  } catch (error) {
+    return {
+      props: { banners: {}, hots: {}, topics: {}, notifications: {} }
+    }
+  }
+}
+
+export default function Home({ banners, hots, topics, notifications }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/index/img/desktop/billboard/${i}.jpg`
+    }))
+  }
+
+  if (!hots || !Array.isArray(hots.data) || hots.data.length === 0) {
+    hots.data = [
+      {
+        id: 1,
+        title: 'BALMUDA The Toaster',
+        description: '幸福的电烤箱',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/0.jpg?20210602',
+        url: '/toaster'
+      },
+      {
+        id: 2,
+        title: 'BALMUDA The Pot',
+        description: '小而美的电水壶',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/2.jpg?20210530',
+        url: '/pot'
+      },
+      {
+        id: 3,
+        title: 'BALMUDA The Rain',
+        description: '水洗空气的加湿器',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/5.jpg?20210530',
+        url: '/rain'
+      },
+      {
+        id: 4,
+        title: 'BALMUDA The GreenFan',
+        description: '自然风果岭风扇',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/1.jpg?20210530',
+        url: '/greenfan'
+      }
+    ]
+  }
+
+  if (!topics || !Array.isArray(topics.data) || topics.data.length === 0) {
+    topics.data = [
+      {
+        id: 1,
+        title: '关于巴慕达',
+        description: '巴慕达是一家2003年在东京成立的创意和科技公司。',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/post/5@2x.jpg?20210530',
+        url: '/about'
+      },
+      {
+        id: 2,
+        title: '极容易使用的吸尘器',
+        description: '凭借独特的悬浮科技，卓越的操作性能和卓越的吸尘性能，大幅缩短清扫时间。',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/post/6@2x.jpg?20210530',
+        url: '/cleaner'
+      },
+      {
+        id: 3,
+        title: '再现自然界风的电风扇',
+        description: 'The GreenFan是再现自然界的风的电风扇。在房间里营造出吹过夏日午后的舒适的风。',
+        path: 'https://www.balmuda.com/jp/index/img/desktop/post/16@2x.jpg?20210530',
+        url: '/greenfan'
+      }
+    ]
+  }
+
   return (
     <Layout>
       <Head>
         <link rel="stylesheet" media="(max-width: 640px)" href="/index/style/mobile.css" />
         <link rel="stylesheet" media="(min-width: 641px)" href="/index/style/desktop.css" />
       </Head>
-      <ReactSlick arrows={false} dots>
-        <div>
-          <img className="w-full" src="https://www.balmuda.com/jp/index/img/desktop/billboard/0.jpg?20210420" />
-        </div>
-        <div>
-          <img className="w-full" src="https://www.balmuda.com/jp/index/img/desktop/billboard/1.jpg?20210420" />
-        </div>
-        <div>
-          <img className="w-full" src="https://www.balmuda.com/jp/index/img/desktop/billboard/2.jpg?20210420" />
-        </div>
-        <div>
-          <img className="w-full" src="https://www.balmuda.com/jp/index/img/desktop/billboard/3.jpg?20210420" />
-        </div>
-      </ReactSlick>
-      <section className="py-16 px-8 border-b border-fuchsia-600">
-        <h2 className="text-4xl text-center mb-4">人气爆品</h2>
-        <div className="flex justify-center max-w-5xl mx-auto">
-          <Link href="/toaster/index">
-            <a className="w-1/5">
-              <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/0.jpg?20210429" />
-              <p className="">BALMUDA THE Toaster</p>
-              <p className="text-999 text-sm">スチームトースター</p>
-            </a>
-          </Link>
-          <Link href="/cleaner/index">
-            <a className="w-1/5">
-              <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/9.jpg?20210429" />
-              <p className="">BALMUDA THE Cleaner</p>
-              <p className="text-999 text-sm">ホバー式 クリーナー</p>
-            </a>
-          </Link>
-          <Link href="/speaker/index">
-            <a className="w-1/5">
-              <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/7.jpg?20210429" />
-              <p className="">BALMUDA THE Speaker</p>
-              <p className="text-999 text-sm">ワイヤレススピーカー</p>
-            </a>
-          </Link>
-          <Link href="/range/index">
-            <a className="w-1/5">
-              <img className="hover:opacity-80" src="https://www.balmuda.com/jp/index/img/desktop/popular/10.jpg?20210429" />
-              <p className="">BALMUDA THE Range</p>
-              <p className="text-999 text-sm">オーブンレンジ</p>
-            </a>
-          </Link>
-        </div>
-      </section>
-      <div className="topics_wrapper">
-        <div className="viewport scrollLoader lazyload loaded">
-          <div className="topics">
-            <a href="/about/index" className="topic">
-              <div className="__image __5 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">バルミューダについて</h4>
-              <p className="__description">バルミューダは2003年に東京で設立されたクリエイティブとテクノロジーの会社です。</p>
-            </a>
-            <a href="/cleaner/index" className="topic">
-              <div className="__image __6 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">かけやすさを極めたクリーナー</h4>
-              <p className="__description">独自のホバーテクノロジーによる抜群の操作性と、優れた集塵性能で掃除時間を大幅に短縮します。</p>
-            </a>
-            <a href="/greenfan/index" className="topic">
-              <div className="__image __16 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">自然界の風を再現する扇風機</h4>
-              <p className="__description">The GreenFanは自然界の風を再現する扇風機。夏の午後を吹き抜ける心地よい風を部屋に作りだします。</p>
-            </a>
-            <a href="/range/index" className="topic">
-              <div className="__image __10 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">BALMUDA The Range限定カラー</h4>
-              <p className="__description">キッチンを楽しくするオーブンレンジに、オンラインストア限定カラー「ダークグレー」が登場。</p>
-            </a>
-            <a href="/speaker/index" className="topic">
-              <div className="__image __19 scrollLoader lazyload loaded"></div>
-              <h4 className="__title longtext">新しい音楽体験を楽しむスピーカー</h4>
-              <p className="__description">BALMUDA The Speakerは、独自のサウンドと輝きでライブステージのような臨場感をつくり出します。</p>
-            </a>
-            <a href="/lantern/index" className="topic">
-              <div className="__image __17 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">BALMUDA The Lantern限定カラー</h4>
-              <p className="__description">オンラインストア限定カラー「クラシックレッド」と「ネイビーブルー」が新登場。</p>
-            </a>
-            <a href="/giftwrapping/index" className="topic">
-              <div className="__image __0 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">ギフトラッピング</h4>
-              <p className="__description">大切な家族や友人へのプレゼントに。特別な思いを伝えるギフトラッピングをご用意しています。</p>
-            </a>
-            <a href="/shops/index" className="topic">
-              <div className="__image __12 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">BALMUDA 松屋銀座・阪急うめだ本店</h4>
-              <p className="__description">バルミューダ製品を体験できる特別なブランドショップです。</p>
-            </a>
-            <a href="/recipe/index" className="topic">
-              <div className="__image __1 scrollLoader lazyload loaded"></div>
-              <h4 className="__title">バルミューダのレシピ集</h4>
-              <p className="__description">トースター、ケトル、炊飯器、オーブンレンジあわせて100品を超えるレシピをご紹介。</p>
-            </a>
+      <div className="billboard__wrapper">
+        <ReactSlick arrows={false} dots className="billboard">
+          {banners.data?.map((banner) => (
+            <img key={banner.id} className="w-full" src={banner.path} />
+          ))}
+        </ReactSlick>
+      </div>
+      <div className="populars_wrapper">
+        <div className="__wrap">
+          <h2 className="column_title">人气产品</h2>
+
+          <div className="inner">
+            <div className="populars">
+              {hots.data.map((item) => (
+                <Link key={item.id} href={item.url}>
+                  <a className="popular">
+                    <img className="w-full" src={item.path} alt="" />
+                    <p className="__description">
+                      <span className="w-full">{item.title}</span>
+                      {item.description}
+                    </p>
+                  </a>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-      <div className="notice ">
-        <div className="viewport">
-          <span className="__title">重要なお知らせ</span>
-          <p className="__item">
-            <a href="/legal/fake-website-alert" className="__link">
-              悪質なサイト／SNSのなりすましアカウントによる詐欺被害に関するご注意
-            </a>
-          </p>
-          <p className="__item">
-            <a href="/support/notice/range-program-2019/" className="__link">
-              BALMUDA The Range（K04Aシリーズ）をお持ちのお客様へ重要なお知らせ
-            </a>
-          </p>
-          <p className="__item">
-            <a href="/support/notice/toaster-program-2018/" className="__link">
-              BALMUDA The Toaster（K01Aシリーズ）をお持ちのお客様へ重要なお知らせ
-            </a>
-          </p>
-          <p className="__item">
-            <a href="/support/notice/greenfan-program-2017/" className="__link">
-              GreenFan Japan 2014年・2015年モデルをお持ちのお客様へ重要なお知らせ
-            </a>
-          </p>
+      <div className="topics_wrapper">
+        <div className="viewport scrollLoader lazyload loaded">
+          <div className="topics">
+            {topics.data.map((t) => (
+              <a key={t.id} href={t.url} className="topic">
+                <img className="w-full mb-6" src={t.path} alt="" />
+                <h4 className="__title">{t.title}</h4>
+                <p className="__description">{t.description}</p>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
+      {notifications?.data?.length > 0 && <div className="notice">
+        <div className="viewport">
+          <span className="__title">重要通知</span>
+          {notifications.data.map((n) => (
+            <p key={n.id} className="__item">
+              <a href={n.redirect_url} className="__link">
+                {n.content}
+              </a>
+            </p>
+          ))}
+        </div>
+      </div>}
     </Layout>
   )
 }

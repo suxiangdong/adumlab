@@ -30,19 +30,19 @@ export default function ProductDetail() {
               <Link href="/toaster/index">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/taste">特別なおいしさ</Link>
+              <Link href="/toaster/taste">特别的美味</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/technology">トーストを科学する</Link>
+              <Link href="/toaster/technology">科学与设计</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/howto">使い方</Link>
+              <Link href="/toaster/howto">使用方法</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/story">ストーリー</Link>
+              <Link href="/toaster/story">故事</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
-              <Link href="/toaster/spec">スペック</Link>
+              <Link href="/toaster/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -547,29 +547,29 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">受賞歴</h2>
             <p>
-              1957年に創設された日本で唯一の総合的なデザイン賞「グッドデザイン賞」にて、BALMUDA The
-              Toasterは、2015年度 グッドデザイン賞
-              金賞、同年のグッドデザイン・ベスト100に選出されました。
+              1957年に創設された日本で唯一の総合的な设计賞「グッド设计賞」にて、BALMUDA The
+              Toasterは、2015年度 グッド设计賞
+              金賞、同年のグッド设计・ベスト100に選出されました。
             </p>
 
             <div className="columns cf">
               <div className="column __award__gd--gold">
                 <p>
-                  グッドデザイン賞
-                  金賞は、グッドデザイン賞審査委員会がもっとも優れていると評価したデザインに贈られます。BALMUDA
+                  グッド设计賞
+                  金賞は、グッド设计賞審査委員会がもっとも優れていると評価した设计に贈られます。BALMUDA
                   The
-                  Toasterのデザイン性は、ひとの暮らしを豊かにするという視点で優れていると高く評価されました。
+                  Toasterの设计性は、ひとの暮らしを豊かにするという視点で優れていると高く評価されました。
                 </p>
               </div>
               <div className="column __award__gd--best100">
                 <p>
-                  グッドデザイン・ベスト100は、グッドデザイン賞を受賞した製品の中から特に高い評価を得た100件です。BALMUDA
-                  The Toasterは2015年度グッドデザイン・ベスト100に選出されました。
+                  グッド设计・ベスト100は、グッド设计賞を受賞した製品の中から特に高い評価を得た100件です。BALMUDA
+                  The Toasterは2015年度グッド设计・ベスト100に選出されました。
                 </p>
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本デザイン振興会が主催する、1957年に創設された日本で唯一の総合的なデザイン賞で、国内外の多くの企業やデザイナーが参加しています。
+                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
                 </p>
               </div>
             </div>

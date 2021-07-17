@@ -7,12 +7,24 @@ const api = axios.create({
 
 api.interceptors.response.use((response) => {
   if (response.status === 200) {
-		return response.data
+    return response.data
   }
   Promise.reject('something error !')
 }, Promise.reject)
 
 export default {
+  getHomeTopics(limit = 9) {
+    return api.get('/product/index', { params: { type: 2, limit } })
+  },
+  getHotProducts(limit = 4) {
+    return api.get('/product/index', { params: { type: 1, limit } })
+  },
+  getNews() {
+    return api.get('/article', { params: { type: 1 } })
+  },
+  getNotifications() {
+    return api.get('/article', { params: { type: 2 } })
+  },
   getBannersByCategory(category: number, limit?: number) {
     return api.get('/banner', {
       params: {

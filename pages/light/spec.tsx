@@ -28,13 +28,13 @@ export default function ProductDetail() {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology ">
-              <Link href="/light/technology">テクノロジー</Link>
+              <Link href="/light/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto ">
-              <Link href="/light/howto">使い方</Link>
+              <Link href="/light/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec __current">
-              <Link href="/light/spec">スペック</Link>
+              <Link href="/light/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -275,19 +275,19 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">受賞歴</h2>
             <p>
-              BALMUDA The Lightは、2019年度 グッドデザイン賞、2019年度
-              キッズデザイン賞を受賞しました。
+              BALMUDA The Lightは、2019年度 グッド设计賞、2019年度
+              キッズ设计賞を受賞しました。
             </p>
 
             <div className="columns cf">
               <div className="column __award__kids--2019">
                 <p>
-                  キッズデザイン賞は「子どもたちの安全・安心に貢献するデザイン」「子どもたちの創造性と未来を拓くデザイン」「子どもたちを産み育てやすいデザイン」の3つの視点において優れた製品が選ばれます。
+                  キッズ设计賞は「子どもたちの安全・安心に貢献する设计」「子どもたちの創造性と未来を拓く设计」「子どもたちを産み育てやすい设计」の3つの視点において優れた製品が選ばれます。
                 </p>
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本デザイン振興会が主催する、1957年に創設された日本で唯一の総合的なデザイン賞で、国内外の多くの企業やデザイナーが参加しています。
+                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
                 </p>
               </div>
             </div>

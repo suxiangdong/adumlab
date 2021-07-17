@@ -68,13 +68,13 @@ export default function ProductDetail() {
               <Link href="/rain/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--classic __current">
-              <Link href="/rain/classic">クラシックで先進的</Link>
+              <Link href="/rain/classic">经典先端</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--humidity">
-              <Link href="/rain/humidity">適切な湿度</Link>
+              <Link href="/rain/humidity">适宜的湿润度</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/rain/spec">スペック</Link>
+              <Link href="/rain/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -145,11 +145,11 @@ export default function ProductDetail() {
 
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">クラシックで先進的</h2>
+            <h2 className="page__title">经典先端</h2>
             <p>
               このような加湿器は、これまでどこにもありませんでした。そのまま注ぎ入れる給水方法、美しいディスプレイと新しい操作方法。
               <br />
-              クラシックで上質なデザインの内部には、先進性が隠されています。
+              クラシックで上質な设计の内部には、先進性が隠されています。
             </p>
           </div>
         </div>

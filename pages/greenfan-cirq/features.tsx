@@ -45,16 +45,16 @@ export default function ProductDetail() {
               <Link href="/greenfan-cirq/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--features __current">
-              <Link href="/greenfan-cirq/features">室温が変わる</Link>
+              <Link href="/greenfan-cirq/features">改变室温</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/greenfan-cirq/technology">15m先まで</Link>
+              <Link href="/greenfan-cirq/technology">远达15米的送风距离</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/greenfan-cirq/design">デザイン</Link>
+              <Link href="/greenfan-cirq/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--specs">
-              <Link href="/greenfan-cirq/specs">スペック</Link>
+              <Link href="/greenfan-cirq/specs">规格</Link>
             </li>
           </ul>
 
@@ -71,7 +71,7 @@ export default function ProductDetail() {
       <div className="section section--feature section--00">
         <div className="__image"></div>
         <div className="__content">
-          <h2 className="page__title __wb">空気を動かすと室温が変わる</h2>
+          <h2 className="page__title __wb">空気を動かすと改变室温</h2>
         </div>
         <img
           data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00.jpg"

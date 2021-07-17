@@ -56,16 +56,16 @@ export default function ProductDetail() {
               <Link href="/greenfan/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--feature __current">
-              <Link href="/greenfan/feature">風の気持ちよさ</Link>
+              <Link href="/greenfan/feature">先进性</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/greenfan/design">使いやすさ</Link>
+              <Link href="/greenfan/design">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/greenfan/story">ストーリー</Link>
+              <Link href="/greenfan/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/greenfan/spec">スペック</Link>
+              <Link href="/greenfan/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -161,9 +161,9 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">15m先まで届く豊かな風</h2>
+            <h2 className="section__title">远达15米的送风距离届く豊かな風</h2>
             <p>
-              広く、大きな風を生み出すグリーンファンの風は15m先まで風を届けることができます。大量の空気を動かすことができるので、冬場はサーキュレーターとして利用でき、一年中活躍します。
+              広く、大きな風を生み出すグリーンファンの風は远达15米的送风距离風を届けることができます。大量の空気を動かすことができるので、冬場は空气循环机として利用でき、一年中活躍します。
             </p>
           </div>
         </div>

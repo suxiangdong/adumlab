@@ -48,16 +48,16 @@ export default function ProductDetail() {
               <Link href="/pure/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/pure/technology">テクノロジー</Link>
+              <Link href="/pure/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/pure/design">デザイン</Link>
+              <Link href="/pure/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto __current">
-              <Link href="/pure/howto">使い方</Link>
+              <Link href="/pure/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/pure/spec">スペック</Link>
+              <Link href="/pure/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -127,7 +127,7 @@ export default function ProductDetail() {
 
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">使い方</h2>
+            <h2 className="page__title">使用方法</h2>
             <p>
               通常時は、24時間使い続けることをおすすめします。
               <br />
@@ -142,7 +142,7 @@ export default function ProductDetail() {
       <div className="section section--howto section--01">
         <div className="viewport">
           <h2 className="section__title __wb">
-            <span className="subtitle">効果的な使い方</span>
+            <span className="subtitle">効果的な使用方法</span>
           </h2>
 
           <div className="__column __01 scrollLoader fadeInUp loaded">

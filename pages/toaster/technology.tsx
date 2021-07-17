@@ -32,19 +32,19 @@ export default function ProductDetail() {
               <Link href="/toaster/index">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/taste">特別なおいしさ</Link>
+              <Link href="/toaster/taste">特别的美味</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
-              <Link href="/toaster/technology">トーストを科学する</Link>
+              <Link href="/toaster/technology">科学与设计</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/howto">使い方</Link>
+              <Link href="/toaster/howto">使用方法</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/story">ストーリー</Link>
+              <Link href="/toaster/story">故事</Link>
             </li>
             <li className={`pagemap__content__item `}>
-              <Link href="/toaster/spec">スペック</Link>
+              <Link href="/toaster/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -62,8 +62,8 @@ export default function ProductDetail() {
       <div className="section section--technology section--00">
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">トーストを科学する</h2>
-            <p>表面はさっくりと焼けたきつね色、中はたっぷりの水分を含みつつ熱々に温まった感動のトースト。トーストを科学の目線で徹底的に追求したBALMUA The Toasterでは、独自のスチームテクノロジーと細やかな温度制御によって誰でも簡単に、驚くほどおいしいトーストを作ることができます。</p>
+            <h2 className="page__title">科学与设计</h2>
+            <p>表面はさっくりと焼けたきつね色、中はたっぷりの水分を含みつつ熱々に温まった感動のトースト。トーストを科学の目線で徹底的に追求したBALMUA The Toasterでは、独自のスチーム科技と細やかな温度制御によって誰でも簡単に、驚くほどおいしいトーストを作ることができます。</p>
           </div>
 
           <div className="__fig">
@@ -79,7 +79,7 @@ export default function ProductDetail() {
             <div className="__content">
               <h2 className="section__title __wb">
                 <span>水分と香りを閉じ込める</span>
-                <span>スチームテクノロジー</span>
+                <span>スチーム科技</span>
               </h2>
               <p>BALMUDA The Toasterで調理をする時は、給水口に5ccの水を入れてください。運転が始まるとスチームが庫内に充満し、パンの表面は薄い水分の膜で覆われます。水分は空気よりもはるかに速く加熱されるため、パンの表面だけが軽く焼けた状態になり、パンの中の水分やバターなどの油脂成分、香りをしっかり閉じ込めたまま、本格的なヒーター制御で焼き上げます。</p>
               <span className="video_play __is_desktop" data-video-target="v1b" onClick={handlePlay}>

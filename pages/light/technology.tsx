@@ -28,13 +28,13 @@ export default function ProductDetail() {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology __current">
-              <Link href="/light/technology">テクノロジー</Link>
+              <Link href="/light/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
-              <Link href="/light/howto">使い方</Link>
+              <Link href="/light/howto">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/light/spec">スペック</Link>
+              <Link href="/light/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -56,7 +56,7 @@ export default function ProductDetail() {
                 className="__logo"
                 alt="FowardBeam Technology"
               />
-              <span className="__caption">フォワードビームテクノロジー</span>
+              <span className="__caption">フォワードビーム科技</span>
               <p className="__title __is_desktop">目線の先に影を作らない光</p>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function ProductDetail() {
                     data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3.png"
                     data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3@2x.png"
                     className="__image adaptiveimage"
-                    alt="フォワードビームテクノロジー"
+                    alt="フォワードビーム科技"
                     src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3@2x.png"
                   />
                   <div className="forwardbeam__img--head--text">
@@ -176,7 +176,7 @@ export default function ProductDetail() {
             <div className="forwardbeam--foot--info">
               <h3>手術灯で国内シェアNo.1の山田医療照明と共同開発</h3>
               <p>
-                あらゆる光の中で最も正確さと精密さが求められるのは医療現場、特に手術時の光です。手術灯は無影灯とも呼ばれ、ミラーで光を反射させ、影のない光を作り出します。フォワードビームテクノロジーは、手術灯で国内シェアNo.1の
+                あらゆる光の中で最も正確さと精密さが求められるのは医療現場、特に手術時の光です。手術灯は無影灯とも呼ばれ、ミラーで光を反射させ、影のない光を作り出します。フォワードビーム科技は、手術灯で国内シェアNo.1の
                 <a href="https://www.skylux.co.jp" target="_blank">
                   山田医療照明
                 </a>

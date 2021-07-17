@@ -26,13 +26,13 @@ export default function ProductDetail() {
               <Link href="/pot/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/pot/design">デザイン</Link>
+              <Link href="/pot/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story ">
-              <Link href="/pot/story">ストーリー</Link>
+              <Link href="/pot/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec __current">
-              <Link href="/pot/spec">スペック</Link>
+              <Link href="/pot/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -220,25 +220,25 @@ export default function ProductDetail() {
             <h2 className="section__title">受賞歴</h2>
             <p>
               BALMUDA The
-              Potは、2017年度グッドデザイン賞、2017年度iFデザイン・アワード（ドイツ）、2017年度レッドドットデザイン・アワード（ドイツ）など国際的に権威のあるデザイン賞を受賞し、世界各国に認められています。
+              Potは、2017年度グッド设计賞、2017年度iF设计・アワード（ドイツ）、2017年度レッドドット设计・アワード（ドイツ）など国際的に権威のある设计賞を受賞し、世界各国に認められています。
             </p>
             <p></p>
             <div className="columns cf">
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本デザイン振興会が主催する、1957年に創設された日本で唯一の総合的なデザイン賞で、国内外の多くの企業やデザイナーが参加しています。
+                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
                 </p>
               </div>
               <div className="column __award__if">
                 <p>
                   ドイツ「iF International Forum Design
-                  GmbH」が主催する半世紀以上の歴史がある世界的に権威あるデザイン賞で、全世界の工業製品を対象に優れた工業デザインを選定しています。
+                  GmbH」が主催する半世紀以上の歴史がある世界的に権威ある设计賞で、全世界の工業製品を対象に優れた工業设计を選定しています。
                 </p>
               </div>
               <div className="column __award__rd">
                 <p>
                   ドイツの「Design Zentrum Nordrhein
-                  Westfalen」が主催する世界最大級のデザイン賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越したデザインが選定されます。
+                  Westfalen」が主催する世界最大級の设计賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越した设计が選定されます。
                 </p>
               </div>
             </div>

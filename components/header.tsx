@@ -12,12 +12,16 @@ export default function Header() {
   return (
     <>
       <div className="header" id="header">
-        <div className="brand">
+        <div className="brand relative">
           <span className="brand__icon icon__menu drawer-toggle"></span>
 
           <Link href="/">
-            <a className="brand__balmuda">
-              <img src="https://www.balmuda.com/_theme/img/svg/balmuda_fff.min.svgz" data-no-retina="" />
+            <a className="brand__balmuda flex items-center">
+              <img
+                src="https://www.balmuda.com/_theme/img/svg/balmuda_fff.min.svgz"
+                style={{ width: 122 }}
+              />
+              <span className="text-white font-bold flex-shrink-0 text-xl ml-1">巴慕达</span>
             </a>
           </Link>
         </div>
@@ -28,29 +32,35 @@ export default function Header() {
                 <Link href="/greenfan">概要</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--feature">
-                <Link href="/greenfan/feature">風の気持ちよさ</Link>
+                <Link href="/greenfan/feature">风吹得好舒服</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--design">
-                <Link href="/greenfan/design">使いやすさ</Link>
+                <Link href="/greenfan/design">易用性</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--story">
-                <Link href="/greenfan/story">ストーリー</Link>
+                <Link href="/greenfan/story">故事</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--accessory">
-                <Link href="/greenfan/accessory">アクセサリ</Link>
+                <Link href="/greenfan/accessory">配件</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--spec">
-                <Link href="/greenfan/spec">スペック</Link>
+                <Link href="/greenfan/spec">规格</Link>
               </li>
               <li className="pagemap__content__item pagemap__content__item--dealer">
-                <Link href="/greenfan/dealer">販売店</Link>
+                <Link href="/greenfan/dealer">销售店</Link>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="navigation drawer-nav">
-        <ul className="flex justify-center navigation__content" style={{ transitionTimingFunction: 'cubic-bezier(0.1, 0.57, 0.1, 1)', transitionDuration: '0s', transform: 'translate(0px, 0px) translateZ(0px)' }}>
+        <ul
+          className="flex justify-center navigation__content"
+          style={{
+            transitionTimingFunction: 'cubic-bezier(0.1, 0.57, 0.1, 1)',
+            transitionDuration: '0s',
+            transform: 'translate(0px, 0px) translateZ(0px)'
+          }}>
           <li className="navigation__item">
             <Link href="/">
               <a className="__item home">
@@ -58,7 +68,10 @@ export default function Header() {
               </a>
             </Link>
           </li>
-          <li className={`navigation__item dropdown__trigger ${isOpen ? '__active' : ''}`} onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+          <li
+            className={`navigation__item dropdown__trigger ${isOpen ? '__active' : ''}`}
+            onMouseEnter={handleEnter}
+            onMouseLeave={handleLeave}>
             <span className="__item products">
               <em>Products</em>
             </span>
@@ -213,7 +226,7 @@ export default function Header() {
             </div>
           </li>
           <li className="navigation__item">
-            <Link href="/about/index">
+            <Link href="/about">
               <a className="__item about">
                 <em>About</em>
               </a>

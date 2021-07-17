@@ -2,8 +2,25 @@ import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
+export async function getServerSideProps() {
+  try {
+    const [banners] = await Promise.all([API.getBannersByCategory(7)])
+    return { props: { banners } }
+  } catch (error) {
+    return { props: { banners: {} } }
+  }
+}
+
+export default function ProductDetail({ banners }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3, 4].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/lantern/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
+    }))
+  }
+
   return (
     <Layout>
       <Head>
@@ -28,10 +45,10 @@ export default function ProductDetail() {
               <Link href="/lantern/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/lantern/story">ストーリー</Link>
+              <Link href="/lantern/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/lantern/spec">スペック</Link>
+              <Link href="/lantern/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -43,147 +60,12 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-//TODO
-      <div className="mp__wrap">
-        <div className="mp">
-          <div className="mp__inner">
-
-            <ReactSlick dots className="mp__list">
-              <li >
-                <div className="mp__list_image_wrap  __slide">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/billboard--05.jpg?20210425"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--05.jpg?20210425"
-                    data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--05@2x.jpg?20210425"
-                    src="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--05@2x.jpg?20210425"
-                    className="mp__list_image adaptiveimage"
-                  />
-                </div>
-                <img
-                  src="//www.balmuda.com/jp/lantern/img/index/svg/section--05-copy-white.svg"
-                  className="mp__list_copy __00 __desktop"
-                  data-index="0"
-                />
-                <img
-                  src="//www.balmuda.com/jp/lantern/img/index/svg/section--05-copy-whiteb.svg"
-                  className="mp__list_copy __00 __mobile"
-                  data-index="0"
-                />
-              </li>
-              <li >
-                <div className="mp__list_image_wrap __slide">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/billboard--00.jpg?20210425"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--00.jpg?20210425"
-                    data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--00@2x.jpg?20210425"
-                    src="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--00@2x.jpg?20210425"
-                    className="mp__list_image adaptiveimage"
-                  />
-                </div>
-                <img
-                  src="//www.balmuda.com/jp/lantern/img/index/svg/section--00-copy-white.svg?20210425"
-                  className="mp__list_copy __01 __desktop"
-                  data-index="1"
-                />
-              </li>
-              <li >
-                <div className="mp__list_image_wrap">
-                  <video className="mp__list_image __movie __is_mobile" muted playsInline>
-                    <source src="//s3.balmuda.com/www/jp/lantern/movie/slide_video_mobile.mp4?20210425" />
-                  </video>
-                  <video className="mp__list_image __movie __is_desktop" muted playsInline>
-                    <source src="//s3.balmuda.com/www/jp/lantern/movie/slide_video_desktop.mp4?20210425" />
-                  </video>
-                </div>
-              </li>
-
-              <li >
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/billboard--01.jpg?20210425"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--01.jpg?20210425"
-                    data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--01@2x.jpg?20210425"
-                    src="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--01@2x.jpg?20210425"
-                    className="mp__list_image adaptiveimage"
-                  />
-                </div>
-                <img
-                  src="//www.balmuda.com/jp/lantern/img/index/svg/section--00-copy-white.svg?20210425"
-                  className="mp__list_copy __01"
-                  data-index="1"
-                />
-              </li>
-              <li >
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/billboard--02.jpg?20210425"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--02.jpg?20210425"
-                    data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--02@2x.jpg?20210425"
-                    src="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--02@2x.jpg?20210425"
-                    className="mp__list_image adaptiveimage"
-                  />
-                </div>
-              </li>
-              <li >
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/billboard--03.jpg?20210425"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--03.jpg?20210425"
-                    data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--03@2x.jpg?20210425"
-                    src="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--03@2x.jpg?20210425"
-                    className="mp__list_image adaptiveimage"
-                  />
-                </div>
-                <img
-                  src="//www.balmuda.com/jp/lantern/img/index/svg/section--00-copy-white.svg?20210425"
-                  className="mp__list_copy __01"
-                  data-index="3"
-                />
-              </li>
-              <li >
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/billboard--04.jpg?20210425"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--04.jpg?20210425"
-                    data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--04@2x.jpg?20210425"
-                    src="//www.balmuda.com/jp/lantern/img/index/desktop/billboard--04@2x.jpg?20210425"
-                    className="mp__list_image adaptiveimage"
-                  />
-                </div>
-              </li>
-            </ReactSlick>
-
-            <div className="__is_desktop section_overlay" id="overlay--sec40_desktop">
-              <video
-                width="100%"
-                height="100%"
-                id="sec40_desktop"
-                preload="none"
-                data-log="lantern_index_sec40_desktop">
-                <source
-                  src="//s3.balmuda.com/www/jp/lantern/movie/trailer_low.mp4?20210425"
-                  type="video/mp4"
-                />
-              </video>
-              <div className="video_stop" data-video-target="sec40_desktop"></div>
-            </div>
-            <div className="__is_desktop invisible video_play" data-video-target="sec40_desktop">
-              <span></span>
-            </div>
-          </div>
-        </div>
-        <div className="section_overlay section_overlay--v7_sec" id="overlay--v7_sec">
-          <video
-            width="100%"
-            height="100%"
-            id="v7_sec"
-            preload="none"
-            playsInline
-            muted
-            data-mobile="//s3.balmuda.com/www/jp/lantern/movie/15sec_mobile.mp4?20210425"
-            data-desktop="//s3.balmuda.com/www/jp/lantern/movie/15sec_desktop.mp4?20210425"></video>
-          <div className="video_stop" data-video-target="v7_sec"></div>
-        </div>
+      <div className="billboard__wrapper">
+        <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+          {banners.data.map((item) => (
+            <img key={item.id} className="w-full" src={item.path} />
+          ))}
+        </ReactSlick>
       </div>
 
       <div className="section section--index section--00 scrollLoader lazyload loaded">
@@ -209,7 +91,7 @@ export default function ProductDetail() {
             <span>時間をたのしむ</span>
             <span>LEDランタン</span>
           </h2>
-          <span className="label__block">ポータブルLEDランタン</span>
+          <span className="label__block">便携式LED灯</span>
           <p className="overview_text">
             キャンドルのように揺らぐ暖色の灯りから、読書灯にも使える温白色の灯りまで。
             <br />

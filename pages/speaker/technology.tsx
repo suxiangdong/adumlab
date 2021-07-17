@@ -28,16 +28,16 @@ export default function ProductDetail() {
               <Link href="/speaker/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology __current">
-              <Link href="/speaker/technology">テクノロジー</Link>
+              <Link href="/speaker/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/speaker/story">ストーリー</Link>
+              <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting">
-              <Link href="/speaker/setting">セッティング</Link>
+              <Link href="/speaker/setting">设置</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/speaker/spec">スペック</Link>
+              <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -63,7 +63,7 @@ export default function ProductDetail() {
             <h2 className="page__title">
               音楽の熱量を
               <br />
-              引き出すテクノロジー
+              引き出す科技
             </h2>
             <p>
               立体的でクリアな音像を実現する独自の構造。

@@ -2,11 +2,28 @@ import Link from 'next/link'
 import ReactSlick from 'react-slick'
 import Head from 'next/head'
 import Layout from '../../layouts/default'
-import { useRouter } from 'next/router'
+import API from '../../effects/api'
 
-export default function CleanerDetail() {
-  const router = useRouter()
-  const { item } = router.query
+export async function getServerSideProps() {
+  try {
+    API.getEvaluationsByCategory(1)
+    const [banners, evaluations] = await Promise.all([
+      API.getBannersByCategory(10),
+      API.getEvaluationsByCategory(10)
+    ])
+    return { props: { banners, evaluations } }
+  } catch (error) {
+    return { props: { banners: {}, evaluations: {} } }
+  }
+}
+
+export default function CleanerDetail({ banners, evaluations }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3, 4].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/cleaner/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
+    }))
+  }
 
   return (
     <Layout>
@@ -37,22 +54,22 @@ export default function CleanerDetail() {
               <Link href="/cleaner/">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/function">特徴と性能</Link>
+              <Link href="/cleaner/function">特点和性能</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/design">デザイン</Link>
+              <Link href="/cleaner/design">创新设计</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/feature">シーン別の使い方</Link>
+              <Link href="/cleaner/feature">不同场景的使用方法</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/technology">テクノロジー</Link>
+              <Link href="/cleaner/technology">科技</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/story">ストーリー</Link>
+              <Link href="/cleaner/story">故事</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/spec">スペック</Link>
+              <Link href="/cleaner/spec">规格</Link>
             </li>
           </ul>
 
@@ -65,121 +82,12 @@ export default function CleanerDetail() {
           </div>
         </div>
       </div>
-      <div className="mp__wrap">
-        <div className="mp __active">
-          <div className="mp__inner">
-            <button className="mp__prev" type="button">
-              Previous
-            </button>
-            <ul className="mp__list">
-              <li className="mp__list_item __zoom">
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/cleaner/img/index/mobile/billboard--00.jpg?20210429"
-                    data-desktop="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--00.jpg?20210429"
-                    data-retina="/cleaner/img/index/desktop/billboard--00@2x.jpg?20210429"
-                    className="mp__list_image adaptiveimage"
-                    src="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--00@2x.jpg?20210429"
-                    style={{ transform: 'matrix(1.08, 0, 0, 1.08, 0, -395.5)' }}
-                  />
-                </div>
-                <img
-                  src="//www.balmuda.com/jp/cleaner/img/index/desktop/section--00-copy.svg?20210429"
-                  className="mp__list_copy __00 pc"
-                  data-index="0"
-                />
-                <img
-                  src="//www.balmuda.com/jp/cleaner/img/index/mobile/section--00-copy.svg?20210429"
-                  className="mp__list_copy __00 sp"
-                  data-index="0"
-                />
-              </li>
-
-              <li className="mp__list_item __zoom">
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/cleaner/img/index/mobile/billboard--02.jpg?20210429"
-                    data-desktop="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--02.jpg?20210429"
-                    data-retina="/cleaner/img/index/desktop/billboard--02@2x.jpg?20210429"
-                    className="mp__list_image adaptiveimage"
-                    src="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--02@2x.jpg?20210429"
-                    style={{ transform: 'matrix(1.08, 0, 0, 1.08, 0, -395.5)' }}
-                  />
-                </div>
-              </li>
-              <li className="mp__list_item __slide __active">
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/cleaner/img/index/mobile/billboard--03.jpg?20210429"
-                    data-desktop="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--03.jpg?20210429"
-                    data-retina="/cleaner/img/index/desktop/billboard--03@2x.jpg?20210429"
-                    className="mp__list_image adaptiveimage"
-                    src="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--03@2x.jpg?20210429"
-                    style={{ transform: 'translate3d(-30.4133px, -406.5px, 0px)' }}
-                  />
-                </div>
-              </li>
-              <li className="mp__list_item __zoom">
-                <div className="mp__list_image_wrap">
-                  <img
-                    data-mobile="//www.balmuda.com/jp/cleaner/img/index/mobile/billboard--04.jpg?20210429"
-                    data-desktop="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--04.jpg?20210429"
-                    data-retina="/cleaner/img/index/desktop/billboard--04@2x.jpg?20210429"
-                    className="mp__list_image adaptiveimage"
-                    src="//www.balmuda.com/jp/cleaner/img/index/desktop/billboard--04@2x.jpg?20210429"
-                    style={{ transform: 'matrix(1.08, 0, 0, 1.08, 0, -395.5)' }}
-                  />
-                </div>
-              </li>
-            </ul>
-            <button className="mp__next" type="button">
-              Next
-            </button>
-            <div className="section_overlay" id="overlay--sec104_desktop">
-              <video
-                width="100%"
-                height="100%"
-                id="sec104_desktop"
-                preload="none"
-                data-log="speaker_index_sec104_desktop">
-                <source
-                  src="//s3.balmuda.com/www/cleaner/movie/cm_Fullbit_low.mp4?20210429"
-                  type="video/mp4"
-                />
-              </video>
-              <div className="video_stop" data-video-target="sec104_desktop"></div>
-            </div>
-            <div className="video_play __is_desktop" data-video-target="sec104_desktop">
-              <span></span>
-            </div>
-          </div>
-          <ul className="mp__dots">
-            <li className="mp__dots_item">
-              <button className="mp__dots_button">1</button>
-            </li>
-            <li className="mp__dots_item">
-              <button className="mp__dots_button">2</button>
-            </li>
-            <li className="mp__dots_item __active">
-              <button className="mp__dots_button">3</button>
-            </li>
-            <li className="mp__dots_item">
-              <button className="mp__dots_button">4</button>
-            </li>
-          </ul>
-        </div>
-        <div className="section_overlay section_overlay--v7_sec" id="overlay--v7_sec">
-          <video
-            width="100%"
-            height="100%"
-            id="v7_sec"
-            preload="none"
-            playsInline
-            muted
-            data-mobile="//s3.balmuda.com/www/cleaner/movie/cm_Fullbit_mobile.mp4?20210429"
-            data-desktop="//s3.balmuda.com/www/cleaner/movie/cm_Fullbit_low.mp4"></video>
-          <div className="video_stop" data-video-target="v7_sec"></div>
-        </div>
+      <div className="billboard__wrapper">
+        <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+          {banners.data.map((item) => (
+            <img key={item.id} className="w-full" src={item.path} />
+          ))}
+        </ReactSlick>
       </div>
 
       <div className="section section--index section--00 scrollLoader lazyload loaded">
@@ -209,7 +117,7 @@ export default function CleanerDetail() {
             <br className="__is_mobile" />
             自由な動きへ。
             <br />
-            独自のホバーテクノロジーにより、
+            独自のホバー科技により、
             <br />
             まるで浮いているかのような
             <br className="__is_se" />
@@ -256,7 +164,7 @@ export default function CleanerDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <p className="section__label">特徴と性能</p>
+            <p className="section__label">特点和性能</p>
             <h2 className="section__title">
               バルミューダなら、
               <br />
@@ -265,7 +173,7 @@ export default function CleanerDetail() {
               早く終わる。
             </h2>
             <p className="section__desc">
-              ホバー式クリーナー独自の操作性と、優れた集じん性能でこれまでの約半分<sup>*1</sup>
+              悬臂式吸尘器独自の操作性と、優れた集じん性能でこれまでの約半分<sup>*1</sup>
               の時間で、掃除を完了させることができます。
               <br />
               <sup className="text__sup">
@@ -287,7 +195,7 @@ export default function CleanerDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <p className="section__label">デザイン</p>
+            <p className="section__label">设计</p>
             <h2 className="section__title">
               立てかけられた
               <br />
@@ -296,7 +204,7 @@ export default function CleanerDetail() {
             </h2>
             <p className="section__desc">
               シンプルで清潔であること。そして一本のほうきのように自然であること。使っていないときも美しく。BALMUDA
-              The Cleaner は、現代の掃除機がどんな姿であるべきかを考えてデザインされました。
+              The Cleaner は、現代の掃除機がどんな姿であるべきかを考えて设计されました。
             </p>
             <Link href="/cleaner/design">
               <a className="section__btn">詳しく</a>
@@ -313,7 +221,7 @@ export default function CleanerDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <p className="section__label">シーン別の使い方</p>
+            <p className="section__label">不同场景的使用方法</p>
             <h2 className="section__title">
               <span>すみから</span>
               <span>すみまで。</span>
@@ -340,7 +248,7 @@ export default function CleanerDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <p className="section__label">ホバーテクノロジー</p>
+            <p className="section__label">ホバー科技</p>
             <h2 className="section__title">
               浮いているのか。
               <br />
@@ -360,7 +268,7 @@ export default function CleanerDetail() {
               <span>によって</span>
               <span>実現した</span>
               <span>独自のホバー</span>
-              <span>テクノロジー。</span>
+              <span>科技。</span>
             </p>
             <Link href="/cleaner/technology">
               <a className="section__btn">詳しく</a>
@@ -372,7 +280,7 @@ export default function CleanerDetail() {
       <div className="section section--index section--05 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <p className="section__label">ストーリー</p>
+            <p className="section__label">故事</p>
             <h2 className="section__title">
               思い描いたのは
               <br />
@@ -391,52 +299,18 @@ export default function CleanerDetail() {
 
       <div className="section section--index section--blockquote">
         <div className="viewport">
-          <ReactSlick dots className="blockquotes" id="blockquotes">
-            <div className="blockquote">
-              <blockquote className="">
-                <span>BALMUDA The Cleanerは、家事スタイルを快適に変える</span>
-                <span>新しい暮らしの</span>
-                <span>道具といっていいだろう。</span>
-              </blockquote>
-              <p className="__media">2020.12.28　日経電子版　MONO TRENDY モノ・フラッシュ</p>
-              <a
-                href="https://style.nikkei.com/article/DGXMZO67332670V11C20A2000000?channel=DF260120166491&page=2"
-                target="_blank"
-                className="__link">
-                https://style.nikkei.com/article/DGXMZO67332670V11C20A2000000?channel=DF260120166491&page=2
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="">
-                <span>狙った方向に</span>ヘッドを<span>動かせる</span>
-                <span>小気味よさもあり、</span>
-                <span>掃除につきまとう</span>
-                <span>フラストレーションが</span>
-                <span>大きく減った。</span>
-              </blockquote>
-              <p className="__media">2020.12.17　家電Watch</p>
-              <a
-                href="https://kaden.watch.impress.co.jp/docs/column_review/kaden/1295689.html"
-                target="_blank"
-                className="__link">
-                https://kaden.watch.impress.co.jp/docs/column_review/kaden/1295689.html
-              </a>
-            </div>
-            <div className="blockquote">
-              <blockquote className="">
-                <span>この感覚は……</span>フリーダム。
-                <br className="__is_mobile" />
-                <span>そう、</span>
-                <span>自由です！</span>
-              </blockquote>
-              <p className="__media">2020.12.30　GetNavi web</p>
-              <a
-                href="https://getnavi.jp/homeappliances/561518/"
-                target="_blank"
-                className="__link">
-                https://getnavi.jp/homeappliances/561518/
-              </a>
-            </div>
+          <ReactSlick className="blockquotes" arrows={false} dots>
+            {evaluations.data?.map((item) => (
+              <div key={item.id} className="blockquote">
+                <blockquote>{item.content}</blockquote>
+                <p className="__media">{`${new Date(item.publish_at).toLocaleDateString('zh')} ${
+                  item.source
+                }`}</p>
+                <a href={item.source_url} target="_blank" className="__link">
+                  {item.source_url}
+                </a>
+              </div>
+            ))}
           </ReactSlick>
         </div>
       </div>
@@ -444,7 +318,7 @@ export default function CleanerDetail() {
       <div className="section section--index section--gallery">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">ギャラリー</h2>
+            <h2 className="section__title">画廊</h2>
           </div>
 
           <div className="gallery__content" data-pswp-uid="1">

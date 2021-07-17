@@ -30,19 +30,19 @@ export default function ProductDetail() {
               <Link href="/toaster/index">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/taste">特別なおいしさ</Link>
+              <Link href="/toaster/taste">特别的美味</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/technology">トーストを科学する</Link>
+              <Link href="/toaster/technology">科学与设计</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/toaster/howto">使い方</Link>
+              <Link href="/toaster/howto">使用方法</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
-              <Link href="/toaster/story">ストーリー</Link>
+              <Link href="/toaster/story">故事</Link>
             </li>
             <li className={`pagemap__content__item `}>
-              <Link href="/toaster/spec">スペック</Link>
+              <Link href="/toaster/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -63,7 +63,7 @@ export default function ProductDetail() {
         <div className="__image"></div>
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">ストーリー</h2>
+            <h2 className="page__title">故事</h2>
             <p>
               BALMUDA The Toaster
               が完成するまでの道のりは、発想の原点となった体験から数えると約20年にも及びます。ある思いから製品つくりがはじまり、途中で意外な発見もありました。その工程を間近で見てきた私が直接、ご紹介します。
@@ -125,15 +125,15 @@ export default function ProductDetail() {
         <img src="//www.balmuda.com/jp/toaster/img/story/mobile/section--04.jpg" className="__section_image __is_mobile" />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">2000種類のデザイン</h2>
+            <h2 className="section__title">2000種類の设计</h2>
             <p>
-              技術チームが原理的な試作品を作り始めるころ、デザインチームも製品化に向けたデザインの検討を始めます。最初に行われるのは、自由な発想でのアイディアの展開です。
+              技術チームが原理的な試作品を作り始めるころ、设计チームも製品化に向けた设计の検討を始めます。最初に行われるのは、自由な発想でのアイディアの展開です。
               <br />
               <br />
               今回私たちが取り組んだのは、「とてもおいしいものは、どのようなところから出てくるべきか?」という命題でした。それはおそらく新しいだけではダメで、どこかなつかしさを感じるべきであり、かつ、バルミューダならではのスパイスも必要です。多数のアイディアの中からテーマにあった数案をピックアップし、それらの周辺アイディアを探っていきます。やがてベース案が選ばれ、技術チームと歩調を合わせながら一本のネジの大きさや位置まで検討していきます。
               <br />
               <br />
-              今回、デザインチームは、BALMUDA The
+              今回、设计チームは、BALMUDA The
               Toasterのために、スケッチ、レンダリングを含めて約2000の案を出しました。
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">終わらない実験</h2>
             <p>
-              デザインのベース案を反映した試作機が出来上がると、始まるのがソフトウェアの作り込みです。今回は庫内の大きさや反射板の角度、ヒーター管の位置など少しでも変更があると焼き上がりが変わってしまいました。さらにトースト、チーズトースト、フランスパン、クロワッサンに向けた各モードがあり、これらを最適化し最高の焼き上がりを実現するために、合計1000時間の焼き上げ実験を行ってきました。
+              设计のベース案を反映した試作機が出来上がると、始まるのがソフトウェアの作り込みです。今回は庫内の大きさや反射板の角度、ヒーター管の位置など少しでも変更があると焼き上がりが変わってしまいました。さらにトースト、チーズトースト、フランスパン、クロワッサンに向けた各モードがあり、これらを最適化し最高の焼き上がりを実現するために、合計1000時間の焼き上げ実験を行ってきました。
             </p>
           </div>
         </div>

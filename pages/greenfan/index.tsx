@@ -2,8 +2,25 @@ import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
+import API from '../../effects/api'
 
-export default function ProductDetail() {
+export async function getServerSideProps() {
+  try {
+    const [banners] = await Promise.all([API.getBannersByCategory(3)])
+    return { props: { banners } }
+  } catch (error) {
+    return { props: { banners: {} } }
+  }
+}
+
+export default function ProductDetail({ banners }) {
+  if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
+    banners.data = [0, 1, 2, 3].map((i) => ({
+      id: i,
+      path: `https://www.balmuda.com/jp/greenfan/img/index/desktop/billboard--0${i}@2x.jpg?20210410`
+    }))
+  }
+
   return (
     <Layout>
       <Head>
@@ -30,16 +47,16 @@ export default function ProductDetail() {
               <Link href="/greenfan/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--feature">
-              <Link href="/greenfan/feature">風の気持ちよさ</Link>
+              <Link href="/greenfan/feature">先进性</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design">
-              <Link href="/greenfan/design">使いやすさ</Link>
+              <Link href="/greenfan/design">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/greenfan/story">ストーリー</Link>
+              <Link href="/greenfan/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/greenfan/spec">スペック</Link>
+              <Link href="/greenfan/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -51,52 +68,20 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <ReactSlick arrows={false} dots>
-        <div className="billboard--00">
-          <img
-            data-mobile="//www.balmuda.com/jp/greenfan/img/index/mobile/billboard--00.jpg?20210410"
-            data-desktop="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--00.jpg?20210410"
-            data-retina="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--00@2x.jpg?20210410"
-						src="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--00@2x.jpg?20210410"
-            className="__image adaptiveimage slick--lazy"
-          />
-        </div>
-        <div className="billboard--02">
-          <img
-            data-mobile="//www.balmuda.com/jp/greenfan/img/index/mobile/billboard--02.jpg?20210410"
-            data-desktop="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--02.jpg?20210410"
-            data-retina="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--02@2x.jpg?20210410"
-						src="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--02@2x.jpg?20210410"
-            className="__image adaptiveimage slick--lazy"
-          />
-        </div>
-        <div className="billboard--03">
-          <img
-            data-mobile="//www.balmuda.com/jp/greenfan/img/index/mobile/billboard--03.jpg?20210410"
-            data-desktop="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--03.jpg?20210410"
-            data-retina="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--03@2x.jpg?20210410"
-						src="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--03@2x.jpg?20210410"
-            className="__image adaptiveimage slick--lazy"
-          />
-        </div>
-        <div className="billboard--04">
-          <img
-            data-mobile="//www.balmuda.com/jp/greenfan/img/index/mobile/billboard--04.jpg?20210410"
-            data-desktop="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--04.jpg?20210410"
-            data-retina="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--04@2x.jpg?20210410"
-						src="//www.balmuda.com/jp/greenfan/img/index/desktop/billboard--04@2x.jpg?20210410"
-            className="__image adaptiveimage slick--lazy"
-          />
-        </div>
+      <div className="billboard__wrapper"></div>
+      <ReactSlick className="billboard" dots>
+        {banners.data.map((item) => (
+          <img key={item.id} className="w-full" src={item.path} />
+        ))}
       </ReactSlick>
       <div className="section section--index section--00">
         <div className="__mainimage">
           <img
-            data-mobile="//www.balmuda.com/jp/greenfan/img/index/mobile/main.jpg?20210404"
-            data-desktop="//www.balmuda.com/jp/greenfan/img/index/desktop/main.jpg?20210404"
-            data-retina="//www.balmuda.com/jp/greenfan/img/index/desktop/main@2x.jpg?20210404"
+            data-mobile="https://www.balmuda.com/jp/greenfan/img/index/mobile/main.jpg?20210404"
+            data-desktop="https://www.balmuda.com/jp/greenfan/img/index/desktop/main.jpg?20210404"
+            data-retina="https://www.balmuda.com/jp/greenfan/img/index/desktop/main@2x.jpg?20210404"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/greenfan/img/index/desktop/main@2x.jpg?20210404"
+            src="https://www.balmuda.com/jp/greenfan/img/index/desktop/main@2x.jpg?20210404"
           />
         </div>
         <div className="viewport">
@@ -127,12 +112,12 @@ export default function ProductDetail() {
       <div className="section section--index section--01 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">風の気持ちよさ</h2>
+            <h2 className="section__title">先进性</h2>
             <p>
-              バルミューダだけのグリーンファンテクノロジー。二重構造の羽根が作り出すのは、自然界の風と同じ、大きな面で移動する空気の流れ。一般的な扇風機に比べ、約4倍に広がる風はまさに自然界の風の気持ちよさです。
+              バルミューダだけのグリーンファン科技。二重構造の羽根が作り出すのは、自然界の風と同じ、大きな面で移動する空気の流れ。一般的な扇風機に比べ、約4倍に広がる風はまさに自然界の先进性です。
             </p>
             <Link href="/greenfan/feature">
-              <a className="btn btn--page">続きを読む</a>
+              <a className="btn btn--page">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -141,12 +126,12 @@ export default function ProductDetail() {
       <div className="section section--index section--02 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">使いやすさ</h2>
+            <h2 className="section__title">使用方法</h2>
             <p>
               超静音、ポータブル、自由に替えられる首振り角度。暮らしの道具として自由に使うことができるよう、さまざまな工夫が詰まっています。
             </p>
             <Link href="/greenfan/design">
-              <a className="btn btn--page">続きを読む</a>
+              <a className="btn btn--page">继续阅读</a>
             </Link>
           </div>
         </div>
@@ -155,12 +140,12 @@ export default function ProductDetail() {
       <div className="section section--index section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">ストーリー</h2>
+            <h2 className="section__title">故事</h2>
             <p>
               次の時代の扇風機を作ろう！こんな想いから開発が始まったGreenFan。現実のものとして生まれるまでには、意外なヒントや偶然の発見がありました。
             </p>
             <Link href="/greenfan/story">
-              <a className="btn btn--page btn">続きを読む</a>
+              <a className="btn btn--page btn">继续阅读</a>
             </Link>
           </div>
         </div>

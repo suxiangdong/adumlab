@@ -29,16 +29,16 @@ export default function ProductDetail() {
               <Link href="/greenfan-cirq/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--features">
-              <Link href="/greenfan-cirq/features">室温が変わる</Link>
+              <Link href="/greenfan-cirq/features">改变室温</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology ">
-              <Link href="/greenfan-cirq/technology">15m先まで</Link>
+              <Link href="/greenfan-cirq/technology">远达15米的送风距离</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/greenfan-cirq/design">デザイン</Link>
+              <Link href="/greenfan-cirq/design">设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--specs __current">
-              <Link href="/greenfan-cirq/specs">スペック</Link>
+              <Link href="/greenfan-cirq/specs">规格</Link>
             </li>
           </ul>
 
@@ -157,14 +157,14 @@ export default function ProductDetail() {
             <h2 className="section__title __wb">受賞歴</h2>
             <p>
               GreenFan
-              Cirqは、国際的に最も権威のあるデザイン賞のひとつである、ドイツの「レッドドット・デザイン賞」を受賞し、革新性、機能性などが高く評価されています。
+              Cirqは、国際的に最も権威のある设计賞のひとつである、ドイツの「レッドドット・设计賞」を受賞し、革新性、機能性などが高く評価されています。
             </p>
 
             <div className="columns cf">
               <div className="column __award__rd">
                 <p>
                   ドイツの「Design Zentrum Nordrhein
-                  Westfalen」が主催する世界最大級のデザイン賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越したデザインが選定されます。
+                  Westfalen」が主催する世界最大級の设计賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越した设计が選定されます。
                 </p>
               </div>
             </div>

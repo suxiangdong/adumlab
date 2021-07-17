@@ -32,16 +32,16 @@ export default function ProductDetail() {
               <Link href="/greenfan/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--feature ">
-              <Link href="/greenfan/feature">風の気持ちよさ</Link>
+              <Link href="/greenfan/feature">先进性</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--design ">
-              <Link href="/greenfan/design">使いやすさ</Link>
+              <Link href="/greenfan/design">使用方法</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story ">
-              <Link href="/greenfan/story">ストーリー</Link>
+              <Link href="/greenfan/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec __current">
-              <Link href="/greenfan/spec">スペック</Link>
+              <Link href="/greenfan/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">

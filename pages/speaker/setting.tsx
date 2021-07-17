@@ -50,16 +50,16 @@ export default function ProductDetail() {
               <Link href="/speaker/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/speaker/technology">テクノロジー</Link>
+              <Link href="/speaker/technology">科技</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--story">
-              <Link href="/speaker/story">ストーリー</Link>
+              <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting __current">
-              <Link href="/speaker/setting">セッティング</Link>
+              <Link href="/speaker/setting">设置</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
-              <Link href="/speaker/spec">スペック</Link>
+              <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
@@ -85,7 +85,7 @@ export default function ProductDetail() {
       <div className="section section--setting section--01 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h1 className="section__title">セッティング</h1>
+            <h1 className="section__title">设置</h1>
             <p className="section__txt">
               <span>BALMUDA The Speakerは、</span>
               <span>

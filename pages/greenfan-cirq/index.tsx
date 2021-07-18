@@ -64,7 +64,7 @@ export default function ProductDetail({ banners }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-3300-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -81,19 +81,19 @@ export default function ProductDetail({ banners }) {
       <div className="section section--index section--00">
         <div className="__mainimage">
           <img
-            data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/index/mobile/main.jpg"
-            data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/index/desktop/main.jpg"
-            data-retina="//www.balmuda.com/jp/greenfan-cirq/img/index/desktop/main@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/index/mobile/main.jpg"
+            data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/index/desktop/main.jpg"
+            data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/index/desktop/main@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/greenfan-cirq/img/index/desktop/main@2x.jpg"
+            src="https://www.balmuda.com/jp/greenfan-cirq/img/index/desktop/main@2x.jpg"
           />
         </div>
         <div className="viewport">
-          <h2 className="page__title __wb">風の使用方法</h2>
+          <h2 className="page__title __wb">风的使用方法</h2>
           <span className="label__block">空气循环机</span>
           <p className="overview_text">
-            冷暖房時、足元と天井付近では最大7°Cもの温度差が発生することがあります。部屋干しが増える季節、閉め切った部屋ではカビが発生し、ニオイがこもってしまいます。GreenFan
-            Cirqは、従来にない圧倒的大風量と、広く遠くまで届く強力な送風力で、部屋の空気をいっきに循環させる空气循环机。エアコンの電気代は最大20％下がり、部屋干しの洗濯物は最大3倍速く乾きます。
+            冷暖空气时，脚下和天花板附近的温差最大可达7°C。在房间晾晒增多的季节，封闭的房间会产生霉菌，散发出难闻的气味。GreenFan
+            Cirq是一台空气式循环机，它以前所未有的压倒性的大风量和宽广到遥远的强大送风力，使房间内的空气同时循环。空调的电费最多能降低20%，房间晾的衣服最多能快干3倍。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
@@ -108,11 +108,11 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">改变室温</h2>
             <p>
-              暖かい空気は上へ。冷たい空気は下へ。これが、冷暖房効率を悪くする原因です。GreenFan
-              Cirqは強力な送風力で空気を循環させ、不快な温度差を解消します。
+              温暖的空气向上飘。冷空气往下走。这是导致冷暖空气效率变差的原因。GreenFan
+              Cirq以强大的送风力使空气循环，消除不愉快的温差。
             </p>
             <Link href="/greenfan-cirq/features">
-              <a className="btn btn--page">詳しく</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>
@@ -123,10 +123,10 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">远达15米的送风距离届く</h2>
             <p>
-              独自の二重構造の羽根と直進性を高めるファンガード形状により、远达15米的送风距离届く力強い風を送り出します。30畳の広さでも一台で十分です。
+              通过独自的双重构造的叶片和提高直进性的风扇保护形状，送出远达15米的送风距离到达的强劲的风。30张榻榻米大小，一台就足够了。
             </p>
             <Link href="/greenfan-cirq/technology">
-              <a className="btn btn--page">詳しく</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>
@@ -137,10 +137,11 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">设计</h2>
             <p>
-              軽く動かせて、ピタッと止まる。少しの傾きなら、指先一つで。電源のON/OFF、4段階の風量切り替えは、本体のボタンはもちろん、リモコンからも操作できます。
+              轻轻移动，啪的一声停住。稍微倾斜的话，用一个指尖。电源的ON/OFF,
+              4个阶段的风量切换，不用说主体的按钮，遥控器也能操作。
             </p>
             <Link href="/greenfan-cirq/design">
-              <a className="btn btn--page btn">詳しく</a>
+              <a className="btn btn--page btn">详情</a>
             </Link>
           </div>
         </div>

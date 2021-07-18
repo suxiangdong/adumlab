@@ -46,7 +46,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-3300-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -55,11 +55,11 @@ export default function ProductDetail() {
       <div className="section section--technology section--00">
         <div className="__image">
           <img
-            data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--00.jpg"
-            data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--00.jpg"
-            data-retina="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--00@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--00.jpg"
+            data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--00.jpg"
+            data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--00@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--00@2x.jpg"
+            src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--00@2x.jpg"
           />
         </div>
         <div className="__content">
@@ -78,11 +78,11 @@ export default function ProductDetail() {
             <div className="__content">
               <h2 className="section__title">省エネルギー</h2>
               <img
-                data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--01.jpg"
-                data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01.jpg"
-                data-retina="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01@2x.jpg"
+                data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--01.jpg"
+                data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01.jpg"
+                data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01@2x.jpg"
                 className="__image adaptiveimage"
-                src="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01@2x.jpg"
+                src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01@2x.jpg"
               />
               <p>
                 GreenFan
@@ -104,11 +104,11 @@ export default function ProductDetail() {
                 <span>20％削減</span>
               </h2>
               <img
-                data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--02.png"
-                data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02.png"
-                data-retina="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02@2x.png"
+                data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--02.png"
+                data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02.png"
+                data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02@2x.png"
                 className="__image adaptiveimage"
-                src="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02@2x.png"
+                src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02@2x.png"
               />
               <p>
                 GreenFan
@@ -128,11 +128,11 @@ export default function ProductDetail() {
               <span>科技</span>
             </h2>
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--03.png"
-              data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03.png"
-              data-retina="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03@2x.png"
+              data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--03.png"
+              data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03.png"
+              data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03@2x.png"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03@2x.png"
+              src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03@2x.png"
             />
             <p>
               バルミューダ独自のグリーンファン科技は、1枚のファンから

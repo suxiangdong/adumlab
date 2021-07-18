@@ -81,7 +81,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=ERN-1100SD-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -135,11 +135,11 @@ export default function ProductDetail() {
           </div>
 
           <img
-            data-mobile="//www.balmuda.com/jp/rain/movie/classic_head_mobile.jpg"
-            data-desktop="//www.balmuda.com/jp/rain/movie/classic_head_desktop.jpg"
-            data-retina="//www.balmuda.com/jp/rain/movie/classic_head_desktop@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/rain/movie/classic_head_mobile.jpg"
+            data-desktop="https://www.balmuda.com/jp/rain/movie/classic_head_desktop.jpg"
+            data-retina="https://www.balmuda.com/jp/rain/movie/classic_head_desktop@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/rain/movie/classic_head_desktop@2x.jpg"
+            src="https://www.balmuda.com/jp/rain/movie/classic_head_desktop@2x.jpg"
           />
         </div>
 
@@ -180,17 +180,17 @@ export default function ProductDetail() {
                   />
                 </video>
                 <img
-                  src="//www.balmuda.com/jp/rain/movie/replay_375-400.png?20181001"
+                  src="https://www.balmuda.com/jp/rain/movie/replay_375-400.png?20181001"
                   id="play_elmov"
                   style={{ opacity: playing2 ? 0 : 1, display: playing2 ? 'none' : 'block' }}
                   onClick={handlePlay2}
                 />
                 <img
-                  src="//www.balmuda.com/jp/rain/movie/text_mask.png?20181001"
+                  src="https://www.balmuda.com/jp/rain/movie/text_mask.png?20181001"
                   className="cover mask"
                 />
                 <img
-                  src="//www.balmuda.com/jp/rain/movie/eldisplay_cover.png?20181001"
+                  src="https://www.balmuda.com/jp/rain/movie/eldisplay_cover.png?20181001"
                   className="cover"
                 />
                 <div className="text">
@@ -228,21 +228,21 @@ export default function ProductDetail() {
 
             <div className="mode_column">
               <div>
-                <img src="//www.balmuda.com/jp/rain/img/classic/icn_auto.svg" />
+                <img src="https://www.balmuda.com/jp/rain/img/classic/icn_auto.svg" />
                 <h3>オートモード</h3>
                 <p>
                   オートモードでは一定の湿度を保持するよう、Rainが自動運転します。初期設定は湿度50％ですが、40％から60％まで好みの湿度に設定することも出来ます。
                 </p>
               </div>
               <div>
-                <img src="//www.balmuda.com/jp/rain/img/classic/icn_man.svg" />
+                <img src="https://www.balmuda.com/jp/rain/img/classic/icn_man.svg" />
                 <h3>マニュアルモード</h3>
                 <p>
                   マニュアルモードでは、手動で5段階から風量を選ぶことができます。部屋が乾燥してつらいときなどは、風量を最大の5に設定してお使いください。
                 </p>
               </div>
               <div>
-                <img src="//www.balmuda.com/jp/rain/img/classic/icn_timer.svg" />
+                <img src="https://www.balmuda.com/jp/rain/img/classic/icn_timer.svg" />
                 <h3>24hタイマー</h3>
                 <p>
                   Rainの運転のオン・オフを1時間ごとに自由に設定することができます。人がいない時間帯には運転を停止させ、帰宅前に運転を開始させるなどの設定ができます。
@@ -262,10 +262,10 @@ export default function ProductDetail() {
               省エネ性能
             </h2>
             <img
-              data-desktop="//www.balmuda.com/jp/rain/img/classic/desktop/section--04.png"
-              data-retina="//www.balmuda.com/jp/rain/img/classic/desktop/section--04@2x.png"
+              data-desktop="https://www.balmuda.com/jp/rain/img/classic/desktop/section--04.png"
+              data-retina="https://www.balmuda.com/jp/rain/img/classic/desktop/section--04@2x.png"
               className="section--02_img adaptiveimage __is_desktop"
-              src="//www.balmuda.com/jp/rain/img/classic/desktop/section--04@2x.png"
+              src="https://www.balmuda.com/jp/rain/img/classic/desktop/section--04@2x.png"
             />
             <p>
               Rainは最小2Wのわずかな消費電力で十分な加湿を行います。急速に加湿を行う最大風量時でも消費電力は23W。これは一般的なハイブリッド式加湿器の1/10以下のエネルギー消費です。オートモードの繊細な制御や、操作時以外はディスプレイを半分の明るさにするなど、無駄な電力を使いません。

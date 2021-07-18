@@ -70,7 +70,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=A01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -125,11 +125,11 @@ export default function ProductDetail() {
           </div>
 
           <img
-            data-mobile="//www.balmuda.com/jp/pure/img/technology/movie/technology_head_mobile.jpg"
-            data-desktop="//www.balmuda.com/jp/pure/img/technology/movie/technology_head_desktop.jpg"
-            data-retina="//www.balmuda.com/jp/pure/img/technology/movie/technology_head_desktop@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/pure/img/technology/movie/technology_head_mobile.jpg"
+            data-desktop="https://www.balmuda.com/jp/pure/img/technology/movie/technology_head_desktop.jpg"
+            data-retina="https://www.balmuda.com/jp/pure/img/technology/movie/technology_head_desktop@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/pure/img/technology/movie/technology_head_desktop@2x.jpg"
+            src="https://www.balmuda.com/jp/pure/img/technology/movie/technology_head_desktop@2x.jpg"
             alt=""
           />
         </div>
@@ -169,11 +169,11 @@ export default function ProductDetail() {
               </div>
               <div className="graph">
                 <figure className="tobacco">
-                  <img src="//www.balmuda.com/jp/pure/img/technology/svg/tobacco.svg" alt="タバコ臭" />
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/tobacco.svg" alt="タバコ臭" />
                   <figcaption>タバコ臭</figcaption>
                 </figure>
                 <figure className="pet">
-                  <img src="//www.balmuda.com/jp/pure/img/technology/svg/pet.svg" alt="ペット臭" />
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/pet.svg" alt="ペット臭" />
                   <figcaption>ペット臭</figcaption>
                 </figure>
               </div>
@@ -190,19 +190,19 @@ export default function ProductDetail() {
               </div>
               <div className="graph">
                 <figure className="micro">
-                  <img src="//www.balmuda.com/jp/pure/img/technology/svg/micro.svg" alt="微小粒子" />
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/micro.svg" alt="微小粒子" />
                   <figcaption>微小粒子</figcaption>
                 </figure>
                 <figure className="pm25">
-                  <img src="//www.balmuda.com/jp/pure/img/technology/svg/pm25.svg" alt="PM2.5" />
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/pm25.svg" alt="PM2.5" />
                   <figcaption>PM2.5</figcaption>
                 </figure>
                 <figure className="pollen">
-                  <img src="//www.balmuda.com/jp/pure/img/technology/svg/pollen.svg" alt="花粉" />
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/pollen.svg" alt="花粉" />
                   <figcaption>花粉</figcaption>
                 </figure>
                 <figure className="hazard">
-                  <img src="//www.balmuda.com/jp/pure/img/technology/svg/hazard.svg" alt="有害物質" />
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/hazard.svg" alt="有害物質" />
                   <figcaption>有害物質</figcaption>
                 </figure>
               </div>
@@ -236,11 +236,11 @@ export default function ProductDetail() {
               試験結果
             </h2>
             <img
-              data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--02.png?20190130"
-              data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--02.png?20190130"
-              data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
+              data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--02.png?20190130"
+              data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02.png?20190130"
+              data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
+              src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
               alt=""
             />
             <p className="note">日本電機工業会規格 JEM 1467に基づく</p>
@@ -253,11 +253,11 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <img
-              data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03.png"
-              data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03.png"
-              data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03@2x.png"
+              data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03.png"
+              data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03.png"
+              data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03@2x.png"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03@2x.png"
+              src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03@2x.png"
               alt=""
             />
             <a href="#" onClick={handleOpenModal} className="button modal-action" data-modal-for="section--03_modal">
@@ -272,17 +272,17 @@ export default function ProductDetail() {
               <div className="modal__graph graph_1">
                 <div className="title">
                   <div className="graph__icon">
-                    <img src="//www.balmuda.com/jp/pure/img/technology/svg/virus.svg" alt="浮遊ウィルス" />
+                    <img src="https://www.balmuda.com/jp/pure/img/technology/svg/virus.svg" alt="浮遊ウィルス" />
                   </div>
                   <h3>浮遊ウィルス</h3>
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--01.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--01.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--01@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--01.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--01.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--01@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--01@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--01@2x.png"
                     alt=""
                   />
                 </figure>
@@ -296,17 +296,17 @@ export default function ProductDetail() {
               <div className="modal__graph graph_2">
                 <div className="title">
                   <div className="graph__icon">
-                    <img src="//www.balmuda.com/jp/pure/img/technology/svg/bac.svg" alt="浮遊菌" />
+                    <img src="https://www.balmuda.com/jp/pure/img/technology/svg/bac.svg" alt="浮遊菌" />
                   </div>
                   <h3>浮遊菌</h3>
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--02.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--02.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--02@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--02.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--02.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--02@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--02@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--02@2x.png"
                     alt=""
                   />
                 </figure>
@@ -320,17 +320,17 @@ export default function ProductDetail() {
               <div className="modal__graph graph_3">
                 <div className="title">
                   <div className="graph__icon">
-                    <img src="//www.balmuda.com/jp/pure/img/technology/svg/mold.svg" alt="浮遊カビ" />
+                    <img src="https://www.balmuda.com/jp/pure/img/technology/svg/mold.svg" alt="浮遊カビ" />
                   </div>
                   <h3>浮遊カビ</h3>
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--03.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--03.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--03@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--03.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--03.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--03@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--03@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--03@2x.png"
                     alt=""
                   />
                 </figure>
@@ -345,7 +345,7 @@ export default function ProductDetail() {
                 <div className="title">
                   <div className="graph__icon">
                     <img
-                      src="//www.balmuda.com/jp/pure/img/technology/svg/trimethylamine.svg"
+                      src="https://www.balmuda.com/jp/pure/img/technology/svg/trimethylamine.svg"
                       alt="生ゴミ臭（トリメチルアミン）"
                     />
                   </div>
@@ -355,11 +355,11 @@ export default function ProductDetail() {
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--04.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--04.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--04@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--04.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--04.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--04@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--04@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--04@2x.png"
                     alt=""
                   />
                 </figure>
@@ -374,7 +374,7 @@ export default function ProductDetail() {
                 <div className="title">
                   <div className="graph__icon">
                     <img
-                      src="//www.balmuda.com/jp/pure/img/technology/svg/hexanal.svg"
+                      src="https://www.balmuda.com/jp/pure/img/technology/svg/hexanal.svg"
                       alt="調理臭・油臭（ヘキサナール）"
                     />
                   </div>
@@ -384,11 +384,11 @@ export default function ProductDetail() {
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--05.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--05.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--05@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--05.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--05.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--05@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--05@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--05@2x.png"
                     alt=""
                   />
                 </figure>
@@ -403,7 +403,7 @@ export default function ProductDetail() {
                 <div className="title">
                   <div className="graph__icon">
                     <img
-                      src="//www.balmuda.com/jp/pure/img/technology/svg/formaldehyde.svg"
+                      src="https://www.balmuda.com/jp/pure/img/technology/svg/formaldehyde.svg"
                       alt="建材臭（ホルムアルデヒト）"
                     />
                   </div>
@@ -413,11 +413,11 @@ export default function ProductDetail() {
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--06.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--06.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--06@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--06.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--06.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--06@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--06@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--06@2x.png"
                     alt=""
                   />
                 </figure>
@@ -432,7 +432,7 @@ export default function ProductDetail() {
                 <div className="title">
                   <div className="graph__icon">
                     <img
-                      src="//www.balmuda.com/jp/pure/img/technology/svg/isovaleric_acid.svg"
+                      src="https://www.balmuda.com/jp/pure/img/technology/svg/isovaleric_acid.svg"
                       alt="ペット臭（イソ吉草酸）"
                     />
                   </div>
@@ -442,11 +442,11 @@ export default function ProductDetail() {
                 </div>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--07.png"
-                    data-desktop="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--07.png"
-                    data-retina="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--07@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03_modal--07.png"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--07.png"
+                    data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--07@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--07@2x.png"
+                    src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03_modal--07@2x.png"
                     alt=""
                   />
                 </figure>

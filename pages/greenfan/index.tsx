@@ -63,7 +63,7 @@ export default function ProductDetail({ banners }) {
             <a
               href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-1700"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -86,25 +86,22 @@ export default function ProductDetail({ banners }) {
         </div>
         <div className="viewport">
           <h2 className="page__title __wb">
-            自然界の風を再現する
+            再现自然风的
             <br />
-            扇風機
+            电风扇
           </h2>
-          <span className="label__block">DCモーター扇風機</span>
+          <span className="label__block">直流电扇</span>
           <p className="overview_text">
-            <span>The GreenFanは、独自の技術によって自然界の風を再現する扇風機。</span>
-            <span>夏の午後を吹き抜ける心地よい風を部屋の中に再現します。</span>
-            <span>気持ちのいいグリーンファンの風と一緒に、</span>
-            <span>素晴らしい夏の一日をお過ごしください。</span>
+            <span>The GreenFan是通过独特的技术再现自然风的电风扇。</span>
+            <span>在房间里再现吹过夏日午后的舒适的风。</span>
+            <span>伴随着令人心情愉悦的绿茵场风，</span>
+            <span>请度过美好的夏日一天。</span>
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               39,600
             </p>
-            <p className="colores">
-              ホワイト × ブラック／ホワイト × グレー／ダークグレー × ブラック／ホワイト ×
-              シャンパンゴールド
-            </p>
+            <p className="colores">白色×黑色/白色×灰色/深灰色×黑色/白色×香槟金</p>
           </div>
         </div>
       </div>
@@ -114,7 +111,7 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">先进性</h2>
             <p>
-              バルミューダだけのグリーンファン科技。二重構造の羽根が作り出すのは、自然界の風と同じ、大きな面で移動する空気の流れ。一般的な扇風機に比べ、約4倍に広がる風はまさに自然界の先进性です。
+              巴慕达独有的绿色风扇科技。双层结构的叶片产生的是与自然界的风一样，在较大的表面移动的空气流动。与一般的电风扇相比，能扩散约4倍的风是自然界的先进性。
             </p>
             <Link href="/greenfan/feature">
               <a className="btn btn--page">继续阅读</a>
@@ -128,7 +125,7 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">使用方法</h2>
             <p>
-              超静音、ポータブル、自由に替えられる首振り角度。暮らしの道具として自由に使うことができるよう、さまざまな工夫が詰まっています。
+              超静音，便携式，可自由更换摇头角度。为了能够自由地使用它作为生活的工具，它倾注了各种各样的心思。
             </p>
             <Link href="/greenfan/design">
               <a className="btn btn--page">继续阅读</a>
@@ -142,7 +139,7 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">故事</h2>
             <p>
-              次の時代の扇風機を作ろう！こんな想いから開発が始まったGreenFan。現実のものとして生まれるまでには、意外なヒントや偶然の発見がありました。
+              制造下一个时代的电风扇吧!从这样的想法开始开发的GreenFan。在它成为现实之前，有过意外的启示和偶然的发现。
             </p>
             <Link href="/greenfan/story">
               <a className="btn btn--page btn">继续阅读</a>

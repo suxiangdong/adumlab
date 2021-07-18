@@ -61,7 +61,7 @@ export default function ProductDetail({ banners, evaluations }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -79,11 +79,11 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="__mainimage">
           <div className="__inner">
             <img
-              data-mobile="//www.balmuda.com/jp/light/img/index/mobile/main.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/light/img/index/desktop/main.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/light/img/index/desktop/main@2x.jpg?20201006"
+              data-mobile="https://www.balmuda.com/jp/light/img/index/mobile/main.jpg?20201006"
+              data-desktop="https://www.balmuda.com/jp/light/img/index/desktop/main.jpg?20201006"
+              data-retina="https://www.balmuda.com/jp/light/img/index/desktop/main@2x.jpg?20201006"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/light/img/index/desktop/main@2x.jpg?20201006"
+              src="https://www.balmuda.com/jp/light/img/index/desktop/main@2x.jpg?20201006"
             />
           </div>
         </div>
@@ -112,7 +112,7 @@ export default function ProductDetail({ banners, evaluations }) {
             <p className="price price--excl_tax" id="price2">
               40,700
             </p>
-            <p className="colores">ブラック／ホワイト／ベージュ</p>
+            <p className="colores">黑色/白色／ベージュ</p>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@ export default function ProductDetail({ banners, evaluations }) {
               医療用の手術灯をヒントに開発した独自の構造で、離れた場所から広く手元を照らします。
             </p>
             <a href="./technology" className="section__btn">
-              さらに詳しく
+              さらに详情
             </a>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function ProductDetail({ banners, evaluations }) {
               美術館などの色にシビアな環境で使用される太陽光LEDは自然光に近い光。目にやさしく、集中力を妨げません。
             </p>
             <a href="./technology#led" className="section__btn">
-              さらに詳しく
+              さらに详情
             </a>
           </div>
         </div>
@@ -184,7 +184,7 @@ export default function ProductDetail({ banners, evaluations }) {
               Lightの開発にまつわるストーリーをご紹介します。
             </p>
             <a href="./story" className="section__btn">
-              さらに詳しく
+              さらに详情
             </a>
           </div>
         </div>
@@ -194,7 +194,7 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport">
           <h2 className="section__title">
             <img
-              src="//www.balmuda.com/jp/light/img/index/svg/media.svgz?20201006"
+              src="https://www.balmuda.com/jp/light/img/index/svg/media.svgz?20201006"
               className="__title"
               alt="MEDIA"
             />
@@ -225,56 +225,56 @@ export default function ProductDetail({ banners, evaluations }) {
           <div className="gallery__content" data-pswp-uid="1">
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/index/gallery/1@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/light/img/index/gallery/1.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/light/img/index/gallery/1@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/light/img/index/gallery/1@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/light/img/index/gallery/1.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/light/img/index/gallery/1@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/index/gallery/1@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/light/img/index/gallery/1@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/index/gallery/2@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/light/img/index/gallery/2.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/light/img/index/gallery/2@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/light/img/index/gallery/2@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/light/img/index/gallery/2.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/light/img/index/gallery/2@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/index/gallery/2@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/light/img/index/gallery/2@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/index/gallery/3@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/light/img/index/gallery/3.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/light/img/index/gallery/3@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/light/img/index/gallery/3@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/light/img/index/gallery/3.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/light/img/index/gallery/3@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/index/gallery/3@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/light/img/index/gallery/3@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/index/gallery/4@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/light/img/index/gallery/4.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/light/img/index/gallery/4@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/light/img/index/gallery/4@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/light/img/index/gallery/4.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/light/img/index/gallery/4@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/index/gallery/4@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/light/img/index/gallery/4@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/index/gallery/5@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/light/img/index/gallery/5.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/light/img/index/gallery/5@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/light/img/index/gallery/5@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/light/img/index/gallery/5.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/light/img/index/gallery/5@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/index/gallery/5@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/light/img/index/gallery/5@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/index/gallery/6@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/light/img/index/gallery/6.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/light/img/index/gallery/6@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/light/img/index/gallery/6@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/light/img/index/gallery/6.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/light/img/index/gallery/6@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/index/gallery/6@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/light/img/index/gallery/6@2x.jpg?20201006"
               />
             </figure>
           </div>

@@ -52,7 +52,7 @@ export default function ProductDetail() {
             <a
               href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -60,20 +60,20 @@ export default function ProductDetail() {
 
       <div className="section section--howto section--00">
         <img
-          data-mobile="//www.balmuda.com/jp/toaster/img/howto/mobile/section--00.jpg?20200915"
-          data-desktop="//www.balmuda.com/jp/toaster/img/howto/desktop/section--00.jpg?20200915"
-          data-retina="//www.balmuda.com/jp/toaster/img/howto/desktop/section--00@2x.jpg?20200915"
+          data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/section--00.jpg?20200915"
+          data-desktop="https://www.balmuda.com/jp/toaster/img/howto/desktop/section--00.jpg?20200915"
+          data-retina="https://www.balmuda.com/jp/toaster/img/howto/desktop/section--00@2x.jpg?20200915"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/toaster/img/howto/desktop/section--00@2x.jpg?20200915"
+          src="https://www.balmuda.com/jp/toaster/img/howto/desktop/section--00@2x.jpg?20200915"
         />
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">使用方法</h2>
             <p>
               BALMUDA The
-              Toasterなら、パンの種類に合わせて焼くことができ、特别的美味を引き出します。また、一般的なオーブントースターのようにお餅やグラタンなどの調理も可能です。
+              Toaster的话，可以根据面包的种类来烘烤，能激发出特别的美味。另外，还可以像一般的烤面包机一样，制作年糕、焗饭等。
               <br className="pc" />
-              各モードごとの上手な使用方法と、お手入れ方法についてご紹介いたします。
+              下面介绍一下各模式的使用方法和保养方法。
             </p>
           </div>
         </div>
@@ -88,38 +88,38 @@ export default function ProductDetail() {
                   STEP<span>1</span>パンを入れる
                 </h2>
                 <p className="section__desc">
-                  一般的なオーブントースターと同じように、扉を開け、パンを入れます。1枚なら中央、複数の場合は均等になるように並べてください。
+                  和一般的烤面包机一样，打开门，放入面包。如果是一张的话请排列在中间，如果是多张的话请均匀排列。
                 </p>
                 <div className="step__img">
                   <img
-                    data-mobile="//www.balmuda.com/jp/toaster/img/howto/mobile/img_step_01.png"
-                    data-desktop="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01.png"
-                    data-retina="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_01.png"
+                    data-desktop="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01.png"
+                    data-retina="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
                     className="adaptiveimage"
-                    src="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                    src="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
                   />
                 </div>
                 <div className="qa">
                   <dl>
                     <dt>
-                      <span className="asked">上手に焼くコツは？</span>
+                      <span className="asked">烤好的秘诀是什么?</span>
                     </dt>
                     <dd>
                       <span>
-                        食パンには「頭」と「底」があります。山型パンなら山が頭で、角食パンは袋に入った状態で天面になっているほうが頭です。この「頭」を手前にして焼くと、ムラなく焼くことができます。
+                        面包有“头”和“底”。如果是山型面包，山就是头，而角型面包装在袋子里的状态下变成顶部的就是头。把这个“头”放在前面烤的话，就可以烤得不均匀。
                       </span>
                       <span>
-                        フランスパンは庫内に入る大きさであればまるごと温めて、焼き上がってからスライスすると中身がふんわりとした状態を召し上がることができます。
+                        法式面包如果是可以放进冰箱里的大小，就应该整块加热，烤好后再切片，这样里面的面包才会松软。
                       </span>
                     </dd>
                   </dl>
                   <dl>
                     <dt>
-                      <span className="asked">高さ何センチまで入りますか？</span>
+                      <span className="asked">能进到多少厘米高?</span>
                     </dt>
                     <dd>
                       <span>
-                        焼きアミとヒーターまでの距離はおおよそ7cmです。ヒーターに近くなるほど焦げやすくなるため、パンの高さは5.5cm以内が安心して焼けるでしょう。砂糖や油分がてっぺんについているパンは焦げやすいので注意が必要です。
+                        烤虾和加热器的距离大概是7cm。离加热器越近越容易烤焦，所以面包的高度在5.5cm以内可以放心烤。顶部有砂糖和油分的面包容易烤焦，需要注意。
                       </span>
                     </dd>
                   </dl>
@@ -127,11 +127,11 @@ export default function ProductDetail() {
               </div>
               <div className="step__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/toaster/img/howto/mobile/img_step_01.png"
-                  data-desktop="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01.png"
-                  data-retina="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                  data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_01.png"
+                  data-desktop="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01.png"
+                  data-retina="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
                   className="adaptiveimage"
-                  src="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                  src="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
                 />
               </div>
             </div>
@@ -146,34 +146,32 @@ export default function ProductDetail() {
               <div className="step__text">
                 <h2 className="section__title">
                   STEP<span>2</span>
-                  <b>水を入れる</b>
+                  <b>装水</b>
                 </h2>
                 <p className="section__desc">
-                  トースター上部にある給水口に、専用の5ccカップで毎回1杯の水を入れてください。クラシックモードは水を入れずに使います。
+                  请每次用专用的5cc杯子往烤面包机上部的供水口里倒一杯水。经典模式不加水使用。
                 </p>
                 <div className="step__img">
                   <img
-                    data-mobile="//www.balmuda.com/jp/toaster/img/howto/mobile/img_step_02.jpg"
+                    data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_02.jpg"
                     className="adaptiveimage"
                   />
                 </div>
                 <div className="qa">
                   <dl>
                     <dt>
-                      <span className="asked">枚数や種類によって水の量は変わりますか？</span>
+                      <span className="asked">根据张数和种类的不同水的量也会变化吗?</span>
                     </dt>
                     <dd>
                       <span>
-                        パンの厚みや大きさ、枚数が違っても5ccの分量は変わりません。きっかりなるまで神経質に計らずとも5ccカップ1杯ぐらいの気持ちで楽しく入れてください。
+                        即使面包的厚度、大小、张数不同，5cc的分量也不会改变。即使不神经质地计算，也请以5cc杯1杯的心情愉快地放入。
                       </span>
                     </dd>
                   </dl>
                 </div>
                 <div className="tips_warning">
-                  <h3>クラシックモードでは水を入れないでください</h3>
-                  <p>
-                    クラシックモードではスチームが出ないため、ボイラーに水が溜まり故障の原因になります。
-                  </p>
+                  <h3>请不要在经典模式下加水。</h3>
+                  <p>因为在经典模式下不出蒸汽，锅炉积水成为故障的原因。</p>
                 </div>
               </div>
             </div>
@@ -188,97 +186,93 @@ export default function ProductDetail() {
               <h2 className="section__title">
                 STEP<span>3</span>
                 <br />
-                <b>電源ON/OFFボタンを押して、モードを選択する</b>
+                <b>按下电源开启/关闭按钮，选择模式</b>
               </h2>
               <p className="section__desc">
-                モードによって焼き上がりが異なるので、「こうなってほしいな」と思う焼き上がりに合わせてモードを使い分けると、よりおいしく召し上がっていただけます。
+                因为模式不同，烤出来的东西也不同，所以根据“希望变成这样”的烤出来的东西来使用不同的模式，吃起来会更美味。
               </p>
             </div>
             <div className="mode">
-              <h3 className="mode__h">トースト</h3>
-              <p className="mode__desc">
-                トースト、チーズトーストの2つのモードは、表面にこんがり焼色を付けるのが特徴です。
-              </p>
+              <h3 className="mode__h">吐司</h3>
+              <p className="mode__desc">吐司、芝士吐司这两种模式的特点是在表面烙上焦黄的颜色。</p>
               <div className="mode__conts">
                 <div className="mode__pnl mode__pnl--toast">
                   <h4 className="mode__pnl__h">
-                    トースト
+                    吐司
                     <br />
-                    モード
+                    模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ こんがり焼き上げ ／</p>
+                  <p className="mode__pnl__comment">＼ 烤得焦黄 ／</p>
                   <p className="mode__pnl__desc">
-                    こんがりと焼き目をつけます。トースト以外にも、横半分にスライスしたベーグルやイングリッシュマフィンをカリッと仕上げるのに使えます。
+                    烤至焦黄。除了烤面包以外，还可以用来制作横切的百吉果或英式麦芬。
                   </p>
                   <img
-                    data-mobile="//www.balmuda.com/jp/toaster/img/svg/mode-toast.mobile.icons.svgz?20200915"
-                    data-desktop="//www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
-                    data-retina="//www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.mobile.icons.svgz?20200915"
+                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="//www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
                   />
                 </div>
                 <div className="mode__pnl mode__pnl--cheese">
                   <h4 className="mode__pnl__h">
-                    チーズトースト
+                    芝士吐司
                     <br />
-                    モード
+                    模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ 上火強め ／</p>
+                  <p className="mode__pnl__comment">＼ 加强上火 ／</p>
                   <p className="mode__pnl__desc">
-                    上火が強いので、チーズトーストのほか調理前の具材を乗せたメニューにぴったりです。ピザトーストや野菜や果物を乗せて火を通すメニューにも。
+                    因为上火很大，所以除了芝士吐司以外，还可以配上烹饪前的食材。也可以是披萨吐司、蔬菜和水果放在上面烤熟的菜单上。
                   </p>
                   <img
-                    data-mobile="//www.balmuda.com/jp/toaster/img/svg/mode-cheese.mobile.icons.svgz?20200915"
-                    data-desktop="//www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
-                    data-retina="//www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.mobile.icons.svgz?20200915"
+                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="//www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
                   />
                 </div>
               </div>
             </div>
             <div className="mode">
-              <h3 className="mode__h">リベイク（温め）</h3>
-              <p className="mode__desc">
-                中までアツアツに温めるのがリベイク。表面の仕上がりに応じて2種類のモードがあります。
-              </p>
+              <h3 className="mode__h">利伯益(加热)</h3>
+              <p className="mode__desc">连里面都热乎乎的是利伯益。根据表面的完成有2种模式。</p>
               <div className="mode__conts">
                 <div className="mode__pnl mode__pnl--baguette">
                   <h4 className="mode__pnl__h">
-                    フランスパン
+                    法式面包
                     <br />
-                    モード
+                    模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ 焦げ目をつけない ／</p>
+                  <p className="mode__pnl__comment">＼ 不上焦 ／</p>
                   <p className="mode__pnl__desc">
-                    表面に焼き色をつけずに、中までしっかり温めます。
-                    フランスパン、ロールパン、コッペパンやマフィンを焼きたてのようにふっくらと温めます。
+                    表面不上色，到里面充分加热。
+                    加热法式面包、卷面包、胡椒面包和松饼，就像刚烤好的一样松软。
                   </p>
                   <img
-                    data-mobile="//www.balmuda.com/jp/toaster/img/svg/mode-baguette.mobile.icons.svgz?20200915"
-                    data-desktop="//www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
-                    data-retina="//www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.mobile.icons.svgz?20200915"
+                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="//www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
                   />
                 </div>
                 <div className="mode__pnl mode__pnl--croissant">
                   <h4 className="mode__pnl__h">
-                    クロワッサン
+                    牛角面包
                     <br />
-                    モード
+                    模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ 表面サクッと ／</p>
+                  <p className="mode__pnl__comment">＼ 表面脆脆的 ／</p>
                   <p className="mode__pnl__desc">
-                    中までしっかり温め、表面をサクッと仕上げます。デニッシュ系やスコーンをカリッとさせたい時や、メロンパンのリベイクなどによく合います。
+                    充分加热到里面，使表面松脆。很适合丹麦系或想要脆脆的烤饼，或是甜瓜面包等。
                   </p>
                   <img
-                    data-mobile="//www.balmuda.com/jp/toaster/img/svg/mode-croissant.mobile.icons.svgz?20200915"
-                    data-desktop="//www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
-                    data-retina="//www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.mobile.icons.svgz?20200915"
+                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="//www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
                   />
                 </div>
               </div>
@@ -291,42 +285,39 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <div className="mode">
-              <h3 className="mode__h">トースター料理</h3>
+              <h3 className="mode__h">烤面包机</h3>
               <p className="mode__desc">
-                スチームを使わない「クラシックモード」を使えば、
+                如果使用不使用蒸汽的“经典模式”，
                 <br />
-                パン以外のお料理にも活躍します。
+                面包以外的料理也很活跃。
               </p>
               <div className="mode__classic">
                 <p className="lead">
-                  クラシックモードは170℃・200℃・230℃と、上限温度を設定できるので、グラタンやクッキー、お餅など、さまざまなトースター料理をお楽しみいただけます。
+                  经典模式可以设定170度、200度、230度的上限温度，可以享受焗饭、曲奇、年糕等各种各样的烤面包机料理。
                 </p>
                 <img
-                  data-mobile="//www.balmuda.com/jp/toaster/img/svg/mode-classic.mobile.icons.svgz?20200915"
-                  data-desktop="//www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
-                  data-retina="//www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.mobile.icons.svgz?20200915"
+                  data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
                   className="adaptiveimage"
-                  src="//www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  src="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
                 />
                 <div className="mode__classic__horo">
                   <div className="horo__img">
                     <img
-                      data-mobile="//www.balmuda.com/jp/toaster/img/howto/mobile/img_mode_classic_horo.png?20200915"
-                      data-desktop="//www.balmuda.com/jp/toaster/img/howto/desktop/img_mode_classic_horo.png?20200915"
-                      data-retina="//www.balmuda.com/jp/toaster/img/howto/desktop/img_mode_classic_horo@2x.png?20200915"
+                      data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_mode_classic_horo.png?20200915"
+                      data-desktop="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_mode_classic_horo.png?20200915"
+                      data-retina="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_mode_classic_horo@2x.png?20200915"
                       className="adaptiveimage"
-                      src="//www.balmuda.com/jp/toaster/img/howto/desktop/img_mode_classic_horo@2x.png?20200915"
+                      src="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_mode_classic_horo@2x.png?20200915"
                     />
                   </div>
                   <div className="horo__text">
-                    <h3>琺瑯バットで料理の幅が広がります。</h3>
+                    <h3>珐琅能让料理的范围更广。</h3>
                     <p>
-                      オーブン対応の容器を使えばお菓子作りや油を使った料理に大活躍。別売りアクセサリー・野田琺瑯のホワイトバット(21枚取)は、BALMUDA
-                      The Toasterの庫内にちょうど収まるサイズです。
+                      如果使用与烤箱对应的容器的话，在制作点心和使用油的料理上大显身手。别卖饰品野田珐琅所产的白球棒(取21枚)，尺寸正好可以放在BALMUDA
+                      The Toaster的冰箱里。
                     </p>
-                    <a href="./accessory" className="section__btn">
-                      野田琺瑯について
-                    </a>
                   </div>
                 </div>
               </div>
@@ -341,39 +332,40 @@ export default function ProductDetail() {
             <div className="step">
               <div className="step__text">
                 <h2 className="section__title">
-                  STEP<span>4</span>時間を設定
+                  STEP<span>4</span>设定时间
                 </h2>
                 <p className="section__desc">
-                  右側のダイヤルを時計回りに回すとLEDが点灯します。設定したい時間まで回して止めると、動作が開始します。
+                  顺时针转动右侧的刻度盘，LED就会亮起来。转动到想设定的时间停止的话，动作开始。
                 </p>
                 <div className="step__img">
-                  <img src="//www.balmuda.com/jp/toaster/img/howto/mobile/img_step_04_new.gif?20200915" />
+                  <img src="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_04_new.gif?20200915" />
                 </div>
                 <div className="qa">
                   <dl>
                     <dt>
-                      <span className="asked">枚数や厚みで時間を変えたほうがいいですか？</span>
+                      <span className="asked">根据张数和厚度来改变时间比较好吗?</span>
                     </dt>
                     <dd>
                       <span>
-                        変える必要はありません。庫内の温度をこまかく計っているので、厚切り2枚を焼いて温度が上がりにくいことも、薄切り1枚で焼いて温度が上がりやすいことも分かっていて、考えながら調整しています。毎回同じタイマー設定で「いつもの焼き具合」が可能です。
+                        不需要改变。因为详细地测量了库内的温度，知道烤2片厚片温度不容易上升，烤1片薄片温度容易上升，一边考虑一边调整。每次都有相同的计时器设定，可以做到“平时的烧烤状态”。
                       </span>
                     </dd>
                   </dl>
                   <dl>
                     <dt>
-                      <span className="asked">冷凍パンはどうやって焼きますか？</span>
+                      <span className="asked">冷冻面包怎么烤?</span>
                     </dt>
                     <dd>
                       <span>
-                        冷凍のままトースターに入れて、パンの種類に合わせてモードを設定したら、常温のパンを焼くよりも1〜2分長めに焼いてください。パンは冷蔵するよりも冷凍したほうがおいしくいただけます。その日のうちに食べない分は冷凍することをおすすめします。
+                        把冷冻的面包放进烤面包机，根据面包的种类设定好模式后，请比常温面包烤长1 ~
+                        2分钟。比起冷藏面包，冷冻面包更好吃。建议把当天不吃的部分冷冻起来。
                       </span>
                     </dd>
                   </dl>
                 </div>
               </div>
               <div className="step__img">
-                <img src="//www.balmuda.com/jp/toaster/img/howto/desktop/img_step_04_new.gif?20200915" />
+                <img src="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_04_new.gif?20200915" />
               </div>
             </div>
           </div>
@@ -387,17 +379,17 @@ export default function ProductDetail() {
               <div className="step__text">
                 <h2 className="section__title">
                   STEP<span>5</span>
-                  <b>使い終わった後は</b>
+                  <b>用完之后</b>
                 </h2>
                 <p className="section__desc">
-                  パンくずトレイは使用の度に、それ以外の場所は汚れが目立ってきたらお手入れしてください。
+                  面包屑托盘每次使用时，如果其他地方有明显的污渍，请及时清理。
                   <br />
-                  焼きアミ、ボイラーカバー、給水パイプは取り外し可能です。
+                  烤虾、锅炉罩、给水管道可拆卸。
                 </p>
               </div>
               <div className="step__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/toaster/img/howto/mobile/img_step_05.jpg"
+                  data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_05.jpg"
                   className="adaptiveimage"
                 />
               </div>

@@ -12,16 +12,12 @@ export default function CleanerDetail() {
       <Head>
         <link
           rel="stylesheet"
-          href="//www.balmuda.com/_theme/vendor/photoswipe/css/photoswipe.css?20210701173655"
-        />
-        <link
-          rel="stylesheet"
           media="(max-width: 640px)"
-          href="//www.balmuda.com/jp/cleaner/style/mobile.css?20210701173839"></link>
+          href="/cleaner/style/mobile.css?20210701173839"></link>
         <link
           rel="stylesheet"
           media="(min-width: 641px)"
-          href="//www.balmuda.com/jp/cleaner/style/desktop.css?20210701173839"></link>
+          href="/cleaner/style/desktop.css?20210701173839"></link>
       </Head>
 
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
@@ -59,7 +55,7 @@ export default function CleanerDetail() {
             <a
               href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=C01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -68,17 +64,17 @@ export default function CleanerDetail() {
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img
-              data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/white.jpg?20201224"
-              data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/white@2x.jpg?20201224"
-							src="//www.balmuda.com/jp/cleaner/img/spec/desktop/white@2x.jpg?20201224"
+              data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/white.jpg?20201224"
+              data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/white@2x.jpg?20201224"
+							src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/white@2x.jpg?20201224"
               className={`adaptiveimage __image ${current === 0 ? '__current' : ''}`}
               data-model="white"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/black.jpg?20201224"
-              data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/black@2x.jpg?20201224"
-							src="//www.balmuda.com/jp/cleaner/img/spec/desktop/black@2x.jpg?20201224"
+              data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/black.jpg?20201224"
+              data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/black@2x.jpg?20201224"
+							src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/black@2x.jpg?20201224"
 							className={`adaptiveimage __image ${current === 1 ? '__current' : ''}`}
               data-model="black"
               alt=""
@@ -184,10 +180,10 @@ export default function CleanerDetail() {
             <ReactSlick dots className="spec--slider">
               <div className="spec--slider-slide">
                 <img
-                  data-mobile="//www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-00.jpg?20201224"
-                  data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-00.jpg?20201224"
-                  data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-00@2x.jpg?20201224"
-									src="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-00@2x.jpg?20201224"
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-00.jpg?20201224"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-00.jpg?20201224"
+                  data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-00@2x.jpg?20201224"
+									src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-00@2x.jpg?20201224"
                   className="__image adaptiveimage"
                   alt=""
                 />
@@ -199,10 +195,10 @@ export default function CleanerDetail() {
               </div>
               <div className="spec--slider-slide">
                 <img
-                  data-mobile="//www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-01.jpg?20201224"
-                  data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-01.jpg?20201224"
-                  data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-01@2x.jpg?20201224"
-									src="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-01@2x.jpg?20201224"
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-01.jpg?20201224"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-01.jpg?20201224"
+                  data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-01@2x.jpg?20201224"
+									src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-01@2x.jpg?20201224"
                   className="__image adaptiveimage"
                   alt=""
                 />
@@ -214,10 +210,10 @@ export default function CleanerDetail() {
               </div>
               <div className="spec--slider-slide">
                 <img
-                  data-mobile="//www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-02.jpg?20201224"
-                  data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-02.jpg?20201224"
-                  data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-02@2x.jpg?20201224"
-									src="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-02@2x.jpg?20201224"
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-02.jpg?20201224"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-02.jpg?20201224"
+                  data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-02@2x.jpg?20201224"
+									src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-02@2x.jpg?20201224"
                   className="__image adaptiveimage"
                   alt=""
                 />
@@ -229,10 +225,10 @@ export default function CleanerDetail() {
               </div>
               <div className="spec--slider-slide">
                 <img
-                  data-mobile="//www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-03.jpg?20201224"
-                  data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-03.jpg?20201224"
-                  data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-03@2x.jpg?20201224"
-									src="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-03@2x.jpg?20201224"
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-03.jpg?20201224"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-03.jpg?20201224"
+                  data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-03@2x.jpg?20201224"
+									src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-03@2x.jpg?20201224"
                   className="__image adaptiveimage"
                   alt=""
                 />
@@ -244,10 +240,10 @@ export default function CleanerDetail() {
               </div>
               <div className="spec--slider-slide">
                 <img
-                  data-mobile="//www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-04.jpg?20201224"
-                  data-desktop="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-04.jpg?20201224"
-                  data-retina="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-04@2x.jpg?20201224"
-									src="//www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-04@2x.jpg?20201224"
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/spec/mobile/section--00-04.jpg?20201224"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-04.jpg?20201224"
+                  data-retina="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-04@2x.jpg?20201224"
+									src="https://www.balmuda.com/jp/cleaner/img/spec/desktop/section--00-04@2x.jpg?20201224"
                   className="__image adaptiveimage"
                   alt=""
                 />

@@ -64,7 +64,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=A01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -116,11 +116,11 @@ export default function ProductDetail() {
           </div>
 
           <img
-            data-mobile="//www.balmuda.com/jp/pure/img/howto/movie/howto_head_mobile.jpg"
-            data-desktop="//www.balmuda.com/jp/pure/img/howto/movie/howto_head_desktop.jpg"
-            data-retina="//www.balmuda.com/jp/pure/img/howto/movie/howto_head_desktop@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/pure/img/howto/movie/howto_head_mobile.jpg"
+            data-desktop="https://www.balmuda.com/jp/pure/img/howto/movie/howto_head_desktop.jpg"
+            data-retina="https://www.balmuda.com/jp/pure/img/howto/movie/howto_head_desktop@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/pure/img/howto/movie/howto_head_desktop@2x.jpg"
+            src="https://www.balmuda.com/jp/pure/img/howto/movie/howto_head_desktop@2x.jpg"
             alt=""
           />
         </div>
@@ -148,12 +148,12 @@ export default function ProductDetail() {
           <div className="__column __01 scrollLoader fadeInUp loaded">
             <div className="column_index">
               <img
-                data-mobile="//www.balmuda.com/jp/pure/img/howto/mobile/howto-img1.jpg"
-                data-desktop="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img1.jpg"
-                data-retina="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img1@2x.jpg"
+                data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img1.jpg"
+                data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img1.jpg"
+                data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img1@2x.jpg"
                 className="adaptiveimage"
                 alt=""
-                src="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img1@2x.jpg"
+                src="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img1@2x.jpg"
               />
             </div>
 
@@ -174,12 +174,12 @@ export default function ProductDetail() {
           <div className="__column __02 scrollLoader fadeInUp loaded" id="bluelight">
             <div className="column_index">
               <img
-                data-mobile="//www.balmuda.com/jp/pure/img/howto/mobile/howto-img2.jpg"
-                data-desktop="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img2.jpg"
-                data-retina="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img2@2x.jpg"
+                data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img2.jpg"
+                data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img2.jpg"
+                data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img2@2x.jpg"
                 className="adaptiveimage"
                 alt=""
-                src="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img2@2x.jpg"
+                src="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img2@2x.jpg"
               />
             </div>
 
@@ -198,12 +198,12 @@ export default function ProductDetail() {
           <div className="__column __03 scrollLoader fadeInUp loaded">
             <div className="column_index">
               <img
-                data-mobile="//www.balmuda.com/jp/pure/img/howto/mobile/howto-img3.jpg"
-                data-desktop="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img3.jpg"
-                data-retina="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img3@2x.jpg"
+                data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img3.jpg"
+                data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img3.jpg"
+                data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img3@2x.jpg"
                 className="adaptiveimage"
                 alt=""
-                src="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img3@2x.jpg"
+                src="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img3@2x.jpg"
               />
             </div>
 
@@ -219,12 +219,12 @@ export default function ProductDetail() {
                 </p>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/howto/mobile/section--03--img--01.jpg"
-                    data-desktop="//www.balmuda.com/jp/pure/img/howto/desktop/section--03--img--01.jpg"
-                    data-retina="//www.balmuda.com/jp/pure/img/howto/desktop/section--03--img--01@2x.jpg"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/section--03--img--01.jpg"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/section--03--img--01.jpg"
+                    data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/section--03--img--01@2x.jpg"
                     className="adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/pure/img/howto/desktop/section--03--img--01@2x.jpg"
+                    src="https://www.balmuda.com/jp/pure/img/howto/desktop/section--03--img--01@2x.jpg"
                   />
                 </figure>
               </div>
@@ -234,12 +234,12 @@ export default function ProductDetail() {
           <div className="__column __04 scrollLoader fadeInUp loaded">
             <div className="column_index">
               <img
-                data-mobile="//www.balmuda.com/jp/pure/img/howto/mobile/howto-img4.jpg"
-                data-desktop="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img4.jpg"
-                data-retina="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img4@2x.jpg"
+                data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img4.jpg"
+                data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img4.jpg"
+                data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img4@2x.jpg"
                 className="adaptiveimage"
                 alt=""
-                src="//www.balmuda.com/jp/pure/img/howto/desktop/howto-img4@2x.jpg"
+                src="https://www.balmuda.com/jp/pure/img/howto/desktop/howto-img4@2x.jpg"
               />
             </div>
 
@@ -256,12 +256,12 @@ export default function ProductDetail() {
                 </p>
                 <figure>
                   <img
-                    data-mobile="//www.balmuda.com/jp/pure/img/howto/mobile/section--04--img--01.jpg?20190524"
-                    data-desktop="//www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01.jpg?20190524"
-                    data-retina="//www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01@2x.jpg?20190524"
+                    data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/section--04--img--01.jpg?20190524"
+                    data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01.jpg?20190524"
+                    data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01@2x.jpg?20190524"
                     className="adaptiveimage"
                     alt="エアコンとの併用で快適な室温に"
-                    src="//www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01@2x.jpg?20190524"
+                    src="https://www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01@2x.jpg?20190524"
                   />
                 </figure>
               </div>

@@ -66,7 +66,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=M01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -74,11 +74,11 @@ export default function ProductDetail() {
 
       <div className="section section--setting section--00">
         <img
-          data-mobile="//www.balmuda.com/jp/speaker/img/setting/mobile/section--00.jpg?20200612"
-          data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--00.jpg?20200612"
-          data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--00@2x.jpg?20200612"
+          data-mobile="https://www.balmuda.com/jp/speaker/img/setting/mobile/section--00.jpg?20200612"
+          data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--00.jpg?20200612"
+          data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--00@2x.jpg?20200612"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--00@2x.jpg?20200612"
+          src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--00@2x.jpg?20200612"
         />
       </div>
 
@@ -112,9 +112,9 @@ export default function ProductDetail() {
             </div>
             <div className="__box scrollLoader lazyload loaded">
               <img
-                data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01.jpg?20200612"
-                data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01@2x.jpg?20200612"
-                src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01@2x.jpg?20200612"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01.jpg?20200612"
+                data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01@2x.jpg?20200612"
+                src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01@2x.jpg?20200612"
                 className="adaptiveimage __image"
                 data-model="black"
                 alt=""
@@ -127,7 +127,7 @@ export default function ProductDetail() {
                 <p className="list__txt">
                   <span className="list__txt--no">
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/svg/no1.svgz"
+                      src="https://www.balmuda.com/jp/speaker/img/svg/no1.svgz"
                       className="list__txt--icon"
                       alt=""
                     />
@@ -135,7 +135,7 @@ export default function ProductDetail() {
                   <span className="list__txt--txt list__txt--txt__01">
                     製品の背面にある
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/setting/svg/icon--01.svg"
+                      src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--01.svg"
                       className="__icon"
                       alt=""
                     />
@@ -145,14 +145,14 @@ export default function ProductDetail() {
                 <p className="list__txt">
                   <span className="list__txt--no">
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/svg/no2.svgz"
+                      src="https://www.balmuda.com/jp/speaker/img/svg/no2.svgz"
                       className="list__txt--icon"
                       alt=""
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__01">
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/setting/svg/icon--02.svg"
+                      src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--02.svg"
                       className="__icon"
                       alt=""
                     />
@@ -162,7 +162,7 @@ export default function ProductDetail() {
                 <p className="list__txt">
                   <span className="list__txt--no">
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/svg/no3.svgz"
+                      src="https://www.balmuda.com/jp/speaker/img/svg/no3.svgz"
                       className="list__txt--icon"
                       alt=""
                     />
@@ -176,9 +176,9 @@ export default function ProductDetail() {
             </div>
             <div className="__box scrollLoader lazyload loaded">
               <img
-                data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02.jpg?20200612"
-                data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02@2x.jpg?20200612"
-                src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02@2x.jpg?20200612"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02.jpg?20200612"
+                data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02@2x.jpg?20200612"
+                src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02@2x.jpg?20200612"
                 className="adaptiveimage __image"
                 data-model="black"
                 alt=""
@@ -191,7 +191,7 @@ export default function ProductDetail() {
                 <p className="list__txt">
                   <span className="list__txt--no">
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/svg/no1.svgz"
+                      src="https://www.balmuda.com/jp/speaker/img/svg/no1.svgz"
                       className="list__txt--icon"
                       alt=""
                     />
@@ -203,7 +203,7 @@ export default function ProductDetail() {
                 <p className="list__txt">
                   <span className="list__txt--no">
                     <img
-                      src="//www.balmuda.com/jp/speaker/img/svg/no2.svgz"
+                      src="https://www.balmuda.com/jp/speaker/img/svg/no2.svgz"
                       className="list__txt--icon"
                       alt=""
                     />
@@ -226,9 +226,9 @@ export default function ProductDetail() {
             </div>
             <div className="__box scrollLoader lazyload loaded">
               <img
-                data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03.jpg?20200612"
-                data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03@2x.jpg?20200612"
-                src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03@2x.jpg?20200612"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03.jpg?20200612"
+                data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03@2x.jpg?20200612"
+                src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03@2x.jpg?20200612"
                 className="adaptiveimage __image"
                 data-model="black"
                 alt=""
@@ -238,7 +238,7 @@ export default function ProductDetail() {
                 <p>
                   背面の
                   <img
-                    src="//www.balmuda.com/jp/speaker/img/setting/svg/icon--02.svg"
+                    src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--02.svg"
                     className="__icon"
                     alt=""
                   />
@@ -256,12 +256,12 @@ export default function ProductDetail() {
                       </p>
                     </div>
                     <img
-                      data-mobile="//www.balmuda.com/jp/speaker/img/setting/mobile/section--02--04.jpg?20200612"
-                      data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--04.jpg?20200612"
-                      data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--04@2x.jpg?20200612"
+                      data-mobile="https://www.balmuda.com/jp/speaker/img/setting/mobile/section--02--04.jpg?20200612"
+                      data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--04.jpg?20200612"
+                      data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--04@2x.jpg?20200612"
                       className="__image adaptiveimage"
                       alt=""
-                      src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--04@2x.jpg?20200612"
+                      src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--04@2x.jpg?20200612"
                     />
                     <div className="__speaker_info">
                       <div className="__speaker_info_sp">
@@ -291,12 +291,12 @@ export default function ProductDetail() {
                       </p>
                     </div>
                     <img
-                      data-mobile="//www.balmuda.com/jp/speaker/img/setting/mobile/section--02--05.jpg?20200612"
-                      data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--05.jpg?20200612"
-                      data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--05@2x.jpg?20200612"
+                      data-mobile="https://www.balmuda.com/jp/speaker/img/setting/mobile/section--02--05.jpg?20200612"
+                      data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--05.jpg?20200612"
+                      data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--05@2x.jpg?20200612"
                       className="__image adaptiveimage"
                       alt=""
-                      src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--05@2x.jpg?20200612"
+                      src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--05@2x.jpg?20200612"
                     />
                     <div className="__speaker_info">
                       <div className="__speaker_info_sp">
@@ -326,12 +326,12 @@ export default function ProductDetail() {
                       </p>
                     </div>
                     <img
-                      data-mobile="//www.balmuda.com/jp/speaker/img/setting/mobile/section--02--06.jpg?20200612"
-                      data-desktop="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--06.jpg?20200612"
-                      data-retina="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--06@2x.jpg?20200612"
+                      data-mobile="https://www.balmuda.com/jp/speaker/img/setting/mobile/section--02--06.jpg?20200612"
+                      data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--06.jpg?20200612"
+                      data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--06@2x.jpg?20200612"
                       className="__image adaptiveimage"
                       alt=""
-                      src="//www.balmuda.com/jp/speaker/img/setting/desktop/section--02--06@2x.jpg?20200612"
+                      src="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--06@2x.jpg?20200612"
                     />
                     <div className="__speaker_info">
                       <div className="__speaker_info_sp">

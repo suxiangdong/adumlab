@@ -22,6 +22,9 @@ export default {
   getNews() {
     return api.get('/article', { params: { type: 1 } })
   },
+  getNewsDetailById(id: number | string) {
+    return api.get(`/article/${id}`)
+  },
   getNotifications() {
     return api.get('/article', { params: { type: 2 } })
   },

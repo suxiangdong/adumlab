@@ -38,7 +38,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -46,11 +46,11 @@ export default function ProductDetail() {
 
       <div className="section section--story section--00 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/lantern/img/story/mobile/section--00.jpg?20190909"
-          data-desktop="//www.balmuda.com/jp/lantern/img/story/desktop/section--00.jpg?20190909"
-          data-retina="//www.balmuda.com/jp/lantern/img/story/desktop/section--00@2x.jpg?20190909"
+          data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--00.jpg?20190909"
+          data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--00.jpg?20190909"
+          data-retina="https://www.balmuda.com/jp/lantern/img/story/desktop/section--00@2x.jpg?20190909"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/lantern/img/story/desktop/section--00@2x.jpg?20190909"
+          src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--00@2x.jpg?20190909"
         />
 
         <div className="viewport scrollLoader fadeInUp loaded">
@@ -74,11 +74,11 @@ export default function ProductDetail() {
 
       <div className="section section--story section--01 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/lantern/img/story/mobile/section--01.jpg?20190909"
-          data-desktop="//www.balmuda.com/jp/lantern/img/story/desktop/section--01.jpg?20190909"
-          data-retina="//www.balmuda.com/jp/lantern/img/story/desktop/section--01@2x.jpg?20190909"
+          data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--01.jpg?20190909"
+          data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--01.jpg?20190909"
+          data-retina="https://www.balmuda.com/jp/lantern/img/story/desktop/section--01@2x.jpg?20190909"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/lantern/img/story/desktop/section--01@2x.jpg?20190909"
+          src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--01@2x.jpg?20190909"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
@@ -94,11 +94,11 @@ export default function ProductDetail() {
 
       <div className="section section--story section--02 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/lantern/img/story/mobile/section--02.jpg?20190909"
-          data-desktop="//www.balmuda.com/jp/lantern/img/story/desktop/section--02.jpg?20190909"
-          data-retina="//www.balmuda.com/jp/lantern/img/story/desktop/section--02@2x.jpg?20190909"
+          data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--02.jpg?20190909"
+          data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--02.jpg?20190909"
+          data-retina="https://www.balmuda.com/jp/lantern/img/story/desktop/section--02@2x.jpg?20190909"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/lantern/img/story/desktop/section--02@2x.jpg?20190909"
+          src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--02@2x.jpg?20190909"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
@@ -112,11 +112,11 @@ export default function ProductDetail() {
 
       <div className="section section--story section--03 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/lantern/img/story/mobile/section--03.jpg?20190909"
-          data-desktop="//www.balmuda.com/jp/lantern/img/story/desktop/section--03.jpg?20190909"
-          data-retina="//www.balmuda.com/jp/lantern/img/story/desktop/section--03@2x.jpg?20190909"
+          data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--03.jpg?20190909"
+          data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--03.jpg?20190909"
+          data-retina="https://www.balmuda.com/jp/lantern/img/story/desktop/section--03@2x.jpg?20190909"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/lantern/img/story/desktop/section--03@2x.jpg?20190909"
+          src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--03@2x.jpg?20190909"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
@@ -131,11 +131,11 @@ export default function ProductDetail() {
 
       <div className="section section--story section--04 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/lantern/img/story/mobile/section--04.jpg?20190909"
-          data-desktop="//www.balmuda.com/jp/lantern/img/story/desktop/section--04.jpg?20190909"
-          data-retina="//www.balmuda.com/jp/lantern/img/story/desktop/section--04@2x.jpg?20190909"
+          data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--04.jpg?20190909"
+          data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--04.jpg?20190909"
+          data-retina="https://www.balmuda.com/jp/lantern/img/story/desktop/section--04@2x.jpg?20190909"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/lantern/img/story/desktop/section--04@2x.jpg?20190909"
+          src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--04@2x.jpg?20190909"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
@@ -152,11 +152,11 @@ export default function ProductDetail() {
 
       <div className="section section--story section--05 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/lantern/img/story/mobile/section--05.jpg?20190909"
-          data-desktop="//www.balmuda.com/jp/lantern/img/story/desktop/section--05.jpg?20190909"
-          data-retina="//www.balmuda.com/jp/lantern/img/story/desktop/section--05@2x.jpg?20190909"
+          data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--05.jpg?20190909"
+          data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--05.jpg?20190909"
+          data-retina="https://www.balmuda.com/jp/lantern/img/story/desktop/section--05@2x.jpg?20190909"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/lantern/img/story/desktop/section--05@2x.jpg?20190909"
+          src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--05@2x.jpg?20190909"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">

@@ -41,7 +41,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function ProductDetail() {
         <div className="viewport">
           <div className="__content">
             <img
-              src="//www.balmuda.com/jp/light/img/howto/svg/section--00--title.min.svgz"
+              src="https://www.balmuda.com/jp/light/img/howto/svg/section--00--title.min.svgz"
               className="__svg"
               alt="BALMUDA The Lightは光源の真下ではなく、光源から約30cm前方の位置を中心に、離れた場所を広く照らします。"
             />
@@ -61,11 +61,11 @@ export default function ProductDetail() {
           </div>
           <div className="__img">
             <img
-              data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/section--00.png"
-              data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/section--00.png"
-              data-retina="//www.balmuda.com/jp/light/img/howto/desktop/section--00@2x.png"
+              data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/section--00.png"
+              data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/section--00.png"
+              data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/section--00@2x.png"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/light/img/howto/desktop/section--00@2x.png"
+              src="https://www.balmuda.com/jp/light/img/howto/desktop/section--00@2x.png"
             />
           </div>
         </div>
@@ -83,11 +83,11 @@ export default function ProductDetail() {
               </h2>
               <div className="__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/column--1--position.png"
-                  data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/column--1--position.png"
-                  data-retina="//www.balmuda.com/jp/light/img/howto/desktop/column--1--position@2x.png"
+                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--1--position.png"
+                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--1--position.png"
+                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--1--position@2x.png"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/light/img/howto/desktop/column--1--position@2x.png"
+                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--1--position@2x.png"
                 />
               </div>
             </div>
@@ -109,22 +109,22 @@ export default function ProductDetail() {
               </p>
               <div className="__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/column--2--horizontal.png"
-                  data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal.png"
-                  data-retina="//www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal@2x.png"
+                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--2--horizontal.png"
+                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal.png"
+                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal@2x.png"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal@2x.png"
+                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal@2x.png"
                 />
               </div>
             </div>
             <div className="__point">
               <p className="__subtitle">机の広さに合わせて使うことが出来ます</p>
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/column--2--point--adjust.png"
-                data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust.png"
-                data-retina="//www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust@2x.png"
+                data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--2--point--adjust.png"
+                data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust.png"
+                data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust@2x.png"
                 className="__image adaptiveimage"
-                src="//www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust@2x.png"
+                src="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust@2x.png"
               />
             </div>
           </div>
@@ -141,11 +141,11 @@ export default function ProductDetail() {
               </p>
               <div className="__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/column--3--dial.png"
-                  data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/column--3--dial.png"
-                  data-retina="//www.balmuda.com/jp/light/img/howto/desktop/column--3--dial@2x.png"
+                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--dial.png"
+                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--dial.png"
+                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--dial@2x.png"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/light/img/howto/desktop/column--3--dial@2x.png"
+                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--dial@2x.png"
                 />
               </div>
             </div>
@@ -160,11 +160,11 @@ export default function ProductDetail() {
               </p>
               <div className="__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/column--3--point--illuminance.png?20200603"
-                  data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance.png?20200603"
-                  data-retina="//www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance@2x.png?20200603"
+                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--point--illuminance.png?20200603"
+                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance.png?20200603"
+                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance@2x.png?20200603"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance@2x.png?20200603"
+                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance@2x.png?20200603"
                 />
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function ProductDetail() {
         <div className="viewport">
           <div className="__content">
             <img
-              src="//www.balmuda.com/jp/light/img/howto/svg/section--02--title.min.svgz"
+              src="https://www.balmuda.com/jp/light/img/howto/svg/section--02--title.min.svgz"
               className="__svg"
               alt="BALMUDA The Lightは、離れた場所へ光を届け手もとに影のできない最適な明るさをお届けします。"
             />
@@ -190,11 +190,11 @@ export default function ProductDetail() {
           </div>
           <div className="__img">
             <img
-              data-mobile="//www.balmuda.com/jp/light/img/howto/mobile/section--02.png?20200603"
-              data-desktop="//www.balmuda.com/jp/light/img/howto/desktop/section--02.png?20200603"
-              data-retina="//www.balmuda.com/jp/light/img/howto/desktop/section--02@2x.png?20200603"
+              data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/section--02.png?20200603"
+              data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/section--02.png?20200603"
+              data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/section--02@2x.png?20200603"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/light/img/howto/desktop/section--02@2x.png?20200603"
+              src="https://www.balmuda.com/jp/light/img/howto/desktop/section--02@2x.png?20200603"
             />
           </div>
         </div>

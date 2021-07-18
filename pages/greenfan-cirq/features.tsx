@@ -62,7 +62,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-3300-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -74,11 +74,11 @@ export default function ProductDetail() {
           <h2 className="page__title __wb">空気を動かすと改变室温</h2>
         </div>
         <img
-          data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00.jpg"
-          data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00.jpg"
-          data-retina="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00@2x.jpg"
+          data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00.jpg"
+          data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00.jpg"
+          data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00@2x.jpg"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00@2x.jpg"
+          src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00@2x.jpg"
         />
       </div>
 
@@ -118,10 +118,10 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">3倍速乾</h2>
             <img
-              data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
-              data-retina="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
+              data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
+              data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
               className="section--02_img adaptiveimage __is_desktop"
-              src="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
+              src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
             />
             <p>
               衣類の乾燥には風が最も効果的。乾燥に時間がかかるとニオイやカビが発生することがあります。GreenFan
@@ -136,10 +136,10 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">30畳対応</h2>
             <img
-              data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
-              data-retina="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
+              data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
+              data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
               className="section--03_img adaptiveimage __is_desktop"
-              src="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
+              src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
             />
             <p>
               エアコンと併用して室温をすばやく均一にするだけではなく、隣りの部屋への送風も短時間で行います。また、就寝時には寝室の空気をゆるやかに循環させ快適に過ごせます。
@@ -154,10 +154,10 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">カビの予防</h2>
             <img
-              data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
-              data-retina="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
+              data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
+              data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
               className="section--04_img adaptiveimage __is_desktop"
-              src="//www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
+              src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
             />
             <p>
               外気の取り入れや、湿気がこもりがちなクローゼット、押し入れの換気に使えます。浴室など水回りの換気は、カビの予防に効果的です。

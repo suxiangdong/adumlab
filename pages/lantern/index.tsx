@@ -55,7 +55,7 @@ export default function ProductDetail({ banners }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -72,15 +72,15 @@ export default function ProductDetail({ banners }) {
         <div className="__mainimage">
           <div className="__inner">
             <img
-              data-mobile="//www.balmuda.com/jp/lantern/img/index/mobile/main.jpg?20210425"
-              data-desktop="//www.balmuda.com/jp/lantern/img/index/desktop/main.jpg?20210425"
-              data-retina="//www.balmuda.com/jp/lantern/img/index/desktop/main@2x.jpg?20210425"
+              data-mobile="https://www.balmuda.com/jp/lantern/img/index/mobile/main.jpg?20210425"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/index/desktop/main.jpg?20210425"
+              data-retina="https://www.balmuda.com/jp/lantern/img/index/desktop/main@2x.jpg?20210425"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/lantern/img/index/desktop/main@2x.jpg?20210425"
+              src="https://www.balmuda.com/jp/lantern/img/index/desktop/main@2x.jpg?20210425"
               alt=""
             />
             <img
-              src="//www.balmuda.com/jp/lantern/img/index/svg/main_text.svg?20210425"
+              src="https://www.balmuda.com/jp/lantern/img/index/svg/main_text.svg?20210425"
               className="__image adaptiveimage_copy"
               alt="オンラインストア限定"
             />
@@ -104,7 +104,7 @@ export default function ProductDetail({ banners }) {
               15,180
             </p>
             <p className="colores">
-              ブラック／ホワイト／グレー／
+              黑色/白色／グレー／
               <br />
               クラシックレッド／ネイビーブルー
             </p>
@@ -115,7 +115,7 @@ export default function ProductDetail({ banners }) {
               width="100%"
               height="100%"
               id="sec40_mobile"
-              poster="//www.balmuda.com/jp/lantern/img/index/mobile/trailer_low.jpg"
+              poster="https://www.balmuda.com/jp/lantern/img/index/mobile/trailer_low.jpg"
               preload="none"
               controls
               data-log="lantern_index_sec40_mobile">
@@ -141,7 +141,7 @@ export default function ProductDetail({ banners }) {
               Lanternは、簡単な操作で調光が可能。明るさに応じて光の色あいも変化するので、読書灯や、特別な日の食事のテーブルなど、シーンにあわせてお使いいただけます。
             </p>
             <a href="./design#dimming" className="section__btn">
-              調光について詳しく
+              調光について详情
             </a>
           </div>
         </div>

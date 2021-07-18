@@ -49,7 +49,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=A01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -58,11 +58,11 @@ export default function ProductDetail() {
       <div className="section section--design section--00">
         <div className="billboard__wrapper">
           <img
-            data-mobile="//www.balmuda.com/jp/pure/img/design/movie/design_head_mobile.jpg"
-            data-desktop="//www.balmuda.com/jp/pure/img/design/movie/design_head_desktop.jpg"
-            data-retina="//www.balmuda.com/jp/pure/img/design/movie/design_head_desktop@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/pure/img/design/movie/design_head_mobile.jpg"
+            data-desktop="https://www.balmuda.com/jp/pure/img/design/movie/design_head_desktop.jpg"
+            data-retina="https://www.balmuda.com/jp/pure/img/design/movie/design_head_desktop@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/pure/img/design/movie/design_head_desktop@2x.jpg"
+            src="https://www.balmuda.com/jp/pure/img/design/movie/design_head_desktop@2x.jpg"
             alt=""
           />
         </div>
@@ -90,9 +90,9 @@ export default function ProductDetail() {
       <div className="section section--design section--01 scrollLoader lazyload loaded">
         <div className="__image __is_mobile">
           <img
-            data-mobile="//www.balmuda.com/jp/pure/img/design/mobile/section--01.jpg"
+            data-mobile="https://www.balmuda.com/jp/pure/img/design/mobile/section--01.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/pure/img/design/mobile/section--01.jpg"
+            src="https://www.balmuda.com/jp/pure/img/design/mobile/section--01.jpg"
             alt=""
           />
         </div>
@@ -111,20 +111,20 @@ export default function ProductDetail() {
         <ReactSlick dots className="design--image" id="pure--design">
           <div className="design--00">
             <img
-              data-mobile="//www.balmuda.com/jp/pure/img/design/mobile/design--00.jpg"
-              data-desktop="//www.balmuda.com/jp/pure/img/design/desktop/design--00.jpg"
-              data-retina="//www.balmuda.com/jp/pure/img/design/desktop/design--00@2x.jpg"
-              src="//www.balmuda.com/jp/pure/img/design/desktop/design--00@2x.jpg"
+              data-mobile="https://www.balmuda.com/jp/pure/img/design/mobile/design--00.jpg"
+              data-desktop="https://www.balmuda.com/jp/pure/img/design/desktop/design--00.jpg"
+              data-retina="https://www.balmuda.com/jp/pure/img/design/desktop/design--00@2x.jpg"
+              src="https://www.balmuda.com/jp/pure/img/design/desktop/design--00@2x.jpg"
               className="__image adaptiveimage slick--lazy"
               alt=""
             />
           </div>
           <div className="design--01">
             <img
-              data-mobile="//www.balmuda.com/jp/pure/img/design/mobile/design--01.jpg"
-              data-desktop="//www.balmuda.com/jp/pure/img/design/desktop/design--01.jpg"
-              data-retina="//www.balmuda.com/jp/pure/img/design/desktop/design--01@2x.jpg"
-              src="//www.balmuda.com/jp/pure/img/design/desktop/design--01@2x.jpg"
+              data-mobile="https://www.balmuda.com/jp/pure/img/design/mobile/design--01.jpg"
+              data-desktop="https://www.balmuda.com/jp/pure/img/design/desktop/design--01.jpg"
+              data-retina="https://www.balmuda.com/jp/pure/img/design/desktop/design--01@2x.jpg"
+              src="https://www.balmuda.com/jp/pure/img/design/desktop/design--01@2x.jpg"
               className="__image adaptiveimage slick--lazy"
               alt=""
             />
@@ -189,7 +189,7 @@ export default function ProductDetail() {
             <div className="desc desc_1">
               <div className="desc__icon">
                 <img
-                  src="//www.balmuda.com/jp/pure/img/design/svg/autoormanual.svg"
+                  src="https://www.balmuda.com/jp/pure/img/design/svg/autoormanual.svg"
                   alt="オートモード／マニュアルモード"
                 />
               </div>
@@ -206,7 +206,7 @@ export default function ProductDetail() {
             <div className="desc desc_2">
               <div className="desc__icon">
                 <img
-                  src="//www.balmuda.com/jp/pure/img/design/svg/jetcleaning.svg"
+                  src="https://www.balmuda.com/jp/pure/img/design/svg/jetcleaning.svg"
                   alt="ジェットクリーニングモード"
                 />
               </div>
@@ -230,11 +230,11 @@ export default function ProductDetail() {
               水洗いOK
             </h2>
             <img
-              data-mobile="//www.balmuda.com/jp/pure/img/design/mobile/section--04.png"
-              data-desktop="//www.balmuda.com/jp/pure/img/design/desktop/section--04.png"
-              data-retina="//www.balmuda.com/jp/pure/img/design/desktop/section--04@2x.png"
+              data-mobile="https://www.balmuda.com/jp/pure/img/design/mobile/section--04.png"
+              data-desktop="https://www.balmuda.com/jp/pure/img/design/desktop/section--04.png"
+              data-retina="https://www.balmuda.com/jp/pure/img/design/desktop/section--04@2x.png"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/pure/img/design/desktop/section--04@2x.png"
+              src="https://www.balmuda.com/jp/pure/img/design/desktop/section--04@2x.png"
               alt=""
             />
             <p>
@@ -243,7 +243,7 @@ export default function ProductDetail() {
               水洗いすることが可能。いつも清潔に保つことができます。
             </p>
             <Link href="/pure/spec">
-              <a className="button section__btn">詳しく</a>
+              <a className="button section__btn">详情</a>
             </Link>
           </div>
         </div>

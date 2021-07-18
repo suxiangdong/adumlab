@@ -43,7 +43,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -65,20 +65,20 @@ export default function ProductDetail() {
           className="spec_model_image slick-initialized">
           <div className="bk">
             <img
-              data-mobile="//www.balmuda.com/jp/pot/img/spec/mobile/bk.jpg?20200929"
-              data-desktop="//www.balmuda.com/jp/pot/img/spec/desktop/bk.jpg?20200929"
-              data-retina="//www.balmuda.com/jp/pot/img/spec/desktop/bk@2x.jpg?20200929"
+              data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/bk.jpg?20200929"
+              data-desktop="https://www.balmuda.com/jp/pot/img/spec/desktop/bk.jpg?20200929"
+              data-retina="https://www.balmuda.com/jp/pot/img/spec/desktop/bk@2x.jpg?20200929"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/pot/img/spec/desktop/bk@2x.jpg?20200929"
+              src="https://www.balmuda.com/jp/pot/img/spec/desktop/bk@2x.jpg?20200929"
             />
           </div>
           <div className="wh">
             <img
-              data-mobile="//www.balmuda.com/jp/pot/img/spec/mobile/wh.jpg?20200929"
-              data-desktop="//www.balmuda.com/jp/pot/img/spec/desktop/wh.jpg?20200929"
-              data-retina="//www.balmuda.com/jp/pot/img/spec/desktop/wh@2x.jpg?20200929"
+              data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/wh.jpg?20200929"
+              data-desktop="https://www.balmuda.com/jp/pot/img/spec/desktop/wh.jpg?20200929"
+              data-retina="https://www.balmuda.com/jp/pot/img/spec/desktop/wh@2x.jpg?20200929"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/pot/img/spec/desktop/wh@2x.jpg?20200929"
+              src="https://www.balmuda.com/jp/pot/img/spec/desktop/wh@2x.jpg?20200929"
             />
           </div>
         </ReactSlick>
@@ -176,11 +176,11 @@ export default function ProductDetail() {
             <h2 className="section__title">各部の名前</h2>
             <div className="__imagewrap">
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/spec/mobile/wire.png"
-                data-desktop="//www.balmuda.com/jp/pot/img/spec/desktop/wire.png"
-                data-retina="//www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
+                data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/wire.png"
+                data-desktop="https://www.balmuda.com/jp/pot/img/spec/desktop/wire.png"
+                data-retina="https://www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
                 className="__image adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
+                src="https://www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
               />
             </div>
             <p>
@@ -196,11 +196,11 @@ export default function ProductDetail() {
             <h2 className="section__title">お手入れについて</h2>
             <div className="__imagewrap">
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/spec/mobile/maintenance.png"
-                data-desktop="//www.balmuda.com/jp/pot/img/spec/desktop/maintenance.png"
-                data-retina="//www.balmuda.com/jp/pot/img/spec/desktop/maintenance@2x.png"
+                data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/maintenance.png"
+                data-desktop="https://www.balmuda.com/jp/pot/img/spec/desktop/maintenance.png"
+                data-retina="https://www.balmuda.com/jp/pot/img/spec/desktop/maintenance@2x.png"
                 className="__image adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/spec/desktop/maintenance@2x.png"
+                src="https://www.balmuda.com/jp/pot/img/spec/desktop/maintenance@2x.png"
               />
             </div>
             <p>
@@ -208,7 +208,7 @@ export default function ProductDetail() {
             </p>
             <p className="note">
               *
-              本体内側の汚れが気になってきたら、市販の顆粒タイプのクエン酸でつけ置き洗いが可能です。詳しくは取り扱い説明書をご覧ください。
+              本体内側の汚れが気になってきたら、市販の顆粒タイプのクエン酸でつけ置き洗いが可能です。详情は取り扱い説明書をご覧ください。
             </p>
           </div>
         </div>

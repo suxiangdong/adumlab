@@ -63,7 +63,7 @@ export default function ProductDetail({ banners, evaluations }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=M01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -78,11 +78,11 @@ export default function ProductDetail({ banners, evaluations }) {
       <div className="section section--index section--00 scrollLoader lazyload loaded">
         <div className="__mainimage">
           <img
-            data-mobile="//www.balmuda.com/jp/speaker/img/index/mobile/main.jpg?20201225"
-            data-desktop="//www.balmuda.com/jp/speaker/img/index/desktop/main.jpg?20201225"
-            data-retina="//www.balmuda.com/jp/speaker/img/index/desktop/main@2x.jpg?20201225"
+            data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/main.jpg?20201225"
+            data-desktop="https://www.balmuda.com/jp/speaker/img/index/desktop/main.jpg?20201225"
+            data-retina="https://www.balmuda.com/jp/speaker/img/index/desktop/main@2x.jpg?20201225"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/speaker/img/index/desktop/main@2x.jpg?20201225"
+            src="https://www.balmuda.com/jp/speaker/img/index/desktop/main@2x.jpg?20201225"
             alt=""
           />
         </div>
@@ -113,7 +113,7 @@ export default function ProductDetail({ banners, evaluations }) {
               width="100%"
               height="100%"
               id="sec104_mobile"
-              poster="//www.balmuda.com/jp/speaker/img/index/mobile/trailer_low.jpg"
+              poster="https://www.balmuda.com/jp/speaker/img/index/mobile/trailer_low.jpg"
               preload="none"
               controls
               data-log="speaker_index_sec104_mobile">
@@ -127,7 +127,7 @@ export default function ProductDetail({ banners, evaluations }) {
       </div>
       <div className="section section--index section--01 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/speaker/img/index/mobile/section--01.jpg?20201225"
+          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--01.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
@@ -142,14 +142,14 @@ export default function ProductDetail({ banners, evaluations }) {
               曲本来のバランスはそのままに、音の輪郭をはっきり、かつ立体的に再生。この音響設計はボーカル中心の音楽と相性抜群。驚くほどボーカルが近くに聴こえます。
             </p>
             <a href="./technology" className="section__btn">
-              詳しく
+              详情
             </a>
           </div>
         </div>
       </div>
       <div className="section section--index section--02 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/speaker/img/index/mobile/section--02.jpg?20201225"
+          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--02.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
@@ -164,14 +164,14 @@ export default function ProductDetail({ banners, evaluations }) {
               曲のグルーヴを印象づけるのは、3基のLEDユニット。音のエネルギーに追従し、光が0.004秒の速さで緻密にシンクロ。音楽的な光がライブステージのような高揚感をお届けします。
             </p>
             <a href="./technology#LED" className="section__btn">
-              詳しく
+              详情
             </a>
           </div>
         </div>
       </div>
       <div className="section section--index section--03 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/speaker/img/index/mobile/section--03.jpg?20201225"
+          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--03.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
@@ -190,7 +190,7 @@ export default function ProductDetail({ banners, evaluations }) {
       </div>
       <div className="section section--index section--04 scrollLoader lazyload loaded">
         <img
-          data-mobile="//www.balmuda.com/jp/speaker/img/index/mobile/section--04.jpg?20201225"
+          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--04.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
@@ -233,61 +233,61 @@ export default function ProductDetail({ banners, evaluations }) {
           <div className="gallery__content" data-pswp-uid="1">
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
-                data-desktop="//www.balmuda.com/jp/speaker/img/index/gallery/1.jpg?20201225"
-                data-retina="//www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/1.jpg?20201225"
+                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                src="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
               />
               s{' '}
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
-                data-desktop="//www.balmuda.com/jp/speaker/img/index/gallery/2.jpg?20201225"
-                data-retina="//www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/2.jpg?20201225"
+                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                src="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
               />
               s{' '}
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
-                data-desktop="//www.balmuda.com/jp/speaker/img/index/gallery/3.jpg?20201225"
-                data-retina="//www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/3.jpg?20201225"
+                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                src="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
               />
               s{' '}
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
-                data-desktop="//www.balmuda.com/jp/speaker/img/index/gallery/4.jpg?20201225"
-                data-retina="//www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/4.jpg?20201225"
+                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                src="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
               />
               s{' '}
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
-                data-desktop="//www.balmuda.com/jp/speaker/img/index/gallery/5.jpg?20201225"
-                data-retina="//www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/5.jpg?20201225"
+                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                src="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
               />
               s{' '}
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
-                data-desktop="//www.balmuda.com/jp/speaker/img/index/gallery/6.jpg?20201225"
-                data-retina="//www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/6.jpg?20201225"
+                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                src="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
               />
               s{' '}
             </figure>

@@ -5,11 +5,11 @@ import API from '../effects/api'
 export default function Footer() {
   const [news, setNews] = useState([])
   useEffect(() => {
-    // API.getNews().then((res) => {
-    //   if (res && Array.isArray(res.data) && res.data.length > 0) {
-    //     setNews(res.data)
-    //   }
-    // })
+    API.getNews().then((res) => {
+      if (res && Array.isArray(res.data) && res.data.length > 0) {
+        setNews(res.data)
+      }
+    })
   }, [])
 
   return (
@@ -81,21 +81,6 @@ export default function Footer() {
                     <a href={n.redirect_url}>{n.redirect_text || n.title}</a>
                   </li>
                 ))}
-                <li className="feed__item">
-                  <a href="https://www.balmuda.com/jp/news/1009">
-                    BALMUDA The Toasterに限定カラー「グレー」が新登場
-                  </a>
-                </li>
-                <li className="feed__item">
-                  <a href="https://www.balmuda.com/jp/news/997">
-                    携帯端末事業（５Gスマートフォン開発及び販売）参入のお知らせ
-                  </a>
-                </li>
-                <li className="feed__item">
-                  <a href="https://www.balmuda.com/jp/news/992">
-                    GW期間の休業と「母の日」のギフトラッピングについて
-                  </a>
-                </li>
               </ul>
             </div>
           </div>

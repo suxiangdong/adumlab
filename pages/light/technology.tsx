@@ -41,7 +41,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function ProductDetail() {
           <div className="viewport">
             <div className="__copy">
               <img
-                src="//www.balmuda.com/jp/light/img/technology/desktop/forwardbeam_technology.svgz"
+                src="https://www.balmuda.com/jp/light/img/technology/desktop/forwardbeam_technology.svgz"
                 className="__logo"
                 alt="FowardBeam Technology"
               />
@@ -79,12 +79,12 @@ export default function ProductDetail() {
                 <h3 className="forwardbeam__img--h">一般的なデスクライト</h3>
                 <div className="forwardbeam__img--head">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img1.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img1.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img1@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img1.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img1.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img1@2x.png"
                     className="__image adaptiveimage"
                     alt="通常の照明"
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img1@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img1@2x.png"
                   />
                   <div className="forwardbeam__img--head--text">
                     <p className="__wb">
@@ -96,30 +96,30 @@ export default function ProductDetail() {
                 </div>
                 <div className="forwardbeam__img--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img2.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img2.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img2@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img2.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img2.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img2@2x.png"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img2@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img2@2x.png"
                   />
                 </div>
               </div>
               <div className="forwardbeam__img--item forwardbeam__img--item--02">
                 <h3 className="forwardbeam__img--h">
                   <img
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/forwardbeam_technology.svgz"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/forwardbeam_technology.svgz"
                     alt="FowardBeam Technology"
                   />
                 </h3>
                 <div className="forwardbeam__img--head">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img3.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img3.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3@2x.png"
                     className="__image adaptiveimage"
                     alt="フォワードビーム科技"
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img3@2x.png"
                   />
                   <div className="forwardbeam__img--head--text">
                     <p className="__wb">
@@ -131,12 +131,12 @@ export default function ProductDetail() {
                 </div>
                 <div className="forwardbeam__img--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img4.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img4.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img4@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img4.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img4.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img4@2x.png"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img4@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img4@2x.png"
                   />
                 </div>
               </div>
@@ -145,27 +145,27 @@ export default function ProductDetail() {
               <div className="forwardbeam__light--inner">
                 <span className="__is_desktop">
                   <img
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img5.jpg"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img5@2x.jpg"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img5.jpg"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img5@2x.jpg"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img5@2x.jpg"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img5@2x.jpg"
                   />
                 </span>
                 <span className="__is_desktop">
                   <img
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img6.jpg"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img6@2x.jpg"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img6.jpg"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img6@2x.jpg"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img6@2x.jpg"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img6@2x.jpg"
                   />
                 </span>
               </div>
               <ul className="forwardbeam__light--list __is_mobile">
                 <li>一般的なデスクライト</li>
                 <li>
-                  <img src="//www.balmuda.com/jp/light/img/logo/the-light-fff.svgz" alt="BALMUDA The Light" />
+                  <img src="https://www.balmuda.com/jp/light/img/logo/the-light-fff.svgz" alt="BALMUDA The Light" />
                 </li>
               </ul>
             </div>
@@ -185,12 +185,12 @@ export default function ProductDetail() {
             </div>
             <figure className="forwardbeam--foot--img">
               <img
-                data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img7.jpg?20200603"
-                data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img7.jpg?20200603"
-                data-retina="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img7@2x.jpg?20200603"
+                data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/fowardbeam-img7.jpg?20200603"
+                data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img7.jpg?20200603"
+                data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img7@2x.jpg?20200603"
                 className="__image adaptiveimage"
                 alt="医療用の手術灯"
-                src="//www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img7@2x.jpg?20200603"
+                src="https://www.balmuda.com/jp/light/img/technology/desktop/fowardbeam-img7@2x.jpg?20200603"
               />
             </figure>
           </div>
@@ -208,22 +208,22 @@ export default function ProductDetail() {
             <div className="color_rendering_index">
               <div className="led__img--item led__img--item--01">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/led-img1.jpg"
-                  data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/led-img1.jpg"
-                  data-retina="//www.balmuda.com/jp/light/img/technology/desktop/led-img1@2x.jpg"
+                  data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/led-img1.jpg"
+                  data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/led-img1.jpg"
+                  data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/led-img1@2x.jpg"
                   className="adaptiveimage"
                   alt="一般的なLED照明(イメージ)"
-                  src="//www.balmuda.com/jp/light/img/technology/desktop/led-img1@2x.jpg"
+                  src="https://www.balmuda.com/jp/light/img/technology/desktop/led-img1@2x.jpg"
                 />
               </div>
               <div className="led__img--item led__img--item--02">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/led-img2.jpg"
-                  data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/led-img2.jpg"
-                  data-retina="//www.balmuda.com/jp/light/img/technology/desktop/led-img2@2x.jpg"
+                  data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/led-img2.jpg"
+                  data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/led-img2.jpg"
+                  data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/led-img2@2x.jpg"
                   className="adaptiveimage"
                   alt="BALMUDA The Light(イメージ)"
-                  src="//www.balmuda.com/jp/light/img/technology/desktop/led-img2@2x.jpg"
+                  src="https://www.balmuda.com/jp/light/img/technology/desktop/led-img2@2x.jpg"
                 />
               </div>
             </div>
@@ -240,12 +240,12 @@ export default function ProductDetail() {
                 </div>
                 <div className="__graph">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--01_re.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--01_re.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re@2x.png"
                     className="adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re@2x.png"
                   />
                 </div>
               </div>
@@ -263,12 +263,12 @@ export default function ProductDetail() {
               <div className="__wrap">
                 <div className="__graph">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--02.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--02.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02@2x.png"
                     className="adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02@2x.png"
                   />
                 </div>
                 <div className="__text">
@@ -312,12 +312,12 @@ export default function ProductDetail() {
                     <em>ちらつきが起こる</em>
                   </div>
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--03--01.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--01.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--01@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--03--01.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--01.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--01@2x.png"
                     className="adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--01@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--01@2x.png"
                   />
                 </div>
 
@@ -331,12 +331,12 @@ export default function ProductDetail() {
                     <em>ちらつかない</em>
                   </div>
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--03--02.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--02.png"
-                    data-retina="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--02@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--03--02.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--02.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--02@2x.png"
                     className="adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--02@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--03--02@2x.png"
                   />
                 </div>
               </div>

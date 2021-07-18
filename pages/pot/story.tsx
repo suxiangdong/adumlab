@@ -43,7 +43,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function ProductDetail() {
 
       <div className="section section--story section--00">
         <img
-          src="//www.balmuda.com/jp/pot/img/story/mobile/section--00.jpg"
+          src="https://www.balmuda.com/jp/pot/img/story/mobile/section--00.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport">
@@ -77,7 +77,7 @@ export default function ProductDetail() {
 
       <div className="section section--story section--01 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/story/mobile/section--01.jpg"
+          src="https://www.balmuda.com/jp/pot/img/story/mobile/section--01.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
@@ -92,7 +92,7 @@ export default function ProductDetail() {
 
       <div className="section section--story section--03 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/story/mobile/section--03.jpg"
+          src="https://www.balmuda.com/jp/pot/img/story/mobile/section--03.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
@@ -107,7 +107,7 @@ export default function ProductDetail() {
 
       <div className="section section--story section--04 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/story/mobile/section--04.jpg"
+          src="https://www.balmuda.com/jp/pot/img/story/mobile/section--04.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
@@ -122,7 +122,7 @@ export default function ProductDetail() {
 
       <div className="section section--story section--05 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/story/mobile/section--05.jpg"
+          src="https://www.balmuda.com/jp/pot/img/story/mobile/section--05.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">

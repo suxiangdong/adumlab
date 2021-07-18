@@ -27,22 +27,17 @@ export default function CleanerDetail() {
     video.pause()
   }
 
-  const handleScroll = (e) => {}
   return (
     <Layout>
       <Head>
         <link
           rel="stylesheet"
-          href="//www.balmuda.com/_theme/vendor/photoswipe/css/photoswipe.css?20210701173655"
-        />
-        <link
-          rel="stylesheet"
           media="(max-width: 640px)"
-          href="//www.balmuda.com/jp/cleaner/style/mobile.css?20210701173839"></link>
+          href="/cleaner/style/mobile.css?20210701173839"></link>
         <link
           rel="stylesheet"
           media="(min-width: 641px)"
-          href="//www.balmuda.com/jp/cleaner/style/desktop.css?20210701173839"></link>
+          href="/cleaner/style/desktop.css?20210701173839"></link>
       </Head>
 
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
@@ -80,20 +75,20 @@ export default function CleanerDetail() {
             <a
               href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=C01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
       </div>
       <div className="section section--feature section--00">
         <img
-          data-mobile="//www.balmuda.com/jp/cleaner/img/feature/mobile/section--00.jpg?20201224"
-          data-desktop="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--00.jpg?20201224"
-          data-retina="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--00@2x.jpg?20201224"
+          data-mobile="https://www.balmuda.com/jp/cleaner/img/feature/mobile/section--00.jpg?20201224"
+          data-desktop="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--00.jpg?20201224"
+          data-retina="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--00@2x.jpg?20201224"
           className="adaptiveimage __image __image__01"
           data-model="black"
           alt=""
-          src="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--00@2x.jpg?20201224"
+          src="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--00@2x.jpg?20201224"
         />
         <div className="viewport">
           <div className="__content">
@@ -181,25 +176,25 @@ export default function CleanerDetail() {
             </p>
             <div className="__box">
               <img
-                data-desktop="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-01.jpg?20201224"
-                data-retina="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-01@2x.jpg?20201224"
-                src="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-01@2x.jpg?20201224"
+                data-desktop="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-01.jpg?20201224"
+                data-retina="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-01@2x.jpg?20201224"
+                src="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-01@2x.jpg?20201224"
                 className="adaptiveimage __image"
                 data-model="black"
                 alt=""
               />
               <img
-                data-desktop="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-02.jpg?20201224"
-                data-retina="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-02@2x.jpg?20201224"
-                src="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-02@2x.jpg?20201224"
+                data-desktop="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-02.jpg?20201224"
+                data-retina="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-02@2x.jpg?20201224"
+                src="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-02@2x.jpg?20201224"
                 className="adaptiveimage __image"
                 data-model="black"
                 alt=""
               />
               <img
-                data-desktop="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-03.jpg?20201224"
-                data-retina="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-03@2x.jpg?20201224"
-                src="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-03@2x.jpg?20201224"
+                data-desktop="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-03.jpg?20201224"
+                data-retina="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-03@2x.jpg?20201224"
+                src="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--01-03@2x.jpg?20201224"
                 className="adaptiveimage __image"
                 data-model="black"
                 alt=""
@@ -345,17 +340,17 @@ export default function CleanerDetail() {
             </p>
             <div className="__box">
               <img
-                data-desktop="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-01.jpg?20201224"
-                data-retina="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-01@2x.jpg?20201224"
-                src="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-01@2x.jpg?20201224"
+                data-desktop="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-01.jpg?20201224"
+                data-retina="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-01@2x.jpg?20201224"
+                src="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-01@2x.jpg?20201224"
                 className="adaptiveimage __image __image__01"
                 data-model="black"
                 alt=""
               />
               <img
-                data-desktop="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-02.jpg?20201224"
-                data-retina="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-02@2x.jpg?20201224"
-                src="//www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-02@2x.jpg?20201224"
+                data-desktop="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-02.jpg?20201224"
+                data-retina="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-02@2x.jpg?20201224"
+                src="https://www.balmuda.com/jp/cleaner/img/feature/desktop/section--03-02@2x.jpg?20201224"
                 className="adaptiveimage __image __image__01"
                 data-model="black"
                 alt=""

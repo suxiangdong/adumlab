@@ -52,7 +52,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>

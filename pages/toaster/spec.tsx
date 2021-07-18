@@ -53,7 +53,7 @@ export default function ProductDetail() {
             <a
               href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function ProductDetail() {
 
       <div className="section section--spec section--00">
         <img
-          src="//www.balmuda.com/jp/toaster/img/spec/mobile/section--00.jpg"
+          src="https://www.balmuda.com/jp/toaster/img/spec/mobile/section--00.jpg"
           className="__image __is_mobile"
         />
       </div>
@@ -145,33 +145,33 @@ export default function ProductDetail() {
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img
-              data-desktop="//www.balmuda.com/jp/toaster/img/spec/desktop/black.jpg?20210501"
-              data-retina="//www.balmuda.com/jp/toaster/img/spec/desktop/black@2x.jpg?20210501"
-              src="//www.balmuda.com/jp/toaster/img/spec/desktop/black@2x.jpg?20210501"
+              data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/black.jpg?20210501"
+              data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/black@2x.jpg?20210501"
+              src="https://www.balmuda.com/jp/toaster/img/spec/desktop/black@2x.jpg?20210501"
               className="adaptiveimage __image __current"
               data-model="black"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/toaster/img/spec/desktop/white.jpg?20210501"
-              data-retina="//www.balmuda.com/jp/toaster/img/spec/desktop/white@2x.jpg?20210503"
-              src="//www.balmuda.com/jp/toaster/img/spec/desktop/white@2x.jpg?20210503"
+              data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/white.jpg?20210501"
+              data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/white@2x.jpg?20210503"
+              src="https://www.balmuda.com/jp/toaster/img/spec/desktop/white@2x.jpg?20210503"
               className="adaptiveimage __image"
               data-model="white"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/toaster/img/spec/desktop/beige.jpg?20210501"
-              data-retina="//www.balmuda.com/jp/toaster/img/spec/desktop/beige@2x.jpg?20210502"
-              src="//www.balmuda.com/jp/toaster/img/spec/desktop/beige@2x.jpg?20210502"
+              data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/beige.jpg?20210501"
+              data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/beige@2x.jpg?20210502"
+              src="https://www.balmuda.com/jp/toaster/img/spec/desktop/beige@2x.jpg?20210502"
               className="adaptiveimage __image"
               data-model="beige"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/toaster/img/spec/desktop/gray.jpg?20210501"
-              data-retina="//www.balmuda.com/jp/toaster/img/spec/desktop/gray@2x.jpg?20210501"
-              src="//www.balmuda.com/jp/toaster/img/spec/desktop/gray@2x.jpg?20210501"
+              data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/gray.jpg?20210501"
+              data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/gray@2x.jpg?20210501"
+              src="https://www.balmuda.com/jp/toaster/img/spec/desktop/gray@2x.jpg?20210501"
               className="adaptiveimage __image"
               data-model="gray"
               alt=""
@@ -197,25 +197,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--02.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -235,25 +235,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--00.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--00.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--00.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--00.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -274,25 +274,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--01.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--01.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--01.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--01.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -313,25 +313,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--02.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -350,25 +350,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--00.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--00.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--00.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--00.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--00.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -387,25 +387,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--01.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--01.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--01.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--01.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--01.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -424,25 +424,25 @@ export default function ProductDetail() {
                       className="__image_item"
                       style={{ width: '100%', display: 'inline-block' }}>
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/black--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/black--02.jpg"
                         className="__image adaptiveimage slick--lazy __current"
                         data-model="black"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/white--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/white--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="white"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/beige--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/beige--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="beige"
                         alt=""
                       />
                       <img
-                        src="//www.balmuda.com/jp/toaster/img/spec/mobile/gray--02.jpg"
+                        src="https://www.balmuda.com/jp/toaster/img/spec/mobile/gray--02.jpg"
                         className="__image adaptiveimage slick--lazy"
                         data-model="gray"
                         alt=""
@@ -530,11 +530,11 @@ export default function ProductDetail() {
               </div>
               <div className="initems__img">
                 <img
-                  data-mobile="//www.balmuda.com/jp/toaster/img/spec/mobile/img1.jpg?2021"
-                  data-desktop="//www.balmuda.com/jp/toaster/img/spec/desktop/img1.jpg?2021"
-                  data-retina="//www.balmuda.com/jp/toaster/img/spec/desktop/img1@2x.jpg?2021"
+                  data-mobile="https://www.balmuda.com/jp/toaster/img/spec/mobile/img1.jpg?2021"
+                  data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/img1.jpg?2021"
+                  data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/img1@2x.jpg?2021"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/toaster/img/spec/desktop/img1@2x.jpg?2021"
+                  src="https://www.balmuda.com/jp/toaster/img/spec/desktop/img1@2x.jpg?2021"
                 />
               </div>
             </div>

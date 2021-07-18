@@ -49,7 +49,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=ERN-1100SD-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -57,11 +57,11 @@ export default function ProductDetail() {
 
       <div className="section section--humidity section--00">
         <img
-          data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--00.jpg"
-          data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--00.jpg"
-          data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
+          data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--00.jpg"
+          data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00.jpg"
+          data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
           className="__image adaptiveimage"
-          src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
+          src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
         />
         <div className="viewport">
           <div className="__content">
@@ -85,11 +85,11 @@ export default function ProductDetail() {
             <div className="mode_column">
               <div>
                 <img
-                  data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--01_icn_01.jpg"
-                  data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01.jpg"
-                  data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01@2x.jpg"
+                  data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--01_icn_01.jpg"
+                  data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01.jpg"
+                  data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01@2x.jpg"
                   className="adaptiveimage"
-                  src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01@2x.jpg"
+                  src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01@2x.jpg"
                 />
                 <h3>超音波式</h3>
                 <p>
@@ -98,11 +98,11 @@ export default function ProductDetail() {
               </div>
               <div>
                 <img
-                  data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--01_icn_02.jpg"
-                  data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02.jpg"
-                  data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02@2x.jpg"
+                  data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--01_icn_02.jpg"
+                  data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02.jpg"
+                  data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02@2x.jpg"
                   className=" adaptiveimage"
-                  src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02@2x.jpg"
+                  src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02@2x.jpg"
                 />
                 <h3>加熱式</h3>
                 <p>
@@ -111,11 +111,11 @@ export default function ProductDetail() {
               </div>
               <div>
                 <img
-                  data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--01_icn_03.jpg"
-                  data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03.jpg"
-                  data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03@2x.jpg"
+                  data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--01_icn_03.jpg"
+                  data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03.jpg"
+                  data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03@2x.jpg"
                   className=" adaptiveimage"
-                  src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03@2x.jpg"
+                  src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03@2x.jpg"
                 />
                 <h3>気化式</h3>
                 <p>
@@ -132,10 +132,10 @@ export default function ProductDetail() {
 
         <div className="fadeout_image scrollin">
           <img
-            data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--02_fadeout_image.png"
-            data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--02_fadeout_image@2x.png"
+            data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--02_fadeout_image.png"
+            data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--02_fadeout_image@2x.png"
             className="adaptiveimage"
-            src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--02_fadeout_image@2x.png"
+            src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--02_fadeout_image@2x.png"
           />
         </div>
 
@@ -154,11 +154,11 @@ export default function ProductDetail() {
             <h2 className="section__title __wb">30分でウイルスを除去</h2>
 
             <img
-              data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--03.jpg"
-              data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--03.jpg"
-              data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--03@2x.jpg"
+              data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--03.jpg"
+              data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03.jpg"
+              data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03@2x.jpg"
               className="section--03_img adaptiveimage __is_desktop"
-              src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--03@2x.jpg"
+              src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03@2x.jpg"
             />
 
             <p>
@@ -176,11 +176,11 @@ export default function ProductDetail() {
             <div className="wrapper">
               <h2 className="section__title __wb">溶菌酵素について</h2>
               <img
-                data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--03_modal.png"
-                data-desktop="//www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal.png"
-                data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal@2x.png"
+                data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--03_modal.png"
+                data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal.png"
+                data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal@2x.png"
                 className="section--03_img adaptiveimage"
-                src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal@2x.png"
+                src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal@2x.png"
               />
               <p>
                 酵素は人の体内や自然界に数多くの種類が存在し、分解や再生など、それぞれが様々な能力を持っています。Rainのプレフィルターにコーティングされているのは、溶菌作用をもつ酵素。接触した細菌を分解する作用があります。自然界の物質なので人に悪影響はなく、無害であることも試験で証明されています。
@@ -212,11 +212,11 @@ export default function ProductDetail() {
 
             <div className="back_img">
               <img
-                data-mobile="//www.balmuda.com/jp/rain/img/humidity/mobile/section--05.png"
-                data-desktop="//www.balmuda.com/jp/rain/img/humidity/mobile/section--05.png"
-                data-retina="//www.balmuda.com/jp/rain/img/humidity/desktop/section--05@2x.jpg"
+                data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--05.png"
+                data-desktop="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--05.png"
+                data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--05@2x.jpg"
                 className="section--05_img adaptiveimage"
-                src="//www.balmuda.com/jp/rain/img/humidity/desktop/section--05@2x.jpg"
+                src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--05@2x.jpg"
               />
 
               <div className="desc_1">

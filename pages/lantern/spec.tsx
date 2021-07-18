@@ -56,7 +56,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -65,41 +65,41 @@ export default function ProductDetail() {
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img
-              data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/black.jpg?20210421"
-              data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/black@2x.jpg?20210421"
-              src="//www.balmuda.com/jp/lantern/img/spec/desktop/black@2x.jpg?20210421"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/black.jpg?20210421"
+              data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/black@2x.jpg?20210421"
+              src="https://www.balmuda.com/jp/lantern/img/spec/desktop/black@2x.jpg?20210421"
 							className={`adaptiveimage __image ${current === 0 ? '__current' : ''}`}
               data-model="black"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/white.jpg?20210421"
-              data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/white@2x.jpg?20210421"
-              src="//www.balmuda.com/jp/lantern/img/spec/desktop/white@2x.jpg?20210421"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/white.jpg?20210421"
+              data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/white@2x.jpg?20210421"
+              src="https://www.balmuda.com/jp/lantern/img/spec/desktop/white@2x.jpg?20210421"
               className={`adaptiveimage __image ${current === 1 ? '__current' : ''}`}
               data-model="white"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/gray.jpg?20210421"
-              data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/gray@2x.jpg?20210421"
-              src="//www.balmuda.com/jp/lantern/img/spec/desktop/gray@2x.jpg?20210421"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/gray.jpg?20210421"
+              data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/gray@2x.jpg?20210421"
+              src="https://www.balmuda.com/jp/lantern/img/spec/desktop/gray@2x.jpg?20210421"
               className={`adaptiveimage __image ${current === 2 ? '__current' : ''}`}
               data-model="gray"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/red.jpg?20210421"
-              data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/red@2x.jpg?20210421"
-              src="//www.balmuda.com/jp/lantern/img/spec/desktop/red@2x.jpg?20210421"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/red.jpg?20210421"
+              data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/red@2x.jpg?20210421"
+              src="https://www.balmuda.com/jp/lantern/img/spec/desktop/red@2x.jpg?20210421"
               className={`adaptiveimage __image ${current === 3 ? '__current' : ''}`}
               data-model="red"
               alt=""
             />
             <img
-              data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/navy.jpg?20210421"
-              data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/navy@2x.jpg?20210421"
-              src="//www.balmuda.com/jp/lantern/img/spec/desktop/navy@2x.jpg?20210421"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/navy.jpg?20210421"
+              data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/navy@2x.jpg?20210421"
+              src="https://www.balmuda.com/jp/lantern/img/spec/desktop/navy@2x.jpg?20210421"
               className={`adaptiveimage __image ${current === 4 ? '__current' : ''}`}
               data-model="navy"
               alt=""
@@ -238,12 +238,12 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">同梱物一覧</h2>
             <img
-              data-mobile="//www.balmuda.com/jp/lantern/img/spec/mobile/section--02.png?20210421"
-              data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
-              data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
+              data-mobile="https://www.balmuda.com/jp/lantern/img/spec/mobile/section--02.png?20210421"
+              data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
+              data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
               className="__image adaptiveimage"
               alt="本体（×１）、ACアダプター（×１）、電源ケーブル（×１）、取扱説明書（保証証含む）（×１）"
-              src="//www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
+              src="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
             />
           </div>
         </div>
@@ -262,7 +262,7 @@ export default function ProductDetail() {
                 </div>
                 <div className="__img">
                   <img
-                    src="//www.balmuda.com/jp/lantern/img/spec/svg/section--03--figure.svg"
+                    src="https://www.balmuda.com/jp/lantern/img/spec/svg/section--03--figure.svg"
                     className="__figure"
                     alt=""
                   />
@@ -273,12 +273,12 @@ export default function ProductDetail() {
               <ul className="__light ">
                 <li className="__light_item">
                   <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/spec/mobile/section--03--light--00.jpg?20210421"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--00.jpg?20210421"
-                    data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--00@2x.jpg?20210421"
+                    data-mobile="https://www.balmuda.com/jp/lantern/img/spec/mobile/section--03--light--00.jpg?20210421"
+                    data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--00.jpg?20210421"
+                    data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--00@2x.jpg?20210421"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--00@2x.jpg?20210421"
+                    src="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--00@2x.jpg?20210421"
                   />
                   <div className="__light_info">
                     <p className="__light_text">ゆらぎのある光</p>
@@ -293,12 +293,12 @@ export default function ProductDetail() {
                 </li>
                 <li className="__light_item">
                   <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/spec/mobile/section--03--light--01.jpg?20210421"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--01.jpg?20210421"
-                    data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--01@2x.jpg?20210421"
+                    data-mobile="https://www.balmuda.com/jp/lantern/img/spec/mobile/section--03--light--01.jpg?20210421"
+                    data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--01.jpg?20210421"
+                    data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--01@2x.jpg?20210421"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--01@2x.jpg?20210421"
+                    src="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--01@2x.jpg?20210421"
                   />
                   <div className="__light_info">
                     <p className="__light_text">暖色の光</p>
@@ -306,12 +306,12 @@ export default function ProductDetail() {
                 </li>
                 <li className="__light_item">
                   <img
-                    data-mobile="//www.balmuda.com/jp/lantern/img/spec/mobile/section--03--light--02.jpg?20210421"
-                    data-desktop="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--02.jpg?20210421"
-                    data-retina="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--02@2x.jpg?20210421"
+                    data-mobile="https://www.balmuda.com/jp/lantern/img/spec/mobile/section--03--light--02.jpg?20210421"
+                    data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--02.jpg?20210421"
+                    data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--02@2x.jpg?20210421"
                     className="__image adaptiveimage"
                     alt=""
-                    src="//www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--02@2x.jpg?20210421"
+                    src="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--03--light--02@2x.jpg?20210421"
                   />
                   <div className="__light_info">
                     <p className="__light_text">温白色の光</p>
@@ -327,7 +327,7 @@ export default function ProductDetail() {
                 id="spec_yuragi"
                 width="100%"
 								onEnded={handleEnded}
-                poster="//www.balmuda.com/jp/lantern/img/spec/movie/poster.jpg"
+                poster="https://www.balmuda.com/jp/lantern/img/spec/movie/poster.jpg"
                 data-log="lantern_spec_yuragi">
                 <source
                   src="//s3.balmuda.com/www/jp/lantern/movie/yuragi.mp4?20210421"

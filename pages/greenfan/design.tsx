@@ -47,7 +47,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-1700"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function ProductDetail() {
             </p>
           </div>
           <img
-            src="//www.balmuda.com/jp/greenfan/img/design/svg/section--00a.svgz?20210406"
+            src="https://www.balmuda.com/jp/greenfan/img/design/svg/section--00a.svgz?20210406"
             className="__title"
             alt="The GreenFanとエアコンの併用"
           />

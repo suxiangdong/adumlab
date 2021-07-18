@@ -8,16 +8,16 @@ export default function ProductDetail() {
 
   const handlePlay = () => {
     setPlaying(true)
-		const video = document.getElementById('__video_content') as HTMLVideoElement
+    const video = document.getElementById('__video_content') as HTMLVideoElement
     video.style.opacity = '1'
     video.play()
   }
 
   const handleEnded = () => {
     setPlaying(false)
-		const video = document.getElementById('__video_content') as HTMLVideoElement
+    const video = document.getElementById('__video_content') as HTMLVideoElement
     video.style.opacity = '0'
-		video.pause()
+    video.pause()
   }
   return (
     <Layout>
@@ -58,7 +58,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -66,18 +66,18 @@ export default function ProductDetail() {
 
       <div className="section section--design section--00">
         <img
-          src="//www.balmuda.com/jp/pot/img/design/mobile/section--00.jpg"
+          src="https://www.balmuda.com/jp/pot/img/design/mobile/section--00.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">
-              毎日つかいたくなる
+              每天都想用的
               <br />
-              電気ケトル
+              电水壶
             </h2>
             <p>
-              小さなサイズだから、湯沸かしがより手軽に。ステンレスに塗装をほどこした美しい質感とほんのりと光る灯台のような電源ランプが、1日に何度もくり返す湯を沸かす時間を楽しくします。
+              因为体积小，所以烧水更方便。在不锈钢上涂了漆的美丽的质感和微微发光的灯塔一样的电源灯，1天重复几次的烧水的时间快乐。
             </p>
           </div>
         </div>
@@ -85,29 +85,27 @@ export default function ProductDetail() {
 
       <div className="section section--design section--01 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/design/mobile/section--01.jpg"
+          src="https://www.balmuda.com/jp/pot/img/design/mobile/section--01.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">ちょうどいいサイズ、使いやすい軽さ</h2>
-            <p>
-              コーヒー3杯、カップヌードル2杯分。よく使う量に合わせたサイズです。取り回しやすく、さっと使える軽さです。
-            </p>
+            <h2 className="section__title">尺寸适中，使用方便。</h2>
+            <p>3杯咖啡，2杯方便面。是和经常使用的量一致的尺寸。容易拿取，快速使用的轻便。</p>
           </div>
         </div>
       </div>
 
       <div className="section section--design section--05 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/design/mobile/section--05.jpg"
+          src="https://www.balmuda.com/jp/pot/img/design/mobile/section--05.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">気持ちいいくらいの注ぎごこち</h2>
+            <h2 className="section__title">舒服的倒酒感觉</h2>
             <p>
-              研究しつくされたハンドルとノズルが今までにない注ぎ心地を実現しました。ハンドルはすっと手になじみ、ノズルは湯切れよく、ねらったところに的確に注ぎやすいように設計されています。
+              研究制造的方向盘和喷嘴实现了至今没有的注入心情。方向盘很容易上手，喷嘴很容易断水，被设计成很容易准确地把水倒到目标的地方。
             </p>
           </div>
         </div>
@@ -115,7 +113,7 @@ export default function ProductDetail() {
 
       <div className="section section--design section--06 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/design/mobile/section--06.jpg"
+          src="https://www.balmuda.com/jp/pot/img/design/mobile/section--06.jpg"
           className="__section_image __is_mobile"
         />
         <div className="__is_mobile">
@@ -129,7 +127,12 @@ export default function ProductDetail() {
         </div>
         <div className="__is_desktop">
           <div className="__overlay_video">
-            <video muted={true} width="100%" height="100%" id="__video_content" onEnded={handleEnded}>
+            <video
+              muted={true}
+              width="100%"
+              height="100%"
+              id="__video_content"
+              onEnded={handleEnded}>
               <source src="//s3.balmuda.com/www/jp/pot/movie/v1.mp4" type="video/mp4" />
               <source src="//s3.balmuda.com/www/jp/pot/movie/v1.webm" type="video/webm" />
               <source src="//s3.balmuda.com/www/jp/pot/movie/v1.ogv" type="video/ogg" />
@@ -144,24 +147,22 @@ export default function ProductDetail() {
         </div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">ゆっくりも、はやくも自由自在</h2>
-            <p>
-              ドリップコーヒーはゆっくりと、カップ麺はすばやく。ストレスなく流速をコントロールすることができるので、湯を注ぐ時間が今よりもっと楽しくなります。
-            </p>
+            <h2 className="section__title">缓慢也好，快速也好，自由自在</h2>
+            <p>滴滤咖啡要慢，泡面要快。因为可以毫无压力地控制流速，注入热水的时间比现在更快乐。</p>
           </div>
         </div>
       </div>
 
       <div className="section section--design section--03 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/design/mobile/section--03.jpg"
+          src="https://www.balmuda.com/jp/pot/img/design/mobile/section--03.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">どこからでも見やすい灯り</h2>
+            <h2 className="section__title">从哪里都能看清楚的灯</h2>
             <p>
-              いろいろな角度から見やすい電源ランプは小さなネオン管を使った独特の優しい灯り。湯を沸かすほんの一瞬も豊かな時間になります。
+              从各种角度容易看到的电源灯是使用小的霓虹灯管的独特的温柔的灯。就连烧水的那一瞬间也能成为丰富的时间。
             </p>
           </div>
         </div>
@@ -169,15 +170,14 @@ export default function ProductDetail() {
 
       <div className="section section--design section--04 scrollLoader lazyload loaded">
         <img
-          src="//www.balmuda.com/jp/pot/img/design/mobile/section--04.jpg"
+          src="https://www.balmuda.com/jp/pot/img/design/mobile/section--04.jpg"
           className="__section_image __is_mobile"
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">素晴らしいひとときを</h2>
+            <h2 className="section__title">美好的时光</h2>
             <p>
-              ゆっくりとコーヒーを淹れる贅沢な時間や、お客さまの目の前でお茶を淹れるもてなし。BALMUDA
-              The Potで、素晴らしいひとときをお楽しみください。
+              悠闲地泡咖啡的奢侈时间，在客人面前泡茶的款待。请在 BALMUDA The Pot 享受美好的时光。
             </p>
           </div>
         </div>

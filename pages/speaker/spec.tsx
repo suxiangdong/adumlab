@@ -44,7 +44,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=M01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -53,9 +53,9 @@ export default function ProductDetail() {
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img
-              data-desktop="//www.balmuda.com/jp/speaker/img/spec/desktop/section--00.jpg?20200326"
-              data-retina="//www.balmuda.com/jp/speaker/img/spec/desktop/section--00@2x.jpg?20200326"
-              src="//www.balmuda.com/jp/speaker/img/spec/desktop/section--00@2x.jpg?20200326"
+              data-desktop="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--00.jpg?20200326"
+              data-retina="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--00@2x.jpg?20200326"
+              src="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--00@2x.jpg?20200326"
               className="adaptiveimage __image"
               data-model="black"
               alt=""
@@ -216,12 +216,12 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">同梱物一覧</h2>
             <img
-              data-mobile="//www.balmuda.com/jp/speaker/img/spec/mobile/section--02.png?20200326"
-              data-desktop="//www.balmuda.com/jp/speaker/img/spec/desktop/section--02.png?20200326"
-              data-retina="//www.balmuda.com/jp/speaker/img/spec/desktop/section--02@2x.png?20200326"
+              data-mobile="https://www.balmuda.com/jp/speaker/img/spec/mobile/section--02.png?20200326"
+              data-desktop="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02.png?20200326"
+              data-retina="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02@2x.png?20200326"
               className="__image adaptiveimage"
               alt="本体（×１）、ACアダプター（×１）、電源ケーブル（×１）、取扱説明書（保証証含む）（×１）"
-              src="//www.balmuda.com/jp/speaker/img/spec/desktop/section--02@2x.png?20200326"
+              src="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02@2x.png?20200326"
             />
           </div>
         </div>

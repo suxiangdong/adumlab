@@ -76,7 +76,7 @@ export default function ProductDetail({ banners }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=ERN-1100SD-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -93,11 +93,11 @@ export default function ProductDetail({ banners }) {
       <div className="section section--index section--00">
         <div className="__mainimage">
           <img
-            data-mobile="//www.balmuda.com/jp/rain/img/index/mobile/main.jpg"
-            data-desktop="//www.balmuda.com/jp/rain/img/index/desktop/main.jpg"
-            data-retina="//www.balmuda.com/jp/rain/img/index/desktop/main@2x.jpg"
+            data-mobile="https://www.balmuda.com/jp/rain/img/index/mobile/main.jpg"
+            data-desktop="https://www.balmuda.com/jp/rain/img/index/desktop/main.jpg"
+            data-retina="https://www.balmuda.com/jp/rain/img/index/desktop/main@2x.jpg"
             className="__image adaptiveimage"
-            src="//www.balmuda.com/jp/rain/img/index/desktop/main@2x.jpg"
+            src="https://www.balmuda.com/jp/rain/img/index/desktop/main@2x.jpg"
           />
         </div>
         <div className="viewport">

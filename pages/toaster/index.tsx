@@ -72,7 +72,7 @@ export default function ({ banners, evaluations }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -248,7 +248,7 @@ export default function ({ banners, evaluations }) {
             <br />
             在黑色、白色的基础上，增加了与各种风味厨房相适应的新颜色米色。
           </p>
-          <Link href="/design">
+          <Link href="/toaster/design">
             <a className="text-xs text-black">查看</a>
           </Link>
         </div>
@@ -265,102 +265,87 @@ export default function ({ banners, evaluations }) {
           下面介绍来自巴慕达厨房团队和专业人士的食谱。
         </p>
         <ReactSlick slidesToShow={3} centerMode infinite dots={false}>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_010@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">牛角面包三明治</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_041@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">熏鲑鱼加酸奶油的百吉果三明治</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_006@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">脆脆的培根煎蛋吐司</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_008@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">巧克力香蕉吐司</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_042@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">卡曼贝尔水果吐司</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_035@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">黑胡椒配柠檬牛肉三明治</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_053@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">蛋饼</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_044@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">芫荽汤</p>
-            </a>
-          </Link>
-          <Link href="/">
-            <a className="block px-5">
-              <img
-                className="mb-5"
-                src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_054@2x.jpg?20200901"
-                alt=""
-              />
-              <p className="text-lg text-center">球场上的热狗</p>
-            </a>
-          </Link>
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_010@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">牛角面包三明治</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_041@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">熏鲑鱼加酸奶油的百吉果三明治</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_006@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">脆脆的培根煎蛋吐司</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_008@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">巧克力香蕉吐司</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_042@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">卡曼贝尔水果吐司</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_035@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">黑胡椒配柠檬牛肉三明治</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_053@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">蛋饼</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_044@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">芫荽汤</p>
+          </div>
+
+          <div className="block px-5">
+            <img
+              className="mb-5"
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_054@2x.jpg?20200901"
+              alt=""
+            />
+            <p className="text-lg text-center">球场上的热狗</p>
+          </div>
         </ReactSlick>
-        <Link href="/">
-          <a className="bg-black bg-opacity-50 text-white text-center text-xs block rounded-full w-72 h-11 py-1 leading-9 mt-16 mx-auto">
-            烤面包机食谱列表
-          </a>
-        </Link>
       </section>
 
       <div className="section section--index section--story2 scrollLoader lazyload loaded">

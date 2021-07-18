@@ -53,7 +53,7 @@ export default function ProductDetail() {
             <a
               href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="section section--story section--01 scrollLoader lazyload loaded">
-        <img src="//www.balmuda.com/jp/toaster/img/story/mobile/section--01.jpg" className="__section_image __is_mobile" />
+        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--01.jpg" className="__section_image __is_mobile" />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">1991年、スペイン、ロンダの町</h2>
@@ -94,7 +94,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="section section--story section--02 scrollLoader lazyload loaded">
-        <img src="//www.balmuda.com/jp/toaster/img/story/mobile/section--02.jpg" className="__section_image __is_mobile" />
+        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--02.jpg" className="__section_image __is_mobile" />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">どしゃ降りのバーベキュー</h2>
@@ -109,7 +109,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="section section--story section--03 scrollLoader lazyload loaded">
-        <img src="//www.balmuda.com/jp/toaster/img/story/mobile/section--03.jpg" className="__section_image __is_mobile" />
+        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--03.jpg" className="__section_image __is_mobile" />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">ダンディゾン</h2>
@@ -122,7 +122,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="section section--story section--04 scrollLoader lazyload loaded">
-        <img src="//www.balmuda.com/jp/toaster/img/story/mobile/section--04.jpg" className="__section_image __is_mobile" />
+        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--04.jpg" className="__section_image __is_mobile" />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">2000種類の设计</h2>
@@ -141,7 +141,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="section section--story section--05 scrollLoader lazyload loaded">
-        <img src="//www.balmuda.com/jp/toaster/img/story/mobile/section--05.jpg" className="__section_image __is_mobile" />
+        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--05.jpg" className="__section_image __is_mobile" />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">終わらない実験</h2>

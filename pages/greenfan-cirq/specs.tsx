@@ -46,7 +46,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-3300-WK"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -54,11 +54,11 @@ export default function ProductDetail() {
 
       <div className="section section--specs section--00">
         <img
-          data-mobile="//www.balmuda.com/jp/greenfan-cirq/img/specs/mobile/section--00.jpg"
-          data-desktop="//www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00.jpg"
-          data-retina="//www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00@2x.jpg"
+          data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/specs/mobile/section--00.jpg"
+          data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00.jpg"
+          data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00@2x.jpg"
           className="adaptiveimage"
-          src="//www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00@2x.jpg"
+          src="https://www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00@2x.jpg"
         />
       </div>
       <div className="section section--specs section--01">

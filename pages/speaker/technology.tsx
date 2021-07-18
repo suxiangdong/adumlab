@@ -44,16 +44,16 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=M01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
       </div>
       <div className="section section--technology section--00">
         <img
-          data-desktop="//www.balmuda.com/jp/speaker/img/technology/desktop/section--00.jpg?20200421b"
-          data-retina="//www.balmuda.com/jp/speaker/img/technology/desktop/section--00@2x.jpg?20200421b"
-          src="//www.balmuda.com/jp/speaker/img/technology/desktop/section--00@2x.jpg?20200421b"
+          data-desktop="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--00.jpg?20200421b"
+          data-retina="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--00@2x.jpg?20200421b"
+          src="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--00@2x.jpg?20200421b"
           className="adaptiveimage __image"
           data-model="black"
           alt=""
@@ -79,7 +79,7 @@ export default function ProductDetail() {
       <div className="section section--technology section--01 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <img
-            src="//www.balmuda.com/jp/speaker//img/technology/mobile/section--01.jpg"
+            src="https://www.balmuda.com/jp/speaker//img/technology/mobile/section--01.jpg"
             className="__image__sp"
             alt=""
           />
@@ -98,9 +98,9 @@ export default function ProductDetail() {
             <div className="__item __item__01">
               <p className="__title">一般的な横向きのスピーカー</p>
               <img
-                data-desktop="//www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00.png?20200421b"
-                data-retina="//www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00@2x.png?20200421b"
-                src="//www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00@2x.png?20200421b"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00.png?20200421b"
+                data-retina="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00@2x.png?20200421b"
+                src="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00@2x.png?20200421b"
                 className="adaptiveimage __image __image__01"
                 data-model="black"
                 alt=""
@@ -110,9 +110,9 @@ export default function ProductDetail() {
             <div className="__item __item__02">
               <p className="__title">BALMUDA The Speaker</p>
               <img
-                data-desktop="//www.balmuda.com/jp/speaker/img/technology/desktop/section--01--01.png?20200421b"
-                data-retina="//www.balmuda.com/jp/speaker/img/technology/desktop/section--01--01@2x.png?20200421b"
-                src="//www.balmuda.com/jp/speaker/img/technology/desktop/section--01--01@2x.png?20200421b"
+                data-desktop="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--01.png?20200421b"
+                data-retina="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--01@2x.png?20200421b"
+                src="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--01@2x.png?20200421b"
                 className="adaptiveimage __image __image__02"
                 data-model="black"
                 alt=""
@@ -140,7 +140,7 @@ export default function ProductDetail() {
       <div className="section section--technology section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <img
-            src="//www.balmuda.com/jp/speaker//img/technology/mobile/section--03.jpg"
+            src="https://www.balmuda.com/jp/speaker//img/technology/mobile/section--03.jpg"
             className="__image__sp"
             alt=""
           />
@@ -157,7 +157,7 @@ export default function ProductDetail() {
       <div className="section section--technology section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <img
-            src="//www.balmuda.com/jp/speaker//img/technology/mobile/section--04.jpg"
+            src="https://www.balmuda.com/jp/speaker//img/technology/mobile/section--04.jpg"
             className="__image__sp"
             alt=""
           />

@@ -41,7 +41,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L01A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -60,28 +60,28 @@ export default function ProductDetail() {
 				className="spec--image" id="spec--image">
           <div className="spec--00">
             <img
-              data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/spec--00.jpg?20190222"
-              data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/spec--00.jpg?20190222"
-              data-retina="//www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
-							src="//www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
+              data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/spec--00.jpg?20190222"
+              data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00.jpg?20190222"
+              data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
+							src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--01">
             <img
-              data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/spec--01.jpg?20190222"
-              data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/spec--01.jpg?20190222"
-              data-retina="//www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
-							src="//www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
+              data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/spec--01.jpg?20190222"
+              data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01.jpg?20190222"
+              data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
+							src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--02">
             <img
-              data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/spec--02.jpg?20190222"
-              data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/spec--02.jpg?20190222"
-              data-retina="//www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
-							src="//www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
+              data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/spec--02.jpg?20190222"
+              data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02.jpg?20190222"
+              data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
+							src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
@@ -143,7 +143,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>保証期間</th>
-                  <td>購入日から1年</td>
+                  <td>购买日から1年</td>
                 </tr>
                 <tr>
                   <th>パッケージ内容</th>
@@ -189,51 +189,51 @@ export default function ProductDetail() {
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img1.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img1.png"
-                    data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img1@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img1.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img1.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img1@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/light/img/spec/desktop/img1@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img1@2x.png"
                   />
                 </figure>
               </div>
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img2.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img2.png"
-                    data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img2@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img2.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img2.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img2@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/light/img/spec/desktop/img2@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img2@2x.png"
                   />
                 </figure>
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img3.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img3.png"
-                    data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img3@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img3.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img3.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img3@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/light/img/spec/desktop/img3@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img3@2x.png"
                   />
                 </figure>
               </div>
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img4.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img4.png"
-                    data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img4@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img4.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img4.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img4@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/light/img/spec/desktop/img4@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img4@2x.png"
                   />
                 </figure>
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img5.png"
-                    data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img5.png"
-                    data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img5@2x.png"
+                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img5.png"
+                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img5.png"
+                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img5@2x.png"
                     className="__image adaptiveimage"
-                    src="//www.balmuda.com/jp/light/img/spec/desktop/img5@2x.png"
+                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img5@2x.png"
                   />
                 </figure>
               </div>
@@ -249,20 +249,20 @@ export default function ProductDetail() {
             <div className="specimages">
               <div className="specimage __1">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img6-1.png?20190222"
-                  data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img6-1.png?20190222"
-                  data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img6-1@2x.png?20190222"
+                  data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img6-1.png?20190222"
+                  data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img6-1.png?20190222"
+                  data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img6-1@2x.png?20190222"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/light/img/spec/desktop/img6-1@2x.png?20190222"
+                  src="https://www.balmuda.com/jp/light/img/spec/desktop/img6-1@2x.png?20190222"
                 />
               </div>
               <div className="specimage __2">
                 <img
-                  data-mobile="//www.balmuda.com/jp/light/img/spec/mobile/img6-2.png?20190222"
-                  data-desktop="//www.balmuda.com/jp/light/img/spec/desktop/img6-2.png?20190222"
-                  data-retina="//www.balmuda.com/jp/light/img/spec/desktop/img6-2@2x.png?20190222"
+                  data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img6-2.png?20190222"
+                  data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img6-2.png?20190222"
+                  data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img6-2@2x.png?20190222"
                   className="__image adaptiveimage"
-                  src="//www.balmuda.com/jp/light/img/spec/desktop/img6-2@2x.png?20190222"
+                  src="https://www.balmuda.com/jp/light/img/spec/desktop/img6-2@2x.png?20190222"
                 />
               </div>
             </div>

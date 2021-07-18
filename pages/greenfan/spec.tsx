@@ -48,7 +48,7 @@ export default function ProductDetail() {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-1700"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function ProductDetail() {
 
       <div className="section section--spec section--00">
         <img
-          src="//www.balmuda.com/jp/greenfan/img/spec/mobile/section--00.jpg"
+          src="https://www.balmuda.com/jp/greenfan/img/spec/mobile/section--00.jpg"
           className="__image __is_mobile"
         />
       </div>
@@ -132,100 +132,100 @@ export default function ProductDetail() {
         <ReactSlick arrows={false} dots className="spec--image" id="spec--image">
           <div className="spec--00">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--00.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--00.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--01">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--01.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--01.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--02">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--02.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--02.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--03">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--03.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--03.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--07">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--07.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--07.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--07@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--07@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--07.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--07.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--07@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--07@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--09">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--09.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--09.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--09@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--09@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--09.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--09.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--09@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--09@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--10">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--10.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--10.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--10@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--10@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--10.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--10.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--10@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--10@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--04">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--04.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--04.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--04@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--04@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--04.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--04.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--04@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--04@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--05">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--05.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--05.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--05@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--05@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--05.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--05.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--05@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--05@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--06">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--06.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--06.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--06@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--06@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--06.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--06.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--06@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--06@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--11">
             <img
-              data-mobile="//www.balmuda.com/jp/greenfan/img/spec/mobile/spec--11.jpg?20210408"
-              data-desktop="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--11.jpg?20210408"
-              data-retina="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--11@2x.jpg?20210408"
-              src="//www.balmuda.com/jp/greenfan/img/spec/desktop/spec--11@2x.jpg?20210408"
+              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--11.jpg?20210408"
+              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--11.jpg?20210408"
+              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--11@2x.jpg?20210408"
+              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--11@2x.jpg?20210408"
               className="__image adaptiveimage slick--lazy"
             />
           </div>

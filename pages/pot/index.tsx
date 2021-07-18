@@ -60,7 +60,7 @@ export default function ProductDetail({ banners }) {
             <a
               href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K02A"
               className="btn btn--pagemap">
-              購入
+              购买
             </a>
           </div>
         </div>
@@ -77,30 +77,29 @@ export default function ProductDetail({ banners }) {
         <div className="__mainimage">
           <div className="__inner">
             <img
-              data-mobile="//www.balmuda.com/jp/pot/img/index/mobile/main.jpg?20201006"
-              data-desktop="//www.balmuda.com/jp/pot/img/index/desktop/main.jpg?20201006"
-              data-retina="//www.balmuda.com/jp/pot/img/index/desktop/main@2x.jpg?20201006"
+              data-mobile="https://www.balmuda.com/jp/pot/img/index/mobile/main.jpg?20201006"
+              data-desktop="https://www.balmuda.com/jp/pot/img/index/desktop/main.jpg?20201006"
+              data-retina="https://www.balmuda.com/jp/pot/img/index/desktop/main@2x.jpg?20201006"
               className="__image adaptiveimage"
-              src="//www.balmuda.com/jp/pot/img/index/desktop/main@2x.jpg?20201006"
+              src="https://www.balmuda.com/jp/pot/img/index/desktop/main@2x.jpg?20201006"
             />
           </div>
         </div>
         <div className="viewport">
           <h2 className="page__title __wb">
-            <span>小さくて美しい</span>
-            <span>電気ケトル</span>
+            <span>小而美的电水壶</span>
           </h2>
-          <span className="label__block">600ml　1200W　ステンレス製　電気ケトル</span>
+          <span className="label__block">600ml 1200w不锈钢电水壶</span>
           <p className="overview_text">
-            BALMUDA The Potは、毎日使いたくなる
+            BALMUDA The Pot是每天都想使用的
             <br />
-            今までにない美しい设计の電気ケトルです。
+            至今没有的美丽设计的电水壶。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               12,100
             </p>
-            <p className="colores">ブラック／ホワイト</p>
+            <p className="colores">黑色/白色</p>
           </div>
         </div>
       </div>
@@ -115,7 +114,7 @@ export default function ProductDetail({ banners }) {
               <span>手軽に。</span>
             </h2>
             <p>
-              収納スペースをとらない600mlのちょうどいいサイズ。注ぎごこちにこだわったノズルとハンドルの形。毎日、手軽に、気持ちよく使うために设计しました。
+              不占用收纳空间的600ml大小正好。执着于注入的感觉的喷嘴和方向盘的形状。为了每天都能轻松愉快地使用而设计的。
             </p>
             <Link href="/pot/design">
               <a className="btn btn--page btn--page--white">继续阅读</a>
@@ -153,8 +152,8 @@ export default function ProductDetail({ banners }) {
               <span>生まれるまで</span>
             </h2>
             <p>
-              おいしい食事は私たちに元気をくれます。特別なごちそうでなくても、おいしいと思う瞬間が多いほど、楽しい思いもふくらみます。BALMUDA
-              The Potとともに素晴らしいひとときを。
+              美味的饭菜给了我们精神。即使不是特别的美食，只要有很多瞬间觉得好吃，快乐的想法就会膨胀。与BALMUDA
+              The Pot一起度过美好的时光。
             </p>
             <Link href="/pot/story">
               <a className="btn btn--page">继续阅读</a>
@@ -172,56 +171,56 @@ export default function ProductDetail({ banners }) {
           <div className="gallery__content" data-pswp-uid="1">
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/index/gallery/1@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/pot/img/index/gallery/1.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/pot/img/index/gallery/1@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/pot/img/index/gallery/1@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/pot/img/index/gallery/1.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/pot/img/index/gallery/1@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/index/gallery/1@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/pot/img/index/gallery/1@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/index/gallery/2@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/pot/img/index/gallery/2.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/pot/img/index/gallery/2@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/pot/img/index/gallery/2@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/pot/img/index/gallery/2.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/pot/img/index/gallery/2@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/index/gallery/2@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/pot/img/index/gallery/2@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/index/gallery/3@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/pot/img/index/gallery/3.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/pot/img/index/gallery/3@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/pot/img/index/gallery/3@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/pot/img/index/gallery/3.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/pot/img/index/gallery/3@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/index/gallery/3@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/pot/img/index/gallery/3@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/index/gallery/4@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/pot/img/index/gallery/4.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/pot/img/index/gallery/4@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/pot/img/index/gallery/4@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/pot/img/index/gallery/4.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/pot/img/index/gallery/4@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/index/gallery/4@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/pot/img/index/gallery/4@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/index/gallery/5@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/pot/img/index/gallery/5.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/pot/img/index/gallery/5@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/pot/img/index/gallery/5@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/pot/img/index/gallery/5.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/pot/img/index/gallery/5@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/index/gallery/5@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/pot/img/index/gallery/5@2x.jpg?20201006"
               />
             </figure>
             <figure>
               <img
-                data-mobile="//www.balmuda.com/jp/pot/img/index/gallery/6@2x.jpg?20201006"
-                data-desktop="//www.balmuda.com/jp/pot/img/index/gallery/6.jpg?20201006"
-                data-retina="//www.balmuda.com/jp/pot/img/index/gallery/6@2x.jpg?20201006"
+                data-mobile="https://www.balmuda.com/jp/pot/img/index/gallery/6@2x.jpg?20201006"
+                data-desktop="https://www.balmuda.com/jp/pot/img/index/gallery/6.jpg?20201006"
+                data-retina="https://www.balmuda.com/jp/pot/img/index/gallery/6@2x.jpg?20201006"
                 className="__clip adaptiveimage"
-                src="//www.balmuda.com/jp/pot/img/index/gallery/6@2x.jpg?20201006"
+                src="https://www.balmuda.com/jp/pot/img/index/gallery/6@2x.jpg?20201006"
               />
             </figure>
           </div>

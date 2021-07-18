@@ -13,7 +13,7 @@ export default function Footer() {
   }, [])
 
   return (
-    <footer className="text-xs bg-333 pb-2 text-gray-400 leading-relaxed">
+    <footer className="text-xs text-left bg-333 pb-2 text-gray-400 leading-relaxed">
       <div className="footer__products">
         <div className="viewport">
           <div className="__group __group--kitchen">

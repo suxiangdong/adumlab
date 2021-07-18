@@ -68,20 +68,20 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>製品名</th>
+                  <th>产品名称</th>
                   <td>Rain スタンダードモデル</td>
                 </tr>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>幅 350mm × 奥行き 350mm × 374mm（高さ）</td>
                 </tr>
                 <tr>
                   <th>製品重量</th>
-                  <td>約5.7kg（満水時 約10kg）</td>
+                  <td>约5.7kg（満水時 约10kg）</td>
                 </tr>
                 <tr>
                   <th>動作電力</th>
@@ -92,8 +92,8 @@ export default function ProductDetail() {
                   <td>1.8m（ACアダプター コード長）</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ホワイト (型番 : ERN-1100SD-WK、JANコード : 4560330118982）</td>
+                  <th>颜色</th>
+                  <td>白色 (型番 : ERN-1100SD-WK、JANコード : 4560330118982）</td>
                 </tr>
                 <tr>
                   <th>
@@ -106,7 +106,7 @@ export default function ProductDetail() {
                   </td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>中国</td>
                 </tr>
               </tbody>
@@ -162,7 +162,7 @@ export default function ProductDetail() {
                   </td>
                 </tr>
                 <tr>
-                  <th>消費電力</th>
+                  <th>耗电量</th>
                   <td>2W〜23W (*2)</td>
                 </tr>
                 <tr>
@@ -171,21 +171,21 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>適用畳数目安</th>
-                  <td>約17畳まで (*3)</td>
+                  <td>约17畳まで (*3)</td>
                 </tr>
                 <tr>
                   <th>給水ボウル容量</th>
                   <td>4.2L</td>
                 </tr>
                 <tr>
-                  <th>連続加湿時間目安</th>
-                  <td>6〜25時間</td>
+                  <th>連続加湿时间目安</th>
+                  <td>6〜25时间</td>
                 </tr>
               </tbody>
             </table>
             <p className="note">
               <span>*1 加湿能力は室温20℃、湿度30%の場合の最大値です。</span>
-              <span>*2 最小消費電力（2W）はインジケーターの明るさが半減した場合です。</span>
+              <span>*2 最小耗电量（2W）はインジケーターの明るさが半減した場合です。</span>
               <span>
                 *3 適用畳数は、（社）日本電機工業会規格（JEM
                 1426）に基づいたプレハブ洋室の場合です。使用環境や残水量によって加湿能力が変化するため、適用畳数は目安です。
@@ -211,7 +211,7 @@ export default function ProductDetail() {
             <div className="columns cf">
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
               <div className="column __award__rd">

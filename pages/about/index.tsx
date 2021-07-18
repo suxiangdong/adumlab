@@ -25,13 +25,13 @@ export default function About() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item __current`}>
-              <Link href="/about">バルミューダについて</Link>
+              <Link href="/about">关于巴慕达</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/about/story">历史故事</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/about/awards">获得奖项</Link>
+              <Link href="/about/awards">获奖经历</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -138,7 +138,8 @@ export default function About() {
           </div>
         </div>
       </section>
-      <ReactSlick arrows={false} dots>
+			<div className="section section--index section--history scrollLoader lazyload loaded">
+			<ReactSlick className="history" dots>
         <div>
           <img className="w-full" src="/about/img/index/desktop/history--00@2x.jpg" />
         </div>
@@ -155,15 +156,15 @@ export default function About() {
           <img className="w-full" src="/about/img/index/desktop/history--04.jpg" />
         </div>
       </ReactSlick>
+			</div>
+
       <div className="section section--index section--awards-banner scrollLoader lazyload loaded">
         <div className="viewport">
           <div className="__content">
-            <h3 className="section__title">受賞歴</h3>
-            <p>
-              バルミューダの製品は、グッド设计賞（日本）やiF设计賞（ドイツ）など、世界的に権威ある设计賞を数多く受賞しています。
-            </p>
+            <h3 className="section__title">获奖经历</h3>
+            <p>巴慕达的产品曾荣获good设计奖(日本)、iF设计奖(德国)等世界权威设计奖。</p>
             <a href="/about/awards" className="button">
-              受賞歴を見る
+              查看获奖经历
             </a>
           </div>
         </div>
@@ -219,7 +220,7 @@ export default function About() {
 
             <div className="__list">
               <ul>
-                获得奖项
+                获奖经历
                 <li>
                   <a href="/about/awards#gooddesign">GoodDesign优良设计奖</a>
                 </li>

@@ -61,7 +61,7 @@ export default function ProductDetail() {
             </p>
             <div className="__sign">
               <img src="/_theme/img/svg/gen_terao.min.svgz" className="__gen_terao" />
-              <span className="__note">バルミューダ代表　寺尾 玄</span>
+              <span className="__note">巴慕达代表　寺尾 玄</span>
             </div>
           </div>
         </div>

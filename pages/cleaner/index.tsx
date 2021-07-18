@@ -131,7 +131,7 @@ export default function CleanerDetail({ banners, evaluations }) {
             <p className="price price--excl_tax" id="price2">
               59,400
             </p>
-            <p className="colores">ホワイト／ブラック</p>
+            <p className="colores">白色／黑色</p>
           </div>
 
           <div className="__trailer __is_mobile">
@@ -169,11 +169,11 @@ export default function CleanerDetail({ banners, evaluations }) {
               早く終わる。
             </h2>
             <p className="section__desc">
-              悬臂式吸尘器独自の操作性と、優れた集じん性能でこれまでの約半分<sup>*1</sup>
-              の時間で、掃除を完了させることができます。
+              悬臂式吸尘器独自の操作性と、優れた集じん性能でこれまでの约半分<sup>*1</sup>
+              の时间で、掃除を完了させることができます。
               <br />
               <sup className="text__sup">
-                *1：自社調べ。0.88㎡の床に擬似ゴミとしてコルクパウダー11gを散布、同一操作者が擬似ゴミを99%以上取り切るまでの時間を計測。比較機として、ローラーブラシ搭載の幅約210mmのヘッドを持つサイクロン式スティッククリーナーを使用。
+                *1：自社調べ。0.88㎡の床に擬似ゴミとしてコルクパウダー11gを散布、同一操作者が擬似ゴミを99%以上取り切るまでの时间を計測。比較機として、ローラーブラシ搭載の幅约210mmのヘッドを持つサイクロン式スティッククリーナーを使用。
               </sup>
             </p>
             <Link href="/cleaner/function">

@@ -129,7 +129,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">使用方法</h2>
             <p>
-              通常時は、24時間使い続けることをおすすめします。
+              通常時は、24时间使い続けることをおすすめします。
               <br />
               オートモードで使用すれば、内蔵のセンサーが部屋の空気の状態を検知し、最適なモードで空気を清浄。
               <br />

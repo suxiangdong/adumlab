@@ -56,7 +56,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <p>
-              使う人に、味わい深いよい時間を過ごしてほしい、そんな思いから生まれた BALMUDA The
+              使う人に、味わい深いよい时间を過ごしてほしい、そんな思いから生まれた BALMUDA The
               Lantern。その開発ストーリーを紹介します。
             </p>
             <div className="__sign">
@@ -66,7 +66,7 @@ export default function ProductDetail() {
                 width="231"
                 height="37"
               />
-              <span className="__note">バルミューダ代表　寺尾 玄</span>
+              <span className="__note">巴慕达代表　寺尾 玄</span>
             </div>
           </div>
         </div>
@@ -139,10 +139,10 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">テイスティな時間</h2>
+            <h2 className="section__title __wb">テイスティな时间</h2>
             <p>
               私たちがBALMUDA The
-              Lanternを通じてお届けしたいのは、テイスティな時間。本を読むときや、音楽を聴くとき。二人の慎ましい食事がテーブルに並べられるときも、大人数の食事が供されるときも。夕暮れの森や星空の散歩でも。その傍らに、ほのかな灯りがあることで、同じ時間を少しだけ味わい深くしたいと考えていました。私たち開発者は、今自分が取り組んでいるものが当初の想定通りの働きをするかどうか、確かめる必要があります。あるとき、デザイナーから奇妙な申請書が上がってきました。社内のクリエイティブスタジオで10名程度のパーティーを開きたいと言う申請です。目的は、BALMUDA
+              Lanternを通じてお届けしたいのは、テイスティな时间。本を読むときや、音楽を聴くとき。二人の慎ましい食事がテーブルに並べられるときも、大人数の食事が供されるときも。夕暮れの森や星空の散歩でも。その傍らに、ほのかな灯りがあることで、同じ时间を少しだけ味わい深くしたいと考えていました。私たち開発者は、今自分が取り組んでいるものが当初の想定通りの働きをするかどうか、確かめる必要があります。あるとき、デザイナーから奇妙な申請書が上がってきました。社内のクリエイティブスタジオで10名程度のパーティーを開きたいと言う申請です。目的は、BALMUDA
               The
               Lanternの性能確認のためと書かれていました。承認しましたが、あのとき、アルコールは振る舞われたのかどうか、いまだに私は知りません。
             </p>

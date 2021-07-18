@@ -90,7 +90,7 @@ export default function ProductDetail({ banners }) {
         </div>
         <div className="viewport">
           <h2 className="page__title __wb">风的使用方法</h2>
-          <span className="label__block">空气循环机</span>
+          <span className="label__block">空气循环扇</span>
           <p className="overview_text">
             冷暖空气时，脚下和天花板附近的温差最大可达7°C。在房间晾晒增多的季节，封闭的房间会产生霉菌，散发出难闻的气味。GreenFan
             Cirq是一台空气式循环机，它以前所未有的压倒性的大风量和宽广到遥远的强大送风力，使房间内的空气同时循环。空调的电费最多能降低20%，房间晾的衣服最多能快干3倍。

@@ -59,7 +59,7 @@ export default function ProductDetail() {
           dotsClass={'slick_selector_wrapper'}
           customPaging={(i) => (
             <span className="slick_selector __black mx-1" data-slick-option="0">
-              {i === 0 ? 'ブラック' : 'ホワイト'}
+              {i === 0 ? '黑色' : '白色'}
             </span>
           )}
           className="spec_model_image slick-initialized">
@@ -87,11 +87,11 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>本体のみ : 幅 269mm × 奥行き 128mm × 高さ 170mm</td>
                 </tr>
                 <tr>
@@ -99,12 +99,12 @@ export default function ProductDetail() {
                   <td>電源ベース込み : 幅 269mm × 奥行き 142mm × 高さ 194mm</td>
                 </tr>
                 <tr>
-                  <th>本体重量</th>
-                  <td>本体 : 約0.6kg</td>
+                  <th>机身重量</th>
+                  <td>本体 : 约0.6kg</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>電源ベース : 約0.3kg</td>
+                  <td>電源ベース : 约0.3kg</td>
                 </tr>
                 <tr>
                   <th>容量</th>
@@ -115,7 +115,7 @@ export default function ProductDetail() {
                   <td>AC100V　50Hz/60Hz</td>
                 </tr>
                 <tr>
-                  <th>定格消費電力</th>
+                  <th>定格耗电量</th>
                   <td>1200W</td>
                 </tr>
                 <tr>
@@ -131,15 +131,15 @@ export default function ProductDetail() {
                   <td>空だき防止機能、自動電源OFF機能</td>
                 </tr>
                 <tr>
-                  <th>沸騰時間の目安</th>
+                  <th>沸騰时间の目安</th>
                   <td>
-                    200ml 約1分半 ／ 600ml（満水時）約3分
+                    200ml 约1分半 ／ 600ml（満水時）约3分
                     <br />
                     *水温25度の場合の目安。使用環境により前後します。
                   </td>
                 </tr>
                 <tr>
-                  <th>保証期間</th>
+                  <th>保证期限</th>
                   <td>お買い上げ日から1年間</td>
                 </tr>
                 <tr>
@@ -147,15 +147,15 @@ export default function ProductDetail() {
                   <td>本体、フタ、電源ベース、取扱説明書（保証書付）</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ブラック (型番 : K02A-BK、JANコード : 4560330117718）</td>
+                  <th>颜色</th>
+                  <td>黑色 (型番 : K02A-BK、JANコード : 4560330117718）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ホワイト (型番 : K02A-WH、JANコード : 4560330117725）</td>
+                  <td>白色 (型番 : K02A-WH、JANコード : 4560330117725）</td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>台湾、中国</td>
                 </tr>
                 <tr>
@@ -217,7 +217,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">受賞歴</h2>
+            <h2 className="section__title">获奖经历</h2>
             <p>
               BALMUDA The
               Potは、2017年度グッド设计賞、2017年度iF设计・アワード（ドイツ）、2017年度レッドドット设计・アワード（ドイツ）など国際的に権威のある设计賞を受賞し、世界各国に認められています。
@@ -226,7 +226,7 @@ export default function ProductDetail() {
             <div className="columns cf">
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
               <div className="column __award__if">

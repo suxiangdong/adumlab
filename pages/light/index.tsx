@@ -112,7 +112,7 @@ export default function ProductDetail({ banners, evaluations }) {
             <p className="price price--excl_tax" id="price2">
               40,700
             </p>
-            <p className="colores">黑色/白色／ベージュ</p>
+            <p className="colores">黑色/白色／米色</p>
           </div>
         </div>
       </div>

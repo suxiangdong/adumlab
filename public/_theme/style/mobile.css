@@ -2342,7 +2342,7 @@ input[type='checkbox']:disabled:checked + label:after {
   content: '';
 }
 .navigation .__wrap .__item.__item--greenfan-c2 .__name:after {
-  content: '空气循环机';
+  content: '空气循环扇';
 }
 .navigation .__wrap .__item.__item--pure:before {
   content: '';
@@ -2432,7 +2432,7 @@ input[type='checkbox']:disabled:checked + label:after {
   content: '';
 }
 .navigation .__wrap .__item.__item--cirq .__name:after {
-  content: '空气循环机';
+  content: '空气循环扇';
 }
 .navigation .__wrap .__item.__item--airengine:before {
   content: '';
@@ -2486,7 +2486,7 @@ input[type='checkbox']:disabled:checked + label:after {
   content: '';
 }
 .navigation .__wrap .__item.__item--parts .__name:after {
-  content: 'フィルター、バッテリー等';
+  content: 'フィルター、电池等';
 }
 .navigation .__wrap .__item.__item--speaker:before {
   content: '';

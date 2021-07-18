@@ -64,31 +64,31 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>幅 330mm × 奥行き 320mm × 高さ 871mm（フロア）／ 497mm（卓上）</td>
                 </tr>
                 <tr>
-                  <th>本体重量</th>
-                  <td>約4.1kg</td>
+                  <th>机身重量</th>
+                  <td>约4.1kg</td>
                 </tr>
                 <tr>
                   <th>電源</th>
                   <td>AC100V　50/60Hz（ACアダプター）</td>
                 </tr>
                 <tr>
-                  <th>消費電力</th>
-                  <td>1.5W 〜 20W（バッテリー非充電時）</td>
+                  <th>耗电量</th>
+                  <td>1.5W 〜 20W（电池非充電時）</td>
                 </tr>
                 <tr>
                   <th>電源コード長さ</th>
-                  <td>約1.8m（ACアダプター コード長）</td>
+                  <td>约1.8m（ACアダプター コード長）</td>
                 </tr>
                 <tr>
-                  <th>保証期間</th>
+                  <th>保证期限</th>
                   <td>お買い上げ日から2年間</td>
                 </tr>
                 <tr>
@@ -96,25 +96,25 @@ export default function ProductDetail() {
                   <td>本体、リモコン、マルチプラグアダプター、取扱説明書（保証書付）</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ホワイト×ブラック (型番 : EGF-1700-WK、JANコード : 4560330110207）</td>
+                  <th>颜色</th>
+                  <td>白色×黑色 (型番 : EGF-1700-WK、JANコード : 4560330110207）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ホワイト×グレー (型番 : EGF-1700-WG、JANコード : 4560330110214）</td>
+                  <td>白色×灰色 (型番 : EGF-1700-WG、JANコード : 4560330110214）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ダークグレー×ブラック (型番 : EGF-1700-DK、JANコード : 4560330110238）</td>
+                  <td>ダーク灰色×黑色 (型番 : EGF-1700-DK、JANコード : 4560330110238）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
                   <td>
-                    ホワイト × シャンパンゴールド (型番 : EGF-1700-WC、JANコード : 4560330110221）
+                    白色 × シャンパンゴールド (型番 : EGF-1700-WC、JANコード : 4560330110221）
                   </td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>日本</td>
                 </tr>
                 <tr>
@@ -256,7 +256,7 @@ export default function ProductDetail() {
                   </tr>
                   <tr>
                     <th>切タイマー</th>
-                    <td>1・2・3・4時間</td>
+                    <td>1・2・3・4时间</td>
                   </tr>
                   <tr>
                     <th>自動首振り</th>
@@ -269,7 +269,7 @@ export default function ProductDetail() {
                   <tr>
                     <th>安全機能</th>
                     <td>
-                      モーター異常検知、バッテリー異常検知、異常電圧検知、オートパワーオフ(18時間無操作のとき)
+                      モーター異常検知、电池異常検知、異常電圧検知、オートパワーオフ(18时间無操作のとき)
                       (*3)
                     </td>
                   </tr>
@@ -278,12 +278,12 @@ export default function ProductDetail() {
 
               <p className="note">
                 *1
-                電気代は最弱運転で1日8時間運転した場合の目安です。電気料金は1kWhあたり27円で計算しています。
+                電気代は最弱運転で1日8时间運転した場合の目安です。電気料金は1kWhあたり27円で計算しています。
                 <br />
                 *2 最小動作音は、無響室にて製品から距離1m地点で計測した値です。
                 <br />
                 *3 型番 :
-                EGF-1700からオートパワーオフが作動する無操作時間が、12時間から18時間に延長しました。
+                EGF-1700からオートパワーオフが作動する無操作时间が、12时间から18时间に延長しました。
               </p>
             </div>
           </div>

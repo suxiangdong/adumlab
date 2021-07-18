@@ -109,7 +109,7 @@ export default function CleanerDetail() {
             <p>
               悬臂式吸尘器独自の操作性と、優れた集じん性能で
               <br />
-              これまでの約半分<sup>*1</sup>の時間で、掃除が完了。
+              これまでの约半分<sup>*1</sup>の时间で、掃除が完了。
               <br />
               BALMUDA The Cleanerが、手早く、広く、行き届いた掃除を実現します。
             </p>
@@ -170,7 +170,7 @@ export default function CleanerDetail() {
               <br />
               悬臂式吸尘器で、
               <br className="__is_mobile" />
-              掃除時間を46％短縮<sup>*1</sup>。
+              掃除时间を46％短縮<sup>*1</sup>。
             </h2>
             <p className="page__desc">
               <span>
@@ -178,14 +178,14 @@ export default function CleanerDetail() {
                 <br className="__is_desktop" />
                 ヘッドを前後に動かす直線的な操作が主流だったスティッククリーナーに対し、
                 <br className="__is_desktop" />
-                前後・左右・斜めなど、無駄のない動きで掃除時間を大幅に短縮できます。
+                前後・左右・斜めなど、無駄のない動きで掃除时间を大幅に短縮できます。
               </span>
             </p>
             <p className="section__desc">
               <span>
-                *1：自社調べ。0.88㎡の床に擬似ゴミとしてコルクパウダー11gを散布、同一操作者が擬似ゴミを99%以上取り切るまでの時間を計測。
+                *1：自社調べ。0.88㎡の床に擬似ゴミとしてコルクパウダー11gを散布、同一操作者が擬似ゴミを99%以上取り切るまでの时间を計測。
                 <br className="__is_desktop" />
-                比較機として、ローラーブラシ搭載の幅約210mmのヘッドを持つサイクロン式スティッククリーナーを使用。
+                比較機として、ローラーブラシ搭載の幅约210mmのヘッドを持つサイクロン式スティッククリーナーを使用。
               </span>
             </p>
           </div>
@@ -212,7 +212,7 @@ export default function CleanerDetail() {
               自在に移動。同時に吸引。
             </h2>
             <p className="section__desc">
-              従来の掃除機にはなかったスムーズさで、どんな方向にも操作が可能です。ヘッドを左右にスライドさせるなど、ホバー式独自の無駄のない動きが、掃除時間の短縮を可能にしました。
+              従来の掃除機にはなかったスムーズさで、どんな方向にも操作が可能です。ヘッドを左右にスライドさせるなど、ホバー式独自の無駄のない動きが、掃除时间の短縮を可能にしました。
             </p>
           </div>
           <img
@@ -440,7 +440,7 @@ export default function CleanerDetail() {
             </h2>
             <p className="page__desc">
               <span>
-                コードレスで30分連続使用可能なバッテリー、付属アタッチメントでハンディタイプにも早変わり。
+                コードレスで30分連続使用可能な电池、付属アタッチメントでハンディタイプにも早変わり。
                 <br className="__is_desktop" />
                 想像どおりに、想像以上に便利にお使いいただけます。
               </span>
@@ -458,10 +458,10 @@ export default function CleanerDetail() {
                 />
                 <div>
                   <h2 className="section__title">
-                    コードレスで30分<sup>*4</sup>の運転時間
+                    コードレスで30分<sup>*4</sup>の運転时间
                   </h2>
                   <p className="section__desc">
-                    リチウムイオンバッテリー内蔵で、連続30分の使用が可能。コードレスで、十分な掃除時間を提供します。
+                    リチウムイオン电池内蔵で、連続30分の使用が可能。コードレスで、十分な掃除时间を提供します。
                     <br className="__is_mobile" />
                     <sup>*4：標準モード使用時</sup>{' '}
                   </p>
@@ -609,7 +609,7 @@ export default function CleanerDetail() {
                 <div>
                   <h2 className="section__title">お店で試す</h2>
                   <p className="section__desc">
-                    家電量販店など全国約650店舗で、
+                    家電量販店など全国约650店舗で、
                     <br />
                     お取り扱いしております。
                     <br />

@@ -24,13 +24,13 @@ export default function About() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item`}>
-              <Link href="/about">バルミューダについて</Link>
+              <Link href="/about">关于巴慕达</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/about/story">历史故事</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
-              <Link href="/about/awards">获得奖项</Link>
+              <Link href="/about/awards">获奖经历</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -43,7 +43,7 @@ export default function About() {
 
       <div className="section section--awards section--00">
         <div className="viewport">
-          <h2 className="page__title">获得奖项</h2>
+          <h2 className="page__title">获奖经历</h2>
           <p className="overview_text">BALMUDA巴慕达的产品获得了众多的设计奖。</p>
         </div>
       </div>
@@ -272,7 +272,7 @@ export default function About() {
 
             <div className="__list">
               <ul>
-                获得奖项
+                获奖经历
                 <li>
                   <a href="/about/awards#gooddesign">GoodDesign优良设计奖</a>
                 </li>

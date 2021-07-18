@@ -84,10 +84,10 @@ export default function CleanerDetail() {
 
         <div className="__selector_wrap">
           <span className={`__selector ${current === 0 ? '__current' : ''}`}  data-model="white" onClick={() => setCurrent(0)}>
-            ホワイト
+            白色
           </span>
           <span className={`__selector ${current === 1 ? '__current' : ''}`}  data-model="black" onClick={() => setCurrent(1)}>
-            ブラック
+            黑色
           </span>
         </div>
       </div>
@@ -95,24 +95,24 @@ export default function CleanerDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>製品名</th>
+                  <th>产品名称</th>
                   <td>BALMUDA The Cleaner</td>
                 </tr>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>幅300mm × 奥行 165mm × 高さ 1240mm</td>
                 </tr>
                 <tr>
                   <th>製品重量（フィルター含む）</th>
-                  <td>約3.1kg</td>
+                  <td>约3.1kg</td>
                 </tr>
                 <tr>
                   <th>電源</th>
-                  <td>充電式（リチウムイオンバッテリー）</td>
+                  <td>充電式（リチウムイオン电池）</td>
                 </tr>
                 <tr>
                   <th>電力</th>
@@ -123,35 +123,35 @@ export default function CleanerDetail() {
                   <td>1.2m</td>
                 </tr>
                 <tr>
-                  <th>運転時間</th>
+                  <th>運転时间</th>
                   <td>標準モード ：30分&nbsp;&nbsp;強モード ：10分</td>
                 </tr>
                 <tr>
-                  <th>充電時間</th>
-                  <td>約４時間</td>
+                  <th>充电时间</th>
+                  <td>约４时间</td>
                 </tr>
                 <tr>
                   <th>ダストボックス容量</th>
                   <td>0.13L</td>
                 </tr>
                 <tr className="__is_desktop">
-                  <th>カラー</th>
+                  <th>颜色</th>
                   <td>
-                    ホワイト（型番：C01A-WH、JANコード：4560330118333）
+                    白色（型番：C01A-WH、JANコード：4560330118333）
                     <br />
-                    ブラック（型番：C01A-BK、JANコード：4560330118326）
+                    黑色（型番：C01A-BK、JANコード：4560330118326）
                   </td>
                 </tr>
                 <tr className="__is_mobile">
-                  <th>カラー</th>
-                  <td>ホワイト（型番：C01A-WH、JANコード：4560330118333）</td>
+                  <th>颜色</th>
+                  <td>白色（型番：C01A-WH、JANコード：4560330118333）</td>
                 </tr>
                 <tr className="__is_mobile">
                   <th></th>
-                  <td>ブラック（型番：C01A-BK、JANコード：4560330118326）</td>
+                  <td>黑色（型番：C01A-BK、JANコード：4560330118326）</td>
                 </tr>
                 <tr>
-                  <th>保証期間</th>
+                  <th>保证期限</th>
                   <td>１年</td>
                 </tr>
                 <tr>
@@ -164,7 +164,7 @@ export default function CleanerDetail() {
                   </td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>中国</td>
                 </tr>
               </tbody>
@@ -190,7 +190,7 @@ export default function CleanerDetail() {
                 <p>
                   すきま用ノズル＋ハンディハンドル
                   <br className="pc" />
-                  (ホワイト)
+                  (白色)
                 </p>
               </div>
               <div className="spec--slider-slide">
@@ -205,7 +205,7 @@ export default function CleanerDetail() {
                 <p>
                   充電スタンド
                   <br className="pc" />
-                  (ホワイト)
+                  (白色)
                 </p>
               </div>
               <div className="spec--slider-slide">
@@ -220,7 +220,7 @@ export default function CleanerDetail() {
                 <p>
                   すきま用ノズル＋ハンディハンドル
                   <br className="pc" />
-                  (ブラック)
+                  (黑色)
                 </p>
               </div>
               <div className="spec--slider-slide">
@@ -235,7 +235,7 @@ export default function CleanerDetail() {
                 <p>
                   充電スタンド
                   <br className="pc" />
-                  (ブラック)
+                  (黑色)
                 </p>
               </div>
               <div className="spec--slider-slide">
@@ -250,7 +250,7 @@ export default function CleanerDetail() {
                 <p>
                   充電アダプター
                   <br className="pc" />
-                  (ホワイト・ブラック共通)
+                  (白色・黑色共通)
                 </p>
               </div>
             </ReactSlick>

@@ -90,16 +90,16 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>幅 191mm、奥行き 264mm、高さ 463mm（標準姿勢）</td>
                 </tr>
                 <tr>
-                  <th>本体重量</th>
-                  <td>約3.2kg</td>
+                  <th>机身重量</th>
+                  <td>约3.2kg</td>
                 </tr>
                 <tr>
                   <th>光源</th>
@@ -115,7 +115,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>光源寿命</th>
-                  <td>40,000時間</td>
+                  <td>40,000时间</td>
                 </tr>
                 <tr>
                   <th>器具光束</th>
@@ -134,7 +134,7 @@ export default function ProductDetail() {
                   <td>AC100V 50/60Hz共用（ACアダプター）</td>
                 </tr>
                 <tr>
-                  <th>消費電力</th>
+                  <th>耗电量</th>
                   <td>全灯時最大14W、消灯時0.1W以下</td>
                 </tr>
                 <tr>
@@ -142,7 +142,7 @@ export default function ProductDetail() {
                   <td>1.8m（ACアダプター）</td>
                 </tr>
                 <tr>
-                  <th>保証期間</th>
+                  <th>保证期限</th>
                   <td>购买日から1年</td>
                 </tr>
                 <tr>
@@ -150,23 +150,23 @@ export default function ProductDetail() {
                   <td>本体、ACアダプター、取扱説明書、保証書、ステッカー</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ブラック（型番: L01A-BK、JANコード: 4560330119828）</td>
+                  <th>颜色</th>
+                  <td>黑色（型番: L01A-BK、JANコード: 4560330119828）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ホワイト（型番:L01A-WH、JANコード: 4560330119835）</td>
+                  <td>白色（型番:L01A-WH、JANコード: 4560330119835）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ベージュ（型番:L01A-BG、JANコード: 4560330119859）</td>
+                  <td>米色（型番:L01A-BG、JANコード: 4560330119859）</td>
                 </tr>
                 <tr>
                   <th>用途</th>
                   <td>家庭用　屋内用　学習・読書用</td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>日本</td>
                 </tr>
                 <tr>
@@ -273,7 +273,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">受賞歴</h2>
+            <h2 className="section__title">获奖经历</h2>
             <p>
               BALMUDA The Lightは、2019年度 グッド设计賞、2019年度
               キッズ设计賞を受賞しました。
@@ -287,7 +287,7 @@ export default function ProductDetail() {
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
             </div>

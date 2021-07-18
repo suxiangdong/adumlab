@@ -135,7 +135,7 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">清洁适宜的湿润度</h2>
             <p>
-              ウイルスが活性化する乾燥状態、カビなどが繁殖しやすい多湿状態。そのどちらでもない約50％の湿度が、健康や家具に適切と言われています。Rainは取り入れた空気を酵素プレフィルターで除菌してから加湿、送風するので、适宜的湿润度を清潔に提供します。
+              ウイルスが活性化する乾燥状態、カビなどが繁殖しやすい多湿状態。そのどちらでもない约50％の湿度が、健康や家具に適切と言われています。Rainは取り入れた空気を酵素プレフィルターで除菌してから加湿、送風するので、适宜的湿润度を清潔に提供します。
             </p>
             <Link href="/rain/humidity">
               <a className="btn btn--page">继续阅读</a>

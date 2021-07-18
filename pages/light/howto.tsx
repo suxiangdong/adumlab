@@ -52,7 +52,7 @@ export default function ProductDetail() {
             <img
               src="https://www.balmuda.com/jp/light/img/howto/svg/section--00--title.min.svgz"
               className="__svg"
-              alt="BALMUDA The Lightは光源の真下ではなく、光源から約30cm前方の位置を中心に、離れた場所を広く照らします。"
+              alt="BALMUDA The Lightは光源の真下ではなく、光源から约30cm前方の位置を中心に、離れた場所を広く照らします。"
             />
             <p>
               BALMUDA The

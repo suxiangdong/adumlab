@@ -88,19 +88,19 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
         <div className="viewport">
           <h2 className="page__title __wb">
-            <span>今までにない音楽体験</span>
+            <span>前所未有的音乐体验</span>
           </h2>
           <span className="label__block">无线扬声器</span>
           <p className="overview_text">
-            まったく新しいスピーカーの登場です。
+            全新的扬声器登场。
             <br />
-            360°広がる立体的で抜けるような気持ちよいサウンドと、グルーヴを増幅させる輝きで
+            以360°的立体的穿过般的心情好的声音，和放大格布的光辉
             <br />
-            ライブステージのような臨場感をつくり出す BALMUDA The Speaker。
+            BALMUDA The Speaker营造出现场演出般的临场感。
             <br />
-            充電式でポータブル、Bluetooth<sup>®</sup>・AUX入力対応で
+            充电式便携式蓝牙<sup>®</sup>·支持AUX输入
             <br />
-            自由なスタイルで新しい音楽体験をお楽しみいただけます。
+            以自由的风格享受新的音乐体验。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
@@ -134,12 +134,12 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              立体的で
+              是立体的
               <br />
-              鮮明なサウンド
+              鲜明的声音
             </h2>
             <p className="section__desc">
-              曲本来のバランスはそのままに、音の輪郭をはっきり、かつ立体的に再生。この音響設計はボーカル中心の音楽と相性抜群。驚くほどボーカルが近くに聴こえます。
+              曲子本来的平衡原封不动，声音的轮廓清晰且立体地再生。该音响设计与以主唱为中心的音乐相得益彰。令人惊讶的是，主唱就在附近。
             </p>
             <a href="./technology" className="section__btn">
               详情
@@ -156,16 +156,16 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              視界に広がる
+              扩大视野
               <br />
-              臨場感
+              临场感
             </h2>
             <p className="section__desc">
-              曲のグルーヴを印象づけるのは、3基のLEDユニット。音のエネルギーに追従し、光が0.004秒の速さで緻密にシンクロ。音楽的な光がライブステージのような高揚感をお届けします。
+              给曲子的组合印象的是3个LED单元。追随声音的能量，光以0.004秒的速度精密同步。音乐性的光传递像实况录音舞台一样的高扬感。
             </p>
-            <a href="./technology#LED" className="section__btn">
-              详情
-            </a>
+            <Link href="/speaker/technology#LED">
+              <a className="section__btn">详情</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -177,14 +177,14 @@ export default function ProductDetail({ banners, evaluations }) {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">開発ストーリー</h2>
+            <h2 className="section__title">开发故事</h2>
             <p className="section__desc">
-              音楽的な感動は、生演奏でしか得られない。その考えを改めることになったのは、デザイナーが持ってきた奇妙なラジカセでした。BALMUDA
-              The Speakerのストーリー。
+              音乐上的感动只能在现场演奏中得到。改变这种想法的，是设计师带来的奇妙的收录机。BALMUDA
+              The Speaker的故事。
             </p>
-            <a href="./story" className="section__btn">
-              ストーリーを読む
-            </a>
+            <Link href="/speaker/story">
+              <a className="section__btn">详情</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -197,12 +197,12 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              すべての
+              所有的
               <br />
-              音楽リスナーへ
+              给音乐听众
             </h2>
             <p className="section__desc">
-              さあ、音楽を聴きましょう。充電式でポータブルだから、置き場所を選ばず、どこへでもこの音楽体験を持ち出せます。360°全方位に広がるサウンドで、その場にいる誰もが音楽を楽しめます。
+              来听音乐吧。因为是充电式的便携式的，所以不用选择放置的地方，把这个音乐体验带到任何地方都可以。360度全方位的声音，在那个地方的任何人都能享受音乐。
             </p>
           </div>
         </div>
@@ -239,7 +239,6 @@ export default function ProductDetail({ banners, evaluations }) {
                 className="__clip adaptiveimage"
                 src="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
               />
-              s{' '}
             </figure>
             <figure>
               <img
@@ -249,7 +248,6 @@ export default function ProductDetail({ banners, evaluations }) {
                 className="__clip adaptiveimage"
                 src="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
               />
-              s{' '}
             </figure>
             <figure>
               <img
@@ -259,7 +257,6 @@ export default function ProductDetail({ banners, evaluations }) {
                 className="__clip adaptiveimage"
                 src="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
               />
-              s{' '}
             </figure>
             <figure>
               <img
@@ -269,7 +266,6 @@ export default function ProductDetail({ banners, evaluations }) {
                 className="__clip adaptiveimage"
                 src="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
               />
-              s{' '}
             </figure>
             <figure>
               <img
@@ -279,7 +275,6 @@ export default function ProductDetail({ banners, evaluations }) {
                 className="__clip adaptiveimage"
                 src="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
               />
-              s{' '}
             </figure>
             <figure>
               <img
@@ -289,7 +284,6 @@ export default function ProductDetail({ banners, evaluations }) {
                 className="__clip adaptiveimage"
                 src="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
               />
-              s{' '}
             </figure>
           </div>
         </div>

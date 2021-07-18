@@ -109,13 +109,13 @@ export default function ProductDetail() {
 
         <div className="__selector_wrap">
           <span className={`__selector ${current === 0 ? '__current' : ''}`} onClick={() => setCurrent(0)} data-model="black">
-            ブラック
+            黑色
           </span>
           <span className={`__selector ${current === 1 ? '__current' : ''}`} onClick={() => setCurrent(1)} data-model="white">
-            ホワイト
+            白色
           </span>
           <span className={`__selector ${current === 2 ? '__current' : ''}`} onClick={() => setCurrent(2)} data-model="gray">
-            グレー
+            灰色
           </span>
           <span className={`__selector ${current === 3 ? '__current' : ''}`} onClick={() => setCurrent(3)} data-model="red">
             クラシック
@@ -133,24 +133,24 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>製品名</th>
+                  <th>产品名称</th>
                   <td>BALMUDA The Lantern</td>
                 </tr>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>幅 110mm × 奥行 103mm × 高さ 248mm（ハンドル含む）</td>
                 </tr>
                 <tr>
-                  <th>本体重量</th>
-                  <td>約630g</td>
+                  <th>机身重量</th>
+                  <td>约630g</td>
                 </tr>
                 <tr>
-                  <th>消費電力</th>
-                  <td>最大6.0W(同時に点灯/充電した場合)、待機時0.1W</td>
+                  <th>耗电量</th>
+                  <td>最大6.0W(同時に点灯/充電した場合)、待机時0.1W</td>
                 </tr>
                 <tr>
                   <th>電源ケーブル長さ</th>
@@ -161,20 +161,20 @@ export default function ProductDetail() {
                   <td>本体：ABS、シェード部：PC、ハンドル・フレーム：SUS</td>
                 </tr>
                 <tr>
-                  <th>充電バッテリー</th>
-                  <td>Ni-MH充電バッテリー 3.6V/2000mAh（ニッケル水素電池）</td>
+                  <th>充電电池</th>
+                  <td>Ni-MH充電电池 3.6V/2000mAh（ニッケル水素電池）</td>
                 </tr>
                 <tr>
-                  <th>バッテリー充電時間</th>
-                  <td>約6時間</td>
+                  <th>电池充电时间</th>
+                  <td>约6时间</td>
                 </tr>
                 <tr>
-                  <th>バッテリー充放電</th>
-                  <td>約500回</td>
+                  <th>电池充放电</th>
+                  <td>约500回</td>
                 </tr>
                 <tr>
-                  <th>連続使用時間</th>
-                  <td>3〜50時間(最大照度〜最小照度)</td>
+                  <th>连续使用时间</th>
+                  <td>3〜50时间(最大照度〜最小照度)</td>
                 </tr>
                 <tr>
                   <th>防塵・防水性能</th>
@@ -186,10 +186,10 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>全光束</th>
-                  <td>約195lm</td>
+                  <td>约195lm</td>
                 </tr>
                 <tr>
-                  <th>動作温度</th>
+                  <th>工作温度</th>
                   <td>5〜35℃</td>
                 </tr>
                 <tr>
@@ -203,13 +203,13 @@ export default function ProductDetail() {
                   </td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
+                  <th>颜色</th>
                   <td>
-                    ブラック（型番: L02A-BK、JANコード: 4560330119378）
+                    黑色（型番: L02A-BK、JANコード: 4560330119378）
                     <br />
-                    ホワイト（型番: L02A-WH、JANコード: 4560330119385）
+                    白色（型番: L02A-WH、JANコード: 4560330119385）
                     <br />
-                    グレー（型番: L02A-GR、JANコード: 4560330118319）
+                    灰色（型番: L02A-GR、JANコード: 4560330118319）
                     <br />
                     クラシックレッド（型番: L02A-RD、JANコード: 4560330118449）
                     <br />
@@ -218,7 +218,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr></tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>中国</td>
                 </tr>
                 <tr>
@@ -343,7 +343,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">受賞歴</h2>
+            <h2 className="section__title">获奖经历</h2>
             <p>
               BALMUDA The Lanternは、2020年度 キッズ设计賞・グッド设计賞を受賞しました。
             </p>
@@ -356,7 +356,7 @@ export default function ProductDetail() {
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
             </div>

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
@@ -67,143 +66,139 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>製品名</th>
+                  <th>产品名称</th>
                   <td>BALMUDA The Speaker</td>
                 </tr>
                 <tr>
-                  <th>本体寸法</th>
-                  <td>直径 105mm × 高さ 188mm</td>
+                  <th>机身尺寸</th>
+                  <td>直径105mm×高188mm</td>
                 </tr>
                 <tr>
-                  <th>本体重量</th>
-                  <td>約1.0kg</td>
+                  <th>机身重量</th>
+                  <td>约1.0kg</td>
                 </tr>
                 <tr>
-                  <th>消費電力</th>
-                  <td>最大15W、待機時0.15W</td>
+                  <th>耗电量</th>
+                  <td>最大15W、待机時0.15W</td>
                 </tr>
                 <tr>
-                  <th>内蔵バッテリー</th>
+                  <th>内置电池</th>
                   <td>
-                    リチウムイオン
+                    锂离子
                     <br />
-                    ポリマーバッテリー
+                    聚合物电池
                   </td>
                 </tr>
                 <tr>
                   <th>
-                    バッテリー
+                    电池
                     <br />
-                    充電時間
+                    充电时间
                   </th>
-                  <td>約2.5時間</td>
+                  <td>约2.5小时</td>
                 </tr>
                 <tr>
-                  <th>バッテリー充放電</th>
-                  <td>約500回</td>
+                  <th>电池充放电</th>
+                  <td>约500回</td>
                 </tr>
                 <tr>
                   <th>
-                    バッテリー
+                    电池
                     <br />
-                    連続使用時間
+                    连续使用时间
                   </th>
-                  <td>約7時間</td>
+                  <td>约7小时</td>
                 </tr>
                 <tr>
-                  <th>スピーカー部</th>
-                  <td>直径77mm（フルレンジ）</td>
+                  <th>扬声器部分</th>
+                  <td>直径77mm(完整范围)</td>
                 </tr>
                 <tr>
-                  <th>エンクロージャー方式</th>
-                  <td>密閉型</td>
+                  <th>包围系统</th>
+                  <td>密闭型</td>
                 </tr>
                 <tr>
-                  <th>アンプ部最大出力</th>
+                  <th>最大输出放大器</th>
                   <td>8W</td>
                 </tr>
                 <tr>
                   <th>外部入力端子（AUX）</th>
                   <td>
-                    3.5mm ステレオ
+                    3.5mm 立体声
                     <br />
-                    ミニジャック
+                    迷你杰克
                   </td>
                 </tr>
                 <tr>
-                  <th>動作温度</th>
+                  <th>工作温度</th>
                   <td>0〜40℃</td>
                 </tr>
                 <tr>
                   <th>素材</th>
-                  <td>
-                    台座部：ABS、スピーカー部：ABS・鉄、透明パイプ部：アクリル、金属パイプ部：SUS・真鍮
-                  </td>
+                  <td>底座部分:ABS，扬声器部分:ABS·铁，透明管部分:亚克力，金属管部分:SUS·黄铜</td>
                 </tr>
                 <tr>
-                  <th>保証期間</th>
-                  <td>お買い上げ日から１年間</td>
+                  <th>保证期限</th>
+                  <td>自购买日起1年内</td>
                 </tr>
                 <tr>
-                  <th>パッケージ内容</th>
-                  <td>本体、ACアダプター（1.0m）、取扱説明書（保証書含む）、スタートガイド</td>
+                  <th>包装内容</th>
+                  <td>主机，AC适配器(1.0m)，使用说明书(包含保证书)，开始指南</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ブラック（型番: M01A-BK、JANコード: 4560330118234）</td>
+                  <th>颜色</th>
+                  <td>黑色(型号:M01A-BK, JAN代码:4560330118234)</td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>中国</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>
-                    本製品は日本国内専用です。海外での使用は保証および修理受付の対象外となりますのでご注意ください。
-                  </td>
+                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
             <h2 className="section__title section__title_sub">
-              Bluetooth<sup>®</sup>仕様
+              Bluetooth<sup>®</sup>规格
             </h2>
             <table className="__basic">
               <tbody>
                 <tr>
                   <th>通信方式</th>
-                  <td>Bluetooth標準規格 ver.5.0</td>
+                  <td>蓝牙标准 ver.5.0</td>
                 </tr>
                 <tr>
                   <th>出力</th>
-                  <td>Bluetooth標準規格 Power Class2</td>
+                  <td>蓝牙标准 Power Class2</td>
                 </tr>
                 <tr>
-                  <th>最大通信距離</th>
-                  <td>約10 m</td>
+                  <th>最大通信距离</th>
+                  <td>约10 m</td>
                 </tr>
                 <tr>
-                  <th>使用周波数帯域</th>
-                  <td>2.4 GHz 帯</td>
+                  <th>使用频段</th>
+                  <td>2.4 GHz频段</td>
                 </tr>
                 <tr>
-                  <th>対応プロファイル</th>
+                  <th>对应配置文件</th>
                   <td>A2DP、AVRCP</td>
                 </tr>
                 <tr>
-                  <th>対応コーデック</th>
+                  <th>兼容编译码器</th>
                   <td>SBC</td>
                 </tr>
                 <tr>
-                  <th>コンテンツ保護</th>
-                  <td>対応（SCMS-T 方式）</td>
+                  <th>内容保护</th>
+                  <td>支持(SCMS-T)</td>
                 </tr>
                 <tr>
-                  <th>伝送帯域（A2DP)</th>
-                  <td>20 〜20,000 Hz（44.1 kHz サンプリング時）</td>
+                  <th>传输频段(A2DP)</th>
+                  <td>20 ~ 20,000 Hz (44.1 kHz采样时)</td>
                 </tr>
               </tbody>
             </table>
@@ -214,7 +209,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--02">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">同梱物一覧</h2>
+            <h2 className="section__title">包装清单</h2>
             <img
               data-mobile="https://www.balmuda.com/jp/speaker/img/spec/mobile/section--02.png?20200326"
               data-desktop="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02.png?20200326"
@@ -230,13 +225,13 @@ export default function ProductDetail() {
       <div className="section section--spec section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">受賞歴</h2>
-            <p>BALMUDA The Speakerは、2020年度 グッド设计賞を受賞しました。</p>
+            <h2 className="section__title">获奖经历</h2>
+            <p>BALMUDA The Speaker获得了2020年度最佳设计奖。</p>
 
             <div className="columns cf">
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
             </div>

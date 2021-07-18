@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
-
   return (
     <Layout>
       <Head>
@@ -66,7 +65,7 @@ export default function ProductDetail() {
             <h2 className="page__title">故事</h2>
             <p>
               BALMUDA The Toaster
-              が完成するまでの道のりは、発想の原点となった体験から数えると約20年にも及びます。ある思いから製品つくりがはじまり、途中で意外な発見もありました。その工程を間近で見てきた私が直接、ご紹介します。
+              从成为创意原点的体验算起，完成这一过程大约长达20年。从某个想法开始制作产品，途中有了意外的发现。我亲眼目睹了这一过程，现在直接介绍一下。
             </p>
             <div className="__sign">
               <img
@@ -75,78 +74,101 @@ export default function ProductDetail() {
                 width="231"
                 height="37"
               />
-              <span className="__note">バルミューダ代表　寺尾 玄</span>
+              <span className="__note">巴慕达代表　寺尾 玄</span>
             </div>
           </div>
         </div>
       </div>
 
       <div className="section section--story section--01 scrollLoader lazyload loaded">
-        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--01.jpg" className="__section_image __is_mobile" />
+        <img
+          src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--01.jpg"
+          className="__section_image __is_mobile"
+        />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">1991年、スペイン、ロンダの町</h2>
+            <h2 className="section__title">1991年，西班牙隆达镇</h2>
             <p>
-              私が高校を中退して放浪の旅に出たのは、17歳のときでした。スペインやイタリア、モロッコなど、地中海沿岸を約一年間、一人でまわりました。とても楽しく、寂しく、刺激的だった忘れられない旅です。その初日のこと。日本から飛行機や列車、バスを乗り継ぎ最後は徒歩で、目的地のロンダにたどり着きました。私は緊張からかあまり眠っておらず、疲れきっていて、かつ空腹でした。街角では香ばしい香りがしていて、探してみると一軒の地元のベーカリーが。話せないスペイン語で焼きたてのパンを分けてもらい、一口かじった時、涙が溢れるように出てきました。緊張や疲労、そして希望と不安。香ばしいパンを食べた時、これらの感情が堰を切ったように体の外に出て行ったのです。あの時の小さなパン。その香りと味は、今でも忘れられません。
+              17岁那年，我高中辍学，开始了流浪之旅。我独自在西班牙、意大利和摩洛哥等地中海沿岸旅行了大约一年。这是一次非常愉快、孤独、刺激和难忘的旅行。那第一天。从日本转机、火车和巴士后，我终于步行到达了目的地龙达。因为紧张，我没睡多久，又累又饿。街角有一股香喷喷的香味，找的时候就找到了当地的一家面包店。我让他们用西班牙语把刚出炉的面包分开，我不会说，当我咬了一口时，眼泪就出来了。紧张、疲劳、希望和焦虑。当我吃到香喷喷的面包时，这些情绪就像切了一个堰一样从我的身体里消失了。那个时候的小面包。它的香气和味道仍然令人难忘。
             </p>
           </div>
         </div>
       </div>
 
       <div className="section section--story section--02 scrollLoader lazyload loaded">
-        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--02.jpg" className="__section_image __is_mobile" />
+        <img
+          src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--02.jpg"
+          className="__section_image __is_mobile"
+        />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">どしゃ降りのバーベキュー</h2>
+            <h2 className="section__title">倾盆大雨烧烤</h2>
             <p>
-              2014年の5月の事。私たちは、社に程近い小金井公園でバーベキュー大会を開きました。その日は朝からありえないくらいのどしゃ降り。中止も考えましたが、思い出になるからという理由から決行。全員でびしょ濡れになりながら肉を食べ、本当に思い出になりました。その時、研究心に富んだ開発チームは食パンを持ってきて、肉のかたわらで炭火で焼き始めたのです。そのトーストのおいしさはほぼ完璧。表面がパリッとして中に水分が十分に残っていました。この味を再現できればバルミューダトースターができる!
+              2014 年 5 月。 我们在公司附近的小金井公园举办了烧烤比赛。
+              那天早上的倾盆大雨是不可能的。 我想取消它，但我决定这样做，因为它会成为回忆。
+              我们都泡着吃肉，真的成了回忆。
+              当时，具有研究意识的开发团队带来了面包，并开始将其与肉一起在木炭上烧烤。
+              吐司的味道几乎是完美的。 表面很脆，里面还有很多水。
+              如果你能重现这种味道，你就可以做出一个巴慕达烤面包机！
               <br />
               <br />
-              と次の日から再現実験を始めました。しかし、いっこうに再現できません。炭が違うのか、火の距離が違うのか、グリラーが違うのか。試行錯誤を続けていた時、誰かが言いました。「あの時、すごい雨が降ってましたよね?」そう、答えは水分だったのです。
+              我从第二天开始进行繁殖实验。 但是，它根本无法重现。
+              是木炭不同，火的距离不同，还是烤架不同？ 有人一边说一边继续试错。
+              “当时雨下得很大，对吧？”是的，答案是水。
             </p>
           </div>
         </div>
       </div>
 
       <div className="section section--story section--03 scrollLoader lazyload loaded">
-        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--03.jpg" className="__section_image __is_mobile" />
+        <img
+          src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--03.jpg"
+          className="__section_image __is_mobile"
+        />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">ダンディゾン</h2>
+            <h2 className="section__title">丹斯迪克斯</h2>
             <p>
-              今回、BALMUDA The
-              Toasterの研究開発に協力してもらったのは、吉祥寺のパン屋「ダンディゾン」連日の行列で有名です。開発チームは開店前のお店に行き、まず焼きたてのパンを食べ、そのおいしさに驚き、次に厨房を見学させてもらいました。そこにあったのはガス火ではなく細かい制御が可能なスチーム機能付きの電気の窯。電気と水の力を使って、本当においしいパンが作り出される姿は、私たちにとっては驚きでした。同時に、自分たちのアイディアに自信をもった瞬間でした。
+              这次，在BALMUDA The
+              Toaster的研究开发中得到协助的，是吉祥寺的面包店“dundezon”，因为连日的排队而出名。开发团队去了开店前的店里，首先吃了刚烤好的面包，对其美味感到惊讶，接着参观了厨房。那里的不是煤气火，而是可以进行细微控制的带有蒸汽功能的电窑。使用电和水的力量，做出真正美味的面包的样子，对我们来说是非常惊讶的。同时，也是对自己的创意充满自信的瞬间。
             </p>
           </div>
         </div>
       </div>
 
       <div className="section section--story section--04 scrollLoader lazyload loaded">
-        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--04.jpg" className="__section_image __is_mobile" />
+        <img
+          src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--04.jpg"
+          className="__section_image __is_mobile"
+        />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">2000種類の设计</h2>
+            <h2 className="section__title">2000种类型的设计</h2>
             <p>
-              技術チームが原理的な試作品を作り始めるころ、设计チームも製品化に向けた设计の検討を始めます。最初に行われるのは、自由な発想でのアイディアの展開です。
+              当技术团队开始创建一个原理原型时，设计团队还开始考虑生产生产的建立。首先是与自由想法部署想法。
               <br />
               <br />
-              今回私たちが取り組んだのは、「とてもおいしいものは、どのようなところから出てくるべきか?」という命題でした。それはおそらく新しいだけではダメで、どこかなつかしさを感じるべきであり、かつ、バルミューダならではのスパイスも必要です。多数のアイディアの中からテーマにあった数案をピックアップし、それらの周辺アイディアを探っていきます。やがてベース案が選ばれ、技術チームと歩調を合わせながら一本のネジの大きさや位置まで検討していきます。
+              我们这次工作是什么，“非常美味的事情应该从这个地方出来？”的命题是主张。这可能只是只有新的，它应该是某个地方，你也需要一个对Balmuda独有的香料。从许多想法中拿起一些主题的想法，并探索那些外围想法。基于基础提案的基础，我们将在组合技术团队的同时考虑单螺丝的尺寸和位置。
               <br />
               <br />
-              今回、设计チームは、BALMUDA The
-              Toasterのために、スケッチ、レンダリングを含めて約2000の案を出しました。
+              这一次，设计团队为 BALMUDA The Toaster 提出了大约 2000 个创意，包括草图和渲染。
             </p>
           </div>
         </div>
       </div>
 
       <div className="section section--story section--05 scrollLoader lazyload loaded">
-        <img src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--05.jpg" className="__section_image __is_mobile" />
+        <img
+          src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--05.jpg"
+          className="__section_image __is_mobile"
+        />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">終わらない実験</h2>
+            <h2 className="section__title">无休止的实验</h2>
             <p>
-              设计のベース案を反映した試作機が出来上がると、始まるのがソフトウェアの作り込みです。今回は庫内の大きさや反射板の角度、ヒーター管の位置など少しでも変更があると焼き上がりが変わってしまいました。さらにトースト、チーズトースト、フランスパン、クロワッサンに向けた各モードがあり、これらを最適化し最高の焼き上がりを実現するために、合計1000時間の焼き上げ実験を行ってきました。
+              当反映设计基础的原型完成后，软件创建就开始了。
+              这一次，如果冰箱的大小、反射器的角度、加热管的位置等有任何变化，烘烤就会发生变化。
+              此外，还有吐司、奶酪吐司、法式面包、羊角面包的模式，为了优化这些模式，达到最佳烘焙效果，我们进行了总计1000小时的烘焙实验。
             </p>
           </div>
         </div>

@@ -88,25 +88,24 @@ export default function ProductDetail({ banners }) {
         </div>
         <div className="viewport">
           <h2 className="page__title __wb">
-            <span>時間をたのしむ</span>
-            <span>LEDランタン</span>
+            <span>享受时间的LED灯</span>
           </h2>
           <span className="label__block">便携式LED灯</span>
           <p className="overview_text">
-            キャンドルのように揺らぐ暖色の灯りから、読書灯にも使える温白色の灯りまで。
+            从像蜡烛一样摇曳的暖色灯，到可以用作读书灯的温白色灯。
             <br />
-            BALMUDA The Lanternは、日常の何気ない時間を、少しだけ特別に彩るLEDランタンです。
+            BALMUDA The Lantern是在日常的不经意的时间，稍微特别点缀的LED灯。
             <br />
-            バッテリー内蔵で部屋中どこでも、アウトドアにも持ち出してお使いいただけます。
+            内置电池在房间里的任何地方，带到户外也可以使用。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               15,180
             </p>
             <p className="colores">
-              黑色/白色／グレー／
+              黑色/白色/灰色/
               <br />
-              クラシックレッド／ネイビーブルー
+              经典红/海蓝色
             </p>
           </div>
 
@@ -132,17 +131,17 @@ export default function ProductDetail({ banners }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              シーンにあわせた
+              配合场景
               <br />
-              光をたのしむ
+              享受光
             </h2>
             <p className="section__desc">
               BALMUDA The
-              Lanternは、簡単な操作で調光が可能。明るさに応じて光の色あいも変化するので、読書灯や、特別な日の食事のテーブルなど、シーンにあわせてお使いいただけます。
+              Lantern，简单的操作就可以调光。随着亮度的变化，光的颜色也会发生变化，所以可以配合阅读灯、特殊日子的餐桌等场景使用。
             </p>
-            <a href="./design#dimming" className="section__btn">
-              調光について详情
-            </a>
+            <Link href="/lantern/design#dimming">
+              <a className="section__btn">关于调光的详细信息</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -150,27 +149,27 @@ export default function ProductDetail({ banners }) {
       <div className="section section--index section--02 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <h2 className="section__title">
-            選べる
+            可选
             <br />
-            カラーバリエーション
+            颜色变化
           </h2>
-          <a href="./design#colors" className="section__btn">
-            各色の使用シーンをみる
-          </a>
+          <Link href="/lantern/design#colors">
+            <a className="section__btn">观察各种颜色的使用场景</a>
+          </Link>
         </div>
       </div>
 
       <div className="section section--index section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">製品開発ストーリー</h2>
+            <h2 className="section__title">产品开发故事</h2>
             <p className="section__desc">
-              目の前で音を立てる暖炉の炎のように、見飽きることのない複雑な光の動きが欲しい。BALMUDA
-              The Lanternの開発ストーリーをご紹介します。
+              就像在眼前发出声音的壁炉的火焰一样，想要永不厌倦的复杂的光的移动。下面介绍BALMUDA The
+              Lantern的开发故事。
             </p>
-            <a href="./story" className="section__btn">
-              ストーリーを読む
-            </a>
+            <Link href="/lantern/story">
+              <a className="section__btn">读故事</a>
+            </Link>
           </div>
         </div>
       </div>

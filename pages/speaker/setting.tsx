@@ -15,11 +15,11 @@ export default function ProductDetail() {
   }
 
   const handleEnded = (e: SyntheticEvent) => {
-		const target = (e.currentTarget as HTMLVideoElement)
-		let targetId = target.getAttribute('data-video-target')
-		if(!targetId) {
-			targetId = target.getAttribute('id')
-		}
+    const target = e.currentTarget as HTMLVideoElement
+    let targetId = target.getAttribute('data-video-target')
+    if (!targetId) {
+      targetId = target.getAttribute('id')
+    }
 
     setPlaying('')
     const video = document.getElementById(targetId) as HTMLVideoElement
@@ -87,18 +87,18 @@ export default function ProductDetail() {
           <div className="__content">
             <h1 className="section__title">设置</h1>
             <p className="section__txt">
-              <span>BALMUDA The Speakerは、</span>
+              <span>BALMUDA The Speaker，</span>
               <span>
-                お使いの機器とBluetooth<sup>®</sup>
+                使用的设备和蓝牙<sup>®</sup>
               </span>
-              <span>またはAUX入力で接続できます。</span>
+              <span>或者可以用AUX输入连接。</span>
               <br className="pc" />
-              <span>LEDユニットの輝きは、</span>
-              <span>3つのモードから選択可能です。</span>
+              <span>LED单元的光芒，</span>
+              <span>有三种模式可以选择。</span>
               <br className="pc" />
-              <span>曲やシーンに合わせて、</span>
-              <span>お好きなスタイルで</span>
-              <span>音楽をお楽しみください。</span>
+              <span>配合着歌曲和场景</span>
+              <span>你喜欢的风格</span>
+              <span>请享受音乐。</span>
             </p>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function ProductDetail() {
         <div className="section section--setting section--02 scrollLoader lazyload loaded">
           <div className="viewport scrollLoader fadeInUp loaded">
             <div className="__content">
-              <h2 className="section__title">再生機器と接続する</h2>
+              <h2 className="section__title">与再生设备连接</h2>
             </div>
             <div className="__box scrollLoader lazyload loaded">
               <img
@@ -120,9 +120,9 @@ export default function ProductDetail() {
                 alt=""
               />
               <div className="__wrap">
-                <h3 className="__title">Bluetoothペアリング方法</h3>
+                <h3 className="__title">蓝牙配对方法</h3>
                 <p className="__txt">
-                  特別なアプリケーションは必要ありません。お使いの機器で、起動からペアリングまでスマートな操作で行えます。
+                  不需要特别的应用程序。用您使用的机器，从启动到配对用智能的操作进行。
                 </p>
                 <p className="list__txt">
                   <span className="list__txt--no">
@@ -133,13 +133,13 @@ export default function ProductDetail() {
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__01">
-                    製品の背面にある
+                    在产品的背面
                     <img
                       src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--01.svg"
                       className="__icon"
                       alt=""
                     />
-                    を押すと、電源がONになります。
+                    按下按钮，电源就会接通。
                   </span>
                 </p>
                 <p className="list__txt">
@@ -156,7 +156,7 @@ export default function ProductDetail() {
                       className="__icon"
                       alt=""
                     />
-                    を2秒間長押しすると、ペアリングの待機が開始します。
+                    长按2秒的话，配对的待机开始。
                   </span>
                 </p>
                 <p className="list__txt">
@@ -168,8 +168,8 @@ export default function ProductDetail() {
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__02">
-                    お使いのデバイスのBluetooth<sup>®</sup>選択画面で「BALMUDA
-                    M01」を選ぶとペアリングが完了します。お手持ちのアプリケーションで音楽を再生します。
+                    在你使用的设备的蓝牙<sup>®</sup>选择画面中选择“BALMUDA
+                    M01”就完成配对。用你手头的应用程序播放音乐。
                   </span>
                 </p>
               </div>
@@ -184,10 +184,8 @@ export default function ProductDetail() {
                 alt=""
               />
               <div className="__wrap">
-                <h3 className="__title">AUX入力端子を利用する</h3>
-                <p className="__txt">
-                  オーディオ出力を搭載するすべての機器からも、再生することができます。
-                </p>
+                <h3 className="__title">使用AUX输入端子</h3>
+                <p className="__txt">所有配备音频输出的设备也可以播放。</p>
                 <p className="list__txt">
                   <span className="list__txt--no">
                     <img
@@ -197,7 +195,7 @@ export default function ProductDetail() {
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__02">
-                    製品背面のAUX入力端子とオーディオ機器のステレオミニジャックを対応ケーブル（市販品）で接続します。
+                    产品背面的AUX输入端子和音频设备的立体声迷你插口用对应电缆(市售产品)连接。
                   </span>
                 </p>
                 <p className="list__txt">
@@ -208,9 +206,7 @@ export default function ProductDetail() {
                       alt=""
                     />
                   </span>
-                  <span className="list__txt--txt list__txt--txt__01">
-                    オーディオ機器で音楽を再生します。
-                  </span>
+                  <span className="list__txt--txt list__txt--txt__01">用音响设备播放音乐。</span>
                 </p>
               </div>
             </div>
@@ -219,9 +215,9 @@ export default function ProductDetail() {
 
             <div className="__content __content__02 scrollLoader lazyload loaded">
               <h2 className="section__title">
-                輝きを3つの
+                三个光辉
                 <br className="sp" />
-                モードから選択する
+                从模式中选择
               </h2>
             </div>
             <div className="__box scrollLoader lazyload loaded">
@@ -234,25 +230,24 @@ export default function ProductDetail() {
                 alt=""
               />
               <div className="__wrap __wrap__02">
-                <h3 className="__title">LiveLightのモード選択</h3>
+                <h3 className="__title">LiveLight的模式选择</h3>
                 <p>
-                  背面の
+                  背面的
                   <img
                     src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--02.svg"
                     className="__icon"
                     alt=""
                   />
-                  を押すと、LED
-                  ユニットの光り方を「Beat（ビート）」「Ambient（アンビエント）」「Candle（キャンドル）」の3つのモードから選択することができます。曲やシーンに合わせてお楽しみください。
+                  按下后，LED单元的发光方式可以从“Beat”、“Ambient”、“Candle(蜡烛)”三种模式中选择。请配合曲子和场景来享受。
                 </p>
                 <ul className="__speaker">
                   <li className="__speaker_item">
                     <div className="__speaker_info __speaker_info_pc">
                       <p className="__speaker_title">Beat</p>
                       <p className="__speaker_text">
-                        楽曲に合わせてダイナミックに明滅。
+                        配合着乐曲动态地明灭。
                         <br />
-                        もっとも臨場感を感じられます。
+                        最能让人感受到身临其境的感觉。
                       </p>
                     </div>
                     <img
@@ -267,9 +262,9 @@ export default function ProductDetail() {
                       <div className="__speaker_info_sp">
                         <p className="__speaker_title">Beat</p>
                         <p className="__speaker_text">
-                          楽曲に合わせてダイナミックに明滅。
+                          配合着乐曲动态地明灭。
                           <br />
-                          もっとも臨場感を感じられます。
+                          最能让人感受到身临其境的感觉。
                         </p>
                       </div>
                       <a
@@ -277,7 +272,7 @@ export default function ProductDetail() {
                         href="javascript:void(0);"
                         onClick={handlePlay}
                         data-video-target="spec_beat">
-                        ビデオを再生
+                        播放视频
                       </a>
                     </div>
                   </li>
@@ -285,9 +280,9 @@ export default function ProductDetail() {
                     <div className="__speaker_info __speaker_info_pc">
                       <p className="__speaker_title">Ambient</p>
                       <p className="__speaker_text">
-                        楽曲に合わせてほどよい抑揚をつけ
+                        配合着乐曲适当的抑扬顿挫
                         <br />
-                        明滅します。
+                        明灭。
                       </p>
                     </div>
                     <img
@@ -302,9 +297,9 @@ export default function ProductDetail() {
                       <div className="__speaker_info_sp">
                         <p className="__speaker_title">Ambient</p>
                         <p className="__speaker_text">
-                          楽曲に合わせてほどよい抑揚をつけ
+                          配合着乐曲适当的抑扬顿挫
                           <br />
-                          明滅します。
+                          明灭。
                         </p>
                       </div>
                       <a
@@ -312,7 +307,7 @@ export default function ProductDetail() {
                         href="javascript:void(0);"
                         onClick={handlePlay}
                         data-video-target="spec_ambient">
-                        ビデオを再生
+                        播放视频
                       </a>
                     </div>
                   </li>
@@ -320,9 +315,9 @@ export default function ProductDetail() {
                     <div className="__speaker_info __speaker_info_pc">
                       <p className="__speaker_title">Candle</p>
                       <p className="__speaker_text">
-                        楽曲を問わず、常にゆらぎのある落ち
+                        不论乐曲，总是有波动的落下
                         <br />
-                        着いた光を灯します。
+                        点亮到达的光。
                       </p>
                     </div>
                     <img
@@ -337,9 +332,9 @@ export default function ProductDetail() {
                       <div className="__speaker_info_sp">
                         <p className="__speaker_title">Candle</p>
                         <p className="__speaker_text">
-                          楽曲を問わず、常にゆらぎのある落ち
+                          不论乐曲，总是有波动的落下
                           <br />
-                          着いた光を灯します。
+                          点亮到达的光。
                         </p>
                       </div>
                       <a
@@ -347,27 +342,27 @@ export default function ProductDetail() {
                         href="javascript:void(0);"
                         onClick={handlePlay}
                         data-video-target="spec_candle">
-                        ビデオを再生
+                        播放视频
                       </a>
                     </div>
                   </li>
                 </ul>
                 <p className="__txt_sub">
-                  ※モード選択のボタンを押すと通知音が鳴ります。各モードにより通知音の回数が異なります。
+                  ※按下模式选择的按钮的话通知音会响。根据各模式通知音的次数不同。
                   <br />
-                  通知音3回「Beat」／2回「Ambient」／1回「Candle」
+                  通知音3次「Beat」／2次「Ambient」／1次「Candle」
                 </p>
                 <div className="__caption">
                   <div className="__caption_box">
                     <p className="__caption_txt __caption_txt_01">
-                      充分な輝きを
+                      为了充分
                       <br className="pc" />
-                      お楽しみ
+                      享受
                       <br />
-                      いただくために
+                      它的光辉
                     </p>
                     <p className="__caption_txt __caption_txt_02">
-                      LEDユニットの光量は、スピーカー本体ではなく再生する端末側の音量に応じて変わります。光量が充分でないと感じた際には、スマートフォンやパソコンなど端末の音量を上げてお試しください。
+                      LED单元的光量，不是扬声器本体而是根据播放的终端侧的音量变化。感觉光量不够的时候，请试着提高手机和电脑等终端的音量。
                     </p>
                   </div>
                 </div>
@@ -406,7 +401,10 @@ export default function ProductDetail() {
                   type="video/mp4"
                 />
               </video>
-              <div className="video_stop" data-video-target="spec_ambient" onClick={handleEnded}></div>
+              <div
+                className="video_stop"
+                data-video-target="spec_ambient"
+                onClick={handleEnded}></div>
             </div>
           </div>
           <div
@@ -421,7 +419,10 @@ export default function ProductDetail() {
                   type="video/mp4"
                 />
               </video>
-              <div className="video_stop" data-video-target="spec_candle" onClick={handleEnded}></div>
+              <div
+                className="video_stop"
+                data-video-target="spec_candle"
+                onClick={handleEnded}></div>
             </div>
           </div>
         </div>

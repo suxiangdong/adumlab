@@ -68,58 +68,56 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>本体寸法</th>
-                  <td>357mm（幅）× 321mm（奥行き）× 209mm（高さ）</td>
+                  <th>机身尺寸</th>
+                  <td>357毫米(宽)×321毫米(长)×209毫米(高)</td>
                 </tr>
                 <tr>
-                  <th>庫内寸法</th>
-                  <td>274mm（幅）× 204mm（奥行き）× 178mm（高さ）</td>
+                  <th>库内尺寸</th>
+                  <td>274mm(宽)×204mm(长)×178mm(高)</td>
                 </tr>
                 <tr>
-                  <th>製品重量</th>
-                  <td>約4.4kg</td>
+                  <th>产品重量</th>
+                  <td>约4.4kg</td>
                 </tr>
                 <tr>
                   <th>電源</th>
                   <td>AC100V 50Hz/60Hz</td>
                 </tr>
                 <tr>
-                  <th>定格消費電力</th>
+                  <th>额定耗电量</th>
                   <td>1300W</td>
                 </tr>
                 <tr>
-                  <th>電源コード長さ</th>
-                  <td>約1m</td>
+                  <th>电源线长度</th>
+                  <td>约1m</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ブラック (型番 : K05A-BK、JANコード : 4560330110139）</td>
-                </tr>
-                <tr>
-                  <th>&nbsp;</th>
-                  <td>ホワイト (型番 : K05A-WH、JANコード : 4560330110146）</td>
+                  <th>彩色</th>
+                  <td>黑色(型号:K05A-BK, JAN代码:4560330110139)</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ベージュ (型番 : K05A-BG、JANコード : 4560330110153）</td>
+                  <td>白色(型号:K05A-WH, JAN代码:4560330110146)</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>グレー (型番 : K05A-GR、JANコード : 4560330110665）</td>
+                  <td>米色(型号:K05A-BG, JAN代码:4560330110153)</td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>&nbsp;</th>
+                  <td>灰色(型号:K05A-GR, JAN代码:4560330110665)</td>
+                </tr>
+                <tr>
+                  <th>产地</th>
                   <td>中国</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>
-                    本製品は日本国内専用です。海外での使用は保証および修理受付の対象外となりますのでご注意ください。
-                  </td>
+                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
@@ -130,16 +128,16 @@ export default function ProductDetail() {
       <div className="section section--spec section--02">
         <div className="__selector_wrap">
           <span className="__selector __current" data-model="black">
-            ブラック
+            黑色
           </span>
           <span className="__selector" data-model="white">
-            ホワイト
+            白色
           </span>
           <span className="__selector" data-model="beige">
-            ベージュ
+            米色
           </span>
           <span className="__selector" data-model="gray">
-            グレー
+            灰色
           </span>
         </div>
         <div className="__image_outer __is_desktop">
@@ -495,38 +493,38 @@ export default function ProductDetail() {
       <div className="section section--spec section--03">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">性能／運転モード</h2>
+            <h2 className="section__title">性能/运行模式</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>タイマー</th>
+                  <th>计时器</th>
                   <td>1～10 ・ 15分</td>
                 </tr>
                 <tr>
-                  <th>運転モード</th>
+                  <th>运转模式</th>
                   <td>
-                    1. トーストモード
+                    1. 烤面包模式
                     <br />
-                    2. チーズトーストモード
+                    2. 奶酪烤面包模式
                     <br />
-                    3. フランスパンモード
+                    3. 法国模式
                     <br />
-                    4. クロワッサンモード
+                    4. 羊角面包模式
                     <br />
-                    5. クラシックモード (170、200、230°C)
+                    5. 经典模式(170、200、230°C)
                   </td>
                 </tr>
                 <tr>
-                  <th>スチーム</th>
-                  <td>5ccボイラー</td>
+                  <th>蒸汽</th>
+                  <td>5cc锅炉</td>
                 </tr>
               </tbody>
             </table>
 
-            <h2 className="section__title">同梱物</h2>
+            <h2 className="section__title">同捆物品</h2>
             <div className="initems">
               <div className="initems__desc">
-                <p>5ccカップ、取扱説明書（保証書付き）、ガイドブック</p>
+                <p>5cc杯，使用说明书(附有保证书)，指南书</p>
               </div>
               <div className="initems__img">
                 <img
@@ -545,31 +543,28 @@ export default function ProductDetail() {
       <div className="section section--spec section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">受賞歴</h2>
+            <h2 className="section__title">获奖经历</h2>
             <p>
-              1957年に創設された日本で唯一の総合的な设计賞「グッド设计賞」にて、BALMUDA The
-              Toasterは、2015年度 グッド设计賞
-              金賞、同年のグッド设计・ベスト100に選出されました。
+              在1957年创设的日本唯一的综合性设计奖“good设计奖”中，BALMUDA The
+              Toaster被评选为2015年度good设计奖金奖、同年good设计·best 100。
             </p>
 
             <div className="columns cf">
               <div className="column __award__gd--gold">
                 <p>
-                  グッド设计賞
-                  金賞は、グッド设计賞審査委員会がもっとも優れていると評価した设计に贈られます。BALMUDA
-                  The
-                  Toasterの设计性は、ひとの暮らしを豊かにするという視点で優れていると高く評価されました。
+                  优秀设计奖金奖是由优秀设计奖审查委员会评为最优秀的设计颁发的。BALMUDA The
+                  Toaster的设计性，从丰富人的生活的角度来看，被高度评价。
                 </p>
               </div>
               <div className="column __award__gd--best100">
                 <p>
-                  グッド设计・ベスト100は、グッド设计賞を受賞した製品の中から特に高い評価を得た100件です。BALMUDA
-                  The Toasterは2015年度グッド设计・ベスト100に選出されました。
+                  最佳设计100是从获得最佳设计奖的产品中获得特别高评价的100件。BALMUDA The
+                  Toaster被选为2015年度最佳设计100强。
                 </p>
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
             </div>

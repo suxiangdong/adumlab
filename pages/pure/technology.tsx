@@ -212,7 +212,7 @@ export default function ProductDetail() {
                 <h3>
                   <span>プレネット</span>
                 </h3>
-                <p>大きなホコリを入り口でキャッチ。抗菌仕様が微生物の繁殖を抑制します</p>
+                <p>大きなホコリを入り口でキャッチ。抗菌规格が微生物の繁殖を抑制します</p>
               </div>
             </div>
 
@@ -288,7 +288,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要時間。
+                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
                   </p>
                 </div>
               </div>
@@ -312,7 +312,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要時間。
+                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
                   </p>
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要時間。
+                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
                   </p>
                 </div>
               </div>

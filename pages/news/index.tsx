@@ -55,7 +55,7 @@ export default function News({ news }) {
             <ul className="CategoryList">
               <li>
                 <a href="https://www.balmuda.com/jp/news/1009">
-                  BALMUDA The Toasterに限定カラー「グレー」が新登場
+                  BALMUDA The Toasterに限定颜色「灰色」が新登場
                 </a>
               </li>
               <li>
@@ -70,7 +70,7 @@ export default function News({ news }) {
               </li>
               <li>
                 <a href="https://www.balmuda.com/jp/news/977">
-                  BALMUDA The Lanternに限定カラー2色が新登場
+                  BALMUDA The Lanternに限定颜色2色が新登場
                 </a>
               </li>
               <li>

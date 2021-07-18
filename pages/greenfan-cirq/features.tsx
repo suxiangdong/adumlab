@@ -124,7 +124,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
             />
             <p>
-              衣類の乾燥には風が最も効果的。乾燥に時間がかかるとニオイやカビが発生することがあります。GreenFan
+              衣類の乾燥には風が最も効果的。乾燥に时间がかかるとニオイやカビが発生することがあります。GreenFan
               Cirqの送風力で生乾きのニオイやカビの発生を抑えます。
             </p>
           </div>
@@ -142,7 +142,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
             />
             <p>
-              エアコンと併用して室温をすばやく均一にするだけではなく、隣りの部屋への送風も短時間で行います。また、就寝時には寝室の空気をゆるやかに循環させ快適に過ごせます。
+              エアコンと併用して室温をすばやく均一にするだけではなく、隣りの部屋への送風も短时间で行います。また、就寝時には寝室の空気をゆるやかに循環させ快適に過ごせます。
             </p>
           </div>
         </div>

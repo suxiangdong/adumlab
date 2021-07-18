@@ -24,13 +24,13 @@ export default function About() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item `}>
-              <Link href="/about">バルミューダについて</Link>
+              <Link href="/about">关于巴慕达</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
               <Link href="/about/story">历史故事</Link>
             </li>
             <li className={`pagemap__content__item `}>
-              <Link href="/about/awards">获得奖项</Link>
+              <Link href="/about/awards">获奖经历</Link>
             </li>
           </ul>
           <div className="pagemap__dropdown hidden" id="greedynav--btn">
@@ -103,7 +103,7 @@ export default function About() {
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Lantern</h5>
                   <p className="__text">
-                    使う人に、味わい深いよい時間を過ごしてほしい、そんな思いから生まれた BALMUDA The
+                    使う人に、味わい深いよい时间を過ごしてほしい、そんな思いから生まれた BALMUDA The
                     Lantern...
                   </p>
                 </div>
@@ -184,7 +184,7 @@ export default function About() {
 
             <div className="__list">
               <ul>
-                获得奖项
+                获奖经历
                 <li>
                   <a href="/about/awards#gooddesign">GoodDesign优良设计奖</a>
                 </li>

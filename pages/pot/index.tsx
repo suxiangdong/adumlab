@@ -128,13 +128,13 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h3 className="section__subtitle">淹れ方</h3>
             <h2 className="section__title __wb">
-              <span>お茶の時間が</span>
+              <span>お茶の时间が</span>
               <span>もっと</span>
               <span>楽しくなる</span>
               <span>淹れ方</span>
             </h2>
             <p>
-              コーヒー、紅茶、日本茶のおいしさをさらに広げます。毎日のお茶の時間がもっと楽しくなる淹れ方をご紹介します。
+              コーヒー、紅茶、日本茶のおいしさをさらに広げます。毎日のお茶の时间がもっと楽しくなる淹れ方をご紹介します。
             </p>
             <Link href="/pot/brewing">
               <a className="btn btn--page">继续阅读</a>

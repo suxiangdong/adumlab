@@ -64,20 +64,20 @@ export default function ProductDetail() {
       <div className="section section--specs section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>製品名</th>
+                  <th>产品名称</th>
                   <td>GreenFan Cirq（グリーンファンサーキュ）</td>
                 </tr>
                 <tr>
-                  <th>本体寸法</th>
+                  <th>机身尺寸</th>
                   <td>340mm（幅）× 256mm（奥行き）× 360mm（高さ）</td>
                 </tr>
                 <tr>
                   <th>製品重量</th>
-                  <td>約2.3kg</td>
+                  <td>约2.3kg</td>
                 </tr>
                 <tr>
                   <th>動作電力</th>
@@ -85,11 +85,11 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>コード長さ</th>
-                  <td>約1.8m（ACアダプター コード長）</td>
+                  <td>约1.8m（ACアダプター コード長）</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ホワイト×ブラック（型番：EGF-3300-WK）</td>
+                  <th>颜色</th>
+                  <td>白色×黑色（型番：EGF-3300-WK）</td>
                 </tr>
                 <tr>
                   <th>
@@ -100,7 +100,7 @@ export default function ProductDetail() {
                   <td>GreenFan Cirq本体、取扱説明書（保証書付き）、ACアダプター、リモコン</td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>台湾</td>
                 </tr>
               </tbody>
@@ -115,7 +115,7 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>消費電力</th>
+                  <th>耗电量</th>
                   <td>3W 〜 20W</td>
                 </tr>
                 <tr>
@@ -154,7 +154,7 @@ export default function ProductDetail() {
       <div className="section section--specs section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">受賞歴</h2>
+            <h2 className="section__title __wb">获奖经历</h2>
             <p>
               GreenFan
               Cirqは、国際的に最も権威のある设计賞のひとつである、ドイツの「レッドドット・设计賞」を受賞し、革新性、機能性などが高く評価されています。

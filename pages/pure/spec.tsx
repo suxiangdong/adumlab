@@ -142,13 +142,13 @@ export default function ProductDetail() {
             className={`__selector ${current === 0 ? '__current' : ''}`}
             data-model="white"
             onClick={() => setCurrent(0)}>
-            ホワイト
+            白色
           </span>
           <span
             className={`__selector ${current === 1 ? '__current' : ''}`}
             data-model="darkgray"
             onClick={() => setCurrent(1)}>
-            ダークグレー
+            ダーク灰色
           </span>
         </div>
       </div>
@@ -156,11 +156,11 @@ export default function ProductDetail() {
       <div className="section section--spec section--01">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">製品仕様</h2>
+            <h2 className="section__title">产品规格</h2>
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>製品名</th>
+                  <th>产品名称</th>
                   <td>BALMUDA The Pure</td>
                 </tr>
                 <tr>
@@ -169,14 +169,14 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>製品重量（フィルター含む）</th>
-                  <td>約7.4kg</td>
+                  <td>约7.4kg</td>
                 </tr>
                 <tr>
                   <th>電源</th>
                   <td>AC100V 50/60Hz共用ACアダプター</td>
                 </tr>
                 <tr>
-                  <th>消費電力</th>
+                  <th>耗电量</th>
                   <td>2〜72W</td>
                 </tr>
                 <tr>
@@ -184,12 +184,12 @@ export default function ProductDetail() {
                   <td>AC側：1.0m／DC側：1.8m（ACアダプター コード長）</td>
                 </tr>
                 <tr>
-                  <th>カラー</th>
-                  <td>ホワイト(型番：A01A-WH、JANコード：4560330119958）</td>
+                  <th>颜色</th>
+                  <td>白色(型番：A01A-WH、JANコード：4560330119958）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ダークグレー(型番：A01A-GR、JANコード：4560330119460）</td>
+                  <td>ダーク灰色(型番：A01A-GR、JANコード：4560330119460）</td>
                 </tr>
                 <tr>
                   <th>パッケージ内容</th>
@@ -199,7 +199,7 @@ export default function ProductDetail() {
                   </td>
                 </tr>
                 <tr>
-                  <th>保証期間</th>
+                  <th>保证期限</th>
                   <td>お買い上げ日から1年間</td>
                 </tr>
                 <tr>
@@ -211,7 +211,7 @@ export default function ProductDetail() {
                   </td>
                 </tr>
                 <tr>
-                  <th>生産地</th>
+                  <th>产地</th>
                   <td>中国</td>
                 </tr>
                 <tr>
@@ -237,7 +237,7 @@ export default function ProductDetail() {
                   <td>〜36畳／〜60m²（*1）</td>
                 </tr>
                 <tr>
-                  <th>清浄時間</th>
+                  <th>清浄时间</th>
                   <td>8畳を8分</td>
                 </tr>
                 <tr>
@@ -259,7 +259,7 @@ export default function ProductDetail() {
               </tbody>
             </table>
             <p className="note">
-              *1「適用床面積」ならびに「清浄時間」の数値は、日本電機工業会 JEM1467
+              *1「適用床面積」ならびに「清浄时间」の数値は、日本電機工業会 JEM1467
               に基づく数値です（ジェットクリーニングモード運転時）
             </p>
           </div>
@@ -334,7 +334,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--04 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">受賞歴</h2>
+            <h2 className="section__title">获奖经历</h2>
             <p>
               BALMUDA The Pureは、2019年度 グッド设计賞、2020年度 キッズ设计賞 優秀賞
               経済産業大臣賞を受賞しました。
@@ -349,7 +349,7 @@ export default function ProductDetail() {
               </div>
               <div className="column __award__gd">
                 <p>
-                  公益財団法人日本设计振興会が主催する、1957年に創設された日本で唯一の総合的な设计賞で、国内外の多くの企業やデザイナーが参加しています。
+                  该奖项由公益财团法人日本设计振兴会主办，创立于1957年，是日本唯一的综合性设计奖，吸引了国内外众多企业和设计师参加。
                 </p>
               </div>
               <div className="column __award__kids">

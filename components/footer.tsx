@@ -33,7 +33,7 @@ export default function Footer() {
                 The GreenFan<span className="__caption">果岭风扇</span>
               </a>
               <a href="/greenfan-cirq/" className="__item __item--greenfan-cirq">
-                GreenFan Cirq<span className="__caption">空气循环机</span>
+                GreenFan Cirq<span className="__caption">空气循环扇</span>
               </a>
               <a href="/pure/" className="__item __item--pure">
                 BALMUDA The Pure<span className="__caption">空气净化器</span>
@@ -97,7 +97,7 @@ export default function Footer() {
                     <Link href="/about/story">历史故事</Link>
                   </li>
                   <li>
-                    <Link href="/about/awards">获得奖项</Link>
+                    <Link href="/about/awards">获奖经历</Link>
                   </li>
                 </ul>
                 <h5 className="sitemap__group__header">Support</h5>
@@ -192,7 +192,7 @@ export default function Footer() {
                   個人情報に関する公表事項
                 </a>
                 <a href="/jp/legal/terms" className="legal__link">
-                  利用規約
+                  利用規约
                 </a>
                 <a href="/jp/legal/deal" className="legal__link">
                   特定商取引法に基づく表示

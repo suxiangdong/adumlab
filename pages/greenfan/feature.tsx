@@ -125,7 +125,7 @@ export default function ProductDetail() {
             <div className="__content">
               <h2 className="section__title">大きく広がる風</h2>
               <p>
-                大きく広がりゆっくりと進む風が特徴のグリーンファン。一般的な扇風機に比べ、約4倍に広がる風はまさに自然界の風のようにやさしく包みこむ気持ちよさです。
+                大きく広がりゆっくりと進む風が特徴のグリーンファン。一般的な扇風機に比べ、约4倍に広がる風はまさに自然界の風のようにやさしく包みこむ気持ちよさです。
               </p>
               <span className="video_play __is_desktop __fff" data-video-target="v8" onClick={handlePlayV8}>
                 動画を再生
@@ -148,10 +148,10 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">最小のエネルギー</h2>
             <p>
-              送風効率のよい独自の羽根とDCブラシレスモーター、専用の低電力回路が先進の省エネルギー性能を実現しました。最小消費電力は1.5W、ひと夏つかっても電気代はわずか29円（*1）です。
+              送風効率のよい独自の羽根とDCブラシレスモーター、専用の低電力回路が先進の省エネルギー性能を実現しました。最小耗电量は1.5W、ひと夏つかっても電気代はわずか29円（*1）です。
             </p>
             <p className="note">
-              * 最弱運転で1日8時間、90日使用した場合。電気料金は1kWhあたり27円で計算。
+              * 最弱運転で1日8时间、90日使用した場合。電気料金は1kWhあたり27円で計算。
             </p>
           </div>
         </div>
@@ -163,7 +163,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">远达15米的送风距离届く豊かな風</h2>
             <p>
-              広く、大きな風を生み出すグリーンファンの風は远达15米的送风距离風を届けることができます。大量の空気を動かすことができるので、冬場は空气循环机として利用でき、一年中活躍します。
+              広く、大きな風を生み出すグリーンファンの風は远达15米的送风距离風を届けることができます。大量の空気を動かすことができるので、冬場は空气循环扇として利用でき、一年中活躍します。
             </p>
           </div>
         </div>

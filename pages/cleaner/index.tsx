@@ -227,7 +227,7 @@ export default function CleanerDetail({ banners, evaluations }) {
             </h2>
             <p className="section__desc">
               広いフローリングや畳の上も。椅子や机の下も、せまいすき間も壁ぎわも。BALMUDA The
-              Cleaner なら、思いどおりに、気持ちよく掃除をすることができます。
+              Cleaner なら、思いどおりに、气持ちよく掃除をすることができます。
             </p>
             <Link href="/cleaner/feature">
               <a className="section__btn">详情</a>
@@ -284,10 +284,10 @@ export default function CleanerDetail({ banners, evaluations }) {
             </h2>
             <p className="section__desc">
               BALMUDA The
-              Cleanerがこだわり抜いた、掃除が楽しくなるくらいの自由自在な操作感。子どもの頃、憧れていたホバークラフトをヒントに、開発が始まりました。そのストーリーを紹介します。
+              Cleanerがこだわり抜いた、掃除が楽しくなるくらいの自由自在な操作感。子どもの頃、憧れていたホバークラフトをヒントに、開発が始まりました。その开发故事を紹介します。
             </p>
             <Link href="/cleaner/story">
-              <a className="section__btn">ストーリーを読む</a>
+              <a className="section__btn">开发故事を読む</a>
             </Link>
           </div>
         </div>

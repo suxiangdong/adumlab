@@ -104,7 +104,7 @@ export default function CleanerDetail() {
               <span>椅子や机の下も、せまいすき間も壁ぎわも。</span>
               <br className="__is_desktop" />
               <span>BALMUDA The Cleaner なら、</span>
-              <span>思いどおりに、気持ちよく</span>
+              <span>思いどおりに、气持ちよく</span>
               <span>掃除をすることができます。</span>
             </p>
             <div className="box">

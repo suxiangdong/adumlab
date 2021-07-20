@@ -69,35 +69,37 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>产品名称</th>
-                  <td>GreenFan Cirq（グリーンファンサーキュ）</td>
+                  <td>GreenFan Cirq（绿色循环）</td>
                 </tr>
                 <tr>
-                  <th>机身尺寸</th>
-                  <td>340mm（幅）× 256mm（奥行き）× 360mm（高さ）</td>
+                  <th>产品尺寸</th>
+                  <td>340mm（宽）× 256mm（长）× 360mm（高）</td>
                 </tr>
                 <tr>
-                  <th>製品重量</th>
+                  <th>产品重量</th>
                   <td>约2.3kg</td>
                 </tr>
                 <tr>
-                  <th>動作電力</th>
-                  <td>AC100V 50/60Hz対応</td>
+                  <th>运行功率</th>
+                  <td>AC220V 50/60Hz</td>
                 </tr>
                 <tr>
-                  <th>コード長さ</th>
-                  <td>约1.8m（ACアダプター コード長）</td>
+                  <th>电线长度</th>
+                  <td>约1.8m（交流适配器的电线长度）</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色×黑色（型番：EGF-3300-WK）</td>
+                  <td>白色×黑色（型号：EGF-3300-WK）</td>
                 </tr>
                 <tr>
                   <th>
-                    パッケージ
+                    包装
                     <br />
                     内容
                   </th>
-                  <td>GreenFan Cirq本体、取扱説明書（保証書付き）、ACアダプター、リモコン</td>
+                  <td>
+                    GreenFan Cirq本体使用说明书（附带保修单）、快速入门指南、交流适配器、遥控器
+                  </td>
                 </tr>
                 <tr>
                   <th>产地</th>
@@ -111,7 +113,7 @@ export default function ProductDetail() {
       <div className="section section--specs section--02">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">性能／運転モード</h2>
+            <h2 className="section__title">性能／运转模式</h2>
             <table className="__basic">
               <tbody>
                 <tr>
@@ -119,32 +121,32 @@ export default function ProductDetail() {
                   <td>3W 〜 20W</td>
                 </tr>
                 <tr>
-                  <th>最大回転数</th>
+                  <th>最大转速</th>
                   <td>850 rpm</td>
                 </tr>
                 <tr>
-                  <th>最大風速</th>
+                  <th>最大风速</th>
                   <td>230 m/min</td>
                 </tr>
                 <tr>
-                  <th>風の届く距離</th>
+                  <th>风到达的距离</th>
                   <td>15m</td>
                 </tr>
                 <tr>
-                  <th>風量調節</th>
-                  <td>4段階</td>
+                  <th>风量调节</th>
+                  <td>1档、2档、3档、4档</td>
                 </tr>
                 <tr>
-                  <th>手動角度調整</th>
-                  <td>水平（0°）〜 垂直上向き（90°）</td>
+                  <th>手动角度调节</th>
+                  <td>水平（0°）〜 垂直上向（90°）</td>
                 </tr>
                 <tr>
-                  <th>本体操作</th>
-                  <td>電源 ON／OFF、風量切り替え</td>
+                  <th>主机操作</th>
+                  <td>开关电源、切换风量</td>
                 </tr>
                 <tr>
-                  <th>リモコン操作</th>
-                  <td>電源 ON／OFF、風量切り替え</td>
+                  <th>遥控器操作</th>
+                  <td>开关电源、切换风量</td>
                 </tr>
               </tbody>
             </table>
@@ -157,14 +159,14 @@ export default function ProductDetail() {
             <h2 className="section__title __wb">获奖经历</h2>
             <p>
               GreenFan
-              Cirqは、国際的に最も権威のある设计賞のひとつである、ドイツの「レッドドット・设计賞」を受賞し、革新性、機能性などが高く評価されています。
+              Cirq荣获2012年度红点设计大奖（德国）等国际权威性设计大奖、是获得了世界性认可的产品。
             </p>
 
             <div className="columns cf">
               <div className="column __award__rd">
                 <p>
-                  ドイツの「Design Zentrum Nordrhein
-                  Westfalen」が主催する世界最大級の设计賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越した设计が選定されます。
+                  由德国的Design Zentrum Nordrhein
+                  Westfalen主办。是全球最大规模的设计大奖，按照创新、性能、人体工学耐久性等9项标准，选出卓越超群的设计产品。
                 </p>
               </div>
             </div>

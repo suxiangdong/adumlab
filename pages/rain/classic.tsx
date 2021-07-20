@@ -35,13 +35,13 @@ export default function ProductDetail() {
     video.pause()
   }
 
-	const handlePlay2Start = () => {
-		setPlaying2(true)
+  const handlePlay2Start = () => {
+    setPlaying2(true)
     const video = document.getElementById('elmov') as HTMLVideoElement
     video.style.opacity = '1'
-		video.playbackRate = 0.9
+    video.playbackRate = 0.9
     video.play()
-	}
+  }
 
   return (
     <Layout>
@@ -147,9 +147,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">经典先端</h2>
             <p>
-              このような加湿器は、これまでどこにもありませんでした。そのまま注ぎ入れる給水方法、美しいディスプレイと新しい操作方法。
-              <br />
-              クラシックで上質な设计の内部には、先進性が隠されています。
+              这是一款前所未有的智能加湿器。顶部直接注水、精美的显示器、全新的旋转控制环操作方法、精妙的内部设计蕰藏着先进技术。
             </p>
           </div>
         </div>
@@ -159,9 +157,9 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">あたらしい操作方法</h2>
+            <h2 className="section__title __wb">全新的操作方法</h2>
             <p>
-              Rainは、本体上部のコントロールリングを回したり、クリックしたり、長押しすることで操作します。余計なボタンはありません。有機ELディスプレイを見ながら、メニューの選択や決定など、基本的なすべての操作を行うことができます。
+              智能加湿器通过旋转、点击、按压上方的控制环进行操作。完全没有多余的按钮。可以通过有机EL显示器选择确定菜单，进行所有基本操作。
             </p>
           </div>
         </div>
@@ -196,7 +194,7 @@ export default function ProductDetail() {
                 <div className="text">
                   <ul className="checklist">
                     <li id="flow1" className="checklist0" onClick={handlePlay2Start}>
-                      風量変更
+                      风量変更
                     </li>
                     <li id="flow2" className="checklist1">
                       給水時
@@ -209,9 +207,9 @@ export default function ProductDetail() {
               </div>
             </div>
 
-            <h2 className="section__title __wb">有機ELディスプレイ</h2>
+            <h2 className="section__title __wb">有机EL显示器</h2>
             <p>
-              本体上部の有機ELディスプレイは、必要なすべての情報を、美しく整理して表示します。給水を始めると自動的に水量表示に切り替わり、終わると通常表示に戻ります。周囲のLEDインジケーターは、通常時には風量を、給水時には水量を表示します。
+              主体上方的有机EL显示器美观清晰地显示所有必要信息。开始注水后，自动切换到水量显示；终止后，返回到通常显示状态。环形LED指示灯显示风量，注水时显示水量。
             </p>
           </div>
         </div>
@@ -221,31 +219,31 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title __wb">
-              2つの運転モードと
+              两种使用模式
               <br />
-              24hタイマー
+              4小时计时器
             </h2>
 
             <div className="mode_column">
               <div>
                 <img src="https://www.balmuda.com/jp/rain/img/classic/icn_auto.svg" />
-                <h3>オートモード</h3>
+                <h3>自动模式</h3>
                 <p>
-                  オートモードでは一定の湿度を保持するよう、Rainが自動運転します。初期設定は湿度50％ですが、40％から60％まで好みの湿度に設定することも出来ます。
+                  自动模式下，智能加湿器通过自动运行，保持适当湿润度。初始设置为50%湿润度，根据需要，可以在40％～60％之间调节湿润度。
                 </p>
               </div>
               <div>
                 <img src="https://www.balmuda.com/jp/rain/img/classic/icn_man.svg" />
-                <h3>マニュアルモード</h3>
+                <h3>手动模式</h3>
                 <p>
-                  マニュアルモードでは、手動で5段階から風量を選ぶことができます。部屋が乾燥してつらいときなどは、風量を最大の5に設定してお使いください。
+                  手动模式下，可以通过手动方式选择5档风量。房间干燥时，请将风量设置为最高档5档使用。
                 </p>
               </div>
               <div>
                 <img src="https://www.balmuda.com/jp/rain/img/classic/icn_timer.svg" />
-                <h3>24hタイマー</h3>
+                <h3>24小时计时器</h3>
                 <p>
-                  Rainの運転のオン・オフを1时间ごとに自由に設定することができます。人がいない时间帯には運転を停止させ、帰宅前に運転を開始させるなどの設定ができます。
+                  可以小时为单位，自由设置智能加湿器运行的开始/结束。可以在家中无人的时间段，停止加湿器运行；回家前，自动开始运行。
                 </p>
               </div>
             </div>
@@ -257,9 +255,9 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title __wb">
-              最小2Wの
+              最小2w的
               <br />
-              省エネ性能
+              节能性能
             </h2>
             <img
               data-desktop="https://www.balmuda.com/jp/rain/img/classic/desktop/section--04.png"
@@ -268,7 +266,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/rain/img/classic/desktop/section--04@2x.png"
             />
             <p>
-              Rainは最小2Wのわずかな耗电量で十分な加湿を行います。急速に加湿を行う最大風量時でも耗电量は23W。これは一般的なハイブリッド式加湿器の1/10以下のエネルギー消費です。オートモードの繊細な制御や、操作時以外はディスプレイを半分の明るさにするなど、無駄な電力を使いません。
+              智能加湿器最小仅用2W的消耗电力即可以进行充分的加湿。急速加湿时的最大风量也仅用23W的消耗电力。这是一般加热式加湿器1/10以下的能耗。自动模式的细腻控制及非操作时显示器只显示一半的亮度等设计都节省电力。
             </p>
           </div>
         </div>

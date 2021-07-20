@@ -46,7 +46,7 @@ export default function News({ news }) {
             ))}
 
             {/* <div className="PageNavigation">
-              <a href="https://www.balmuda.com/jp/news/page/2">次のページへ ＞</a>{' '}
+              <a href="https://www.balmuda.com/jp/news/page/2">次のページへ ＞</a>
             </div> */}
           </div>
 
@@ -75,7 +75,7 @@ export default function News({ news }) {
               </li>
               <li>
                 <a href="https://www.balmuda.com/jp/news/964">
-                  自然界の風を再現する「The GreenFan」本日より販売開始
+                  自然界の风を再現する「The GreenFan」本日より販売開始
                 </a>
               </li>
               <li>

@@ -135,7 +135,7 @@ export default function ProductDetail({ banners, evaluations }) {
               医療用の手術灯をヒントに開発した独自の構造で、離れた場所から広く手元を照らします。
             </p>
             <a href="./technology" className="section__btn">
-              さらに详情
+              详情
             </a>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function ProductDetail({ banners, evaluations }) {
               美術館などの色にシビアな環境で使用される太陽光LEDは自然光に近い光。目にやさしく、集中力を妨げません。
             </p>
             <a href="./technology#led" className="section__btn">
-              さらに详情
+              详情
             </a>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function ProductDetail({ banners, evaluations }) {
               <span>ステッカー</span>
             </h3>
             <p className="section__desc">
-              鉛筆やハサミや定規。ツールボックスにはお気に入りの道具を入れて、ライトアップすることができます。
+              鉛筆やハサミや定規。ツールボックスにはお气に入りの道具を入れて、ライトアップすることができます。
             </p>
             <p className="section__desc">
               また、本体に貼る事ができる専用ステッカーが付属します。組み合わせて貼れば、自分だけのデスクライトになります。
@@ -178,13 +178,13 @@ export default function ProductDetail({ banners, evaluations }) {
       <div className="section section--index section--05 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h3 className="section__subtitle">開発ストーリー</h3>
+            <h3 className="section__subtitle">開発开发故事</h3>
             <p className="section__desc">
               子どもたちの目を守りたい。そんな思いから始まったBALMUDA The
-              Lightの開発にまつわるストーリーをご紹介します。
+              Lightの開発にまつわる开发故事をご紹介します。
             </p>
             <a href="./story" className="section__btn">
-              さらに详情
+              详情
             </a>
           </div>
         </div>

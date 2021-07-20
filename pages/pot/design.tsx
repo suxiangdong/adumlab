@@ -77,7 +77,7 @@ export default function ProductDetail() {
               电水壶
             </h2>
             <p>
-              因为体积小，所以烧水更方便。在不锈钢上涂了漆的美丽的质感和微微发光的灯塔一样的电源灯，1天重复几次的烧水的时间快乐。
+              小巧的尺寸，让烧水更轻松。金属材质加上优美质感的涂层，忽明忽暗的灯台般的电源灯，一天之中可以重复享受每一次的烧水时间。
             </p>
           </div>
         </div>
@@ -90,8 +90,8 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">尺寸适中，使用方便。</h2>
-            <p>3杯咖啡，2杯方便面。是和经常使用的量一致的尺寸。容易拿取，快速使用的轻便。</p>
+            <h2 className="section__title">刚刚好的大小，便于使用的轻便</h2>
+            <p>咖啡3杯，杯面2杯，为日常所需所设计的尺寸。便于取用，重量亦得心应手。</p>
           </div>
         </div>
       </div>
@@ -103,9 +103,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">舒服的倒酒感觉</h2>
+            <h2 className="section__title">随心所欲的倾注水流</h2>
             <p>
-              研究制造的方向盘和喷嘴实现了至今没有的注入心情。方向盘很容易上手，喷嘴很容易断水，被设计成很容易准确地把水倒到目标的地方。
+              精心研究过的把手和壶嘴，带来前所未有的倾注感受。把手握感服帖，注水口不洒溅，让您轻松又精确的控制水流。
             </p>
           </div>
         </div>
@@ -142,13 +142,15 @@ export default function ProductDetail() {
             className={`__video_play ${playing ? '' : '__visible'}`}
             id="__video_play"
             onClick={handlePlay}>
-            ビデオを再生
+            播放视频
           </span>
         </div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">缓慢也好，快速也好，自由自在</h2>
-            <p>滴滤咖啡要慢，泡面要快。因为可以毫无压力地控制流速，注入热水的时间比现在更快乐。</p>
+            <h2 className="section__title">无论快慢，随心所欲。</h2>
+            <p>
+              手冲咖啡时的细缓，泡面时的豪迈。BALMUDA电水壶可以毫无压力的控制流速，让您注水的过程比以往更快乐。
+            </p>
           </div>
         </div>
       </div>
@@ -160,9 +162,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">从哪里都能看清楚的灯</h2>
+            <h2 className="section__title">各个角度都可以看到的灯</h2>
             <p>
-              从各种角度容易看到的电源灯是使用小的霓虹灯管的独特的温柔的灯。就连烧水的那一瞬间也能成为丰富的时间。
+              从各个角度都可以看到的电源灯，使用小型霓虹管，独特的柔和灯光，让水沸腾的瞬间变得更加的享受。
             </p>
           </div>
         </div>
@@ -175,9 +177,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">美好的时光</h2>
+            <h2 className="section__title">美好的一刻</h2>
             <p>
-              悠闲地泡咖啡的奢侈时间，在客人面前泡茶的款待。请在 BALMUDA The Pot 享受美好的时光。
+              无论是悠闲地冲泡着咖啡的慢时光，亦或是冲茶待客的招待场合。请尽情享受BALMUDA电水壶带给您的美好一刻。
             </p>
           </div>
         </div>

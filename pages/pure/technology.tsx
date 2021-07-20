@@ -138,13 +138,13 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">プッシュ＆プル</h2>
             <p>
-              部屋の向こう側の空気も強力に引き寄せて清浄するために。
+              部屋の向こう側の空气も強力に引き寄せて清浄するために。
               <br />
               BALMUDA The Pure
-              は、真上に向かって清浄された空気を送り出すと同時に、本体の下に設けられた開口部から大量の空気を吸い込みます。このプッシュ＆プルの設計思想により、
+              は、真上に向かって清浄された空气を送り出すと同時に、本体の下に設けられた開口部から大量の空气を吸い込みます。このプッシュ＆プルの設計思想により、
               <br />
-              部屋や全体の空気を大きく循環させ、毎分7000リットル
-              <em className="asterisk __pointer">*1</em>の空気を清浄します。
+              部屋や全体の空气を大きく循環させ、毎分7000リットル
+              <em className="asterisk __pointer">*1</em>の空气を清浄します。
             </p>
             <p className="asterisk __ref">*1 : ジェットクリーニングモード運転時</p>
           </div>
@@ -217,7 +217,7 @@ export default function ProductDetail() {
             </div>
 
             <p className="asterisk __ref re2">
-              *2 : 空気中のすべての有害物質を除去できるものではありません。
+              *2 : 空气中のすべての有害物質を除去できるものではありません。
               <br />
               *3 :
               0.3μmの微粒子を99.97%以上の粒子捕集率をもつフィルターです。0.3μｍ未満の微粒子状物質については、除去の確認ができていません。
@@ -288,7 +288,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
+                    日本電气工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
                   </p>
                 </div>
               </div>
@@ -312,7 +312,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
+                    日本電气工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
                   </p>
                 </div>
               </div>
@@ -336,7 +336,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    日本電気工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
+                    日本電气工業会規格　JEM1467に基づく試験を実施。浮遊ウィルス、浮遊細菌、浮遊カビの除去率が99.9％となる理論上の所要时间。
                   </p>
                 </div>
               </div>
@@ -365,7 +365,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭气ガスを投入し空气净化器を運転。臭气ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -394,7 +394,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭气ガスを投入し空气净化器を運転。臭气ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -423,7 +423,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭气ガスを投入し空气净化器を運転。臭气ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -452,7 +452,7 @@ export default function ProductDetail() {
                 </figure>
                 <div className="text">
                   <p>
-                    1m3ボックスに空气净化器および臭気ガスを投入し空气净化器を運転。臭気ガス濃度の測定結果
+                    1m3ボックスに空气净化器および臭气ガスを投入し空气净化器を運転。臭气ガス濃度の測定結果
                   </p>
                 </div>
               </div>
@@ -468,7 +468,7 @@ export default function ProductDetail() {
             <h2 className="section__title">
               力強く、
               <br className="sp" />
-              大量の空気を循環
+              大量の空气を循環
             </h2>
           </div>
         </div>
@@ -482,9 +482,9 @@ export default function ProductDetail() {
           <div className="__content">
             <p>
               BALMUDA The Pure
-              には、空気を送り出すファンの上に、整流翼が用意されています。従来、航空機のジェットエンジンなどで使われるこの科技を、BALMUDA
+              には、空气を送り出すファンの上に、整流翼が用意されています。従来、航空機のジェットエンジンなどで使われるこの科技を、BALMUDA
               The Pure
-              のために流体力学に基づき再設計しました。これにより、より大容量の空気を、静かに、循環させることが可能になりました。
+              のために流体力学に基づき再設計しました。これにより、より大容量の空气を、静かに、循環させることが可能になりました。
             </p>
           </div>
         </div>

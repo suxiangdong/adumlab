@@ -56,11 +56,11 @@ export default function ProductDetail() {
         />
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">BALMUDA The Potが生まれるまで</h2>
+            <h2 className="page__title">BALMUDA电水壶的诞生</h2>
             <p>
-              キッチンでの体験をもっと楽しくしたい。
+              想要让厨房的体验更加快乐。
               <br />
-              BALMUDA The Potが生み出されるまで、さまざまな思いがありました。
+              BALMUDA电水壶诞生，蕴含了许许多多的心思。
             </p>
             <div className="__sign">
               <img
@@ -82,9 +82,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">ものより体験</h2>
+            <h2 className="section__title">比起产品，更重要的是体验</h2>
             <p>
-              2年前。私は一冊の本と出会いました。浅草の洋食店「レストラン大宮」のシェフが記したレシピブックです。その料理が食べたいだけならレストランに行ったほうが早いのに、一冊の本を私が買い求めた理由。それは週末に洋食屋さんのハンバーグを自分がつくり、それを食べた子ども達が大喜びしている姿が目に浮かんだからです。あの時私が買ったのは、一冊の本ではなくて、思い描いた週末の体験の方だったのではないかと考え始めました。
+              2年前，我购买了一本书。这是一本位于浅草地区的西餐店“大宫餐厅”的主厨所撰写的食谱。其实只是为了吃的话，不如直接去店里，但是我却买了这本书。为什么呢？因为我脑海里浮现出的，是在周末自己制作这家西餐厅的汉堡饼时，孩子们品尝后开心雀跃的样子。那个时候我突然觉得，我买下的并不是一本书，而是脑海中描绘的周末体验。
             </p>
           </div>
         </div>
@@ -97,9 +97,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">素晴らしい朝食</h2>
+            <h2 className="section__title">美好的早餐</h2>
             <p>
-              そんな経験がもとになって、ものより体験を提供しようと作ったのがバルミューダのトースターでした。このトースターは我が家でも大活躍中。パンがとてもおいしくなったので、これに合わせて鋳鉄製のフライパンでベーコンエッグを作るようになりました。すると、朝食が以前より断然楽しい体験に。そしてせっかくこんなにおいしい食べ物があるなら。丁寧に淹れたコーヒーを楽しみたいと思うようになったのは自然の流れだったと思います。
+              以这次经历为契机，我们开发了重视提供体验的巴慕达电烤箱。这个电烤箱在我家也大派用场，面包更加美味，用铸铁的平底锅煎蛋和培根来搭配，早餐变成了比以前更加快乐的体验。如此美食当前，自然而然的就想要来一杯精心冲泡的咖啡。
             </p>
           </div>
         </div>
@@ -112,9 +112,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">コーヒー、お茶、スープ</h2>
+            <h2 className="section__title">咖啡、红茶、汤</h2>
             <p>
-              ハンドドリップでコーヒーを淹れてみたいと思い、練習してみて感じたのは世の中のやかんや電気ケトルの使いにくさでした。注ぎやすさと湯切れを実現するノズルやハンドルとは、どんな形なのか。
+              为了冲泡手冲咖啡，我进行了反复的练习，觉得现在市面上的手冲壶和电水壶，都不是十分顺手。于是我开始思考，能够实现最佳倾注的壶嘴和把手，应该是什么形状呢？制作了许多的试验品，也倾听了专业咖啡师的意见，BALMUDA电水壶渐渐成型。可以满足咖啡、红茶和汤、泡面等各个用图，让厨房和餐桌的体验更加快乐的设计。
             </p>
           </div>
         </div>
@@ -127,11 +127,9 @@ export default function ProductDetail() {
         />
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">夜明けのカップヌードル</h2>
+            <h2 className="section__title">凌晨的杯面</h2>
             <p>
-              そういえば。カップヌードルで思い出しました。若いころ、バイクばかり乗っていた頃の話です。市街地や街道や森の中の道を走り回って、家に帰るのはいつも明け方。当時、家の近くの県道にカップヌードルの自動販売機があり、帰り道に私はいつもそこに寄りました。寒い中、誰もいない夜明けの道で食べる熱いカップヌードルは最高です。BALMUDA
-              The Pot
-              は、最高の注ぎ心地を実現しながら、お湯を出す速度にもこだわりました。カップヌードル。なるべくはやく食べたいですから。
+              突然想起一个关于杯面的回忆。年轻的时候，每天都骑着摩托车，在街道和森林里徘徊，回到家的时候都是凌晨了。那个时候，家附近的省道边设置了杯面的自动贩卖机，回家路上我经常会去买。在寒冷无人的凌晨街边吃到的热杯面，十分的美味。巴慕达电水壶不止可以实现细腻精准的倾注，出水的速度也经过了推敲。因为泡面，还是讲究速度。
             </p>
           </div>
         </div>

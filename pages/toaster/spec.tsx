@@ -72,7 +72,7 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>机身尺寸</th>
+                  <th>产品尺寸</th>
                   <td>357毫米(宽)×321毫米(长)×209毫米(高)</td>
                 </tr>
                 <tr>
@@ -84,7 +84,7 @@ export default function ProductDetail() {
                   <td>约4.4kg</td>
                 </tr>
                 <tr>
-                  <th>電源</th>
+                  <th>电源</th>
                   <td>AC100V 50Hz/60Hz</td>
                 </tr>
                 <tr>

@@ -41,7 +41,7 @@ export default function CleanerDetail() {
               <Link href="/cleaner/technology">科技</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
-              <Link href="/cleaner/story">ストーリー</Link>
+              <Link href="/cleaner/story">开发故事</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/cleaner/spec">规格</Link>
@@ -62,16 +62,16 @@ export default function CleanerDetail() {
           <div className="__content">
             <h1>
               <span>BALMUDA The Cleaner</span>
-              <span>開発ストーリー</span>
+              <span>開発开发故事</span>
             </h1>
             <p>
-              空調、キッチンに続く、次の製品ジャンルの候補として気乗りしなかった掃除機。
+              空調、キッチンに続く、次の製品ジャンルの候補として气乗りしなかった掃除機。
               <br />
               自分たちが心から欲しいと思えるものをつくるには
               <br />
               设计と、技術のジャンプが必要でした。
               <br />
-              BALMUDA The Cleanerの開発ストーリーをご紹介します。
+              BALMUDA The Cleanerの開発开发故事をご紹介します。
             </p>
             <div className="__sign">
               <img
@@ -98,7 +98,7 @@ export default function CleanerDetail() {
           <div className="__content">
             <h2 className="section__title">设计チーム、困る</h2>
             <p className="section__txt">
-              2018年の年末、バルミューダの设计チームは困っていました。バルミューダの次の製品ジャンルを確立すべし、という任務に対して具体的なアイディアを出せていなかったからです。私が一人で創業し、自宅の机の上で製品を組み立て始めたのは17年前のこと。あれから様々な出来事が起こりましたが、中でも思い出深いのは2010年に発売した扇風機GreenFanです。バルミューダを家電メーカーへと導いてくれた記念すべき商品でした。
+              2018年の年末、バルミューダの设计チームは困っていました。バルミューダの次の製品ジャンルを確立すべし、という任務に対して具体的なアイディアを出せていなかったからです。私が一人で創業し、自宅の机の上で製品を組み立て始めたのは17年前のこと。あれから様々な出来事が起こりましたが、中でも思い出深いのは2010年に発売した扇风機GreenFanです。バルミューダを家電メーカーへと導いてくれた記念すべき商品でした。
               <br />
               <br />
               そして次に思い出深いのは2015年に発売したBALMUDA The
@@ -191,7 +191,7 @@ export default function CleanerDetail() {
           <div className="__content">
             <h2 className="section__title">昔の人たちの夢</h2>
             <p className="section__txt">
-              三河屋で語られたアイディアの中でも、大本命は、二本のローラーブラシをそれぞれ内側に回転させ、クリーナー自体が浮いているかのような状態を作り出すというもの。私の空想では、それは浮いているように、滑るように、自由自在に動くはずでした。思い描いていたのは、子供の頃に憧れたホバークラフトです。水の上も陸の上も、浮きながら進んでゆく姿は勇壮でした。大量の空気を下に送り出すことによって浮くので、その騒音の大きさ、燃費効率の悪さから普及はしませんでしたが、それでも少年の心にとっては、夢の乗り物でした。
+              三河屋で語られたアイディアの中でも、大本命は、二本のローラーブラシをそれぞれ内側に回転させ、クリーナー自体が浮いているかのような状態を作り出すというもの。私の空想では、それは浮いているように、滑るように、自由自在に動くはずでした。思い描いていたのは、子供の頃に憧れたホバークラフトです。水の上も陸の上も、浮きながら進んでゆく姿は勇壮でした。大量の空气を下に送り出すことによって浮くので、その騒音の大きさ、燃費効率の悪さから普及はしませんでしたが、それでも少年の心にとっては、夢の乗り物でした。
               <br />
               <br />
               BALMUDA The

@@ -338,7 +338,7 @@ export default function CleanerDetail() {
               サイクロン方式。
             </h2>
             <p className="section__desc">
-              毎分400リットルの空気を処理<sup>*3</sup>
+              毎分400リットルの空气を処理<sup>*3</sup>
               する集じんユニットが、大小のゴミはサイクロンの遠心力で取り除き、宙に浮くホコリなどはフィルターでキャッチ。ゴミのかき出し力が強いヘッドと組み合わせることにより、優れた掃除性能を発揮します。
               <br className="__is_mobile" />
               <span>*3：強モード使用時</span>
@@ -463,7 +463,7 @@ export default function CleanerDetail() {
                   <p className="section__desc">
                     リチウムイオン电池内蔵で、連続30分の使用が可能。コードレスで、十分な掃除时间を提供します。
                     <br className="__is_mobile" />
-                    <sup>*4：標準モード使用時</sup>{' '}
+                    <sup>*4：標準モード使用時</sup>
                   </p>
                 </div>
               </div>
@@ -480,7 +480,7 @@ export default function CleanerDetail() {
                 <div>
                   <h2 className="section__title">簡単で衛生的なゴミ捨て</h2>
                   <p className="section__desc">
-                    ダストカップの取り出しも容易です。カップのゴミを捨てる際には、ゴミが手に触れることなく衛生的。{' '}
+                    ダストカップの取り出しも容易です。カップのゴミを捨てる際には、ゴミが手に触れることなく衛生的。
                   </p>
                 </div>
               </div>
@@ -541,7 +541,7 @@ export default function CleanerDetail() {
                 <div>
                   <h2 className="section__title">水洗い可能、高いメンテナンス性</h2>
                   <p className="section__desc">
-                    ダストカップとブラシ、フィルターも簡単に取り外しを行うことができ、丸洗いが可能です。{' '}
+                    ダストカップとブラシ、フィルターも簡単に取り外しを行うことができ、丸洗いが可能です。
                   </p>
                 </div>
               </div>
@@ -596,7 +596,7 @@ export default function CleanerDetail() {
                     <br />
                     <a href="/jp/30-days/">30日間の返金保証付き。</a>
                     <br />
-                    ぜひご自宅でお試しください。{' '}
+                    ぜひご自宅でお試しください。
                   </p>
                   <a
                     href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=C01A"

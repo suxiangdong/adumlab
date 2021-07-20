@@ -17,7 +17,7 @@ export default function ProductDetail() {
     setPlaying(false)
     const video = document.getElementById('v1') as HTMLVideoElement
     video.style.opacity = '0'
-		video.pause()
+    video.pause()
   }
   return (
     <Layout>
@@ -71,7 +71,7 @@ export default function ProductDetail() {
       <div className="section section--feature section--00">
         <div className="__image"></div>
         <div className="__content">
-          <h2 className="page__title __wb">空気を動かすと改变室温</h2>
+          <h2 className="page__title __wb">通过空气流动，改变室温</h2>
         </div>
         <img
           data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--00.jpg"
@@ -87,13 +87,13 @@ export default function ProductDetail() {
           <div className="__image __is_mobile"></div>
           <div className="viewport scrollLoader fadeInUp loaded">
             <div className="__content">
-              <h2 className="section__title">部屋の温度差を解消</h2>
+              <h2 className="section__title">消除房间的温差</h2>
               <span className="video_play __is_desktop" data-video-target="v1" onClick={handlePlay}>
-                動画を再生
+                播放视频
               </span>
               <p>
-                空気の流れが無い部屋の中では、暖かい空気は軽いため天井付近に、冷たい空気は重く床に溜まってしまいます。エアコンを使っていても設定温度より寒く感じたり、足下が冷えたりしてしまうのはこのためです。GreenFan
-                Cirqはこの温度層を破壊し不快な温度差を解消します。エアコンの性能を引き出すには風の力が必要です。
+                在没有空气流动的房间中，由于暖空气较轻，所以停留在房间顶部周围，而冷空气较重，故停留在地面。即使提高暖气温度，仍然会感到下身寒冷或脚下发凉。GreenFan
+                Cirq有效的中和温度层，并保持一定的均衡。所以要使空调发挥最佳性能，需要形成室内空气流动。
               </p>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">3倍速乾</h2>
+            <h2 className="section__title">三倍速干</h2>
             <img
               data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
               data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
@@ -124,8 +124,8 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--02.png"
             />
             <p>
-              衣類の乾燥には風が最も効果的。乾燥に时间がかかるとニオイやカビが発生することがあります。GreenFan
-              Cirqの送風力で生乾きのニオイやカビの発生を抑えます。
+              GreenFan
+              Cirq送出的强风可以有效吹干衣物，避免因晾晒时间过长，会产生异味或发霉的现象出现。
             </p>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">30畳対応</h2>
+            <h2 className="section__title">循环</h2>
             <img
               data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
               data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
@@ -142,7 +142,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--03.png"
             />
             <p>
-              エアコンと併用して室温をすばやく均一にするだけではなく、隣りの部屋への送風も短时间で行います。また、就寝時には寝室の空気をゆるやかに循環させ快適に過ごせます。
+              与空调同时使用不仅可以使室温快速均衡，还可以在短时间内将凉风送到附近的房间。夜晚睡觉时，可以让寝室内的空气缓慢循环，使身体倍感舒适。
             </p>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">カビの予防</h2>
+            <h2 className="section__title">换气</h2>
             <img
               data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
               data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
@@ -160,7 +160,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/greenfan-cirq/img/features/desktop/section--04.png"
             />
             <p>
-              外気の取り入れや、湿気がこもりがちなクローゼット、押し入れの換気に使えます。浴室など水回りの換気は、カビの予防に効果的です。
+              可用于外部空气难以进入的地方进行换气。如：湿气滞留的衣柜、抽屉、浴室等湿气较大的地方，能够有效地防止发霉。
             </p>
           </div>
         </div>

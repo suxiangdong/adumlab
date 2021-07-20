@@ -74,10 +74,9 @@ export default function ProductDetail() {
       <div className="section section--technology section--00">
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">科学与设计</h2>
+            <h2 className="page__title">二次烘焙</h2>
             <p>
-              表面是烤得焦黄的金黄色，里面含有大量水分，热气腾腾的令人感动的吐司。BALMUA The
-              Toaster以科学的眼光彻底追求吐司，通过独特的蒸汽科技和细致的温度控制，任何人都能简单地做出令人惊讶的美味吐司。
+              二次烘焙指的是将面包房买回的面包再次加热的过程。BALMUDA电烤箱通过蒸汽技术和完美的温度控制，将内部加热到热气腾腾，表面却不会焦糊。黄油的香气和小麦的风味都变得更加丰富，派皮也能恢复到刚出炉的酥脆。这种特别的美味享受，您一定不能错过。
             </p>
           </div>
 
@@ -102,12 +101,11 @@ export default function ProductDetail() {
           <div className="viewport scrollLoader fadeInUp loaded">
             <div className="__content">
               <h2 className="section__title __wb">
-                <span>封闭水分和香味的蒸汽科技</span>
-                <span>蒸汽科技</span>
+                <span>蒸汽技术</span>
               </h2>
               <p>
-                用BALMUDA The
-                Toaster烹饪时，请在供水口放入5cc的水。开始运转后，冰箱里充满了蒸汽，面包的表面覆盖着一层薄薄的水分膜。由于水分的加热速度比空气快得多，所以只有面包的表面处于轻微的烘烤状态，面包中的水分和黄油等油脂成分以及香味都被牢牢地锁在里面，在真正的加热器控制下进行烤制。
+                使用BALMUDA电烤箱烘烤时，请先在上方的水槽加入5cc的水。
+                开始运行后，蒸汽会充满仓内，在面包表面附着一层薄薄的水膜。由于水分会比气体更快被加热，所以面包表面会被优先加热，水分及黄油等等油脂和香气却会被牢牢所在面包内部。这个时候，上下加热管才正式开始运作加热。
               </p>
               <span
                 className="video_play __is_desktop"
@@ -145,12 +143,10 @@ export default function ProductDetail() {
             <div className="head">
               <div className="head__info">
                 <h2 className="section__title __wb">
-                  <span>以每秒为单位</span>
-                  <span>细致的温度控制</span>
+                  <span>完美的温度控制</span>
                 </h2>
                 <p>
-                  BALMUDA The
-                  Toaster细致地控制3个温度带。面包的柔软度和风味得以复苏(淀粉的α化)的温度是60度左右，表面开始变成黄棕色的温度是160度左右，还有开始焦化(炭化)的温度是220度左右。另外，根据面包的种类不同，考虑到不同的口感和香味的平衡，每个模式都设定了上面和下面的加热器的强度。实现感动的烤好。
+                  BALMUDA电烤箱通过完美控制三个温度带，再现食物的最佳状态。首先是使面包内部恢复松软和唤醒沉睡风味的60°C左右温度带，另一个是使表面开始呈现金黄色的160°C左右温度带，以及烤出焦黄色的220°C左右温度带。
                 </p>
               </div>
               <div className="head__img">
@@ -193,7 +189,7 @@ export default function ProductDetail() {
                   />
                 </li>
                 <li className="mode__list_item">
-                  <p className="mode__list_title">法国模式</p>
+                  <p className="mode__list_title">法棍模式</p>
                   <p className="mode__list_point">
                     上下的强度不变
                     <br className="sp" />
@@ -208,7 +204,7 @@ export default function ProductDetail() {
                   />
                 </li>
                 <li className="mode__list_item">
-                  <p className="mode__list_title">羊角面包模式</p>
+                  <p className="mode__list_title">牛角面包模式</p>
                   <p className="mode__list_point">
                     在保持高温度的同时，
                     <br className="sp" />

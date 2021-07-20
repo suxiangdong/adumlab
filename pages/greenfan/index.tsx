@@ -114,7 +114,7 @@ export default function ProductDetail({ banners }) {
               巴慕达独有的绿色风扇科技。双层结构的叶片产生的是与自然界的风一样，在较大的表面移动的空气流动。与一般的电风扇相比，能扩散约4倍的风是自然界的先进性。
             </p>
             <Link href="/greenfan/feature">
-              <a className="btn btn--page">继续阅读</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function ProductDetail({ banners }) {
               超静音，便携式，可自由更换摇头角度。为了能够自由地使用它作为生活的工具，它倾注了各种各样的心思。
             </p>
             <Link href="/greenfan/design">
-              <a className="btn btn--page">继续阅读</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function ProductDetail({ banners }) {
               制造下一个时代的电风扇吧!从这样的想法开始开发的GreenFan。在它成为现实之前，有过意外的启示和偶然的发现。
             </p>
             <Link href="/greenfan/story">
-              <a className="btn btn--page btn">继续阅读</a>
+              <a className="btn btn--page btn">详情</a>
             </Link>
           </div>
         </div>

@@ -6,10 +6,10 @@ import { useState } from 'react'
 export default function ProductDetail() {
   const [isOpen, setIsOpen] = useState(false)
 
-	const handleOpenModal = (e) => {
-		e.preventDefault()
-		setIsOpen(true)
-	}
+  const handleOpenModal = (e) => {
+    e.preventDefault()
+    setIsOpen(true)
+  }
 
   return (
     <Layout>
@@ -60,14 +60,14 @@ export default function ProductDetail() {
           data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--00.jpg"
           data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00.jpg"
           data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
-          className="__image adaptiveimage"
+          className="__image adaptiveimage m-auto"
           src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
         />
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">清潔で适宜的湿润度</h2>
+            <h2 className="page__title">适宜的湿润度</h2>
             <p>
-              空気が乾燥しているとウイルスが活性化します。多湿状態ではカビなどが繁殖しやすくなります。気化式で加湿するRainはそのどちらも抑え、人が快適だと感じられる约50％の湿度を自然に作り出します。约50％の湿度は、部屋や家具の良好な状態維持にも適した湿度です。
+              干燥空气会激发病毒活性。湿度过高霉菌易于繁殖。采用气化式加湿方式的智能加湿器能够有效抑制上述情况的发生，自然地营造出感觉舒适的50%湿润度。50%湿润度也最有益于保持房间和家具的良好状态。
             </p>
           </div>
         </div>
@@ -77,9 +77,9 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title __wb">
-              自然の原理を使う
+              使用自然原理
               <br />
-              気化式加湿
+              气化式加湿
             </h2>
 
             <div className="mode_column">
@@ -91,9 +91,9 @@ export default function ProductDetail() {
                   className="adaptiveimage"
                   src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_01@2x.jpg"
                 />
-                <h3>超音波式</h3>
+                <h3>超声波方式</h3>
                 <p>
-                  加湿の方法は主に3種類あります。超音波式は、水を振動させ、液体のまま微細な粒子にして空間に放出させる方法です。元の水に雑菌などが含まれる場合、同時に空間に放出してしまうことがあります。
+                  加湿方式主要包括三种。超声波方式是通过水的振动，直接将气体分解为细小的水颗粒排放到室内的方法。如果原来的水中含有杂菌等也会同时被排放到室内。
                 </p>
               </div>
               <div>
@@ -104,9 +104,9 @@ export default function ProductDetail() {
                   className=" adaptiveimage"
                   src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_02@2x.jpg"
                 />
-                <h3>加熱式</h3>
+                <h3>加热方式</h3>
                 <p>
-                  加熱式は、水をヒーターで加熱し、蒸気にして空間に放出する方法です。蒸気が高温になったり、加湿しすぎて室内が結露してしまうことがありました。ヒーターを使うので、他の方式に比べて耗电量が大きくなります。
+                  加热方式是通过加热器将水加热为蒸汽，并排放到空间的方法。如果蒸汽温度过高，加湿程度过重，会导致水蒸汽在室内结露。因为使用了加热器，与其他方式相比耗电量大。
                 </p>
               </div>
               <div>
@@ -117,9 +117,9 @@ export default function ProductDetail() {
                   className=" adaptiveimage"
                   src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--01_icn_03@2x.jpg"
                 />
-                <h3>気化式</h3>
+                <h3>气化式</h3>
                 <p>
-                  Rainの加湿方法は気化式。乾燥する季節にコップの水が自然に少なくなっていく自然の原理を利用し、風の力で加湿能力を上げています。雑菌の放出もなく、加湿しすぎることもありません。耗电量が小さいことも特徴です。
+                  智能加湿器的加湿方法为气化式。气化式加湿方法利用干燥季节时杯子中的水会自然减少的自然原理，通过风力提高加湿能力。既不会排放出杂菌，也不会造成湿度过大。另外，还具有耗电量低的特点。
                 </p>
               </div>
             </div>
@@ -141,9 +141,9 @@ export default function ProductDetail() {
 
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">空気を洗うしくみ</h2>
+            <h2 className="section__title __wb">洗空气的装置</h2>
             <p>
-              Rainに取り込まれた乾燥した空気は酵素フィルターによって除菌された後、たっぷり水を含んだ加湿フィルターを通り、湿度を含んだ清潔な空気となって送り出されます。
+              智能加湿器吸入的干燥空气首先通过溶菌酶滤网过滤。通过溶菌酶滤网去除灰尘的同时分解细菌。之后，洁净的空气通过富含水分的加湿滤网，变成含有湿度的清洁空气后排放出去。
             </p>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function ProductDetail() {
       <div className="section section--humidity section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">30分でウイルスを除去</h2>
+            <h2 className="section__title __wb">30分钟内清除病毒</h2>
 
             <img
               data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--03.jpg"
@@ -162,19 +162,25 @@ export default function ProductDetail() {
             />
 
             <p>
-              空気を取り込むプレフィルターは溶菌酵素をコーティングしています。酵素プレフィルターはホコリを取り除くと同時に空気中のウイルスや細菌も除去し、空気を清潔に保ちます。25m³の部屋で実施した試験では30分で85%、90分で91%除去することが実証されています。
+              与AirEngine相同的溶菌酶滤网在滤除灰尘的同时，还能够灭杀空气中的病毒和细菌，保持空气清洁。通过在25m³房间内进行的试验证明，30分钟内可去除85%的病毒和细菌；90分钟内可去除91%的病毒和细菌。
             </p>
-            <p className="note">* 日本食品分析センターによる実験結果</p>
-            <a href="#" onClick={handleOpenModal} className="button modal-action" data-modal-for="section--03_modal">
-              溶菌酵素について
+            <p className="note">* 日本食品分析中心试验结果</p>
+            <a
+              href="#"
+              onClick={handleOpenModal}
+              className="button modal-action"
+              data-modal-for="section--03_modal">
+              关于溶菌酶
             </a>
           </div>
         </div>
-        <div className={`modal modal--buynow ${isOpen ? 'modal--active': ''}`}  id="section--03_modal">
+        <div
+          className={`modal modal--buynow ${isOpen ? 'modal--active' : ''}`}
+          id="section--03_modal">
           <div className="modal__close icon__circle__close" onClick={() => setIsOpen(false)}></div>
           <div className="modal__content">
             <div className="wrapper">
-              <h2 className="section__title __wb">溶菌酵素について</h2>
+              <h2 className="section__title __wb">关于溶菌酶</h2>
               <img
                 data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--03_modal.png"
                 data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal.png"
@@ -183,7 +189,7 @@ export default function ProductDetail() {
                 src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--03_modal@2x.png"
               />
               <p>
-                酵素は人の体内や自然界に数多くの種類が存在し、分解や再生など、それぞれが様々な能力を持っています。Rainのプレフィルターにコーティングされているのは、溶菌作用をもつ酵素。接触した細菌を分解する作用があります。自然界の物質なので人に悪影響はなく、無害であることも試験で証明されています。
+                酶在人体内和自然界中存在着很多种类，分解和再生等，各自具有各种各样的能力。Rain的预滤膜上覆盖的是具有溶菌作用的酶。有分解接触过的细菌的作用。因为是自然界的物质，所以对人没有不良影响，也被试验证明是无害的。
               </p>
             </div>
           </div>
@@ -194,9 +200,9 @@ export default function ProductDetail() {
 
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">丸洗いできる給水ボウル</h2>
+            <h2 className="section__title __wb">可全洗的供水盆</h2>
             <p>
-              Rainには従来の加湿器のようなタンクがありません。上から注いだ水は内部の給水ボウルにためられます。この給水ボウルは洗剤などで丸洗いすることが可能なので、いつも清潔に使うことができます。加熱式加湿器のようにミネラルやカルキが白く固まってしまうことを防ぎます。
+              智能加湿器不同于传统加湿器，没有设置缸体。从上方注入的清水被存储在内部的供水盆中。供水盆可以利用清洁剂进行整体清洗，可以始终清洁地使用。可防止像加热式加湿器一样，凝结矿物质及石灰等白色物质。
             </p>
           </div>
         </div>
@@ -205,9 +211,10 @@ export default function ProductDetail() {
       <div className="section section--humidity section--05 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title __wb">清潔な水まわり</h2>
+            <h2 className="section__title __wb">防止吸入空气中的灰尘及杂菌流入。</h2>
             <p>
-              従来の加湿器は水まわりの衛生面でも問題をかかえていました。塩素などで殺菌されている水道の水を使っても、取り込む空気に雑菌やホコリが含まれていると、やがてニオイやヌメリが発生します。Rainは空気の流入時に除菌を行い、ボウルの中の水の劣化も抑制します。
+              利用溶菌酶除菌吸取供水盆中的水分，空气通过时，只将气化后的水分传递给空气。不会将其他物质排放到室内。
+              传统加湿器的水箱存在卫生隐患。即便使用氯气杀菌的自来水，如果吸入的空气中包括杂菌及灰尘，也会产生气味及粘液。智能加湿器在吸入空气时进行除菌，可以有效防止供水盆中的水变质。
             </p>
 
             <div className="back_img">
@@ -220,34 +227,30 @@ export default function ProductDetail() {
               />
 
               <div className="desc_1">
-                <h3>加湿フィルター</h3>
+                <h3>加湿过滤器</h3>
                 <p>
-                  ボウル内の水を吸い上げ、空気が通る時に気化した水分だけを渡します。他の物質の空間への放出はありません
+                  把碗内的水吸上来，在空气流通的时候只把气化的水分传递出去。没有其他物质被释放到空间。
                 </p>
               </div>
 
               <div className="desc_2">
-                <h3>酵素プレフィルター</h3>
-                <p>
-                  外部から取り込んだ空気に含まれているホコリや雑菌の流入を防止します。酵素の力で除菌します
-                </p>
+                <h3>酶过滤器</h3>
+                <p>防止从外部吸入的空气中含有的灰尘和杂菌的流入。用酶来除菌。</p>
               </div>
 
               <div className="desc_3">
-                <h3>給水ボウル</h3>
-                <p>丸洗いが可能です</p>
+                <h3>供水盆</h3>
+                <p>可以全洗。</p>
               </div>
 
               <div className="desc_4">
-                <h3>銀イオンカートリッジ</h3>
-                <p>銀イオンがボウル内部の水のヌメリ発生などを抑制します</p>
+                <h3>银离子盒</h3>
+                <p>银离子可以抑制碗内的水的产生。</p>
               </div>
             </div>
 
             <div className="comments">
-              <p>
-                Rainをより清潔にお使いいただくために、フィルターセットは1年に一回の交換を推奨しています。
-              </p>
+              <p>为了让Rain更清洁的使用，过滤器组推荐1年更换一次。</p>
             </div>
           </div>
         </div>

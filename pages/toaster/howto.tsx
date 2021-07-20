@@ -70,8 +70,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">使用方法</h2>
             <p>
-              BALMUDA The
-              Toaster的话，可以根据面包的种类来烘烤，能激发出特别的美味。另外，还可以像一般的烤面包机一样，制作年糕、焗饭等。
+              BALMUDA电烤箱可以结合面包的种类进行烘烤，展现最佳的美味。也可以像一般的烤箱一样制作各类烤箱料理。
               <br className="pc" />
               下面介绍一下各模式的使用方法和保养方法。
             </p>
@@ -85,10 +84,10 @@ export default function ProductDetail() {
             <div className="step">
               <div className="step__text">
                 <h2 className="section__title">
-                  STEP<span>1</span>パンを入れる
+                  STEP<span>1</span>放入面包
                 </h2>
                 <p className="section__desc">
-                  和一般的烤面包机一样，打开门，放入面包。如果是一张的话请排列在中间，如果是多张的话请均匀排列。
+                  和一般的小型烤箱相同，打开仓门，放入面包。单片放中央，复数请等距摆放。
                 </p>
                 <div className="step__img">
                   <img
@@ -102,24 +101,21 @@ export default function ProductDetail() {
                 <div className="qa">
                   <dl>
                     <dt>
-                      <span className="asked">烤好的秘诀是什么?</span>
+                      <span className="asked">美味的烘烤窍门</span>
                     </dt>
                     <dd>
                       <span>
-                        面包有“头”和“底”。如果是山型面包，山就是头，而角型面包装在袋子里的状态下变成顶部的就是头。把这个“头”放在前面烤的话，就可以烤得不均匀。
-                      </span>
-                      <span>
-                        法式面包如果是可以放进冰箱里的大小，就应该整块加热，烤好后再切片，这样里面的面包才会松软。
+                        切片吐司有“头”与“尾”之分，拱形切片凸起的一方是头，方形切片装袋时朝上放的一边为头。烘烤时将头部向外摆放，可以烤的更加均匀。
                       </span>
                     </dd>
                   </dl>
                   <dl>
                     <dt>
-                      <span className="asked">能进到多少厘米高?</span>
+                      <span className="asked">限高是多少呢？</span>
                     </dt>
                     <dd>
                       <span>
-                        烤虾和加热器的距离大概是7cm。离加热器越近越容易烤焦，所以面包的高度在5.5cm以内可以放心烤。顶部有砂糖和油分的面包容易烤焦，需要注意。
+                        烤架与加热管之间的高度约为7cm。越接近上方加热管越容易烤糊，食材的高度在5.5cm以内，都可以安心烘烤。砂糖和油脂成分含量比较高的面包比较容易焦糊，敬请注意。{' '}
                       </span>
                     </dd>
                   </dl>
@@ -149,7 +145,7 @@ export default function ProductDetail() {
                   <b>装水</b>
                 </h2>
                 <p className="section__desc">
-                  请每次用专用的5cc杯子往烤面包机上部的供水口里倒一杯水。经典模式不加水使用。
+                  请每次用专用的5cc杯子往烤面包机上部的供水口里倒一杯水。经典模式无需加水。
                 </p>
                 <div className="step__img">
                   <img
@@ -171,7 +167,7 @@ export default function ProductDetail() {
                 </div>
                 <div className="tips_warning">
                   <h3>请不要在经典模式下加水。</h3>
-                  <p>因为在经典模式下不出蒸汽，锅炉积水成为故障的原因。</p>
+                  <p>经典模式不产生蒸汽，积水留在水槽中可能成为机器故障的原因。</p>
                 </div>
               </div>
             </div>
@@ -186,15 +182,15 @@ export default function ProductDetail() {
               <h2 className="section__title">
                 STEP<span>3</span>
                 <br />
-                <b>按下电源开启/关闭按钮，选择模式</b>
+                <b>从三种模式中选择</b>
               </h2>
               <p className="section__desc">
-                因为模式不同，烤出来的东西也不同，所以根据“希望变成这样”的烤出来的东西来使用不同的模式，吃起来会更美味。
+                每种模式的加热结果不同，请按照想要的效果选择相应的模式， 享受更佳的美味。
               </p>
             </div>
             <div className="mode">
               <h3 className="mode__h">吐司</h3>
-              <p className="mode__desc">吐司、芝士吐司这两种模式的特点是在表面烙上焦黄的颜色。</p>
+              <p className="mode__desc">吐司、芝士吐司两种模式，特点是可以将表面烤出金黄色泽。</p>
               <div className="mode__conts">
                 <div className="mode__pnl mode__pnl--toast">
                   <h4 className="mode__pnl__h">
@@ -202,9 +198,9 @@ export default function ProductDetail() {
                     <br />
                     模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ 烤得焦黄 ／</p>
+                  <p className="mode__pnl__comment">＼ 烤出金黄色泽 ／</p>
                   <p className="mode__pnl__desc">
-                    烤至焦黄。除了烤面包以外，还可以用来制作横切的百吉果或英式麦芬。
+                    以将表面烤成金黄色。不仅仅是吐司，也可以用来烘烤横向切成两半的贝果或英式麦芬。
                   </p>
                   <img
                     data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.mobile.icons.svgz?20200915"
@@ -235,8 +231,10 @@ export default function ProductDetail() {
               </div>
             </div>
             <div className="mode">
-              <h3 className="mode__h">利伯益(加热)</h3>
-              <p className="mode__desc">连里面都热乎乎的是利伯益。根据表面的完成有2种模式。</p>
+              <h3 className="mode__h">二次烘焙</h3>
+              <p className="mode__desc">
+                将内部加热到热气腾腾的二次烘焙。针对表面的不同需求设置了两种模式。
+              </p>
               <div className="mode__conts">
                 <div className="mode__pnl mode__pnl--baguette">
                   <h4 className="mode__pnl__h">
@@ -244,10 +242,9 @@ export default function ProductDetail() {
                     <br />
                     模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ 不上焦 ／</p>
+                  <p className="mode__pnl__comment">＼ 不会焦糊 ／</p>
                   <p className="mode__pnl__desc">
-                    表面不上色，到里面充分加热。
-                    加热法式面包、卷面包、胡椒面包和松饼，就像刚烤好的一样松软。
+                    将内部充分加温，表面却不焦糊。最适合烘烤法式面包，黄油餐包和麦芬等面包。
                   </p>
                   <img
                     data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.mobile.icons.svgz?20200915"
@@ -263,9 +260,9 @@ export default function ProductDetail() {
                     <br />
                     模式
                   </h4>
-                  <p className="mode__pnl__comment">＼ 表面脆脆的 ／</p>
+                  <p className="mode__pnl__comment">＼ 表面酥脆/ ／</p>
                   <p className="mode__pnl__desc">
-                    充分加热到里面，使表面松脆。很适合丹麦系或想要脆脆的烤饼，或是甜瓜面包等。
+                    将内部充分加温，表面烤至酥脆。适合将酥皮类面包或司康等烤出酥脆的表皮，或者将菠萝包二次加热。
                   </p>
                   <img
                     data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.mobile.icons.svgz?20200915"
@@ -335,7 +332,7 @@ export default function ProductDetail() {
                   STEP<span>4</span>设定时间
                 </h2>
                 <p className="section__desc">
-                  顺时针转动右侧的刻度盘，LED就会亮起来。转动到想设定的时间停止的话，动作开始。
+                  顺时针转动右边的旋钮，LED会亮灯。回转到想要设定的时间后停下，烤箱就会开始运作。
                 </p>
                 <div className="step__img">
                   <img src="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_04_new.gif?20200915" />
@@ -343,22 +340,23 @@ export default function ProductDetail() {
                 <div className="qa">
                   <dl>
                     <dt>
-                      <span className="asked">根据张数和厚度来改变时间比较好吗?</span>
+                      <span className="asked">需要根据数量和厚度调整时间吗？</span>
                     </dt>
                     <dd>
                       <span>
-                        不需要改变。因为详细地测量了库内的温度，知道烤2片厚片温度不容易上升，烤1片薄片温度容易上升，一边考虑一边调整。每次都有相同的计时器设定，可以做到“平时的烧烤状态”。
+                        没有必要，仓内的温度是经过精确测量的，连同厚片吐司两片烘烤时比较不容易受热，薄片吐司单片烘烤时比较容易受热的特征也都被考量在内。
+                        所以只要知道自己喜欢的烘烤时间，使用同样的时间设定，就可以得到平时的烘烤效果。
                       </span>
                     </dd>
                   </dl>
                   <dl>
                     <dt>
-                      <span className="asked">冷冻面包怎么烤?</span>
+                      <span className="asked">如何烘烤冷冻面包</span>
                     </dt>
                     <dd>
                       <span>
-                        把冷冻的面包放进烤面包机，根据面包的种类设定好模式后，请比常温面包烤长1 ~
-                        2分钟。比起冷藏面包，冷冻面包更好吃。建议把当天不吃的部分冷冻起来。
+                        冷冻的状态下放进烤箱，根据面包的种类选择模式，在常温面包的基础场增加1~2分的烘烤时间。
+                        比起冷藏的面包，冷冻的面包会更加美味。推荐将当日无法全部食用的面包冷冻保存。
                       </span>
                     </dd>
                   </dl>
@@ -379,12 +377,12 @@ export default function ProductDetail() {
               <div className="step__text">
                 <h2 className="section__title">
                   STEP<span>5</span>
-                  <b>用完之后</b>
+                  <b>使用后</b>
                 </h2>
                 <p className="section__desc">
-                  面包屑托盘每次使用时，如果其他地方有明显的污渍，请及时清理。
+                  产品维护请根据使用频度，每日使用的情况下每周一次，不经常使用的情况下，在有明显污迹和食物碎屑时，尽快清理擦拭托盘与内仓。
                   <br />
-                  烤虾、锅炉罩、给水管道可拆卸。
+                  烤架、水槽盖板、导流管都可以拆卸。
                 </p>
               </div>
               <div className="step__img">

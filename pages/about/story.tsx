@@ -44,9 +44,9 @@ export default function About() {
       <div className="section section--story-index section--01 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">製品開発ストーリー</h2>
+            <h2 className="section__title">产品开发的故事</h2>
             <p>
-              バルミューダの製品は、いつもわくわくするようなアイデアから始まりますが、そのアイデアを現実にするためには、いつもひたすら試行錯誤と実験を繰り返しています。製品ができあがるまでの苦難のストーリーをご紹介します。
+              虽然BALMUDA的产品总是从异想天开的想法开始，但是为了实现这个想法，总是一个劲儿地反复尝试和实验。我来介绍一下到产品完成之前的故事。
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export default function About() {
                 <div className="__caption">
                   <h5 className="__title">The GreenFan</h5>
                   <p className="__text">
-                    次の時代の扇風機を作ろう！こんな想いから開発が始まったGreenFan。現実のものとして生まれるまでには、意外...
+                    设计一款划时代的风扇吧！从这样的想法开始开发的GreenFan。在现实中出生...
                   </p>
                 </div>
               </a>
@@ -68,8 +68,7 @@ export default function About() {
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Toaster</h5>
                   <p className="__text">
-                    BALMUDA The
-                    Toasterの開発ストーリーは、1991年のスペイン南部の町ロンダから始まりました。
+                    BALMUDA The Toaster的开发故事从1991年的西班牙南部的镇上开始
                   </p>
                 </div>
               </a>
@@ -79,10 +78,7 @@ export default function About() {
                 <div className="__image __2 scrollLoader lazyload loaded"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Pot</h5>
-                  <p className="__text">
-                    キッチンでの体験をもっと楽しくしたい。BALMUDA The
-                    Potはそんな思いから開発が始まりました。
-                  </p>
+                  <p className="__text">更开心的体验。BALMUDA The Pot是从这样的想法开始开发的。</p>
                 </div>
               </a>
             </div>
@@ -92,7 +88,7 @@ export default function About() {
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Gohan</h5>
                   <p className="__text">
-                    米粒がごはんに変わる理由、ガスと電気のエネルギーの違い、そして途中の寄り道など。開発チームがたどった...
+                    米粒がごはんに変わる理由、ガスと電气のエネルギーの違い、そして途中の寄り道など。開発チームがたどった...
                   </p>
                 </div>
               </a>
@@ -126,7 +122,7 @@ export default function About() {
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Cleaner</h5>
                   <p className="__text">
-                    空調、キッチンに続く、次の製品ジャンルの候補として気乗りしなかった掃除機...
+                    空調、キッチンに続く、次の製品ジャンルの候補として气乗りしなかった掃除機...
                   </p>
                 </div>
               </a>

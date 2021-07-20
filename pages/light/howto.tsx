@@ -105,7 +105,7 @@ export default function ProductDetail() {
                 <span>水平に調整します。</span>
               </h2>
               <p>
-                水平でも光源のまぶしさが気になる場合は、更にヘッド部を寝かせ角度を調整してください。
+                水平でも光源のまぶしさが气になる場合は、更にヘッド部を寝かせ角度を調整してください。
               </p>
               <div className="__img">
                 <img
@@ -137,7 +137,7 @@ export default function ProductDetail() {
                 <span>調節してください。</span>
               </h2>
               <p>
-                落ち着いた雰囲気の部屋では1～3、明るめの部屋や細かい作業には4～6をおすすめします。
+                落ち着いた雰囲气の部屋では1～3、明るめの部屋や細かい作業には4～6をおすすめします。
               </p>
               <div className="__img">
                 <img
@@ -182,7 +182,7 @@ export default function ProductDetail() {
             />
             <p className="__wb">
               <span>ツールボックスに</span>
-              <span>お気に入りの</span>
+              <span>お气に入りの</span>
               <span>文房具を入れて</span>
               <span>自分だけのデスクライトを</span>
               <span>お楽しみください。</span>

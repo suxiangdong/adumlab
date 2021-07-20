@@ -94,7 +94,7 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>机身尺寸</th>
+                  <th>产品尺寸</th>
                   <td>幅 191mm、奥行き 264mm、高さ 463mm（標準姿勢）</td>
                 </tr>
                 <tr>
@@ -130,7 +130,7 @@ export default function ProductDetail() {
                   <td>あり（ツールボックス）ON/OFFスイッチあり</td>
                 </tr>
                 <tr>
-                  <th>電源</th>
+                  <th>电源</th>
                   <td>AC100V 50/60Hz共用（ACアダプター）</td>
                 </tr>
                 <tr>
@@ -138,15 +138,15 @@ export default function ProductDetail() {
                   <td>全灯時最大14W、消灯時0.1W以下</td>
                 </tr>
                 <tr>
-                  <th>電源コード長さ</th>
+                  <th>电源线长度</th>
                   <td>1.8m（ACアダプター）</td>
                 </tr>
                 <tr>
-                  <th>保证期限</th>
+                  <th>保修期限</th>
                   <td>购买日から1年</td>
                 </tr>
                 <tr>
-                  <th>パッケージ内容</th>
+                  <th>包装内容</th>
                   <td>本体、ACアダプター、取扱説明書、保証書、ステッカー</td>
                 </tr>
                 <tr>

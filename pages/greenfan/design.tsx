@@ -76,7 +76,7 @@ export default function ProductDetail() {
             </h2>
             <p>
               The
-              GreenFanをエアコンの対角線上に配置し、エアコンの方へ向け下に滞留する冷気を循環させると部屋全体が涼しくなります。
+              GreenFanをエアコンの対角線上に配置し、エアコンの方へ向け下に滞留する冷气を循環させると部屋全体が涼しくなります。
             </p>
           </div>
           <img
@@ -91,9 +91,9 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">風を持ち運ぶ</h2>
+            <h2 className="section__title">风を持ち運ぶ</h2>
             <p>
-              オプションの电池&amp;ドックを使うことでサッと様々な場所で使用することができます。夏の暑いキッチンに、お風呂あがりの脱衣所に。気持ちのよい自然界の風を家中どこでも持ち運べます。
+              オプションの电池&amp;ドックを使うことでサッと様々な場所で使用することができます。夏の暑いキッチンに、お风呂あがりの脱衣所に。气持ちのよい自然界の风を家中どこでも持ち運べます。
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">眠りも妨げない静音性</h2>
             <p>
-              圧倒的な静音性を実現したグリーンファン。風量1の音量はたった13dB、それは蝶2羽の羽ばたきと同じ。気持ちよく静かな風は夏の寝室に最適です。
+              圧倒的な静音性を実現したグリーンファン。风量1の音量はたった13dB、それは蝶2羽の羽ばたきと同じ。气持ちよく静かな风は夏の寝室に最適です。
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">洗濯物もあっという間</h2>
             <p>
-              送風効率のよいグリーンファンは広い面積の風が15メートル先まで届き、首振り角度を自由に設定できるので、部屋干しの洗濯物を効率的に乾かすことができます。
+              送风効率のよいグリーンファンは広い面積の风が15メートル先まで届き、首振り角度を自由に設定できるので、部屋干しの洗濯物を効率的に乾かすことができます。
             </p>
           </div>
         </div>

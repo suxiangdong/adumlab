@@ -73,36 +73,36 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>产品名称</th>
-                  <td>Rain スタンダードモデル</td>
+                  <td>智能加湿器</td>
                 </tr>
                 <tr>
-                  <th>机身尺寸</th>
-                  <td>幅 350mm × 奥行き 350mm × 374mm（高さ）</td>
+                  <th>产品尺寸</th>
+                  <td>宽 350mm × 长 350mm × 高 374mm</td>
                 </tr>
                 <tr>
-                  <th>製品重量</th>
-                  <td>约5.7kg（満水時 约10kg）</td>
+                  <th>产品重量</th>
+                  <td>约5.7kg（装满水时 约10kg）</td>
                 </tr>
                 <tr>
-                  <th>動作電力</th>
-                  <td>AC100V 50/60Hz対応</td>
+                  <th>运行功率</th>
+                  <td>AC220V 50/60Hz</td>
                 </tr>
                 <tr>
-                  <th>コード長さ</th>
-                  <td>1.8m（ACアダプター コード長）</td>
+                  <th>电线长度</th>
+                  <td>1.8m（交流适配器的电线长度）</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色 (型番 : ERN-1100SD-WK、JANコード : 4560330118982）</td>
+                  <td>白色 (型号:ERN-1100SD-WK, JAN代码:4560330118982）</td>
                 </tr>
                 <tr>
                   <th>
-                    パッケージ
+                    包装
                     <br />
                     内容
                   </th>
                   <td>
-                    Rain本体、取扱説明書（保証書付き）、マルチプラグアダプター、加湿フィルター、酵素プレフィルター
+                    智能加湿器主机、使用说明书（附带保修单）、多功能插头适配器、加湿滤网、溶菌酶滤网
                   </td>
                 </tr>
                 <tr>
@@ -119,12 +119,12 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title __wb">
-              マルチプラグ
+              多功能插头
               <br />
-              アダプター
+              适配器
             </h2>
             <p>
-              マルチプラグアダプターはコンセントの差し込み部分を取り外して、縦横の向きを変えることが可能。コンセントの状況に合わせて使えます。
+              智能加湿器附带的多功能插头适配器可以将插头拔下，任意旋转90°。可以根据插座的位置及状况，方便地使用。
             </p>
             <div id="animation_container" style={{ width: 219, height: 424 }}></div>
           </div>
@@ -134,25 +134,25 @@ export default function ProductDetail() {
       <div className="section section--spec section--03">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">性能／運転モード</h2>
+            <h2 className="section__title">性能／运转模式</h2>
             <table className="__basic mode">
               <tbody>
                 <tr>
                   <th>加湿方式</th>
-                  <td>気化式</td>
+                  <td>气化式</td>
                 </tr>
                 <tr>
-                  <th>運転モード</th>
+                  <th>运转模式</th>
                   <td className="mode_list">
-                    <div>風量1</div>
-                    <div>風量2</div>
-                    <div>風量3</div>
-                    <div>風量4</div>
-                    <div>風量5</div>
+                    <div>风量1</div>
+                    <div>风量2</div>
+                    <div>风量3</div>
+                    <div>风量4</div>
+                    <div>风量5</div>
                   </td>
                 </tr>
                 <tr>
-                  <th>加湿能力目安 (*1)</th>
+                  <th>加湿能力 (*1)</th>
                   <td className="mode_list standard">
                     <div>150ml/h</div>
                     <div>250ml/h</div>
@@ -166,29 +166,29 @@ export default function ProductDetail() {
                   <td>2W〜23W (*2)</td>
                 </tr>
                 <tr>
-                  <th>運転音</th>
+                  <th>运行声音</th>
                   <td>6db〜42db</td>
                 </tr>
                 <tr>
-                  <th>適用畳数目安</th>
-                  <td>约17畳まで (*3)</td>
+                  <th>适用房间面积</th>
+                  <td>约28M² (*3)</td>
                 </tr>
                 <tr>
-                  <th>給水ボウル容量</th>
+                  <th>供水盆容量</th>
                   <td>4.2L</td>
                 </tr>
                 <tr>
-                  <th>連続加湿时间目安</th>
-                  <td>6〜25时间</td>
+                  <th>连续加湿时间标准</th>
+                  <td>6〜25小时</td>
                 </tr>
               </tbody>
             </table>
             <p className="note">
-              <span>*1 加湿能力は室温20℃、湿度30%の場合の最大値です。</span>
-              <span>*2 最小耗电量（2W）はインジケーターの明るさが半減した場合です。</span>
+              <span>*1 室温20°C，湿度30%时，加湿能力最大。</span>
+              <span>*2 指显器亮度减半状态下，耗电量最小（2W）</span>
               <span>
-                *3 適用畳数は、（社）日本電機工業会規格（JEM
-                1426）に基づいたプレハブ洋室の場合です。使用環境や残水量によって加湿能力が変化するため、適用畳数は目安です。
+                *3 适用面积根据（社）日本电机工业会标准（JEM
+                1426）规定的预制式房间。加湿能力根据使用环境及剩余水量的不同而有所差别，适用面积为基准数据。
               </span>
             </p>
           </div>
@@ -199,13 +199,12 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title __wb">
-              各国の设计賞を
+              获得各国
               <br />
-              受賞
+              设计奖
             </h2>
             <p>
-              Rainは、レッドドット设计・アワード 2014（ドイツ）、グッド设计賞
-              2014（日本）など、国際的に権威のある设计賞を受賞し、世界各国に認められています。
+              智能加湿器荣获2014年度红点设计大奖（德国）、2014年度最佳设计大奖（日本）等国际权威性设计大奖、是获得了世界性认可的产品。
             </p>
 
             <div className="columns cf">
@@ -216,8 +215,8 @@ export default function ProductDetail() {
               </div>
               <div className="column __award__rd">
                 <p>
-                  ドイツの「Design Zentrum Nordrhein
-                  Westfalen」が主催する世界最大級の设计賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越した设计が選定されます。
+                  德国「Design Zentrum Nordrhein
+                  Westfalen」主办的世界最大规模的设计奖，根据创新性、功能性、人体工学、耐久性等9个审查标准，选出卓越的设计。
                 </p>
               </div>
             </div>

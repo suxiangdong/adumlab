@@ -91,12 +91,12 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>机身尺寸</th>
-                  <td>本体のみ : 幅 269mm × 奥行き 128mm × 高さ 170mm</td>
+                  <th>产品尺寸</th>
+                  <td>机身 : 宽 269mm × 长 128mm × 高 170mm</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>電源ベース込み : 幅 269mm × 奥行き 142mm × 高さ 194mm</td>
+                  <td>电源底座 : 宽 269mm × 长 142mm × 高 194mm</td>
                 </tr>
                 <tr>
                   <th>机身重量</th>
@@ -104,14 +104,14 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>電源ベース : 约0.3kg</td>
+                  <td>电源底座 : 约0.3kg</td>
                 </tr>
                 <tr>
                   <th>容量</th>
-                  <td>0.6L（リットル）</td>
+                  <td>0.6L（升）</td>
                 </tr>
                 <tr>
-                  <th>電源</th>
+                  <th>电源</th>
                   <td>AC100V　50Hz/60Hz</td>
                 </tr>
                 <tr>
@@ -119,40 +119,40 @@ export default function ProductDetail() {
                   <td>1200W</td>
                 </tr>
                 <tr>
-                  <th>電源コード長さ</th>
+                  <th>电源线长度</th>
                   <td>1.3m</td>
                 </tr>
                 <tr>
                   <th>素材</th>
-                  <td>本体：ステンレス　フタ、取っ手：ポリプロピレン</td>
+                  <td>机身:不锈钢盖子，手柄:聚丙烯</td>
                 </tr>
                 <tr>
-                  <th>安全機能</th>
-                  <td>空だき防止機能、自動電源OFF機能</td>
+                  <th>安全功能</th>
+                  <td>防空功能、自动电源关闭功能</td>
                 </tr>
                 <tr>
-                  <th>沸騰时间の目安</th>
+                  <th>煮沸时间的标准</th>
                   <td>
-                    200ml 约1分半 ／ 600ml（満水時）约3分
+                    200ml 约1分半 / 600ml (满水时) 约3分钟
                     <br />
-                    *水温25度の場合の目安。使用環境により前後します。
+                    *水温25度时的标准。根据使用环境的不同而前后不同。
                   </td>
                 </tr>
                 <tr>
-                  <th>保证期限</th>
-                  <td>お買い上げ日から1年間</td>
+                  <th>保修期限</th>
+                  <td>自购买日起1年内</td>
                 </tr>
                 <tr>
-                  <th>パッケージ内容</th>
-                  <td>本体、フタ、電源ベース、取扱説明書（保証書付）</td>
+                  <th>包装内容</th>
+                  <td>主机，盖子，电源底座，使用说明书(附保证书)</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>黑色 (型番 : K02A-BK、JANコード : 4560330117718）</td>
+                  <td>黑色 (型号 : K02A-BK, JAN代码: 4560330117718）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色 (型番 : K02A-WH、JANコード : 4560330117725）</td>
+                  <td>白色(型号 : K02A-WH, JAN代码: 4560330117725)</td>
                 </tr>
                 <tr>
                   <th>产地</th>
@@ -160,9 +160,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>
-                    本製品は日本国内専用です。海外での使用は保証および修理受付の対象外となりますのでご注意ください。
-                  </td>
+                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
@@ -173,7 +171,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--02 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">各部の名前</h2>
+            <h2 className="section__title">各部的名字</h2>
             <div className="__imagewrap">
               <img
                 data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/wire.png"
@@ -183,9 +181,7 @@ export default function ProductDetail() {
                 src="https://www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
               />
             </div>
-            <p>
-              電源コードは電源ベース裏の電源コードホルダーに収納することができます。設置の際は適切な長さに調節し、ご使用ください。
-            </p>
+            <p>电源线可以收纳在电源底部的电源线夹里。设置的时候请调节到适当的长度使用。</p>
           </div>
         </div>
       </div>
@@ -193,7 +189,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--03 scrollLoader lazyload loaded">
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
-            <h2 className="section__title">お手入れについて</h2>
+            <h2 className="section__title">关于保养</h2>
             <div className="__imagewrap">
               <img
                 data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/maintenance.png"
@@ -204,11 +200,11 @@ export default function ProductDetail() {
               />
             </div>
             <p>
-              本体（内側）は水ですすぎ洗いしてください。本体（外側）、電源ベース部、フタは、水をやわらかい布などに染み込ませ、固く絞って拭いてください。
+              本体(内侧)请用水漂洗。主体(外侧)、电源基本部、盖子，请用柔软的布等浸透水，拧干后擦拭。
             </p>
             <p className="note">
               *
-              本体内側の汚れが気になってきたら、市販の顆粒タイプのクエン酸でつけ置き洗いが可能です。详情は取り扱い説明書をご覧ください。
+              如果担心身体内部的污垢的话，可以用市面上卖的颗粒类型的柠檬酸涂抹后清洗。详细信息请看说明书。
             </p>
           </div>
         </div>
@@ -220,7 +216,7 @@ export default function ProductDetail() {
             <h2 className="section__title">获奖经历</h2>
             <p>
               BALMUDA The
-              Potは、2017年度グッド设计賞、2017年度iF设计・アワード（ドイツ）、2017年度レッドドット设计・アワード（ドイツ）など国際的に権威のある设计賞を受賞し、世界各国に認められています。
+              Pot曾荣获2017年度优秀设计奖、2017年度iF设计奖(德国)、2017年度红点设计奖(德国)等国际权威设计奖，得到世界各国的认可。
             </p>
             <p></p>
             <div className="columns cf">
@@ -231,14 +227,14 @@ export default function ProductDetail() {
               </div>
               <div className="column __award__if">
                 <p>
-                  ドイツ「iF International Forum Design
-                  GmbH」が主催する半世紀以上の歴史がある世界的に権威ある设计賞で、全世界の工業製品を対象に優れた工業设计を選定しています。
+                  德国「iF International Forum Design
+                  GmbH」主办的具有半个多世纪历史的世界权威设计奖，以全世界的工业产品为对象评选优秀的工业设计。
                 </p>
               </div>
               <div className="column __award__rd">
                 <p>
-                  ドイツの「Design Zentrum Nordrhein
-                  Westfalen」が主催する世界最大級の设计賞で、革新性、機能性、人間工学、耐久性など9つの審査基準に基づき、卓越した设计が選定されます。
+                  由德国的「Design Zentrum Nordrhein
+                  Westfalen」主办的世界最大级别的设计奖，根据创新性、功能性、人体工学、耐久性等9个审查标准，选出卓越的设计。
                 </p>
               </div>
             </div>

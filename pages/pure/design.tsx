@@ -70,16 +70,16 @@ export default function ProductDetail() {
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">
-              空気をきれいにする
+              空气をきれいにする
               <br className="sp" />
               光の柱
             </h2>
             <p>
-              空気清浄の強さと共に、明るさが変化するBALMUDA The Pure の流路。
+              空气清浄の強さと共に、明るさが変化するBALMUDA The Pure の流路。
               <br />
               本体は極力シンプルに。そして光を设计の一部に取り込みました。
               <br />
-              光の柱を通ることで、部屋の空気は清浄されていきます。
+              光の柱を通ることで、部屋の空气は清浄されていきます。
               <br />
               部屋が暗くなると、それに合わせて、光も暗くなります。
             </p>
@@ -101,7 +101,7 @@ export default function ProductDetail() {
             <h2 className="section__title">はっきりとわかる作用感</h2>
             <p>
               たとえば他の灯りが消えた夜中のリビングで。BALMUDA The Pure
-              が動作中の場合、薄暗く流路が光っています。それは空気が清浄されつづけているサイン。寝室などでお使いの場合、光を消灯させることもできます。
+              が動作中の場合、薄暗く流路が光っています。それは空气が清浄されつづけているサイン。寝室などでお使いの場合、光を消灯させることもできます。
             </p>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function ProductDetail() {
             <p>
               すべての操作が上面の3つのボタンで完結。
               <br />
-              気持ちよい操作音が快適な使い心地を提供します。
+              气持ちよい操作音が快適な使い心地を提供します。
             </p>
           </div>
         </div>
@@ -160,11 +160,11 @@ export default function ProductDetail() {
           <div className="__content">
             <div className="control">
               <div className="power">
-                <span>電源</span>
+                <span>电源</span>
               </div>
               <div className="operation">
                 <span>
-                  運転モード
+                  运转模式
                   <br />
                   インジケーター
                 </span>
@@ -196,10 +196,10 @@ export default function ProductDetail() {
               <div className="text">
                 <p>
                   <span className="title">オートモード：</span>
-                  内蔵センサーにより風量を自動コントロール。
+                  内蔵センサーにより风量を自動コントロール。
                 </p>
                 <p>
-                  <span className="title">マニュアルモード：</span>３段階の風量を設定可能。
+                  <span className="title">マニュアルモード：</span>３段階の风量を設定可能。
                 </p>
               </div>
             </div>
@@ -213,7 +213,7 @@ export default function ProductDetail() {
               <div className="text">
                 <p>
                   <span className="title">ジェットクリーニングモード：</span>
-                  最大風量モード。強力な循環気流により部屋の空気を効率的に清浄します。
+                  最大风量モード。強力な循環气流により部屋の空气を効率的に清浄します。
                 </p>
               </div>
             </div>

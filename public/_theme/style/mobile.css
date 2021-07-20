@@ -2423,7 +2423,7 @@ input[type='checkbox']:disabled:checked + label:after {
   content: '';
 }
 .navigation .__wrap .__item.__item--greenfan .__name:after {
-  content: '扇風機';
+  content: '扇风機';
 }
 .navigation .__wrap .__item.__item--cirq:before {
   content: '';

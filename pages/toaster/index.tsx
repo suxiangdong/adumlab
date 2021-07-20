@@ -163,7 +163,7 @@ export default function ({ banners, evaluations }) {
               BALMUDA电烤箱为了实现理想的美味，配备了吐司、芝士吐司、法式面包、牛角面包、经典模式5种模式。为您介绍每种模式可以带来的美味。
             </p>
             <Link href="/toaster/taste">
-              <a className="btn section__btn">继续阅读</a>
+              <a className="btn section__btn">详情</a>
             </Link>
           </div>
         </div>
@@ -177,7 +177,7 @@ export default function ({ banners, evaluations }) {
               BALMUDA电烤箱可以让使用者简单的烤出惊艳美味的切片吐司、亦能将牛角包再现刚出炉的状态。下面为您介绍将这一切变为可能的两大技术：巴慕达独有的蒸汽技术、及完美的温度控制。
             </p>
             <Link href="/toaster/technology">
-              <a className="btn section__btn">继续阅读</a>
+              <a className="btn section__btn">详情</a>
             </Link>
           </div>
         </div>
@@ -191,7 +191,7 @@ export default function ({ banners, evaluations }) {
               BALMUDA电烤箱可以针对不同种类的面包进行烘烤，再现各自的绝佳风味。亦可如其他烤箱般制作各类烤箱料理。
             </p>
             <Link href="/toaster/howto">
-              <a className="btn section__btn">继续阅读</a>
+              <a className="btn section__btn">详情</a>
             </Link>
           </div>
         </div>
@@ -225,7 +225,7 @@ export default function ({ banners, evaluations }) {
               <br className="pc" />
               被洗练的设计，和室内装饰的投缘也出众。
               <br className="pc" />
-              颜色为黑色、白色、米色共4种颜色。可以根据自己的喜好来选择。{' '}
+              颜色为黑色、白色、米色共4种颜色。可以根据自己的喜好来选择。
             </p>
             <a href="#gallery" className="btn section__btn">
               查看颜色变化
@@ -260,9 +260,9 @@ export default function ({ banners, evaluations }) {
           alt=""
         />
         <p className="max-w-4xl px-3 mb-9 mx-auto text-center">
-          从每天早上的烤面包到周末的美食，BALMUDA The Toaster能做的菜单无限大。
+          BALMUDA电烤箱可以制作的餐单拥有无限可能，
           <br />
-          下面介绍来自巴慕达厨房团队和专业人士的食谱。
+          我们精选了其中独具魅力的吐司和三明治等料理食谱为您介绍。
         </p>
         <ReactSlick slidesToShow={3} centerMode infinite dots={false}>
           <div className="block px-5">
@@ -353,12 +353,11 @@ export default function ({ banners, evaluations }) {
           <div className="__content">
             <h2 className="section__title">故事</h2>
             <p>
-              BALMUDA The
-              Toaster的开发故事始于1991年西班牙南部的小镇隆达。下面介绍充满惊喜和发现的BALMUDA The
-              Toaster完成的过程。
+              BALMUDA电烤箱的开发故事，是从1991年西班牙南部的龙达小镇开始的。
+              为您介绍充满惊奇与发现的BALMUDA电烤箱由开发至完成的旅途。
             </p>
             <Link href="/toaster/story">
-              <a className="btn section__btn btn">继续阅读</a>
+              <a className="btn section__btn btn">详情</a>
             </Link>
           </div>
         </div>

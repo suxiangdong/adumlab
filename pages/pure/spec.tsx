@@ -168,38 +168,35 @@ export default function ProductDetail() {
                   <td>幅 260mm × 奥行 260mm × 高さ 700mm</td>
                 </tr>
                 <tr>
-                  <th>製品重量（フィルター含む）</th>
+                  <th>产品重量（包括过滤器）</th>
                   <td>约7.4kg</td>
                 </tr>
                 <tr>
-                  <th>電源</th>
-                  <td>AC100V 50/60Hz共用ACアダプター</td>
+                  <th>电源</th>
+                  <td>AC220V 50/60Hz</td>
                 </tr>
                 <tr>
                   <th>耗电量</th>
                   <td>2〜72W</td>
                 </tr>
                 <tr>
-                  <th>コード長さ</th>
-                  <td>AC側：1.0m／DC側：1.8m（ACアダプター コード長）</td>
+                  <th>电线长度</th>
+                  <td>交流电源线：1米／直流电源线1.8米（交流电源适配器 电源线长度）</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色(型番：A01A-WH、JANコード：4560330119958）</td>
+                  <td>白色(型号：A01A-WH、JANコード：4560330119958）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
                   <td>ダーク灰色(型番：A01A-GR、JANコード：4560330119460）</td>
                 </tr>
                 <tr>
-                  <th>パッケージ内容</th>
-                  <td>
-                    BALMUDA The
-                    Pure本体、取扱説明書（保証書付き）、ACアダプター、集じん・脱臭フィルターセット（A01A-P100）
-                  </td>
+                  <th>包装内容</th>
+                  <td>主机、使用说明书（保证书）、电源适配器、360°溶菌酶滤网</td>
                 </tr>
                 <tr>
-                  <th>保证期限</th>
+                  <th>保修期限</th>
                   <td>お買い上げ日から1年間</td>
                 </tr>
                 <tr>
@@ -229,7 +226,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--02">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">性能／運転モード</h2>
+            <h2 className="section__title">性能／运转模式</h2>
             <table className="__basic">
               <tbody>
                 <tr>
@@ -241,19 +238,19 @@ export default function ProductDetail() {
                   <td>8畳を8分</td>
                 </tr>
                 <tr>
-                  <th>運転モード / 清浄風量</th>
+                  <th>运转模式 / 清浄风量</th>
                   <td>
-                    風量1 / 0.3㎥/min
+                    风量1 / 0.3㎥/min
                     <br />
-                    風量2 / 1.5㎥/min
+                    风量2 / 1.5㎥/min
                     <br />
-                    風量3 / 4.8㎥/min
+                    风量3 / 4.8㎥/min
                     <br />
                     ジェットクリーニング / 7.3㎥/min
                   </td>
                 </tr>
                 <tr>
-                  <th>運転音</th>
+                  <th>运行声音</th>
                   <td>19〜64dB</td>
                 </tr>
               </tbody>
@@ -343,7 +340,7 @@ export default function ProductDetail() {
             <div className="columns cf">
               <div className="column __award__if">
                 <p>
-                  ドイツ「iF International Forum Design
+                  德国「iF International Forum Design
                   GmbH」が主催する半世紀以上の歴史がある世界的に権威ある设计賞で、全世界の工業製品を対象に優れた工業设计を選定しています。
                 </p>
               </div>
@@ -359,7 +356,7 @@ export default function ProductDetail() {
                   <br />
                   <br />
                   優秀賞
-                  経済産業大臣賞受賞理由として、「最新の科技により、大容量の空気の循環を実現した空气净化器である。また上部にあるファンに巻き込まれてケガをしないよう、ロックされていないとファンが回らない構造になっている。回っている最中に外蓋を取り外そうとすると、その瞬間にファンが止まる機能もある。非常に高い安全性と衛生空間を実現している点を、洗練されたフォルムとともに高く評価した。」とコメントをいただきました。
+                  経済産業大臣賞受賞理由として、「最新の科技により、大容量の空气の循環を実現した空气净化器である。また上部にあるファンに巻き込まれてケガをしないよう、ロックされていないとファンが回らない構造になっている。回っている最中に外蓋を取り外そうとすると、その瞬間にファンが止まる機能もある。非常に高い安全性と衛生空間を実現している点を、洗練されたフォルムとともに高く評価した。」とコメントをいただきました。
                 </p>
               </div>
             </div>

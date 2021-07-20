@@ -68,7 +68,7 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>机身尺寸</th>
+                  <th>产品尺寸</th>
                   <td>幅 330mm × 奥行き 320mm × 高さ 871mm（フロア）／ 497mm（卓上）</td>
                 </tr>
                 <tr>
@@ -76,7 +76,7 @@ export default function ProductDetail() {
                   <td>约4.1kg</td>
                 </tr>
                 <tr>
-                  <th>電源</th>
+                  <th>电源</th>
                   <td>AC100V　50/60Hz（ACアダプター）</td>
                 </tr>
                 <tr>
@@ -84,16 +84,16 @@ export default function ProductDetail() {
                   <td>1.5W 〜 20W（电池非充電時）</td>
                 </tr>
                 <tr>
-                  <th>電源コード長さ</th>
-                  <td>约1.8m（ACアダプター コード長）</td>
+                  <th>电源线长度</th>
+                  <td>约1.8m（交流适配器的电线长度）</td>
                 </tr>
                 <tr>
-                  <th>保证期限</th>
+                  <th>保修期限</th>
                   <td>お買い上げ日から2年間</td>
                 </tr>
                 <tr>
-                  <th>パッケージ内容</th>
-                  <td>本体、リモコン、マルチプラグアダプター、取扱説明書（保証書付）</td>
+                  <th>包装内容</th>
+                  <td>本体、遥控器、マルチプラグアダプター、取扱説明書（保証書付）</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
@@ -234,12 +234,12 @@ export default function ProductDetail() {
       <div className="section section--spec section--03">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">性能／運転モード</h2>
+            <h2 className="section__title">性能／运转模式</h2>
             <div className="__wrapper">
               <table className="__basic">
                 <tbody>
                   <tr>
-                    <th>1日の電気代の目安</th>
+                    <th>1日の電气代の目安</th>
                     <td>0.4円 (*1)</td>
                   </tr>
                   <tr>
@@ -247,11 +247,11 @@ export default function ProductDetail() {
                     <td>13dB (*2)</td>
                   </tr>
                   <tr>
-                    <th>風の届く距離</th>
+                    <th>风の届く距離</th>
                     <td>15m</td>
                   </tr>
                   <tr>
-                    <th>風量調節</th>
+                    <th>风量調節</th>
                     <td>4段階</td>
                   </tr>
                   <tr>
@@ -278,7 +278,7 @@ export default function ProductDetail() {
 
               <p className="note">
                 *1
-                電気代は最弱運転で1日8时间運転した場合の目安です。電気料金は1kWhあたり27円で計算しています。
+                電气代は最弱運転で1日8时间運転した場合の目安です。電气料金は1kWhあたり27円で計算しています。
                 <br />
                 *2 最小動作音は、無響室にて製品から距離1m地点で計測した値です。
                 <br />

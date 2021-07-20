@@ -6,7 +6,7 @@ import { useState } from 'react'
 import API from '../../effects/api'
 
 export async function getServerSideProps() {
-	try {
+  try {
     const [banners, evaluations] = await Promise.all([
       API.getBannersByCategory(5),
       API.getEvaluationsByCategory(5)
@@ -147,31 +147,24 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
         <div className="viewport">
           <h2 className="page__title">
-            部屋中の空気を
+            卓越的空气净化能力，
             <br className="sp" />
-            きれいにする
+            可以体感的
             <br />
             空气净化器
           </h2>
-          <span className="label__block">タワー型 空气净化器</span>
+          <span className="label__block">塔式空气净化器</span>
           <p className="overview_text">
             <span>
-              部屋の空気をすみずみまで、きれいに。
+              以往的空气净化器无法吸附室内边远处的悬浮物质。
               <br />
-              バルミューダの空气净化器は、独自の構造で天井まで届く大風量を実現。
+              为了吸附室内边远处空气，需要强大的循环气流。
             </span>
             <span>
-              部屋中の空気を循環させ、花粉・ウィルス、ペットやタバコの臭いなどを強力吸引、​
-              <br />
-              0.3μmの微粒子を99.97%キャッチするTrueHEPAフィルター
-              <em className="asterisk __pointer">*1</em>と活性炭フィルターで素早く清浄します。
+              独特的双风扇结构完美实现了这个功能。BALMUDA The Pure
+              能够驱动室内空气流动，因此不仅病毒大小的微细颗粒物和大气污染物质PM2.5，即使较大的如花粉状大小的颗粒物也能够吸附。
+              新型360°溶菌酶滤网在除尘净化的同时，还能够溶菌和除臭。精美的设计和简捷的操作，为您提供安心、清洁的空气。
             </span>
-            <span>清潔な空気で。BALMUDA The Pure は気持ちのいい空間をお届けします。</span>
-          </p>
-
-          <p className="asterisk __ref">
-            *1 :
-            0.3μmの微粒子を99.97%以上の粒子捕集率をもつフィルターです。0.3μｍ未満の微粒子状物質については、除去の確認ができていません。​
           </p>
 
           <div className="the-price">
@@ -198,19 +191,19 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h2 className="section__title">
-              <img src="https://www.balmuda.com/jp/pure/img/index/svg/technology.svg" alt="TECHNOLOGY" />
+              <img
+                src="https://www.balmuda.com/jp/pure/img/index/svg/technology.svg"
+                alt="TECHNOLOGY"
+              />
             </h2>
-            <h3 className="section__subtitle">
-              毎分7000リットル<em className="asterisk __pointer">*2</em>の<br className="sp" />
-              空気を清浄
-            </h3>
+            <h3 className="section__subtitle">净享纯净安心的空气。</h3>
             <p className="section__desc">
-              航空機のジェットエンジン技術を応用した独自の整流翼とファン​により、力強く大容量の空気を吸引。​部屋の浮遊物の中でも比較的重たいとされる花粉や、ウィルスなども確実に捕集します。
+              空气净化器能够强力吸附传统空气净化器无法吸附的花粉等较大的颗粒物。对于大气污染物质PM2.5也能卓有成效的去除。新型360°溶菌酶滤网在除尘的同时，还能抗菌和溶菌。
             </p>
-            <p className="asterisk __ref">*2 : ジェットクリーニングモード運転時</p>
-            <a href="./technology" className="section__btn">
-              さらに详情
-            </a>
+            <p className="asterisk __ref">*2 : 当喷气清洁模式运行时</p>
+            <Link href="/pure/technology">
+              <a className="section__btn">详情</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -221,18 +214,14 @@ export default function ProductDetail({ banners, evaluations }) {
             <h2 className="section__title">
               <img src="https://www.balmuda.com/jp/pure/img/index/svg/design.svg" alt="DESIGN" />
             </h2>
-            <h3 className="section__subtitle">
-              空気をきれいにする
-              <br />
-              光の柱
-            </h3>
+            <h3 className="section__subtitle">全新的结构</h3>
             <p className="section__desc">
               BALMUDA The Pure
-              は、吸気口と流路が点灯し、この光の柱を通って空気が清浄されていきます。そして本体の设计は極力シンプルに。さまざまな部屋と調和するように设计しました。
+              空气净化器独特的双风扇结构，可以吸附室内边远处的悬浮物质，强有力的循环气流，让室内空气短时间多次通过高性能的溶菌酶滤网，有效实现室内空气净化。
             </p>
-            <a href="./design" className="section__btn">
-              さらに详情
-            </a>
+            <Link href="/pure/design">
+              <a className="section__btn">详情</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -241,14 +230,15 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content">
             <h3 className="section__subtitle">
-              <span>効果的な使用方法</span>
+              <span>简单的操作</span>
             </h3>
             <p className="section__desc">
-              BALMUDA The Pureをもっと効果的にお使いいただくために。おすすめの使用方法を紹介します。
+              BALMUDA The Pure
+              空气净化器的操作按钮仅有3个。自动模式可以根据异味传感器和灰尘传感器自动运行。喷射清洁模式有10～30分钟的定时档，能迅速强力净化空气。
             </p>
-            <a href="./howto" className="section__btn">
-              さらに详情
-            </a>
+            <Link href="/pure/howto">
+              <a className="section__btn">详情</a>
+            </Link>
           </div>
         </div>
       </div>
@@ -261,7 +251,7 @@ export default function ProductDetail({ banners, evaluations }) {
               className="__title"
               alt="MEDIA"
             />
-            <span className="__caption">様々なメディアに取り上げられています</span>
+            <span className="__caption">被各种媒体报道。</span>
           </h2>
           <ReactSlick className="blockquotes" arrows={false} dots>
             {evaluations.data?.map((item) => (

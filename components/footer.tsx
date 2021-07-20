@@ -186,16 +186,16 @@ export default function Footer() {
                   企業/IR情報
                 </a>
                 <a href="/jp/legal/privacy" className="legal__link">
-                  プライバシーポリシー
+                  隐私条款
                 </a>
                 <a href="/jp/legal/announcement" className="legal__link">
                   個人情報に関する公表事項
                 </a>
                 <a href="/jp/legal/terms" className="legal__link">
-                  利用規约
+                  使用规定
                 </a>
                 <a href="/jp/legal/deal" className="legal__link">
-                  特定商取引法に基づく表示
+                  基于特约商户交易法表示
                 </a>
                 <a href="/jp/30-days/" className="legal__link">
                   30日間返金保証

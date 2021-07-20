@@ -125,7 +125,7 @@ export default function ProductDetail({ banners }) {
               能够直接注水的颠覆性无缸结构。全新的精妙控制环操作方法。时尚、便于观察的显示器。所有这些元素都融入到巧妙优美的设计中。
             </p>
             <Link href="/rain/classic">
-              <a className="btn btn--page">继续阅读</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>
@@ -135,10 +135,10 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">清洁适宜的湿润度</h2>
             <p>
-              ウイルスが活性化する乾燥状態、カビなどが繁殖しやすい多湿状態。そのどちらでもない约50％の湿度が、健康や家具に適切と言われています。Rainは取り入れた空気を酵素プレフィルターで除菌してから加湿、送風するので、适宜的湿润度を清潔に提供します。
+              环境干燥会激发病毒活性。湿润度过高霉菌易于繁殖。最适合人体健康和家居的湿润度是大约50%。巴慕达加湿器利用溶菌酶滤网，对吸入的空气除菌后，加湿并排出到室内，提供清洁舒适的湿润度。
             </p>
             <Link href="/rain/humidity">
-              <a className="btn btn--page">继续阅读</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>

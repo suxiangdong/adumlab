@@ -44,7 +44,7 @@ export default function CleanerDetail() {
               <Link href="/cleaner/technology">科技</Link>
             </li>
             <li className={`pagemap__content__item`}>
-              <Link href="/cleaner/story">ストーリー</Link>
+              <Link href="/cleaner/story">开发故事</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/cleaner/spec">规格</Link>
@@ -103,15 +103,15 @@ export default function CleanerDetail() {
                   <td>BALMUDA The Cleaner</td>
                 </tr>
                 <tr>
-                  <th>机身尺寸</th>
+                  <th>产品尺寸</th>
                   <td>幅300mm × 奥行 165mm × 高さ 1240mm</td>
                 </tr>
                 <tr>
-                  <th>製品重量（フィルター含む）</th>
+                  <th>产品重量（フィルター含む）</th>
                   <td>约3.1kg</td>
                 </tr>
                 <tr>
-                  <th>電源</th>
+                  <th>电源</th>
                   <td>充電式（リチウムイオン电池）</td>
                 </tr>
                 <tr>
@@ -119,7 +119,7 @@ export default function CleanerDetail() {
                   <td>AC100-240V　50/60Hz（ACアダプター）</td>
                 </tr>
                 <tr>
-                  <th>コード長さ</th>
+                  <th>电线长度</th>
                   <td>1.2m</td>
                 </tr>
                 <tr>
@@ -151,11 +151,11 @@ export default function CleanerDetail() {
                   <td>黑色（型番：C01A-BK、JANコード：4560330118326）</td>
                 </tr>
                 <tr>
-                  <th>保证期限</th>
+                  <th>保修期限</th>
                   <td>１年</td>
                 </tr>
                 <tr>
-                  <th>パッケージ内容</th>
+                  <th>包装内容</th>
                   <td>
                     BALMUDA The
                     Cleaner本体、ハンディハンドル、すきま用ノズル、充電スタンド、充電アダプター、

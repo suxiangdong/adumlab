@@ -91,9 +91,9 @@ export default function ProductDetail({ banners }) {
           </h2>
           <span className="label__block">600ml 1200w不锈钢电水壶</span>
           <p className="overview_text">
-            BALMUDA The Pot是每天都想使用的
+            BALMUDA电水壶，
             <br />
-            至今没有的美丽设计的电水壶。
+            前所未有般美丽设计，让你想要每日使用。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
@@ -114,10 +114,10 @@ export default function ProductDetail({ banners }) {
               <span>手軽に。</span>
             </h2>
             <p>
-              不占用收纳空间的600ml大小正好。执着于注入的感觉的喷嘴和方向盘的形状。为了每天都能轻松愉快地使用而设计的。
+              600ml容量，刚刚好的尺寸，不占据多余收纳空间。精心设计的壶嘴与把手形状，让水流操控更加得心应手，每天的使用更加轻松舒适。
             </p>
             <Link href="/pot/design">
-              <a className="btn btn--page btn--page--white">继续阅读</a>
+              <a className="btn btn--page btn--page--white">详情</a>
             </Link>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function ProductDetail({ banners }) {
               コーヒー、紅茶、日本茶のおいしさをさらに広げます。毎日のお茶の时间がもっと楽しくなる淹れ方をご紹介します。
             </p>
             <Link href="/pot/brewing">
-              <a className="btn btn--page">继续阅读</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>
@@ -152,11 +152,10 @@ export default function ProductDetail({ banners }) {
               <span>生まれるまで</span>
             </h2>
             <p>
-              美味的饭菜给了我们精神。即使不是特别的美食，只要有很多瞬间觉得好吃，快乐的想法就会膨胀。与BALMUDA
-              The Pot一起度过美好的时光。
+              美味的饮食可以带来活力。即使只是日常的料理，好吃的瞬间都会变成就充满快乐的回忆。BALMUDA电水壶，为这些美好的时间添彩。
             </p>
             <Link href="/pot/story">
-              <a className="btn btn--page">继续阅读</a>
+              <a className="btn btn--page">详情</a>
             </Link>
           </div>
         </div>

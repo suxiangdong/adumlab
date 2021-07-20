@@ -119,7 +119,7 @@ export default function CleanerDetail() {
         <div className="viewport scrollLoader fadeInUp loaded">
           <div className="__content __first">
             <h2 className="section__title">
-              気持ちよく使うための
+              气持ちよく使うための
               <br />
               低重心設計
             </h2>
@@ -132,7 +132,7 @@ export default function CleanerDetail() {
               <br className="pc" />
               低重心設計がなされています。
               <br className="pc" />
-              気持ちのよい掃除を、
+              气持ちのよい掃除を、
               <br className="pc" />
               どうぞお楽しみください。
             </p>

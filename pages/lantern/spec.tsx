@@ -141,7 +141,7 @@ export default function ProductDetail() {
                   <td>BALMUDA The Lantern</td>
                 </tr>
                 <tr>
-                  <th>机身尺寸</th>
+                  <th>产品尺寸</th>
                   <td>幅 110mm × 奥行 103mm × 高さ 248mm（ハンドル含む）</td>
                 </tr>
                 <tr>
@@ -153,7 +153,7 @@ export default function ProductDetail() {
                   <td>最大6.0W(同時に点灯/充電した場合)、待机時0.1W</td>
                 </tr>
                 <tr>
-                  <th>電源ケーブル長さ</th>
+                  <th>电源ケーブル長さ</th>
                   <td>1.0m</td>
                 </tr>
                 <tr>
@@ -197,9 +197,9 @@ export default function ProductDetail() {
                   <td>無段階調光</td>
                 </tr>
                 <tr>
-                  <th>パッケージ</th>
+                  <th>包装</th>
                   <td>
-                    BALMUDA The Lantern本体、ACアダプター、電源ケーブル、取扱説明書（保証書含む）
+                    BALMUDA The Lantern本体、ACアダプター、电源ケーブル、取扱説明書（保証書含む）
                   </td>
                 </tr>
                 <tr>
@@ -242,7 +242,7 @@ export default function ProductDetail() {
               data-desktop="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
               data-retina="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
               className="__image adaptiveimage"
-              alt="本体（×１）、ACアダプター（×１）、電源ケーブル（×１）、取扱説明書（保証証含む）（×１）"
+              alt="本体（×１）、ACアダプター（×１）、电源ケーブル（×１）、取扱説明書（保証証含む）（×１）"
               src="https://www.balmuda.com/jp/lantern/img/spec/desktop/section--02.png?20210421"
             />
           </div>
@@ -257,7 +257,7 @@ export default function ProductDetail() {
               <div className="__column ">
                 <div className="__content">
                   <p>
-                    本体のツマミを右に回すと点灯します。さらに回すと明るさが変化。明るさに応じて、ゆらぎのある光から温白色の光に変化します。左に回しきると、電源が切れます。
+                    本体のツマミを右に回すと点灯します。さらに回すと明るさが変化。明るさに応じて、ゆらぎのある光から温白色の光に変化します。左に回しきると、电源が切れます。
                   </p>
                 </div>
                 <div className="__img">

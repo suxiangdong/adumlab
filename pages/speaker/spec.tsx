@@ -74,7 +74,7 @@ export default function ProductDetail() {
                   <td>BALMUDA The Speaker</td>
                 </tr>
                 <tr>
-                  <th>机身尺寸</th>
+                  <th>产品尺寸</th>
                   <td>直径105mm×高188mm</td>
                 </tr>
                 <tr>
@@ -142,7 +142,7 @@ export default function ProductDetail() {
                   <td>底座部分:ABS，扬声器部分:ABS·铁，透明管部分:亚克力，金属管部分:SUS·黄铜</td>
                 </tr>
                 <tr>
-                  <th>保证期限</th>
+                  <th>保修期限</th>
                   <td>自购买日起1年内</td>
                 </tr>
                 <tr>
@@ -215,7 +215,7 @@ export default function ProductDetail() {
               data-desktop="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02.png?20200326"
               data-retina="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02@2x.png?20200326"
               className="__image adaptiveimage"
-              alt="本体（×１）、ACアダプター（×１）、電源ケーブル（×１）、取扱説明書（保証証含む）（×１）"
+              alt="本体（×１）、ACアダプター（×１）、电源ケーブル（×１）、取扱説明書（保証証含む）（×１）"
               src="https://www.balmuda.com/jp/speaker/img/spec/desktop/section--02@2x.png?20200326"
             />
           </div>

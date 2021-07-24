@@ -4,7 +4,7 @@ import API from '../../effects/api'
 
 export async function getServerSideProps({ query }) {
   try {
-    const detail = await API.getNewsDetailById(query.id)
+    const detail = await API.getNewsOrNotificationDetailById(query.id)
     return { props: { detail } }
   } catch (error) {
     return { props: { detail: {} } }

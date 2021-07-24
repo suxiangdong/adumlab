@@ -139,8 +139,8 @@ export default function Home({ banners, hots, topics, notifications }) {
           <span className="__title">重要通知</span>
           {notifications.data.map((n) => (
             <p key={n.id} className="__item">
-              <a href={n.redirect_url} className="__link">
-                {n.content}
+              <a href={`/notice/${n.id}`} className="__link">
+                {n.title}
               </a>
             </p>
           ))}

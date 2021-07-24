@@ -22,11 +22,11 @@ export default {
   getNews() {
     return api.get('/article', { params: { type: 1 } })
   },
-  getNewsDetailById(id: number | string) {
-    return api.get(`/article/${id}`)
-  },
   getNotifications() {
     return api.get('/article', { params: { type: 2 } })
+  },
+	getNewsOrNotificationDetailById(id: number | string) {
+    return api.get(`/article/${id}`)
   },
   getBannersByCategory(category: number, limit?: number) {
     return api.get('/banner', {
@@ -36,6 +36,13 @@ export default {
       }
     })
   },
+	getProductImageByCategory(category: number) {
+		return api.get('/product-image', {
+      params: {
+        category
+      }
+    })
+	},
   getEvaluationsByCategory(category: number) {
     return api.get('/evaluation', {
       params: {

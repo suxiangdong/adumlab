@@ -74,9 +74,9 @@ export default function ProductDetail() {
       <div className="section section--technology section--00">
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">二次烘焙</h2>
+            <h2 className="page__title">科学烤面包</h2>
             <p>
-              二次烘焙指的是将面包房买回的面包再次加热的过程。BALMUDA电烤箱通过蒸汽技术和完美的温度控制，将内部加热到热气腾腾，表面却不会焦糊。黄油的香气和小麦的风味都变得更加丰富，派皮也能恢复到刚出炉的酥脆。这种特别的美味享受，您一定不能错过。
+						表面是烤得焦黄的金黄色，里面含有大量水分，热气腾腾的令人感动的吐司。BALMUA The Toaster以科学的眼光彻底追求吐司，通过独特的蒸汽技术和细致的温度控制，任何人都能简单地做出令人惊讶的美味吐司。
             </p>
           </div>
 
@@ -85,7 +85,7 @@ export default function ProductDetail() {
               data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/the-toast.jpg?20200915"
               data-desktop="https://www.balmuda.com/jp/toaster/img/technology/desktop/the-toast.jpg?20200915"
               data-retina="https://www.balmuda.com/jp/toaster/img/technology/desktop/the-toast@2x.jpg?20200915"
-              className="__toast adaptiveimage"
+              className="__toast adaptiveimage m-auto"
               src="https://www.balmuda.com/jp/toaster/img/technology/desktop/the-toast@2x.jpg?20200915"
             />
           </div>

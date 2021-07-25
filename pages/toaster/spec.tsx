@@ -4,6 +4,8 @@ import Head from 'next/head'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
+  const [current, setCurrent] = useState(0)
+
   return (
     <Layout>
       <Head>
@@ -127,16 +129,16 @@ export default function ProductDetail() {
 
       <div className="section section--spec section--02">
         <div className="__selector_wrap">
-          <span className="__selector __current" data-model="black">
+          <span className={`__selector ${current === 0 ? '__current' : ''} `} onClick={() => setCurrent(0)} data-model="black">
             黑色
           </span>
-          <span className="__selector" data-model="white">
+          <span className={`__selector ${current === 1 ? '__current' : ''} `} onClick={() => setCurrent(1)} data-model="white">
             白色
           </span>
-          <span className="__selector" data-model="beige">
+          <span className={`__selector ${current === 2 ? '__current' : ''} `} onClick={() => setCurrent(2)} data-model="beige">
             米色
           </span>
-          <span className="__selector" data-model="gray">
+          <span className={`__selector ${current === 3 ? '__current' : ''} `} onClick={() => setCurrent(3)} data-model="gray">
             灰色
           </span>
         </div>
@@ -146,7 +148,7 @@ export default function ProductDetail() {
               data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/black.jpg?20210501"
               data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/black@2x.jpg?20210501"
               src="https://www.balmuda.com/jp/toaster/img/spec/desktop/black@2x.jpg?20210501"
-              className="adaptiveimage __image __current"
+              className={`adaptiveimage __image ${current === 0 ? '__current' : ''}`}
               data-model="black"
               alt=""
             />
@@ -154,7 +156,7 @@ export default function ProductDetail() {
               data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/white.jpg?20210501"
               data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/white@2x.jpg?20210503"
               src="https://www.balmuda.com/jp/toaster/img/spec/desktop/white@2x.jpg?20210503"
-              className="adaptiveimage __image"
+              className={`adaptiveimage __image ${current === 1 ? '__current' : ''}`}
               data-model="white"
               alt=""
             />
@@ -162,7 +164,7 @@ export default function ProductDetail() {
               data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/beige.jpg?20210501"
               data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/beige@2x.jpg?20210502"
               src="https://www.balmuda.com/jp/toaster/img/spec/desktop/beige@2x.jpg?20210502"
-              className="adaptiveimage __image"
+              className={`adaptiveimage __image ${current === 2 ? '__current' : ''}`}
               data-model="beige"
               alt=""
             />
@@ -170,7 +172,7 @@ export default function ProductDetail() {
               data-desktop="https://www.balmuda.com/jp/toaster/img/spec/desktop/gray.jpg?20210501"
               data-retina="https://www.balmuda.com/jp/toaster/img/spec/desktop/gray@2x.jpg?20210501"
               src="https://www.balmuda.com/jp/toaster/img/spec/desktop/gray@2x.jpg?20210501"
-              className="adaptiveimage __image"
+              className={`adaptiveimage __image ${current === 3 ? '__current' : ''}`}
               data-model="gray"
               alt=""
             />

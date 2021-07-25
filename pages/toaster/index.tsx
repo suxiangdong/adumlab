@@ -98,7 +98,6 @@ export default function ({ banners, evaluations }) {
             <img
               src="https://www.balmuda.com/jp/toaster/img/index/svg/main_text.svg?20210617"
               className="__image adaptiveimage_copy"
-              alt="オンラインストア限定"
             />
           </div>
         </div>
@@ -154,66 +153,57 @@ export default function ({ banners, evaluations }) {
           </div>
         </div>
       </div>
-
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
-          <div className="__content">
-            <h2 className="section__title">特别的美味</h2>
-            <p>
-              BALMUDA电烤箱为了实现理想的美味，配备了吐司、芝士吐司、法式面包、牛角面包、经典模式5种模式。为您介绍每种模式可以带来的美味。
-            </p>
-            <Link href="/toaster/taste">
-              <a className="btn section__btn">详情</a>
-            </Link>
+      <Link href="/toaster/taste">
+        <div className="section section--index section--01 scrollLoader lazyload cursor-pointer">
+          <div className="viewport scrollLoader fadeInUp lazyload">
+            <div className="__content">
+              <h2 className="section__title">特别的美味</h2>
+              <p>
+                BALMUDA电烤箱为了实现理想的美味，配备了吐司、芝士吐司、法式面包、牛角面包、经典模式5种模式。为您介绍每种模式可以带来的美味。
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
-          <div className="__content">
-            <h2 className="section__title">科学与设计</h2>
-            <p>
-              BALMUDA电烤箱可以让使用者简单的烤出惊艳美味的切片吐司、亦能将牛角包再现刚出炉的状态。下面为您介绍将这一切变为可能的两大技术：巴慕达独有的蒸汽技术、及完美的温度控制。
-            </p>
-            <Link href="/toaster/technology">
-              <a className="btn section__btn">详情</a>
-            </Link>
+      </Link>
+      <Link href="/toaster/technology">
+        <div className="section section--index section--02 scrollLoader lazyload cursor-pointer">
+          <div className="viewport scrollLoader fadeInUp lazyload">
+            <div className="__content">
+              <h2 className="section__title">科学与设计</h2>
+              <p>
+                BALMUDA电烤箱可以让使用者简单的烤出惊艳美味的切片吐司、亦能将牛角包再现刚出炉的状态。下面为您介绍将这一切变为可能的两大技术：巴慕达独有的蒸汽技术、及完美的温度控制。
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
-          <div className="__content">
-            <h2 className="section__title">使用方法</h2>
-            <p>
-              BALMUDA电烤箱可以针对不同种类的面包进行烘烤，再现各自的绝佳风味。亦可如其他烤箱般制作各类烤箱料理。
-            </p>
-            <Link href="/toaster/howto">
-              <a className="btn section__btn">详情</a>
-            </Link>
+      </Link>
+      <Link href="/toaster/howto">
+        <div className="section section--index section--03 scrollLoader lazyload">
+          <div className="viewport scrollLoader fadeInUp lazyload">
+            <div className="__content">
+              <h2 className="section__title">使用方法</h2>
+              <p>
+                BALMUDA电烤箱可以针对不同种类的面包进行烘烤，再现各自的绝佳风味。亦可如其他烤箱般制作各类烤箱料理。
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="section section--index section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
-          <div className="__content">
-            <h2 className="section__title">进化的温度控制</h2>
-            <p>
-              全新 BALMUDA The Toaster 的温度控制更加精确。
-              上下加热器的强度和烘烤时间为每种模式重新设置。 带出各种面包的美味。
-            </p>
-            <Link href="/tosater/technology#temperature-control">
-              <a className="btn section__btn">关于高级温度控制</a>
-            </Link>
+      </Link>
+      <Link href="/tosater/technology#temperature-control">
+        <div className="section section--index section--04 scrollLoader lazyload">
+          <div className="viewport scrollLoader fadeInUp lazyload">
+            <div className="__content">
+              <h2 className="section__title">进化的温度控制</h2>
+              <p>
+                全新 BALMUDA The Toaster 的温度控制更加精确。
+                上下加热器的强度和烘烤时间为每种模式重新设置。 带出各种面包的美味。
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="section section--index section--gray scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      </Link>
+      <div className="section section--index section--gray scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               <span>限定颜色的</span>
@@ -233,26 +223,26 @@ export default function ({ banners, evaluations }) {
           </div>
         </div>
       </div>
-
-      <section className="relative text-center">
-        <img
-          src="https://www.balmuda.com/jp/toaster/img/index/desktop/section--evolve@2x.jpg?20200901"
-          alt=""
-        />
-        <div className="flex flex-col justify-center absolute inset-0 m-auto transform -translate-y-28 max-w-4xl">
-          <h2 className="text-4xl mb-8">全新的设计和颜色</h2>
-          <p className="text-lg text-black mb-4 leading-8">
-            继承至今的设计的同时，窗框的形状和转盘·取手的尺寸重新设计。
-            <br />
-            由于电源按钮的追加使用方法也提高了。
-            <br />
-            在黑色、白色的基础上，增加了与各种风味厨房相适应的新颜色米色。
-          </p>
-          <Link href="/toaster/design">
-            <a className="text-xs text-black">查看</a>
-          </Link>
-        </div>
-      </section>
+      <Link href="/toaster/design">
+        <a>
+          <section className="relative text-center">
+            <img
+              src="https://www.balmuda.com/jp/toaster/img/index/desktop/section--evolve@2x.jpg?20200901"
+              alt=""
+            />
+            <div className="flex flex-col justify-center absolute inset-0 m-auto transform -translate-y-28 max-w-4xl">
+              <h2 className="text-4xl mb-8">全新的设计和颜色</h2>
+              <p className="text-lg text-black mb-4 leading-8">
+                继承至今的设计的同时，窗框的形状和转盘·取手的尺寸重新设计。
+                <br />
+                由于电源按钮的追加使用方法也提高了。
+                <br />
+                在黑色、白色的基础上，增加了与各种风味厨房相适应的新颜色米色。
+              </p>
+            </div>
+          </section>
+        </a>
+      </Link>
       <section className="bg-recipe text-center py-24">
         <img
           className="h-20 mb-9 mx-auto"
@@ -347,36 +337,32 @@ export default function ({ banners, evaluations }) {
           </div>
         </ReactSlick>
       </section>
-
-      <div className="section section--index section--story2 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
-          <div className="__content">
-            <h2 className="section__title">故事</h2>
-            <p>
-              BALMUDA电烤箱的开发故事，是从1991年西班牙南部的龙达小镇开始的。
-              为您介绍充满惊奇与发现的BALMUDA电烤箱由开发至完成的旅途。
-            </p>
-            <Link href="/toaster/story">
-              <a className="btn section__btn btn">详情</a>
-            </Link>
+      <Link href="/toaster/story">
+        <div className="section section--index section--story2 scrollLoader lazyload">
+          <div className="viewport scrollLoader fadeInUp lazyload">
+            <div className="__content">
+              <h2 className="section__title">故事</h2>
+              <p>
+                BALMUDA电烤箱的开发故事，是从1991年西班牙南部的龙达小镇开始的。
+                为您介绍充满惊奇与发现的BALMUDA电烤箱由开发至完成的旅途。
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="section section--index section--acce scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
-          <div className="__content">
-            <h2 className="section__title">配件</h2>
-            <p>
-              面包机烹饪的范围扩大的BALMUDA The
-              Toaster的配件。为您准备了原创食谱和野田珐琅出品的白球棒。
-            </p>
-            <Link href="/toaster/accessory">
-              <a className="btn section__btn btn">详细</a>
-            </Link>
+      </Link>
+      <Link href="/toaster/spec">
+        <div className="section section--index section--acce scrollLoader lazyload">
+          <div className="viewport scrollLoader fadeInUp lazyload">
+            <div className="__content">
+              <h2 className="section__title">配件</h2>
+              <p>
+                面包机烹饪的范围扩大的BALMUDA The
+                Toaster的配件。为您准备了原创食谱和野田珐琅出品的白球棒。
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
       <div className="section section--index section--blockquote">
         <div className="viewport">
           <ReactSlick className="blockquotes" arrows={false} dots>
@@ -395,7 +381,7 @@ export default function ({ banners, evaluations }) {
         </div>
       </div>
 
-      <section className="py-24 max-w-4xl mx-auto">
+      <section className="py-24 max-w-4xl mx-auto" id="gallery">
         <h2 className="text-4xl mb-8">画廊</h2>
         <div className="grid grid-cols-3 grid-rows-2 gap-5">
           {[1, 2, 3, 4, 5, 6].map((item) => (

@@ -104,8 +104,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">设计</h3>
             <h2 className="section__title __wb">
@@ -123,8 +123,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
       {/*
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">淹れ方</h3>
             <h2 className="section__title __wb">
@@ -143,8 +143,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div> */}
 
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">故事</h3>
             <h2 className="section__title __wb">

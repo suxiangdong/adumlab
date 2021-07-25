@@ -75,7 +75,7 @@ export default function ProductDetail({ banners, evaluations }) {
           ))}
         </ReactSlick>
       </div>
-      <div className="section section--index section--00 scrollLoader lazyload loaded">
+      <div className="section section--index section--00 scrollLoader lazyload">
         <div className="__mainimage">
           <img
             data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/main.jpg?20201225"
@@ -125,13 +125,13 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div>
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--01.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               是立体的
@@ -147,13 +147,13 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div>
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--02.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               扩大视野
@@ -169,13 +169,13 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div>
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--03.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">开发故事</h2>
             <p className="section__desc">
@@ -188,13 +188,13 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div>
-      <div className="section section--index section--04 scrollLoader lazyload loaded">
+      <div className="section section--index section--04 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--04.jpg?20201225"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               所有的

@@ -9,6 +9,19 @@
   font-style: normal;
 }
 
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+.loaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+
+.section--index {
+	cursor: pointer;
+}
+
 .nav-item:hover::after {
   content: '';
   position: absolute;

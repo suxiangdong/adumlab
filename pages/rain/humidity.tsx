@@ -73,8 +73,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--humidity section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--humidity section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               使用自然原理
@@ -127,7 +127,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--humidity section--02 scrollLoader lazyload loaded">
+      <div className="section section--humidity section--02 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
 
         <div className="fadeout_image scrollin">
@@ -139,7 +139,7 @@ export default function ProductDetail() {
           />
         </div>
 
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">洗空气的装置</h2>
             <p>
@@ -148,8 +148,8 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--humidity section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--humidity section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">30分钟内清除病毒</h2>
 
@@ -195,10 +195,10 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--humidity section--04 scrollLoader lazyload loaded">
+      <div className="section section--humidity section--04 scrollLoader lazyload">
         <div className="__image"></div>
 
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">可全洗的供水盆</h2>
             <p>
@@ -208,8 +208,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--humidity section--05 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--humidity section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">防止吸入空气中的灰尘及杂菌流入。</h2>
             <p>

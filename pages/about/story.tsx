@@ -41,8 +41,8 @@ export default function About() {
         </div>
       </div>
 
-      <div className="section section--story-index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--story-index section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">产品开发的故事</h2>
             <p>
@@ -53,7 +53,7 @@ export default function About() {
           <div className="posts">
             <div className="post">
               <a href="/greenfan/story" className="__inner">
-                <div className="__image __0 scrollLoader lazyload loaded"></div>
+                <div className="__image __0 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">The GreenFan</h5>
                   <p className="__text">
@@ -64,7 +64,7 @@ export default function About() {
             </div>
             <div className="post">
               <a href="/toaster/story" className="__inner">
-                <div className="__image __1 scrollLoader lazyload loaded"></div>
+                <div className="__image __1 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Toaster</h5>
                   <p className="__text">
@@ -75,7 +75,7 @@ export default function About() {
             </div>
             <div className="post">
               <a href="/pot/story" className="__inner">
-                <div className="__image __2 scrollLoader lazyload loaded"></div>
+                <div className="__image __2 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Pot</h5>
                   <p className="__text">更开心的体验。BALMUDA The Pot是从这样的想法开始开发的。</p>
@@ -84,7 +84,7 @@ export default function About() {
             </div>
             <div className="post">
               <a href="/gohan/story" className="__inner">
-                <div className="__image  __3 scrollLoader lazyload loaded"></div>
+                <div className="__image  __3 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Gohan</h5>
                   <p className="__text">
@@ -95,7 +95,7 @@ export default function About() {
             </div>
             <div className="post">
               <a href="/lantern/story" className="__inner">
-                <div className="__image  __5 scrollLoader lazyload loaded"></div>
+                <div className="__image  __5 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Lantern</h5>
                   <p className="__text">
@@ -107,7 +107,7 @@ export default function About() {
             </div>
             <div className="post">
               <a href="/speaker/story" className="__inner">
-                <div className="__image  __6 scrollLoader lazyload loaded"></div>
+                <div className="__image  __6 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Speaker</h5>
                   <p className="__text">
@@ -118,7 +118,7 @@ export default function About() {
             </div>
             <div className="post">
               <a href="/cleaner/story" className="__inner">
-                <div className="__image  __7 scrollLoader lazyload loaded"></div>
+                <div className="__image  __7 scrollLoader lazyload"></div>
                 <div className="__caption">
                   <h5 className="__title">BALMUDA The Cleaner</h5>
                   <p className="__text">

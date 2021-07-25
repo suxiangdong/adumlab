@@ -48,7 +48,7 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--spec section--00 scrollLoader lazyload loaded">
+      <div className="section section--spec section--00 scrollLoader lazyload">
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img
@@ -222,8 +222,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--spec section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--spec section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">获奖经历</h2>
             <p>BALMUDA The Speaker获得了2020年度最佳设计奖。</p>

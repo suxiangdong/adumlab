@@ -4,6 +4,14 @@ import API from '../effects/api'
 
 export default function Footer() {
   const [news, setNews] = useState([])
+  const [isOpen, setIsOpen] = useState(false)
+  const handleEnter = () => {
+    setIsOpen(true)
+  }
+  const handleLeave = () => {
+    setIsOpen(false)
+  }
+
   useEffect(() => {
     API.getNews().then((res) => {
       if (res && Array.isArray(res.data) && res.data.length > 0) {
@@ -78,7 +86,7 @@ export default function Footer() {
               <ul>
                 {news.map((n) => (
                   <li key={n.id} className="feed__item">
-                    <a href={n.redirect_url}>{n.redirect_text || n.title}</a>
+                    <Link href={`/news/${n.id}`}>{n.redirect_text || n.title}</Link>
                   </li>
                 ))}
               </ul>
@@ -102,8 +110,11 @@ export default function Footer() {
                 </ul>
                 <h5 className="sitemap__group__header">Support</h5>
                 <ul>
-                  <li>
-                    <a href="/support/">电话、小程序码</a>
+                  <li className="relative inline-block" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+                    电话、小程序码
+                    <div className={`absolute top-6 left-0 ${isOpen ? 'visible': 'hidden'}`}>
+                      <img src="/_theme/img/mini-prog.png" className="-h-28 w-28" alt="" />
+                    </div>
                   </li>
                 </ul>
                 <h5 className="sitemap__group__header">Brand Shop</h5>

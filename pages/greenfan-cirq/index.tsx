@@ -102,8 +102,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">改变室温</h2>
             <p>
@@ -116,8 +116,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">远达15米的送风距离届く</h2>
             <p>
@@ -130,8 +130,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">设计</h2>
             <p>

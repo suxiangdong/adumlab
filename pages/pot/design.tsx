@@ -83,12 +83,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--01 scrollLoader lazyload loaded">
+      <div className="section section--design section--01 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/design/mobile/section--01.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">刚刚好的大小，便于使用的轻便</h2>
             <p>咖啡3杯，杯面2杯，为日常所需所设计的尺寸。便于取用，重量亦得心应手。</p>
@@ -96,12 +96,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--05 scrollLoader lazyload loaded">
+      <div className="section section--design section--05 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/design/mobile/section--05.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">随心所欲的倾注水流</h2>
             <p>
@@ -111,7 +111,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--06 scrollLoader lazyload loaded">
+      <div className="section section--design section--06 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/design/mobile/section--06.jpg"
           className="__section_image __is_mobile"
@@ -145,7 +145,7 @@ export default function ProductDetail() {
             播放视频
           </span>
         </div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">无论快慢，随心所欲。</h2>
             <p>
@@ -155,12 +155,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--03 scrollLoader lazyload loaded">
+      <div className="section section--design section--03 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/design/mobile/section--03.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">各个角度都可以看到的灯</h2>
             <p>
@@ -170,12 +170,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--04 scrollLoader lazyload loaded">
+      <div className="section section--design section--04 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/design/mobile/section--04.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">美好的一刻</h2>
             <p>

@@ -116,7 +116,7 @@ export default function CleanerDetail() {
       </div>
 
       <div className="section section--design section--01">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content __first">
             <h2 className="section__title">
               气持ちよく使うための
@@ -146,7 +146,7 @@ export default function CleanerDetail() {
             alt=""
           />
         </div>
-        <div className="viewport scrollLoader fadeInUp __reverse loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload __reverse">
           <div className="__content __second">
             <h2 className="section__title">
               持ち方を選ばない
@@ -178,7 +178,7 @@ export default function CleanerDetail() {
             alt=""
           />
         </div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content __third">
             <h2 className="section__title">
               たったひとつの
@@ -206,7 +206,7 @@ export default function CleanerDetail() {
             alt=""
           />
         </div>
-        <div className="viewport scrollLoader fadeInUp __reverse loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload __reverse">
           <div className="__content __fourth">
             <h2 className="section__title">
               立ち姿が美しい

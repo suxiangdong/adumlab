@@ -73,7 +73,7 @@ export default function ProductDetail() {
 
       <div className="section section--howto section--01">
         <div className="viewport">
-          <div className="__column __01 scrollLoader fadeInUp loaded">
+          <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
                 <span>本体は利き手と</span>
@@ -96,7 +96,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __02 scrollLoader fadeInUp loaded">
+          <div className="__column __02 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
                 <span>光源が直接目に</span>
@@ -129,7 +129,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __03 scrollLoader fadeInUp loaded">
+          <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
                 <span>設置した環境に合わせ、</span>
@@ -172,7 +172,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--02 scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--02 scrollLoader fadeInUp lazyload">
         <div className="viewport">
           <div className="__content">
             <img

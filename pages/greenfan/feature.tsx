@@ -95,9 +95,9 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap">
-        <div className="section section--feature section--01 scrollLoader lazyload loaded">
+        <div className="section section--feature section--01 scrollLoader lazyload">
           <div className="__image __is_mobile"></div>
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title">まったく新しい二重構造の羽根</h2>
               <p>
@@ -119,9 +119,9 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap" id="spread">
-        <div className="section section--feature section--02 scrollLoader lazyload loaded">
+        <div className="section section--feature section--02 scrollLoader lazyload">
           <div className="__image __is_mobile"></div>
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title">大きく広がる风</h2>
               <p>
@@ -142,9 +142,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--feature section--03 scrollLoader lazyload loaded">
+      <div className="section section--feature section--03 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">最小のエネルギー</h2>
             <p>
@@ -157,9 +157,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--feature section--04 scrollLoader lazyload loaded">
+      <div className="section section--feature section--04 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">远达15米的送风距离届く豊かな风</h2>
             <p>

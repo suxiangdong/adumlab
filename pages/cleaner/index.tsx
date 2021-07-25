@@ -86,7 +86,7 @@ export default function CleanerDetail({ banners, evaluations }) {
         </ReactSlick>
       </div>
 
-      <div className="section section--index section--00 scrollLoader lazyload loaded">
+      <div className="section section--index section--00 scrollLoader lazyload">
         <div className="__mainimage">
           <img
             data-mobile="https://www.balmuda.com/jp/cleaner/img/index/mobile/main.jpg?20210429"
@@ -152,13 +152,13 @@ export default function CleanerDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--04 scrollLoader lazyload loaded">
+      <div className="section section--index section--04 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/index/mobile/section--06.jpg?20210429"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">特点和性能</p>
             <h2 className="section__title">
@@ -183,13 +183,13 @@ export default function CleanerDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/index/mobile/section--03.jpg?20210429"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">设计</p>
             <h2 className="section__title">
@@ -209,13 +209,13 @@ export default function CleanerDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/index/mobile/section--02.jpg?20210429"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">不同场景的使用方法</p>
             <h2 className="section__title">
@@ -236,13 +236,13 @@ export default function CleanerDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/index/mobile/section--01.jpg?20210429"
           className="sp section__image adaptiveimage __image"
           alt=""
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">ホバー科技</p>
             <h2 className="section__title">
@@ -273,8 +273,8 @@ export default function CleanerDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--05 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">故事</p>
             <h2 className="section__title">

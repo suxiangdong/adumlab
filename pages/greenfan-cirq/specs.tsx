@@ -153,8 +153,8 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--specs section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--specs section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">获奖经历</h2>
             <p>

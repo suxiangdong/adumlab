@@ -68,7 +68,7 @@ export default function ProductDetail({ banners }) {
         </ReactSlick>
       </div>
 
-      <div className="section section--index section--00 scrollLoader lazyload loaded">
+      <div className="section section--index section--00 scrollLoader lazyload">
         <div className="__mainimage">
           <div className="__inner">
             <img
@@ -127,8 +127,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               配合场景
@@ -146,8 +146,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <h2 className="section__title">
             可选
             <br />
@@ -159,8 +159,8 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
 
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">产品开发故事</h2>
             <p className="section__desc">

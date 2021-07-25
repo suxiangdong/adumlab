@@ -122,7 +122,7 @@ export default function Home({ banners, hots, topics, notifications }) {
         </div>
       </div>
       <div className="topics_wrapper">
-        <div className="viewport scrollLoader lazyload loaded">
+        <div className="viewport scrollLoader lazyload">
           <div className="topics">
             {topics.data.map((t) => (
               <a key={t.id} href={t.url} className="topic">

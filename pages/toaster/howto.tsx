@@ -78,8 +78,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="step">
               <div className="step__text">
@@ -135,8 +135,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="step">
               <div className="step__text">
@@ -175,8 +175,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="section--03__head">
               <h2 className="section__title">
@@ -278,8 +278,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--03b scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--03b scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="mode">
               <h3 className="mode__h">烤面包机</h3>
@@ -323,8 +323,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--04 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="step">
               <div className="step__text">
@@ -370,8 +370,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--howto section--05 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--howto section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="step">
               <div className="step__text">

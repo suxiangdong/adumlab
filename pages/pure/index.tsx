@@ -134,7 +134,7 @@ export default function ProductDetail({ banners, evaluations }) {
           </ReactSlick>
         </div>
       </div>
-      <div className="section section--index section--00 scrollLoader lazyload loaded">
+      <div className="section section--index section--00 scrollLoader lazyload">
         <div className="__mainimage">
           <img
             data-mobile="https://www.balmuda.com/jp/pure/img/index/mobile/main.jpg?20210502"
@@ -187,8 +187,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               <img
@@ -208,8 +208,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               <img src="https://www.balmuda.com/jp/pure/img/index/svg/design.svg" alt="DESIGN" />
@@ -226,8 +226,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">
               <span>简单的操作</span>
@@ -269,8 +269,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="gallery scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="gallery scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="gallery__h">画廊</h2>
           </div>

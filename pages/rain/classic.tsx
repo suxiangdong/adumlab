@@ -153,9 +153,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--classic section--01 scrollLoader lazyload loaded">
+      <div className="section section--classic section--01 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">全新的操作方法</h2>
             <p>
@@ -165,9 +165,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--classic section--02 scrollLoader lazyload loaded">
+      <div className="section section--classic section--02 scrollLoader lazyload">
         <div className="viewport">
-          <div className="__content scrollLoader fadeInUp loaded">
+          <div className="__content scrollLoader fadeInUp lazyload">
             <div className="video">
               <div className="el_display">
                 <video id="elmov" muted autoPlay playsInline onEnded={handleEnded2}>
@@ -215,8 +215,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--classic section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--classic section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               两种使用模式
@@ -251,8 +251,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--classic section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--classic section--04 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               最小2w的

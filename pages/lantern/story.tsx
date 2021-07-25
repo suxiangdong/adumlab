@@ -44,7 +44,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--00 scrollLoader lazyload loaded">
+      <div className="section section--story section--00 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--00.jpg?20190909"
           data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--00.jpg?20190909"
@@ -53,7 +53,7 @@ export default function ProductDetail() {
           src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--00@2x.jpg?20190909"
         />
 
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p>
               使う人に、味わい深いよい时间を過ごしてほしい、そんな思いから生まれた BALMUDA The
@@ -72,7 +72,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--01 scrollLoader lazyload loaded">
+      <div className="section section--story section--01 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--01.jpg?20190909"
           data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--01.jpg?20190909"
@@ -80,7 +80,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--01@2x.jpg?20190909"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">スキーのあとで</h2>
             <p>
@@ -92,7 +92,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--02 scrollLoader lazyload loaded">
+      <div className="section section--story section--02 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--02.jpg?20190909"
           data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--02.jpg?20190909"
@@ -100,7 +100,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--02@2x.jpg?20190909"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">夜をもう少し暗くするために</h2>
             <p>
@@ -110,7 +110,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--03 scrollLoader lazyload loaded">
+      <div className="section section--story section--03 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--03.jpg?20190909"
           data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--03.jpg?20190909"
@@ -118,7 +118,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--03@2x.jpg?20190909"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">设计の変遷</h2>
             <p>
@@ -129,7 +129,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--04 scrollLoader lazyload loaded">
+      <div className="section section--story section--04 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--04.jpg?20190909"
           data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--04.jpg?20190909"
@@ -137,7 +137,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--04@2x.jpg?20190909"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">テイスティな时间</h2>
             <p>
@@ -150,7 +150,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--05 scrollLoader lazyload loaded">
+      <div className="section section--story section--05 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/lantern/img/story/mobile/section--05.jpg?20190909"
           data-desktop="https://www.balmuda.com/jp/lantern/img/story/desktop/section--05.jpg?20190909"
@@ -158,7 +158,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/lantern/img/story/desktop/section--05@2x.jpg?20190909"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">深い落ち着き</h2>
             <p>

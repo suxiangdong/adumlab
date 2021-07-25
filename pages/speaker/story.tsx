@@ -48,8 +48,8 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--story section--00 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--story section--00 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h1>
               <span>BALMUDA The Speaker</span>
@@ -80,7 +80,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--01 scrollLoader lazyload loaded">
+      <div className="section section--story section--01 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/story/mobile/section--01.jpg?20200325"
           data-desktop="https://www.balmuda.com/jp/speaker/img/story/desktop/section--01.jpg?20200325"
@@ -88,7 +88,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/speaker/img/story/desktop/section--01@2x.jpg?20200325"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">不制造扬声器</h2>
             <p className="section__txt--large">バ</p>
@@ -99,7 +99,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--02 scrollLoader lazyload loaded">
+      <div className="section section--story section--02 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/story/mobile/section--02.jpg?20200325"
           data-desktop="https://www.balmuda.com/jp/speaker/img/story/desktop/section--02.jpg?20200325"
@@ -107,7 +107,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/speaker/img/story/desktop/section--02@2x.jpg?20200325"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">最高的科学技术</h2>
             <p className="section__txt--large">个</p>
@@ -118,7 +118,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--03 scrollLoader lazyload loaded">
+      <div className="section section--story section--03 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/story/mobile/section--03.jpg?20200325"
           data-desktop="https://www.balmuda.com/jp/speaker/img/story/desktop/section--03.jpg?20200325"
@@ -126,7 +126,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/speaker/img/story/desktop/section--03@2x.jpg?20200325"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">一些发明</h2>
             <p className="section__txt--large">オ</p>
@@ -138,7 +138,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--04 scrollLoader lazyload loaded">
+      <div className="section section--story section--04 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/story/mobile/section--04.jpg?20200325"
           data-desktop="https://www.balmuda.com/jp/speaker/img/story/desktop/section--04.jpg?20200325"
@@ -146,7 +146,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/speaker/img/story/desktop/section--04@2x.jpg?20200325"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">设计和光</h2>
             <p className="section__txt--large">B</p>
@@ -158,7 +158,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--05 scrollLoader lazyload loaded">
+      <div className="section section--story section--05 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/story/mobile/section--05.jpg?20200325"
           data-desktop="https://www.balmuda.com/jp/speaker/img/story/desktop/section--05.jpg?20200325"
@@ -166,7 +166,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/speaker/img/story/desktop/section--05@2x.jpg?20200325"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               无情趣，
@@ -183,7 +183,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--06 scrollLoader lazyload loaded">
+      <div className="section section--story section--06 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/story/mobile/section--06.jpg?20200325"
           data-desktop="https://www.balmuda.com/jp/speaker/img/story/desktop/section--06.jpg?20200325"
@@ -191,7 +191,7 @@ export default function ProductDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/speaker/img/story/desktop/section--06@2x.jpg?20200325"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">水晶般的夜晚</h2>
             <p className="section__txt--large">私</p>

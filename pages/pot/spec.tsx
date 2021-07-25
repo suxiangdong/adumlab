@@ -168,8 +168,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--spec section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--spec section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">各部的名字</h2>
             <div className="__imagewrap">
@@ -186,8 +186,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--spec section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--spec section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">关于保养</h2>
             <div className="__imagewrap">
@@ -210,8 +210,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--spec section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--spec section--04 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">获奖经历</h2>
             <p>

@@ -79,12 +79,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--01 scrollLoader lazyload loaded">
+      <div className="section section--story section--01 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--01.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">1991年、西班牙、龙达小镇</h2>
             <p>
@@ -94,12 +94,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--02 scrollLoader lazyload loaded">
+      <div className="section section--story section--02 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--02.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">大雨中的烧烤大会</h2>
             <p>
@@ -112,12 +112,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--03 scrollLoader lazyload loaded">
+      <div className="section section--story section--03 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--03.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">ダンディゾン</h2>
             <p>
@@ -127,12 +127,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--04 scrollLoader lazyload loaded">
+      <div className="section section--story section--04 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--04.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">2000稿的设计</h2>
             <p>
@@ -145,12 +145,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--05 scrollLoader lazyload loaded">
+      <div className="section section--story section--05 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/toaster/img/story/mobile/section--05.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">无止境的试验</h2>
             <p>

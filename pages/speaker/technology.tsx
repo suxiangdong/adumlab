@@ -76,8 +76,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <img
             src="https://www.balmuda.com/jp/speaker//img/technology/mobile/section--01.jpg"
             className="__image__sp"
@@ -125,8 +125,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">77mmスピーカー</p>
             <h2 className="section__title">すぐれた再現性</h2>
@@ -137,8 +137,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <img
             src="https://www.balmuda.com/jp/speaker//img/technology/mobile/section--03.jpg"
             className="__image__sp"
@@ -154,8 +154,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--04 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <img
             src="https://www.balmuda.com/jp/speaker//img/technology/mobile/section--04.jpg"
             className="__image__sp"
@@ -177,8 +177,8 @@ export default function ProductDetail() {
 
       <div
         id="LED"
-        className="section section--technology section--05 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        className="section section--technology section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">LEDユニット</p>
             <h2 className="section__title">
@@ -196,8 +196,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--06 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--06 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">アルゴリズム</p>
             <h2 className="section__title">

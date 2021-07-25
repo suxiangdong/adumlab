@@ -145,7 +145,7 @@ export default function ProductDetail() {
             <span className="subtitle">効果的な使用方法</span>
           </h2>
 
-          <div className="__column __01 scrollLoader fadeInUp loaded">
+          <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="column_index">
               <img
                 data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img1.jpg"
@@ -171,7 +171,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __02 scrollLoader fadeInUp loaded" id="bluelight">
+          <div className="__column __02 scrollLoader fadeInUp lazyload" id="bluelight">
             <div className="column_index">
               <img
                 data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img2.jpg"
@@ -195,7 +195,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __03 scrollLoader fadeInUp loaded">
+          <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="column_index">
               <img
                 data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img3.jpg"
@@ -231,7 +231,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __04 scrollLoader fadeInUp loaded">
+          <div className="__column __04 scrollLoader fadeInUp lazyload">
             <div className="column_index">
               <img
                 data-mobile="https://www.balmuda.com/jp/pure/img/howto/mobile/howto-img4.jpg"

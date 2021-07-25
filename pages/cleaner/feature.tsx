@@ -126,7 +126,7 @@ export default function CleanerDetail() {
       </div>
 
       <div className="section section--feature section--01" id="section--01">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">広い場所</p>
             <h2 className="section__title">
@@ -221,7 +221,7 @@ export default function CleanerDetail() {
       </div>
 
       <div className="section section--feature section--02" id="section--02">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">家具まわり・せまい場所</p>
             <h2 className="section__title">
@@ -286,7 +286,7 @@ export default function CleanerDetail() {
       </div>
 
       <div className="section section--feature section--03" id="section--03">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">壁ぎわ</p>
             <h2 className="section__title">
@@ -377,7 +377,7 @@ export default function CleanerDetail() {
       </div>
 
       <div className="section section--feature section--04" id="section--04">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">細いすき間</p>
             <h2 className="section__title">

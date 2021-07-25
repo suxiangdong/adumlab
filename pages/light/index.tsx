@@ -117,8 +117,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle __wb">
               <span>目線の先に</span>
@@ -141,8 +141,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle __wb">
               <span>色鮮やか</span>
@@ -158,8 +158,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle __wb">
               <span>ツールボックス&amp;</span>
@@ -175,8 +175,8 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--05 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--index section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">開発开发故事</h3>
             <p className="section__desc">
@@ -216,7 +216,7 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="gallery scrollLoader lazyload loaded">
+      <div className="gallery scrollLoader lazyload">
         <div className="viewport">
           <div className="__content">
             <h2 className="gallery__h">画廊</h2>

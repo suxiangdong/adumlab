@@ -93,12 +93,12 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap">
-        <div className="section section--technology section--01 scrollLoader lazyload loaded">
+        <div className="section section--technology section--01 scrollLoader lazyload">
           <img
             src="https://www.balmuda.com/jp/toaster/img/technology/mobile/section--01.jpg"
             className="__image __is_mobile"
           />
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title __wb">
                 <span>蒸汽技术</span>
@@ -136,9 +136,9 @@ export default function ProductDetail() {
       </div>
 
       <div
-        className="section section--technology section--02 scrollLoader lazyload loaded"
+        className="section section--technology section--02 scrollLoader lazyload"
         id="temperature-control">
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="head">
               <div className="head__info">
@@ -224,12 +224,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--03 scrollLoader lazyload loaded">
+      <div className="section section--technology section--03 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/toaster/img/technology/mobile/section--03.jpg?20200915"
           className="__image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               <span>四种模式和经典模式</span>

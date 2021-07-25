@@ -57,8 +57,8 @@ export default function CleanerDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--story section--00 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--story section--00 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h1>
               <span>BALMUDA The Cleaner</span>
@@ -86,7 +86,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--01 scrollLoader lazyload loaded">
+      <div className="section section--story section--01 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--01.jpg?202010161530"
           data-desktop="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--01.jpg?202010161530"
@@ -94,7 +94,7 @@ export default function CleanerDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--01@2x.jpg?202010161530"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">设计チーム、困る</h2>
             <p className="section__txt">
@@ -108,7 +108,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--02 scrollLoader lazyload loaded">
+      <div className="section section--story section--02 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--02.jpg?202010161530"
           data-desktop="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--02.jpg?202010161530"
@@ -116,7 +116,7 @@ export default function CleanerDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--02@2x.jpg?202010161530"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">あっちの方が便利</h2>
             <p className="section__txt">
@@ -135,7 +135,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--03 scrollLoader lazyload loaded">
+      <div className="section section--story section--03 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--03.jpg?202010161530"
           data-desktop="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--03.jpg?202010161530"
@@ -143,7 +143,7 @@ export default function CleanerDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--03@2x.jpg?202010161530"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">三河屋でのたくらみ</h2>
             <p className="section__txt">
@@ -157,7 +157,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--04 scrollLoader lazyload loaded">
+      <div className="section section--story section--04 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--04.jpg?202010161530"
           data-desktop="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--04.jpg?202010161530"
@@ -165,7 +165,7 @@ export default function CleanerDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--04@2x.jpg?202010161530"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">フェンシング、タンク、パンツ</h2>
             <p className="section__txt">
@@ -179,7 +179,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--05 scrollLoader lazyload loaded">
+      <div className="section section--story section--05 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--05.jpg?202010161530"
           data-desktop="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--05.jpg?202010161530"
@@ -187,7 +187,7 @@ export default function CleanerDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--05@2x.jpg?202010161530"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">昔の人たちの夢</h2>
             <p className="section__txt">
@@ -201,7 +201,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--06 scrollLoader lazyload loaded">
+      <div className="section section--story section--06 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--06.jpg?202010161530"
           data-desktop="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--06.jpg?202010161530"
@@ -209,7 +209,7 @@ export default function CleanerDetail() {
           className="__image adaptiveimage"
           src="https://www.balmuda.com/jp/cleaner/img/story/desktop/section--06@2x.jpg?202010161530"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">使っていない时间の方が長い</h2>
             <p className="section__txt">
@@ -231,12 +231,12 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--07 scrollLoader lazyload loaded">
+      <div className="section section--story section--07 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/cleaner/img/story/mobile/section--07.jpg?202010161530"
           className="__image adaptiveimage __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">もう少し早く欲しかった</h2>
             <p className="section__txt">

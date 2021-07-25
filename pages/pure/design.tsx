@@ -87,7 +87,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--01 scrollLoader lazyload loaded">
+      <div className="section section--design section--01 scrollLoader lazyload">
         <div className="__image __is_mobile">
           <img
             data-mobile="https://www.balmuda.com/jp/pure/img/design/mobile/section--01.jpg"
@@ -96,7 +96,7 @@ export default function ProductDetail() {
             alt=""
           />
         </div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">はっきりとわかる作用感</h2>
             <p>
@@ -107,7 +107,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="design--image__wrapper scrollLoader lazyload loaded">
+      <div className="design--image__wrapper scrollLoader lazyload">
         <ReactSlick dots className="design--image" id="pure--design">
           <div className="design--00">
             <img
@@ -142,8 +142,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--design section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">簡単な操作</h2>
             <p>
@@ -155,8 +155,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--design section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="control">
               <div className="power">
@@ -221,8 +221,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--design section--04 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               お手入れ簡単、

@@ -69,7 +69,7 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>产品尺寸</th>
-                  <td>幅 330mm × 奥行き 320mm × 高さ 871mm（フロア）／ 497mm（卓上）</td>
+                  <td>宽 330mm × 深 320mm × 高 871mm（落地）／ 497mm（台式）</td>
                 </tr>
                 <tr>
                   <th>机身重量</th>
@@ -77,11 +77,11 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100V　50/60Hz（ACアダプター）</td>
+                  <td>AC100V　50/60Hz（AC适配器）</td>
                 </tr>
                 <tr>
                   <th>耗电量</th>
-                  <td>1.5W 〜 20W（电池非充電時）</td>
+                  <td>1.5W 〜 20W（电池未充电状态下）</td>
                 </tr>
                 <tr>
                   <th>电源线长度</th>
@@ -89,29 +89,27 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>保修期限</th>
-                  <td>お買い上げ日から2年間</td>
+                  <td>购买之日起1年</td>
                 </tr>
                 <tr>
                   <th>包装内容</th>
-                  <td>本体、遥控器、マルチプラグアダプター、取扱説明書（保証書付）</td>
+                  <td>主机，遥控器，多插件适配器，使用说明书（附保证书）</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色×黑色 (型番 : EGF-1700-WK、JANコード : 4560330110207）</td>
+                  <td>白色×黑色（型号:EGF-1700-WK, JAN代码:4560330110207）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色×灰色 (型番 : EGF-1700-WG、JANコード : 4560330110214）</td>
+                  <td>白色×灰色（型号:EGF-1700-WG, JAN代码:4560330110214）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ダーク灰色×黑色 (型番 : EGF-1700-DK、JANコード : 4560330110238）</td>
+                  <td>暗灰色×黑色（型号:EGF-1700-DK, JAN代码:4560330110238）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>
-                    白色 × シャンパンゴールド (型番 : EGF-1700-WC、JANコード : 4560330110221）
-                  </td>
+                  <td>白色×香槟金（型号:EGF-1700-WC, JAN代码:4560330110221）</td>
                 </tr>
                 <tr>
                   <th>产地</th>
@@ -119,9 +117,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>
-                    本製品は日本国内専用です。海外での使用は保証および修理受付の対象外となりますのでご注意ください。
-                  </td>
+                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
@@ -129,7 +125,7 @@ export default function ProductDetail() {
         </div>
       </div>
       <div className="section section--spec section--02">
-        <ReactSlick arrows={false} dots className="spec--image" id="spec--image">
+        <ReactSlick dots className="spec--image" id="spec--image">
           <div className="spec--00">
             <img
               data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--00.jpg?20210408"
@@ -239,37 +235,37 @@ export default function ProductDetail() {
               <table className="__basic">
                 <tbody>
                   <tr>
-                    <th>1日の電气代の目安</th>
-                    <td>0.4円 (*1)</td>
+                    <th>一天的电费标准</th>
+                    <td>0.4日元(*1)</td>
                   </tr>
                   <tr>
-                    <th>最小動作音</th>
+                    <th>最小噪音</th>
                     <td>13dB (*2)</td>
                   </tr>
                   <tr>
-                    <th>风の届く距離</th>
+                    <th>风到达的距离</th>
                     <td>15m</td>
                   </tr>
                   <tr>
-                    <th>风量調節</th>
-                    <td>4段階</td>
+                    <th>风量调节</th>
+                    <td>4阶段</td>
                   </tr>
                   <tr>
-                    <th>切タイマー</th>
+                    <th>计时器</th>
                     <td>1・2・3・4时间</td>
                   </tr>
                   <tr>
-                    <th>自動首振り</th>
-                    <td>左右それぞれ最大75°</td>
+                    <th>自动摇头</th>
+                    <td>左右各最大75°</td>
                   </tr>
                   <tr>
-                    <th>手動角度調節</th>
-                    <td>左右それぞれ75° ／上向きに19° ／下向きに11°</td>
+                    <th>手动角度调节</th>
+                    <td>左右各75° ／向上19° ／向下11°</td>
                   </tr>
                   <tr>
-                    <th>安全機能</th>
+                    <th>安全功能</th>
                     <td>
-                      モーター異常検知、电池異常検知、異常電圧検知、オートパワーオフ(18时间無操作のとき)
+										电动机异常检测，电池异常检测，异常电压检测，自动断电(18小时无操作时)
                       (*3)
                     </td>
                   </tr>
@@ -278,12 +274,12 @@ export default function ProductDetail() {
 
               <p className="note">
                 *1
-                電气代は最弱運転で1日8时间運転した場合の目安です。電气料金は1kWhあたり27円で計算しています。
+                电气费是最弱运转1天运转8小时时的标准。电费以每千瓦时27日元计算。
                 <br />
-                *2 最小動作音は、無響室にて製品から距離1m地点で計測した値です。
+                *2 最小噪音是在无响室距离产品1米处测量的值。
                 <br />
                 *3 型番 :
-                EGF-1700からオートパワーオフが作動する無操作时间が、12时间から18时间に延長しました。
+                从EGF-1700开始自动关闭电源的无操作时间，从12小时延长到了18小时。
               </p>
             </div>
           </div>

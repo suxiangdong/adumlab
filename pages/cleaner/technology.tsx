@@ -69,7 +69,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--00 scrollLoader lazyload loaded">
+      <div className="section section--technology section--00 scrollLoader lazyload">
         <div className="viewport">
           <div className="__content">
             <p>
@@ -84,15 +84,15 @@ export default function CleanerDetail() {
           data-desktop="https://www.balmuda.com/jp/cleaner/img/technology/desktop/section--00-01.png?20210421"
           data-retina="https://www.balmuda.com/jp/cleaner/img/technology/desktop/section--00-01@2x.png?20210421"
           src="https://www.balmuda.com/jp/cleaner/img/technology/desktop/section--00-01@2x.png?20210421"
-          className="adaptiveimage __image scrollLoader lazyload loaded"
+          className="adaptiveimage __image scrollLoader lazyload"
           data-model="black"
           alt=""
           loading="lazy"
         />
       </div>
 
-      <div className="section section--technology section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">デュアルブラシヘッド</p>
             <h2 className="section__title">
@@ -112,8 +112,8 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--02 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--02 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">360°スワイプ構造</p>
             <h2 className="section__title">
@@ -134,8 +134,8 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--03 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--technology section--03 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               ホバー科技による

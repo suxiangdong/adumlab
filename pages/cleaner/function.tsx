@@ -117,7 +117,7 @@ export default function CleanerDetail() {
         </div>
       </div>
       <div className="section section--function section--01" id="section--02">
-        <div className="video_wrap scrollLoader fadeInUp loaded">
+        <div className="video_wrap scrollLoader fadeInUp lazyload">
           <div
             className="video_play __imagebtn __is_desktop"
             data-video-target="function_v2"
@@ -201,7 +201,7 @@ export default function CleanerDetail() {
           完了できる理由。
         </h2>
 
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content __first">
             <h2 className="section__title">
               <span>
@@ -225,7 +225,7 @@ export default function CleanerDetail() {
           />
         </div>
 
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content __second">
             <h2 className="section__title">
               <span>
@@ -252,7 +252,7 @@ export default function CleanerDetail() {
           />
         </div>
 
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content __third">
             <h2 className="section__title">
               <span>
@@ -327,7 +327,7 @@ export default function CleanerDetail() {
           </div>
         </div>
 
-        <div className="viewport scrollLoader fadeInUp loaded border-none">
+        <div className="viewport scrollLoader fadeInUp lazyload border-none">
           <div className="__content __fourth">
             <h2 className="section__title">
               <span>
@@ -355,9 +355,9 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--function section--01 scrollLoader lazyload loaded section--04">
+      <div className="section section--function section--01 scrollLoader lazyload section--04">
         <div className="block">
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <h2 className="page__title">
               <p>
                 <span>掃除がもっと楽になる。</span>
@@ -430,8 +430,8 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--function section--05 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--function section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="page__title">
               簡単、便利。
@@ -571,7 +571,7 @@ export default function CleanerDetail() {
         </div>
       </div>
 
-      <div className="section section--function section--06 scrollLoader lazyload loaded">
+      <div className="section section--function section--06 scrollLoader lazyload">
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">

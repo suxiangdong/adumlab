@@ -56,7 +56,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--spec section--00 scrollLoader lazyload loaded">
+      <div className="section section--spec section--00 scrollLoader lazyload">
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img
@@ -268,7 +268,7 @@ export default function ProductDetail() {
           <h2 className="section__title __wb">
             <span>メンテナンス</span>
           </h2>
-          <div className="__column __01 scrollLoader fadeInUp loaded">
+          <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h3 className="column__title">水洗いができる</h3>
               <p>
@@ -288,7 +288,7 @@ export default function ProductDetail() {
               />
             </div>
           </div>
-          <div className="__column __02 scrollLoader fadeInUp loaded">
+          <div className="__column __02 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h3 className="column__title">フィルターのメンテナンス</h3>
               <p>
@@ -306,7 +306,7 @@ export default function ProductDetail() {
               />
             </div>
           </div>
-          <div className="__column __03 scrollLoader fadeInUp loaded">
+          <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h3 className="column__title">1年に1回のフィルター交換</h3>
               <p>
@@ -328,8 +328,8 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--spec section--04 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--spec section--04 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">获奖经历</h2>
             <p>

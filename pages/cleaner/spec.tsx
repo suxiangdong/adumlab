@@ -60,7 +60,7 @@ export default function CleanerDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--spec section--00 scrollLoader lazyload loaded">
+      <div className="section section--spec section--00 scrollLoader lazyload">
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
             <img

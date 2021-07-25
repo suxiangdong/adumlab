@@ -83,9 +83,9 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap">
-        <div className="section section--feature section--01 scrollLoader lazyload loaded">
+        <div className="section section--feature section--01 scrollLoader lazyload">
           <div className="__image __is_mobile"></div>
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title">消除房间的温差</h2>
               <span className="video_play __is_desktop" data-video-target="v1" onClick={handlePlay}>
@@ -112,9 +112,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--feature section--02 scrollLoader lazyload loaded">
+      <div className="section section--feature section--02 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">三倍速干</h2>
             <img
@@ -130,9 +130,9 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--feature section--03 scrollLoader lazyload loaded">
+      <div className="section section--feature section--03 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">循环</h2>
             <img
@@ -148,9 +148,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--feature section--04 scrollLoader lazyload loaded">
+      <div className="section section--feature section--04 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">换气</h2>
             <img

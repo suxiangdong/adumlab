@@ -138,7 +138,7 @@ export default function About() {
           </div>
         </div>
       </section>
-			<div className="section section--index section--history scrollLoader lazyload loaded">
+			<div className="section section--index section--history scrollLoader lazyload">
 			<ReactSlick className="history" dots>
         <div>
           <img className="w-full" src="/about/img/index/desktop/history--00@2x.jpg" />
@@ -158,7 +158,7 @@ export default function About() {
       </ReactSlick>
 			</div>
 
-      <div className="section section--index section--awards-banner scrollLoader lazyload loaded">
+      <div className="section section--index section--awards-banner scrollLoader lazyload">
         <div className="viewport">
           <div className="__content">
             <h3 className="section__title">获奖经历</h3>

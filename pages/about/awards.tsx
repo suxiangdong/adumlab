@@ -50,7 +50,7 @@ export default function About() {
 
       <div className="section section--awards section--01" id="gooddesign">
         <div className="viewport">
-          <div className="__content scrollLoader fadeInUp loaded">
+          <div className="__content scrollLoader fadeInUp lazyload">
             <h3 className="section__title">优良设计奖</h3>
             <span className="__caption">日本</span>
             <p className="__overview">
@@ -59,7 +59,7 @@ export default function About() {
           </div>
 
           <div className="__wrap">
-            <div className="__card scrollLoader fadeInUp __gooddesign_gold loaded">
+            <div className="__card scrollLoader fadeInUp __gooddesign_gold lazyload">
               <h4 className="__subtitle">优良设计奖金奖</h4>
               <p className="__subcaption">被授予评价为优良设计奖审查委员会优秀的设计。</p>
               <h4 className="__subtitle">获奖产品</h4>
@@ -70,7 +70,7 @@ export default function About() {
               </ul>
             </div>
 
-            <div className="__card scrollLoader fadeInUp __best100 loaded">
+            <div className="__card scrollLoader fadeInUp __best100 lazyload">
               <h4 className="__subtitle">优良设计奖TOP100</h4>
               <p className="__subcaption">优良设计奖中100件推荐产品。</p>
               <h4 className="__subtitle">获奖产品</h4>
@@ -86,7 +86,7 @@ export default function About() {
               </ul>
             </div>
 
-            <div className="__card scrollLoader fadeInUp __gooddesign loaded">
+            <div className="__card scrollLoader fadeInUp __gooddesign lazyload">
               <h4 className="__subtitle">获奖产品</h4>
               <ul className="__awards_list">
                 <li>
@@ -121,9 +121,9 @@ export default function About() {
         </div>
       </div>
 
-      <div className="section section--awards section--02 scrollLoader lazyload loaded" id="reddot">
+      <div className="section section--awards section--02 scrollLoader lazyload" id="reddot">
         <div className="viewport">
-          <div className="__content scrollLoader fadeInUp loaded">
+          <div className="__content scrollLoader fadeInUp lazyload">
             <h3 className="section__title">红点奖</h3>
             <span className="__caption">德国</span>
             <p className="__overview">
@@ -150,10 +150,10 @@ export default function About() {
       </div>
 
       <div
-        className="section section--awards section--03 scrollLoader lazyload loaded"
+        className="section section--awards section--03 scrollLoader lazyload"
         id="ifdesign">
         <div className="viewport">
-          <div className="__content scrollLoader fadeInUp loaded">
+          <div className="__content scrollLoader fadeInUp lazyload">
             <h3 className="section__title">iF设计奖</h3>
             <span className="__caption">德国</span>
             <p className="__overview">
@@ -162,7 +162,7 @@ export default function About() {
             </p>
           </div>
           <div className="__wrap">
-            <div className="__card scrollLoader fadeInUp __if loaded">
+            <div className="__card scrollLoader fadeInUp lazyload __if">
               <h4 className="__subtitle">获奖产品</h4>
               <ul className="__awards_list">
                 <li>
@@ -181,7 +181,7 @@ export default function About() {
               </ul>
             </div>
 
-            <div className="__card scrollLoader fadeInUp __if_gold loaded">
+            <div className="__card scrollLoader fadeInUp lazyload __if_gold">
               <h4 className="__subtitle">Gold Award</h4>
               <p className="__subcaption">
                 iF金奖，从获得iF设计亚字的产品中被授予“优秀设计”。Airengine和StrtHeater
@@ -197,10 +197,10 @@ export default function About() {
         </div>
       </div>
       <div
-        className="section section--awards section--04 scrollLoader lazyload loaded"
+        className="section section--awards section--04 scrollLoader lazyload"
         id="kidsdesign">
         <div className="viewport">
-          <div className="__content scrollLoader fadeInUp loaded">
+          <div className="__content scrollLoader fadeInUp lazyload">
             <h3 className="section__title">儿童设计奖（日本）</h3>
             <span className="__caption">日本</span>
             <p className="__overview">

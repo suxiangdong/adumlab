@@ -72,9 +72,9 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap">
-        <div className="section section--technology section--01 scrollLoader lazyload loaded">
+        <div className="section section--technology section--01 scrollLoader lazyload">
           <div className="__image __is_mobile"></div>
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title">省エネルギー</h2>
               <img
@@ -95,9 +95,9 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap">
-        <div className="section section--technology section--02 scrollLoader lazyload loaded">
+        <div className="section section--technology section--02 scrollLoader lazyload">
           <div className="__image __is_mobile"></div>
-          <div className="viewport scrollLoader fadeInUp loaded">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title __wb">
                 <span>节省空调电费20%</span>
@@ -118,9 +118,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--03 scrollLoader lazyload loaded">
+      <div className="section section--technology section--03 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               <span>GreenFan</span>

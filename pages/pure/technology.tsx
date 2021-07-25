@@ -150,9 +150,9 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--technology section--01 scrollLoader lazyload loaded">
+      <div className="section section--technology section--01 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               微細な粒子からウィルスまで捕らえる高性能フィルター
@@ -226,9 +226,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--02 scrollLoader lazyload loaded">
+      <div className="section section--technology section--02 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               PM2.5集じん性能
@@ -248,9 +248,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--03 scrollLoader lazyload loaded">
+      <div className="section section--technology section--03 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
               data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03.png"
@@ -461,9 +461,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--04 scrollLoader lazyload loaded">
+      <div className="section section--technology section--04 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
               力強く、
@@ -474,11 +474,11 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--05 scrollLoader lazyload loaded"></div>
+      <div className="section section--technology section--05 scrollLoader lazyload"></div>
 
-      <div className="section section--technology section--06 scrollLoader lazyload loaded">
+      <div className="section section--technology section--06 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p>
               BALMUDA The Pure

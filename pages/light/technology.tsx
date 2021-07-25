@@ -47,7 +47,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--technology section--02 scrollLoader lazyload loaded">
+      <div className="section section--technology section--02 scrollLoader lazyload">
         <div className="__keyvisual">
           <div className="viewport">
             <div className="__copy">
@@ -204,7 +204,7 @@ export default function ProductDetail() {
             <span>本当の色が見える理想的な光</span>
           </h2>
 
-          <div className="__column __01 scrollLoader fadeInUp loaded">
+          <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="color_rendering_index">
               <div className="led__img--item led__img--item--01">
                 <img
@@ -258,7 +258,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __02 scrollLoader fadeInUp loaded" id="bluelight">
+          <div className="__column __02 scrollLoader fadeInUp lazyload" id="bluelight">
             <div className="__content">
               <div className="__wrap">
                 <div className="__graph">
@@ -292,7 +292,7 @@ export default function ProductDetail() {
             </div>
           </div>
 
-          <div className="__column __03 scrollLoader fadeInUp loaded">
+          <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <div className="__text">
                 <h4 className="__title">ちらつきのない光</h4>

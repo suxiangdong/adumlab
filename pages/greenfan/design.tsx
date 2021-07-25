@@ -87,9 +87,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--01 scrollLoader lazyload loaded">
+      <div className="section section--design section--01 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">风を持ち運ぶ</h2>
             <p>
@@ -99,9 +99,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--03 scrollLoader lazyload loaded" id="quiet">
+      <div className="section section--design section--03 scrollLoader lazyload" id="quiet">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">眠りも妨げない静音性</h2>
             <p>
@@ -111,9 +111,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--04 scrollLoader lazyload loaded">
+      <div className="section section--design section--04 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">洗濯物もあっという間</h2>
             <p>

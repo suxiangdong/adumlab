@@ -82,8 +82,8 @@ export default function ProductDetail() {
         />
       </div>
 
-      <div className="section section--setting section--01 scrollLoader lazyload loaded">
-        <div className="viewport scrollLoader fadeInUp loaded">
+      <div className="section section--setting section--01 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h1 className="section__title">设置</h1>
             <p className="section__txt">
@@ -105,12 +105,12 @@ export default function ProductDetail() {
       </div>
 
       <div className="section_wrap">
-        <div className="section section--setting section--02 scrollLoader lazyload loaded">
-          <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="section section--setting section--02 scrollLoader lazyload">
+          <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="section__title">与再生设备连接</h2>
             </div>
-            <div className="__box scrollLoader lazyload loaded">
+            <div className="__box scrollLoader lazyload">
               <img
                 data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01.jpg?20200612"
                 data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--01@2x.jpg?20200612"
@@ -174,7 +174,7 @@ export default function ProductDetail() {
                 </p>
               </div>
             </div>
-            <div className="__box scrollLoader lazyload loaded">
+            <div className="__box scrollLoader lazyload">
               <img
                 data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02.jpg?20200612"
                 data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--02@2x.jpg?20200612"
@@ -213,14 +213,14 @@ export default function ProductDetail() {
 
             <div id="live_light"></div>
 
-            <div className="__content __content__02 scrollLoader lazyload loaded">
+            <div className="__content __content__02 scrollLoader lazyload">
               <h2 className="section__title">
                 三个光辉
                 <br className="sp" />
                 从模式中选择
               </h2>
             </div>
-            <div className="__box scrollLoader lazyload loaded">
+            <div className="__box scrollLoader lazyload">
               <img
                 data-desktop="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03.jpg?20200612"
                 data-retina="https://www.balmuda.com/jp/speaker/img/setting/desktop/section--02--03@2x.jpg?20200612"

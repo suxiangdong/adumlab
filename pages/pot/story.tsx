@@ -75,12 +75,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--01 scrollLoader lazyload loaded">
+      <div className="section section--story section--01 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/story/mobile/section--01.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">比起产品，更重要的是体验</h2>
             <p>
@@ -90,12 +90,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--03 scrollLoader lazyload loaded">
+      <div className="section section--story section--03 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/story/mobile/section--03.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">美好的早餐</h2>
             <p>
@@ -105,12 +105,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--04 scrollLoader lazyload loaded">
+      <div className="section section--story section--04 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/story/mobile/section--04.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">咖啡、红茶、汤</h2>
             <p>
@@ -120,12 +120,12 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--story section--05 scrollLoader lazyload loaded">
+      <div className="section section--story section--05 scrollLoader lazyload">
         <img
           src="https://www.balmuda.com/jp/pot/img/story/mobile/section--05.jpg"
           className="__section_image __is_mobile"
         />
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">凌晨的杯面</h2>
             <p>

@@ -57,7 +57,7 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--taste section--00 scrollLoader lazyload loaded">
+      <div className="section section--taste section--00 scrollLoader lazyload">
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">味道、香气、及口感</h2>
@@ -69,9 +69,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--taste section--01 scrollLoader lazyload loaded">
+      <div className="section section--taste section--01 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
               src="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.min.svgz?20200915"
@@ -87,9 +87,9 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--taste section--02 scrollLoader lazyload loaded">
+      <div className="section section--taste section--02 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
               src="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.min.svgz?20200915"
@@ -103,9 +103,9 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--taste section--03 scrollLoader lazyload loaded">
+      <div className="section section--taste section--03 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
               src="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.min.svgz?20200915"
@@ -119,9 +119,9 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--taste section--04 scrollLoader lazyload loaded">
+      <div className="section section--taste section--04 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
               src="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.min.svgz?20200915"
@@ -135,9 +135,9 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--taste section--06 scrollLoader lazyload loaded">
+      <div className="section section--taste section--06 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
               <span>冷冻面包也可以很好吃</span>
@@ -149,9 +149,9 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-      <div className="section section--taste section--05 scrollLoader lazyload loaded">
+      <div className="section section--taste section--05 scrollLoader lazyload">
         <div className="__image __is_mobile"></div>
-        <div className="viewport scrollLoader fadeInUp loaded">
+        <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">其他更多可能</h2>
             <p>

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
@@ -23,6 +24,27 @@ export default function ({ banners, evaluations }) {
       path: `https://www.balmuda.com/jp/toaster/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
     }))
   }
+
+  const [playing, setPlaying] = useState(false)
+
+  const handlePlay = () => {
+    setPlaying(true)
+    const video = document.getElementById('v7b') as HTMLVideoElement
+    video.style.opacity = '1'
+    video.play()
+  }
+
+  const handleEnded = () => {
+    setPlaying(false)
+    const video = document.getElementById('v7b') as HTMLVideoElement
+    video.style.opacity = '0'
+    video.pause()
+  }
+
+  useEffect(() => {
+    initPhotoSwipeFromDOM('.gallery__content')
+  }, [])
+
   return (
     <Layout>
       <Head>
@@ -30,10 +52,17 @@ export default function ({ banners, evaluations }) {
           rel="stylesheet"
           media="(max-width: 640px)"
           href="/toaster/style/mobile.css?20210701173839"></link>
+        <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css?v=4.1.3-1.0.4" />
+        <link
+          rel="stylesheet"
+          href="https://photoswipe.com/dist/default-skin/default-skin.css?v=4.1.3-1.0.4"
+        />
         <link
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/toaster/style/desktop.css?20210701173839"></link>
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe.min.js"></script>
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe-init-custom-opacity.js"></script>
       </Head>
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
@@ -46,7 +75,7 @@ export default function ({ banners, evaluations }) {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item __current`}>
-              <Link href="/toaster/index">概要</Link>
+              <Link href="/toaster">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/toaster/taste">特别的美味</Link>
@@ -83,6 +112,19 @@ export default function ({ banners, evaluations }) {
             <img key={item.id} className="w-full" src={item.path} />
           ))}
         </ReactSlick>
+        <div
+          className={`__is_desktop section_overlay section_overlay--v7b ${
+            playing ? 'visible' : ''
+          }`}
+          id="overlay--v7b">
+          <video width="100%" height="100%" id="v7b" muted onEnded={handleEnded}>
+            <source src="//s3.balmuda.com/www/jp/toaster/movie/v7b.mp4" type="video/mp4" />
+          </video>
+          <div className="video_stop" data-video-target="v7b" onClick={handleEnded}></div>
+        </div>
+        <div className="__is_desktop video_play" data-video-target="v7b" onClick={handlePlay}>
+          <span></span>
+        </div>
       </div>
 
       <div className="section section--index section--00">
@@ -257,7 +299,7 @@ export default function ({ banners, evaluations }) {
         <ReactSlick slidesToShow={3} centerMode infinite dots={false}>
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_010@2x.jpg?20200901"
               alt=""
             />
@@ -266,7 +308,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_041@2x.jpg?20200901"
               alt=""
             />
@@ -275,7 +317,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_006@2x.jpg?20200901"
               alt=""
             />
@@ -284,7 +326,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_008@2x.jpg?20200901"
               alt=""
             />
@@ -293,7 +335,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_042@2x.jpg?20200901"
               alt=""
             />
@@ -302,7 +344,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_035@2x.jpg?20200901"
               alt=""
             />
@@ -311,7 +353,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_053@2x.jpg?20200901"
               alt=""
             />
@@ -320,7 +362,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_044@2x.jpg?20200901"
               alt=""
             />
@@ -329,7 +371,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="mb-5"
+              className="hover:shadow-xl mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_054@2x.jpg?20200901"
               alt=""
             />
@@ -381,19 +423,370 @@ export default function ({ banners, evaluations }) {
         </div>
       </div>
 
-      <section className="py-24 max-w-4xl mx-auto" id="gallery">
+      <section className="gallery py-24 max-w-4xl mx-auto">
         <h2 className="text-4xl mb-8">画廊</h2>
-        <div className="grid grid-cols-3 grid-rows-2 gap-5">
-          {[1, 2, 3, 4, 5, 6].map((item) => (
-            <img
-              key={item}
-              className="rounded"
-              src={`https://www.balmuda.com/jp/toaster/img/index/gallery/${item}@2x.jpg?20210505`}
-              alt=""
-            />
-          ))}
+        <div className="gallery__content">
+          <figure data-category="black" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/1-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="./img/index/gallery/1@2x.jpg?20210617"
+                data-desktop="./img/index/gallery/1.jpg?20210617"
+                data-retina="./img/index/gallery/1@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/1@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="black" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/2-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/2@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/2.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/2@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/2@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="black" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/3-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/3@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/3.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/3@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/3@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="black" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/4-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/4@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/4.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/4@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/4@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="black" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/5-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/5@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/5.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/5@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/5@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="black" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/6-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/6@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/6.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/6@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/6@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="white" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/7-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/7@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/7.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/7@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/7@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="white" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/8-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/8@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/8.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/8@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/8@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="white" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/9-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/9@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/9.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/9@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/9@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="white" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/10-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/10@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/10.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/10@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/10@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="white" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/11-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/11@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/11.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/11@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/11@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="white" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/12-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/12@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/12.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/12@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/12@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="beige" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/13-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/13@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/13.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/13@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/13@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="beige" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/14-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/14@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/14.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/14@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/14@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="beige" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/15-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/15@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/15.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/15@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/15@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="beige" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/16-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/16@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/16.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/16@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/16@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="beige" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/17-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/17@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/17.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/17@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/17@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="beige" data-disabled="">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/18-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/18@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/18.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/18@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/18@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="gray">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/19-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/19@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/19.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/19@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/19@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="gray">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/20-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/20@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/20.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/20@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/20@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="gray">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/21-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/21@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/21.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/21@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/21@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="gray">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/22-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/22@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/22.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/22@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/22@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="gray">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/23-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/23@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/23.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/23@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/23@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
+          <figure data-category="gray">
+            <a
+              href="https://www.balmuda.com/jp/toaster/img/index/gallery/24-zoom.jpg?20210617"
+              data-size="800x800">
+              <img
+                data-mobile="https://www.balmuda.com/jp/toaster/img/index/gallery/24@2x.jpg?20210617"
+                data-desktop="https://www.balmuda.com/jp/toaster/img/index/gallery/24.jpg?20210617"
+                data-retina="https://www.balmuda.com/jp/toaster/img/index/gallery/24@2x.jpg?20210617"
+                className="__clip adaptiveimage"
+                src="https://www.balmuda.com/jp/toaster/img/index/gallery/24@2x.jpg?20210617"
+              />
+            </a>
+          </figure>
         </div>
       </section>
+      <div className="pswp" tabIndex={-1} role="dialog" aria-hidden="true">
+        <div className="pswp__bg"></div>
+
+        <div className="pswp__scroll-wrap">
+          <div className="pswp__container">
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+          </div>
+
+          <div className="pswp__ui pswp__ui--hidden">
+            <div className="pswp__top-bar">
+              <div className="pswp__counter"></div>
+
+              <button className="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button className="pswp__button pswp__button--share" title="Share"></button>
+
+              <button className="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button className="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <div className="pswp__preloader">
+                <div className="pswp__preloader__icn">
+                  <div className="pswp__preloader__cut">
+                    <div className="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div className="pswp__share-tooltip"></div>
+            </div>
+
+            <button
+              className="pswp__button pswp__button--arrow--left"
+              title="Previous (arrow left)"></button>
+            <button
+              className="pswp__button pswp__button--arrow--right"
+              title="Next (arrow right)"></button>
+            <div className="pswp__caption">
+              <div className="pswp__caption__center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }

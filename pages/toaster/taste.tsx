@@ -26,7 +26,7 @@ export default function ProductDetail() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item `}>
-              <Link href="/toaster/index">概要</Link>
+              <Link href="/toaster">概要</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
               <Link href="/toaster/taste">特别的美味</Link>
@@ -156,7 +156,7 @@ export default function ProductDetail() {
             <h2 className="section__title">其他更多可能</h2>
             <p>
               不使用蒸汽与温度控制，像传统烤箱一样使用上下加热管的经典模式，
-              有170、200、250℃三档温度可以选择。
+              有170、200、230℃三档温度可以选择。
               不管是点心烘焙、冷冻食品加工或者烤箱料理，传统烤箱的功能全部可以实现。
             </p>
           </div>

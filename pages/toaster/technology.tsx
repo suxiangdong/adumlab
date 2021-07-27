@@ -39,7 +39,7 @@ export default function ProductDetail() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item `}>
-              <Link href="/toaster/index">概要</Link>
+              <Link href="/toaster">概要</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/toaster/taste">特别的美味</Link>

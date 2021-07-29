@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
@@ -18,14 +19,25 @@ export async function getServerSideProps() {
 
 export default function ProductDetail({ banners, evaluations }) {
   if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
-    banners.data = [0, 1, 2, 3, 4, 5].map((i) => ({
+    banners.data = [0, 1, 'v', 2, 3, 4].map((i) => ({
       id: i,
+      type: i === 'v' ? 'video' : 'image',
       path: `https://www.balmuda.com/jp/speaker/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
     }))
   }
+
+  useEffect(() => {
+    ;(window as any).initPhotoSwipeFromDOM('.gallery__content')
+  }, [])
+
   return (
     <Layout>
       <Head>
+        <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css?v=4.1.3-1.0.4" />
+        <link
+          rel="stylesheet"
+          href="https://photoswipe.com/dist/default-skin/default-skin.css?v=4.1.3-1.0.4"
+        />
         <link
           rel="stylesheet"
           media="(max-width: 640px)"
@@ -34,6 +46,8 @@ export default function ProductDetail({ banners, evaluations }) {
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/speaker/style/desktop.css?20210701173839"></link>
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe.min.js"></script>
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe-init-custom-opacity.js"></script>
       </Head>
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
@@ -70,9 +84,18 @@ export default function ProductDetail({ banners, evaluations }) {
       </div>
       <div className="billboard__wrapper">
         <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
-          {banners.data.map((item) => (
-            <img key={item.id} className="w-full" src={item.path} />
-          ))}
+          {banners.data.map((item) =>
+            item.type === 'video' ? (
+              <video key={item.id} muted playsInline>
+                <source
+                  src="//s3.balmuda.com/www/jp/speaker/movie/slide_video_desktop.mp4?20201225"
+                  type="video/mp4"
+                />
+              </video>
+            ) : (
+              <img key={item.id} className="w-full" src={item.path} />
+            )
+          )}
         </ReactSlick>
       </div>
       <div className="section section--index section--00 scrollLoader lazyload">
@@ -125,69 +148,74 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div>
-      <div className="section section--index section--01 scrollLoader lazyload">
-        <img
-          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--01.jpg?20201225"
-          className="sp section__image adaptiveimage __image"
-          alt=""
-        />
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">
-              是立体的
-              <br />
-              鲜明的声音
-            </h2>
-            <p className="section__desc">
-              曲子本来的平衡原封不动，声音的轮廓清晰且立体地再生。该音响设计与以主唱为中心的音乐相得益彰。令人惊讶的是，主唱就在附近。
-            </p>
-            <a href="./technology" className="section__btn">
-              详情
-            </a>
+      <Link href="/speaker/technology">
+        <a>
+          <div className="section section--index section--01 scrollLoader lazyload">
+            <img
+              data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--01.jpg?20201225"
+              className="sp section__image adaptiveimage __image"
+              alt=""
+            />
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">
+                  是立体的
+                  <br />
+                  鲜明的声音
+                </h2>
+                <p className="section__desc">
+                  曲子本来的平衡原封不动，声音的轮廓清晰且立体地再生。该音响设计与以主唱为中心的音乐相得益彰。令人惊讶的是，主唱就在附近。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="section section--index section--02 scrollLoader lazyload">
-        <img
-          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--02.jpg?20201225"
-          className="sp section__image adaptiveimage __image"
-          alt=""
-        />
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">
-              扩大视野
-              <br />
-              临场感
-            </h2>
-            <p className="section__desc">
-              给曲子的组合印象的是3个LED单元。追随声音的能量，光以0.004秒的速度精密同步。音乐性的光传递像实况录音舞台一样的高扬感。
-            </p>
-            <Link href="/speaker/technology#LED">
-              <a className="section__btn">详情</a>
-            </Link>
+        </a>
+      </Link>
+
+      <Link href="/speaker/technology#LED">
+        <a>
+          <div className="section section--index section--02 scrollLoader lazyload">
+            <img
+              data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--02.jpg?20201225"
+              className="sp section__image adaptiveimage __image"
+              alt=""
+            />
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">
+                  扩大视野
+                  <br />
+                  临场感
+                </h2>
+                <p className="section__desc">
+                  给曲子的组合印象的是3个LED单元。追随声音的能量，光以0.004秒的速度精密同步。音乐性的光传递像实况录音舞台一样的高扬感。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="section section--index section--03 scrollLoader lazyload">
-        <img
-          data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--03.jpg?20201225"
-          className="sp section__image adaptiveimage __image"
-          alt=""
-        />
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">开发故事</h2>
-            <p className="section__desc">
-              音乐上的感动只能在现场演奏中得到。改变这种想法的，是设计师带来的奇妙的收录机。BALMUDA
-              The Speaker的故事。
-            </p>
-            <Link href="/speaker/story">
-              <a className="section__btn">详情</a>
-            </Link>
+        </a>
+      </Link>
+      <Link href="/speaker/story">
+        <a>
+          <div className="section section--index section--03 scrollLoader lazyload">
+            <img
+              data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--03.jpg?20201225"
+              className="sp section__image adaptiveimage __image"
+              alt=""
+            />
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">开发故事</h2>
+                <p className="section__desc">
+                  音乐上的感动只能在现场演奏中得到。改变这种想法的，是设计师带来的奇妙的收录机。BALMUDA
+                  The Speaker的故事。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </Link>
+
       <div className="section section--index section--04 scrollLoader lazyload">
         <img
           data-mobile="https://www.balmuda.com/jp/speaker/img/index/mobile/section--04.jpg?20201225"
@@ -230,61 +258,132 @@ export default function ProductDetail({ banners, evaluations }) {
             <h2 className="section__title">画廊</h2>
           </div>
 
-          <div className="gallery__content" data-pswp-uid="1">
+          <div className="gallery__content">
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
-                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/1.jpg?20201225"
-                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
-              />
+              <a
+                href="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                  data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/1.jpg?20201225"
+                  data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/speaker/img/index/gallery/1@2x.jpg?20201225"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
-                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/2.jpg?20201225"
-                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
-              />
+              <a
+                href="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                  data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/2.jpg?20201225"
+                  data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/speaker/img/index/gallery/2@2x.jpg?20201225"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
-                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/3.jpg?20201225"
-                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
-              />
+              <a
+                href="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                  data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/3.jpg?20201225"
+                  data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/speaker/img/index/gallery/3@2x.jpg?20201225"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
-                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/4.jpg?20201225"
-                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
-              />
+              <a
+                href="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                  data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/4.jpg?20201225"
+                  data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/speaker/img/index/gallery/4@2x.jpg?20201225"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
-                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/5.jpg?20201225"
-                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
-              />
+              <a
+                href="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                  data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/5.jpg?20201225"
+                  data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/speaker/img/index/gallery/5@2x.jpg?20201225"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
-                data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/6.jpg?20201225"
-                data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
-              />
+              <a
+                href="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                  data-desktop="https://www.balmuda.com/jp/speaker/img/index/gallery/6.jpg?20201225"
+                  data-retina="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/speaker/img/index/gallery/6@2x.jpg?20201225"
+                />
+              </a>
             </figure>
+          </div>
+        </div>
+      </div>
+      <div className="pswp" tabIndex={-1} role="dialog" aria-hidden="true">
+        <div className="pswp__bg"></div>
+
+        <div className="pswp__scroll-wrap">
+          <div className="pswp__container">
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+          </div>
+
+          <div className="pswp__ui pswp__ui--hidden">
+            <div className="pswp__top-bar">
+              <div className="pswp__counter"></div>
+
+              <button className="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button className="pswp__button pswp__button--share" title="Share"></button>
+
+              <button className="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button className="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <div className="pswp__preloader">
+                <div className="pswp__preloader__icn">
+                  <div className="pswp__preloader__cut">
+                    <div className="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div className="pswp__share-tooltip"></div>
+            </div>
+
+            <button
+              className="pswp__button pswp__button--arrow--left"
+              title="Previous (arrow left)"></button>
+            <button
+              className="pswp__button pswp__button--arrow--right"
+              title="Next (arrow right)"></button>
+            <div className="pswp__caption">
+              <div className="pswp__caption__center"></div>
+            </div>
           </div>
         </div>
       </div>

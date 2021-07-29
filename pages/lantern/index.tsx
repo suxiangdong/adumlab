@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
@@ -15,10 +16,27 @@ export async function getServerSideProps() {
 
 export default function ProductDetail({ banners }) {
   if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
-    banners.data = [0, 1, 2, 3, 4].map((i) => ({
+    banners.data = [5, 0, 'v', 1, 2, 3, 4].map((i) => ({
       id: i,
+      type: i === 'v' ? 'video' : 'image',
       path: `https://www.balmuda.com/jp/lantern/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
     }))
+  }
+
+  const [playing, setPlaying] = useState(false)
+
+  const handlePlay = () => {
+    setPlaying(true)
+    const video = document.getElementById('sec40_desktop') as HTMLVideoElement
+    video.style.opacity = '1'
+    video.play()
+  }
+
+  const handleEnded = () => {
+    setPlaying(false)
+    const video = document.getElementById('sec40_desktop') as HTMLVideoElement
+    video.style.opacity = '0'
+    video.pause()
   }
 
   return (
@@ -61,11 +79,44 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
       <div className="billboard__wrapper">
-        <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
-          {banners.data.map((item) => (
-            <img key={item.id} className="w-full" src={item.path} />
-          ))}
+        <ReactSlick dots lazyLoad className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+          {banners.data.map((item) =>
+            item.type === 'video' ? (
+              <video
+                key={item.id}
+                muted
+								autoPlay
+                playsInline>
+                <source src="//s3.balmuda.com/www/jp/lantern/movie/slide_video_desktop.mp4?20210425" />
+              </video>
+            ) : (
+              <img key={item.id} className="w-full" src={item.path} />
+            )
+          )}
         </ReactSlick>
+        <div
+          className={`__is_desktop section_overlay ${playing ? 'visible' : ''}`}
+          id="overlay--sec40_desktop">
+          <video
+            width="100%"
+            height="100%"
+            id="sec40_desktop"
+            preload="none"
+            data-log="lantern_index_sec40_desktop"
+            onEnded={handleEnded}>
+            <source
+              src="//s3.balmuda.com/www/jp/lantern/movie/trailer_low.mp4?20210425"
+              type="video/mp4"
+            />
+          </video>
+          <div className="video_stop" data-video-target="sec40_desktop" onClick={handleEnded}></div>
+        </div>
+        <div
+          className="__is_desktop video_play"
+          data-video-target="sec40_desktop"
+          onClick={handlePlay}>
+          <span></span>
+        </div>
       </div>
 
       <div className="section section--index section--00 scrollLoader lazyload">
@@ -126,53 +177,53 @@ export default function ProductDetail({ banners }) {
           </div>
         </div>
       </div>
-
-      <div className="section section--index section--01 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">
-              配合场景
-              <br />
-              享受光
-            </h2>
-            <p className="section__desc">
-              BALMUDA The
-              Lantern，简单的操作就可以调光。随着亮度的变化，光的颜色也会发生变化，所以可以配合阅读灯、特殊日子的餐桌等场景使用。
-            </p>
-            <Link href="/lantern/design#dimming">
-              <a className="section__btn">关于调光的详细信息</a>
-            </Link>
+      <Link href="/lantern/design#dimming">
+        <a>
+          <div className="section section--index section--01 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">
+                  配合场景
+                  <br />
+                  享受光
+                </h2>
+                <p className="section__desc">
+                  BALMUDA The
+                  Lantern，简单的操作就可以调光。随着亮度的变化，光的颜色也会发生变化，所以可以配合阅读灯、特殊日子的餐桌等场景使用。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div className="section section--index section--02 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <h2 className="section__title">
-            可选
-            <br />
-            颜色变化
-          </h2>
-          <Link href="/lantern/design#colors">
-            <a className="section__btn">观察各种颜色的使用场景</a>
-          </Link>
-        </div>
-      </div>
-
-      <div className="section section--index section--03 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">产品开发故事</h2>
-            <p className="section__desc">
-              就像在眼前发出声音的壁炉的火焰一样，想要永不厌倦的复杂的光的移动。下面介绍BALMUDA The
-              Lantern的开发故事。
-            </p>
-            <Link href="/lantern/story">
-              <a className="section__btn">读故事</a>
-            </Link>
+        </a>
+      </Link>
+      <Link href="/lantern/design#colors">
+        <a>
+          <div className="section section--index section--02 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <h2 className="section__title">
+                可选
+                <br />
+                颜色变化
+              </h2>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </Link>
+      <Link href="/lantern/story">
+        <a>
+          <div className="section section--index section--03 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">产品开发故事</h2>
+                <p className="section__desc">
+                  就像在眼前发出声音的壁炉的火焰一样，想要永不厌倦的复杂的光的移动。下面介绍BALMUDA
+                  The Lantern的开发故事。
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </Link>
     </Layout>
   )
 }

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
 import API from '../../effects/api'
+import { useState } from 'react'
 
 export async function getServerSideProps() {
   try {
@@ -18,11 +19,13 @@ export async function getServerSideProps() {
 
 export default function ProductDetail({ banners, evaluations }) {
   if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
-    banners.data = [0, 1, 2, 3, 4, 5].map((i) => ({
+    banners.data = [2, 8, 4, 7, 0, 1].map((i) => ({
       id: i,
       path: `https://www.balmuda.com/jp/light/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
     }))
   }
+
+  const [slickIndex, setSlickIndex] = useState(0)
 
   return (
     <Layout>
@@ -68,7 +71,13 @@ export default function ProductDetail({ banners, evaluations }) {
       </div>
 
       <div className="billboard__wrapper">
-        <ReactSlick dots className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+        <ReactSlick
+          dots
+          className={`billboard slick-track--${slickIndex}`}
+          style={{ opacity: 1, visibility: 'visible' }}
+          afterChange={(index) => {
+            setSlickIndex(index)
+          }}>
           {banners.data.map((item) => (
             <img key={item.id} className="w-full" src={item.path} />
           ))}
@@ -117,47 +126,48 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--01 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h3 className="section__subtitle __wb">
-              <span>目線の先に</span>
-              <span>影ができない光</span>
-            </h3>
-            <h4 className="section__h __wb">
-              <span>フォワードビーム</span>
-              <span>科技</span>
-              <span>
-                <em>（特許登録済）</em>
-              </span>
-            </h4>
-            <p className="section__desc">
-              医療用の手術灯をヒントに開発した独自の構造で、離れた場所から広く手元を照らします。
-            </p>
-            <a href="./technology" className="section__btn">
-              详情
-            </a>
+      <Link href="/light/technology">
+        <a>
+          <div className="section section--index section--01 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h3 className="section__subtitle __wb">
+                  <span>目線の先に</span>
+                  <span>影ができない光</span>
+                </h3>
+                <h4 className="section__h __wb">
+                  <span>フォワードビーム</span>
+                  <span>科技</span>
+                  <span>
+                    <em>（特許登録済）</em>
+                  </span>
+                </h4>
+                <p className="section__desc">
+                  医療用の手術灯をヒントに開発した独自の構造で、離れた場所から広く手元を照らします。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </Link>
 
-      <div className="section section--index section--02 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h3 className="section__subtitle __wb">
-              <span>色鮮やか</span>
-            </h3>
-            <h4 className="section__h">太陽光LED</h4>
-            <p className="section__desc">
-              美術館などの色にシビアな環境で使用される太陽光LEDは自然光に近い光。目にやさしく、集中力を妨げません。
-            </p>
-            <a href="./technology#led" className="section__btn">
-              详情
-            </a>
+      <Link href="/light/technology#led">
+        <a>
+          <div className="section section--index section--02 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h3 className="section__subtitle __wb">
+                  <span>色鮮やか</span>
+                </h3>
+                <h4 className="section__h">太陽光LED</h4>
+                <p className="section__desc">
+                  美術館などの色にシビアな環境で使用される太陽光LEDは自然光に近い光。目にやさしく、集中力を妨げません。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
+        </a>
+      </Link>
       <div className="section section--index section--03 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
@@ -175,21 +185,21 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <div className="section section--index section--05 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h3 className="section__subtitle">開発开发故事</h3>
-            <p className="section__desc">
-              子どもたちの目を守りたい。そんな思いから始まったBALMUDA The
-              Lightの開発にまつわる开发故事をご紹介します。
-            </p>
-            <a href="./story" className="section__btn">
-              详情
-            </a>
+      <Link href="/light/story">
+        <a>
+          <div className="section section--index section--05 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h3 className="section__subtitle">開発开发故事</h3>
+                <p className="section__desc">
+                  子どもたちの目を守りたい。そんな思いから始まったBALMUDA The
+                  Lightの開発にまつわる开发故事をご紹介します。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
+        </a>
+      </Link>
       <div className="section section--blockquote">
         <div className="viewport">
           <h2 className="section__title">

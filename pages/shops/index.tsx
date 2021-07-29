@@ -1434,7 +1434,9 @@ const shops = [
 export default function Shops() {
   return (
     <Layout>
-      <div className="section section--index section--00 flex flex-col">
+      <div
+        className="section section--index section--00 flex flex-col"
+        style={{ backgroundImage: 'url(/_theme/img/section--00@2x.jpg)', backgroundSize: 'cover' }}>
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="py-2 align-middle inline-block min-w-full sm:px-3 lg:px-8">
             <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">

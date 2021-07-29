@@ -110,11 +110,8 @@ export default function Footer() {
                 </ul>
                 <h5 className="sitemap__group__header">Support</h5>
                 <ul>
-                  <li className="relative inline-block" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
+                  <li className="inline-block" >
                     电话、小程序码
-                    <div className={`absolute top-6 left-0 ${isOpen ? 'visible': 'hidden'}`}>
-                      <img src="/_theme/img/mini-prog.png" className="-h-28 w-28" alt="" />
-                    </div>
                   </li>
                 </ul>
                 <h5 className="sitemap__group__header">Brand Shop</h5>
@@ -171,8 +168,12 @@ export default function Footer() {
                   />
                 </svg>
               </a>
-              <a className="flex" href="/" target="_blank">
+              <a className="flex relative" href="/" target="_blank" onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
                 <img src="/_theme/img/mini-prog.png" className="w-8 -h-8" alt="" />
+
+								<div className={`absolute bottom-10 left-0 ${isOpen ? 'visible': 'hidden'}`}>
+                      <img src="/_theme/img/mini-prog.png" style={{maxWidth: '8rem'}} alt="" />
+                    </div>
               </a>
             </div>
 

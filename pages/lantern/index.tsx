@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import ReactSlick from 'react-slick'
@@ -39,6 +39,12 @@ export default function ProductDetail({ banners }) {
     video.pause()
   }
 
+  useEffect(() => {
+    if ((window as any).initPhotoSwipeFromDOM) {
+      ;(window as any).initPhotoSwipeFromDOM('.gallery__content')
+    }
+  }, [])
+
   return (
     <Layout>
       <Head>
@@ -50,6 +56,13 @@ export default function ProductDetail({ banners }) {
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/lantern/style/desktop.css?20210701173839"></link>
+        <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css?v=4.1.3-1.0.4" />
+        <link
+          rel="stylesheet"
+          href="https://photoswipe.com/dist/default-skin/default-skin.css?v=4.1.3-1.0.4"
+        />
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe.min.js"></script>
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe-init-custom-opacity.js"></script>
       </Head>
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
@@ -79,14 +92,14 @@ export default function ProductDetail({ banners }) {
         </div>
       </div>
       <div className="billboard__wrapper">
-        <ReactSlick dots lazyLoad className="billboard" style={{ opacity: 1, visibility: 'visible' }}>
+        <ReactSlick
+          dots
+          lazyLoad
+          className="billboard"
+          style={{ opacity: 1, visibility: 'visible' }}>
           {banners.data.map((item) =>
             item.type === 'video' ? (
-              <video
-                key={item.id}
-                muted
-								autoPlay
-                playsInline>
+              <video key={item.id} muted autoPlay playsInline>
                 <source src="//s3.balmuda.com/www/jp/lantern/movie/slide_video_desktop.mp4?20210425" />
               </video>
             ) : (
@@ -224,6 +237,76 @@ export default function ProductDetail({ banners }) {
           </div>
         </a>
       </Link>
+
+      <div className="gallery scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
+          <div className="__content">
+            <h2 className="gallery__h">画廊</h2>
+          </div>
+
+          <div className="gallery__content" data-pswp-uid="1">
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => (
+              <figure key={`gallery__content-${i}`}>
+                <a
+                  href={`https://www.balmuda.com/jp/lantern/img/index/desktop/section--05-0${i}@2x.jpg?20210425`}
+                  data-size="800x800">
+                  <img
+                    className="adaptiveimage w-72 h-72"
+                    src={`https://www.balmuda.com/jp/lantern/img/index/desktop/section--05-0${i}@2x.jpg?20210425`}
+                  />
+                </a>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="pswp" tabIndex={-1} role="dialog" aria-hidden="true">
+        <div className="pswp__bg"></div>
+
+        <div className="pswp__scroll-wrap">
+          <div className="pswp__container">
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+          </div>
+
+          <div className="pswp__ui pswp__ui--hidden">
+            <div className="pswp__top-bar">
+              <div className="pswp__counter"></div>
+
+              <button className="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button className="pswp__button pswp__button--share" title="Share"></button>
+
+              <button className="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button className="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <div className="pswp__preloader">
+                <div className="pswp__preloader__icn">
+                  <div className="pswp__preloader__cut">
+                    <div className="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div className="pswp__share-tooltip"></div>
+            </div>
+
+            <button
+              className="pswp__button pswp__button--arrow--left"
+              title="Previous (arrow left)"></button>
+            <button
+              className="pswp__button pswp__button--arrow--right"
+              title="Next (arrow right)"></button>
+            <div className="pswp__caption">
+              <div className="pswp__caption__center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }

@@ -1,323 +1,324 @@
+import { useState } from 'react'
 import Layout from '../../layouts/default'
 
 const shops = [
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: 'SKP',
     address: '北京市朝阳区建国路87号5层3M专柜，电话：13522039540',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '尚街购物中心店',
     address: '北京市朝阳区尚街购物中心B1-14北京优电脉科技部，电话：010-65588278',
     shopWhat: '智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '特力屋顺义店',
     address: '北京市顺义区安泰大街9号院10号楼1层底商，电话：010-67522463',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '燕莎奥特莱斯店',
     address: '北京市朝阳区东四环南路9号，燕莎奥特莱斯购物中心B座B1荣和家居，电话：010-67522463',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '京广坤精品家电',
     address: '北京市顺义区天竺镇99号B1，电话：010-80460092',
     shopWhat: '智能加湿器/空气循环机'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '梵几国子监店',
     address: '北京市东城区国子监街41号，电话：010-53672899',
     shopWhat: '蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '梵几三里屯太古里店',
     address: '北京市朝阳区三里屯路11号太古里北区B1层NLG-00，电话：010-84388131',
     shopWhat: '蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北四环居然之家店',
     address: '北京市朝阳区北四环望和桥居然之家5号馆地下一层，WaterRower。电话：13911562070',
     shopWhat: '蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '官舍购物中心店',
     address: '东方东路19号亮马桥外交公寓B区1层La Cuisine de Reve店。电话：13911562070',
     shopWhat: '蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京汉光百货',
     address: '北京市西城区西单北大街176号汉光百货7层自营专柜',
     shopWhat: '智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京王府中环中心',
     address: '北京市东城区王府井大街269号王府中环416A 010-65260200',
     shopWhat: '果岭风扇/智能加湿器/空气循环机/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京朝阳大悦城',
     address: '北京市朝阳区朝阳北路101号楼B1层',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京荟聚购物中心',
     address: '北京市大兴区欣宁街15号1号楼3层',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京蓝色港湾',
     address: '北京市朝阳区朝阳公园路6号院1号楼M层',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京金融街购物中心',
     address: '北京市西城区金城坊街2号金融街购物中心B1层',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京合生汇购物中心',
     address: '北京市朝阳区西大望路甲22号院1号楼合生汇4层',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京颐堤港',
     address: '北京市朝阳区酒仙桥颐堤港商场',
     shopWhat: ''
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京侨福芳草地',
     address: '北京市朝阳区东大桥路9号侨福芳草地LG2P-02',
     shopWhat: ''
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京双安商场',
     address: '北京市海淀区北三环西路38号双安商场5层 博朗专柜',
     shopWhat: '果岭风扇/空气循环机/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '凯德MALL 望京',
     address: '北京市朝阳区广顺北大街33号凯德MALL 4层 博朗专柜',
     shopWhat: '果岭风扇/空气循环机/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '华润五彩城购物中心',
     address: '北京市海淀区清河中街68号B1层158B 博朗专柜',
     shopWhat: '智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京易喜新世界百货有限公司',
     address: '北京市东城区崇文门外大街3-8号3层博朗专柜',
     shopWhat: '手冲壶/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '王府井百货大楼',
     address: '北京市东城区王府井大街255号北楼5层 博朗专柜',
     shopWhat: '蒸汽烤箱/手冲壶/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '好白商店',
     address: '北京市国子监街63号，电话：01064061837',
     shopWhat: '智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京石景山山姆',
     address: '北京石景山区阜石路158号，北京石景山山姆会员店',
     shopWhat: '果岭风扇/蒸汽烤箱'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北京亦庄山姆',
     address: '北京亦庄文化园东路与经网络，北京亦庄山姆会员店',
     shopWhat: '果岭风扇/蒸汽烤箱'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '三里屯',
     address: '北京市朝阳区工体北路三里屯Village购物中心顺电',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '颐堤港店',
     address: '北京市朝阳区酒仙桥颐堤港商场',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '国贸店',
     address: '北京市朝阳区建国门外大街一号国贸商城三期 3B209/210 ',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '东直门店',
     address: '北京市东城区东直门南大街1号北京来福士购物中心4层20号顺电',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '北京',
-    city: '北京市',
+    city: '北京',
     shopName: '北辰路店',
     address: '北京北京市朝阳区湖景东路11号新奥购物中心B2',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '天津',
-    city: '天津市',
+    city: '天津',
     shopName: '友谊路店',
     address: '天津市河西区乐园道9号（银河国际购物中心L3-001） ',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '天津',
-    city: '天津市',
+    city: '天津',
     shopName: '南京路店',
     address: '天津市和平区南京路108号现代城C区伊势丹地下2层M-15和M-17顺电 ',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '天津',
-    city: '天津市',
+    city: '天津',
     shopName: '嘉里汇店',
     address: '天津天津市河东区嘉里汇购物中心B1层B1039',
     shopWhat: '果岭风扇/智能加湿器'
   },
   {
     province: '天津',
-    city: '天津市',
+    city: '天津',
     shopName: '天津山姆',
     address: '天津市西青区汇川路221号一层（梅江会展中心二期）',
     shopWhat: '果岭风扇/蒸汽烤箱'
   },
   {
-    province: '吉林',
+    province: '吉林省',
     city: '长春',
     shopName: '卓展购物中心店',
     address: '长春市朝阳区重庆路1255号5层逸伦生活馆',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '吉林',
+    province: '吉林省',
     city: '长春',
     shopName: '欧亚卖场',
     address: '长春市朝阳区开运街5178号逸伦生活馆',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '吉林',
+    province: '吉林省',
     city: '长春',
     shopName: '欧亚南三环购物中心',
     address: '长春市南关区人民大街与南三环交汇欧亚南环购物中心5层逸伦生活馆',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '大连',
     shopName: '麦凯乐总店',
     address: '大连市中山区青泥街57号 新馆5层博朗',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '大连',
     shopName: '友谊总店',
     address: '大连市中山区人民路8号 8层 电话：15326179158',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '大连',
     shopName: '开发区友谊商城店',
     address: '大连市金州区本溪街3-2号5层',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '大连',
     shopName: '大连山姆',
     address: '大连市西岗区香炉礁海达北街42号，大连山姆会员店',
     shopWhat: '果岭风扇/蒸汽烤箱'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '沈阳',
     shopName: '万象城购物中心',
     address: '沈阳市和平区青年大街288号5层典生活店，电话：18640221661',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '沈阳',
     shopName: '中兴商业大厦',
     address: '沈阳市和平区中华路46号6层博朗柜台旁，电话：18640221661',
     shopWhat: '果岭风扇/空气循环机/智能加湿器'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '沈阳',
     shopName: '沈阳K11购物艺术中心',
     address: '沈阳市博览路2甲1号K11购物艺术中心BI层怡乐思生活馆。电话：18640221661',
     shopWhat: '果岭风扇/智能加湿器/蒸汽烤箱/手冲壶'
   },
   {
-    province: '辽宁',
+    province: '辽宁省',
     city: '鞍山',
     shopName: '鞍山新玛特',
     address: '鞍山市铁东区胜利南路42号，新玛特B1层，电话：18640221661',
@@ -1432,12 +1433,27 @@ const shops = [
 ]
 
 export default function Shops() {
+  const [keyword, setKeyword] = useState('')
+
   return (
     <Layout>
-      <div
-        className="section section--index section--00 flex flex-col"
-        style={{ backgroundImage: 'url(/_theme/img/section--00@2x.jpg)', backgroundSize: 'cover' }}>
-        <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div className="section min-h-screen relative section--00 flex flex-col">
+        <img src="/_theme/img/section--00@2x.jpg" className="absolute top-0 left-0" />
+        <div className="col-span-6 sm:col-span-4 z-10">
+          <label htmlFor="keyword" className="block text-sm font-medium text-gray-700">
+            筛选
+          </label>
+          <input
+            type="text"
+            name="keyword"
+            id="keyword"
+            autoComplete="given-name"
+            onChange={(e) => setKeyword(e.target.value)}
+            style={{ borderWidth: 1 }}
+            className="mb-4 inline-block w-60 py-2 px-3 border-solid mt-1 focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md"
+          />
+        </div>
+        <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 z-20">
           <div className="py-2 align-middle inline-block min-w-full sm:px-3 lg:px-8">
             <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
               <table className="min-w-full divide-y divide-gray-200">
@@ -1471,29 +1487,35 @@ export default function Shops() {
                   </tr>
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
-                  {shops.map((shop, index) => (
-                    <tr key={`shop-${index}`}>
-                      <td className="px-3 py-4 whitespace-nowrap">
-                        <div className="flex items-center">
-                          <div className="text-sm font-medium text-gray-900">{shop.province}</div>
-                        </div>
-                      </td>
-                      <td className="px-3 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-900">{shop.city}</div>
-                      </td>
-                      <td className="px-3 py-4 whitespace-nowrap">
-                        <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                          {shop.shopName}
-                        </span>
-                      </td>
-                      <td className="px-3 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {shop.address}
-                      </td>
-                      <td className="px-3 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        {shop.shopWhat}
-                      </td>
-                    </tr>
-                  ))}
+                  {shops
+                    .filter((shop) =>
+                      [shop.province, shop.city, shop.address, shop.shopName].some((i) =>
+                        i.includes(keyword)
+                      )
+                    )
+                    .map((shop, index) => (
+                      <tr key={`shop-${shop.address}-${shop.shopName}`}>
+                        <td className="px-3 py-4 whitespace-nowrap">
+                          <div className="flex items-center">
+                            <div className="text-sm font-medium text-gray-900">{shop.province}</div>
+                          </div>
+                        </td>
+                        <td className="px-3 py-4 whitespace-nowrap">
+                          <div className="text-sm text-gray-900">{shop.city}</div>
+                        </td>
+                        <td className="px-3 py-4 whitespace-nowrap">
+                          <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                            {shop.shopName}
+                          </span>
+                        </td>
+                        <td className="px-3 py-4 whitespace-nowrap text-sm text-gray-500">
+                          {shop.address}
+                        </td>
+                        <td className="px-3 py-4 whitespace-nowrap text-right text-sm font-medium">
+                          {shop.shopWhat}
+                        </td>
+                      </tr>
+                    ))}
                 </tbody>
               </table>
             </div>

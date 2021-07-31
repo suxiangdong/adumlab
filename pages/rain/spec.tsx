@@ -22,6 +22,8 @@ export default function ProductDetail() {
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/rain/style/desktop.css?20210701173839"></link>
+					<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+					<script src="/adapter.js?20210729145441"></script>
       </Head>
 
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
@@ -126,7 +128,16 @@ export default function ProductDetail() {
             <p>
               智能加湿器附带的多功能插头适配器可以将插头拔下，任意旋转90°。可以根据插座的位置及状况，方便地使用。
             </p>
-            <div id="animation_container" style={{ width: 219, height: 424 }}></div>
+            <div id="animation_container">
+              <canvas
+                id="canvas"
+                width="219"
+                height="424"
+                style={{position: 'absolute', display: 'block'}}></canvas>
+              <div
+                id="dom_overlay_container"
+                ></div>
+            </div>
           </div>
         </div>
       </div>

@@ -42,7 +42,9 @@ export default function ({ banners, evaluations }) {
   }
 
   useEffect(() => {
-    (window as any).initPhotoSwipeFromDOM('.gallery__content')
+    if ((window as any).initPhotoSwipeFromDOM) {
+      ;(window as any).initPhotoSwipeFromDOM('.gallery__content')
+    }
   }, [])
 
   return (

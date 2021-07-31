@@ -92,7 +92,8 @@ export default function ProductDetail({ banners }) {
           <h2 className="page__title __wb">为什么要使用？</h2>
           <span className="label__block">空气循环扇</span>
           <p className="overview_text">
-					打开冷暖设备时，地面与屋顶的最大温度差有时可达7°C。在有些季节里室内晾晒衣物，会使封闭的房间中产生发霉或异味。GreenFan Cirq能够通过前所未有的超大风量将强大的风力送达远端，使房间内空气充分循环。最大可节省20%的空调电费，室内晾晒衣物的时间最大可缩短3倍。
+            打开冷暖设备时，地面与屋顶的最大温度差有时可达7°C。在有些季节里室内晾晒衣物，会使封闭的房间中产生发霉或异味。GreenFan
+            Cirq能够通过前所未有的超大风量将强大的风力送达远端，使房间内空气充分循环。最大可节省20%的空调电费，室内晾晒衣物的时间最大可缩短3倍。
           </p>
           <div className="the-price">
             <p className="price price--excl_tax" id="price2">
@@ -101,48 +102,47 @@ export default function ProductDetail({ banners }) {
           </div>
         </div>
       </div>
-
-      <div className="section section--index section--01 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">改变室温</h2>
-            <p>
-						暖空气向上冷空气向下这是导致空调效率低的原因。GreenFan Cirq能够在短短一分钟之内中和空气温度差，使房间温度均衡。
-            </p>
-            <Link href="/greenfan-cirq/features">
-              <a className="btn btn--page">详情</a>
-            </Link>
+      <Link href="/greenfan-cirq/features">
+        <a>
+          <div className="section section--index section--01 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">改变室温</h2>
+                <p>
+                  暖空气向上冷空气向下这是导致空调效率低的原因。GreenFan
+                  Cirq能够在短短一分钟之内中和空气温度差，使房间温度均衡。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div className="section section--index section--02 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">远达15米的送风距离届く</h2>
-            <p>
-						独特的GreenFan科技通过1组扇叶1送出2种风力，改变风力的方向及运动。达到搅动15m范围内室内空气，形成空气流动。最大适用面积约50M²。
-            </p>
-            <Link href="/greenfan-cirq/technology">
-              <a className="btn btn--page">详情</a>
-            </Link>
+        </a>
+      </Link>
+      <Link href="/greenfan-cirq/technology">
+        <a>
+          <div className="section section--index section--02 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">远达15米的送风距离届く</h2>
+                <p>
+                  独特的GreenFan科技通过1组扇叶1送出2种风力，改变风力的方向及运动。达到搅动15m范围内室内空气，形成空气流动。最大适用面积约50M²。
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div className="section section--index section--03 scrollLoader lazyload">
-        <div className="viewport scrollLoader fadeInUp lazyload">
-          <div className="__content">
-            <h2 className="section__title">设计</h2>
-            <p>
-						自由方向调节，开关电源、风量切换一键设置，配备远程遥控，轻松操作。
-            </p>
-            <Link href="/greenfan-cirq/design">
-              <a className="btn btn--page btn">详情</a>
-            </Link>
+        </a>
+      </Link>
+      <Link href="/greenfan-cirq/design">
+        <a>
+          <div className="section section--index section--03 scrollLoader lazyload">
+            <div className="viewport scrollLoader fadeInUp lazyload">
+              <div className="__content">
+                <h2 className="section__title">创新设计</h2>
+                <p>自由方向调节，开关电源、风量切换一键设置，配备远程遥控，轻松操作。</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
+      </Link>
     </Layout>
   )
 }

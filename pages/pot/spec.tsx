@@ -52,13 +52,14 @@ export default function ProductDetail() {
       <div className="section section--spec section--00">
         <ReactSlick
           infinite={true}
+					arrows={false}
           speed={500}
           slidesToShow={1}
           slidesToScroll={1}
           dots={true}
-          dotsClass={'slick_selector_wrapper'}
+          dotsClass={'slick_selector_wrapper flex-imp justify-center'}
           customPaging={(i) => (
-            <span className="slick_selector __black mx-1" data-slick-option="0">
+            <span className="slick_selector __black inline-block mx-1 box-content" data-slick-option="0">
               {i === 0 ? '黑色' : '白色'}
             </span>
           )}

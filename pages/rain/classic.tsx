@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../layouts/default'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function ProductDetail() {
   const [playing, setPlaying] = useState(false)
@@ -42,6 +42,12 @@ export default function ProductDetail() {
     video.playbackRate = 0.9
     video.play()
   }
+
+	useEffect(() => {
+		setTimeout(() => {
+			handlePlay()
+		}, 1000)
+	}, [])
 
   return (
     <Layout>

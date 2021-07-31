@@ -148,7 +148,7 @@ export default function ProductDetail() {
             className={`__selector ${current === 1 ? '__current' : ''}`}
             data-model="darkgray"
             onClick={() => setCurrent(1)}>
-            ダーク灰色
+            深灰色
           </span>
         </div>
       </div>
@@ -164,8 +164,8 @@ export default function ProductDetail() {
                   <td>BALMUDA The Pure</td>
                 </tr>
                 <tr>
-                  <th>製品寸法</th>
-                  <td>幅 260mm × 奥行 260mm × 高さ 700mm</td>
+                  <th>产品尺寸</th>
+                  <td>250mm（宽）× 250mm（长）× 700mm（高）</td>
                 </tr>
                 <tr>
                   <th>产品重量（包括过滤器）</th>
@@ -185,11 +185,11 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色(型号：A01A-WH、JANコード：4560330119958）</td>
+                  <td>白色(型号：A01A-WH，JAN代码：4560330119958）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>ダーク灰色(型番：A01A-GR、JANコード：4560330119460）</td>
+                  <td>深灰色(型号：A01A-GR，JAN代码：4560330119460）</td>
                 </tr>
                 <tr>
                   <th>包装内容</th>
@@ -197,14 +197,14 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>保修期限</th>
-                  <td>お買い上げ日から1年間</td>
+                  <td>自购买日起1年内</td>
                 </tr>
                 <tr>
-                  <th>交換用フィルター</th>
+                  <th>更换用滤网</th>
                   <td>
-                    集じん・脱臭フィルターセット（A01A-P100）
+                    集尘、除臭过滤器套装(A01A-P100)
                     <br />
-                    集じんフィルター（A01A-S100）、脱臭フィルター（A01A-D100）
+                    除尘过滤器(A01A-S100)、除臭过滤器(A01A-D100)
                   </td>
                 </tr>
                 <tr>
@@ -213,9 +213,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>
-                    本製品は日本国内専用です。海外での使用は保証および修理受付の対象外となりますのでご注意ください。
-                  </td>
+                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。 </td>
                 </tr>
               </tbody>
             </table>
@@ -230,15 +228,15 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>適用床面積（目安）</th>
-                  <td>〜36畳／〜60m²（*1）</td>
+                  <th>标准适用面积</th>
+                  <td>41m²以下（*1）</td>
                 </tr>
                 <tr>
-                  <th>清浄时间</th>
-                  <td>8畳を8分</td>
+                  <th>空气净化时间</th>
+                  <td>10m²/6分钟（*1）</td>
                 </tr>
                 <tr>
-                  <th>运转模式 / 清浄风量</th>
+                  <th>运转模式 / 清洁风量</th>
                   <td>
                     风量1 / 0.3㎥/min
                     <br />
@@ -246,18 +244,17 @@ export default function ProductDetail() {
                     <br />
                     风量3 / 4.8㎥/min
                     <br />
-                    ジェットクリーニング / 7.3㎥/min
+                    喷气清洗 / 7.3㎥/min
                   </td>
                 </tr>
                 <tr>
-                  <th>运行声音</th>
-                  <td>19〜64dB</td>
+                  <th>运行分贝</th>
+                  <td>60dB 50dB 40dB 30dB 15dB 7dB以下</td>
                 </tr>
               </tbody>
             </table>
             <p className="note">
-              *1「適用床面積」ならびに「清浄时间」の数値は、日本電機工業会 JEM1467
-              に基づく数値です（ジェットクリーニングモード運転時）
+              *1 适用面积以及清洁时间的数值是按照日本JEM1467标准检测的数值（使用喷射清洁模式）。
             </p>
           </div>
         </div>
@@ -266,15 +263,15 @@ export default function ProductDetail() {
       <div id="maintenance" className="section section--spec section--03">
         <div className="viewport">
           <h2 className="section__title __wb">
-            <span>メンテナンス</span>
+            <span>维护</span>
           </h2>
           <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h3 className="column__title">水洗いができる</h3>
+              <h3 className="column__title">可以水洗</h3>
               <p>
-                BALMUDA The Pureは、お手入れが簡単。
+                BALMUDA The Pure 保养简单
                 <br />
-                ホコリが溜まりやすいパーツ取り外して水洗いすることが可能。いつも清潔に保つことができます。
+                可以取下容易积灰尘的零件进行水洗。可以经常保持清洁。
               </p>
             </div>
             <div className="__img">
@@ -290,9 +287,9 @@ export default function ProductDetail() {
           </div>
           <div className="__column __02 scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h3 className="column__title">フィルターのメンテナンス</h3>
+              <h3 className="column__title">滤网的保养</h3>
               <p>
-                本体背面のハッチを開けるとすぐにフィルターにアクセスすることができます。1ヶ月に1回を目安に掃除機でフィルター表面のホコリを吸い取り、きれいにしてください。
+                打开主机背板，就可以看到滤网。在运转了500小时后，滤网清洁指示灯会点亮，此时请对滤网表面进行清洁。
               </p>
             </div>
             <div className="__img">
@@ -308,10 +305,9 @@ export default function ProductDetail() {
           </div>
           <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h3 className="column__title">1年に1回のフィルター交換</h3>
+              <h3 className="column__title">一年更换一次滤网</h3>
               <p>
-                BALMUDA The
-                Pureのフィルターは大量の浮遊物質やホコリを吸引します。本来の性能を保つために、1年に1回の交換を推奨しています。
+                BALMUDA The Pure的滤网会吸入大量的漂浮物和灰尘。为了保持本来的性能，建议1年更换1次。
               </p>
             </div>
             <div className="__img">
@@ -333,15 +329,15 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">获奖经历</h2>
             <p>
-              BALMUDA The Pureは、2019年度 グッド设计賞、2020年度 キッズ设计賞 優秀賞
-              経済産業大臣賞を受賞しました。
+              BALMUDA The
+              Pure获得2019年度优秀设计奖、2020年度儿童设计奖优秀奖、获得了经济产业大臣奖。
             </p>
 
             <div className="columns cf">
               <div className="column __award__if">
                 <p>
-                  德国「iF International Forum Design
-                  GmbH」が主催する半世紀以上の歴史がある世界的に権威ある设计賞で、全世界の工業製品を対象に優れた工業设计を選定しています。
+                  德国“iF International Forum design
+                  Gmbh”举办的iF设计大奖。有超过半个世纪的历史,是最具世界权威的设计大奖,以全世界的工业产品为评选对象,评审出卓越拔群的工业设计产品。
                 </p>
               </div>
               <div className="column __award__gd">
@@ -350,13 +346,13 @@ export default function ProductDetail() {
                 </p>
               </div>
               <div className="column __award__kids">
-                <p>優秀賞 経済産業大臣賞受賞</p>
+                <p>荣获优秀奖经济产业大臣奖</p>
                 <p>
-                  キッズ设计賞は「子どもたちの安全・安心に貢献する设计」「子どもたちの創造性と未来を拓く设计」「子どもたちを産み育てやすい设计」の3つの視点において優れた製品が選ばれます。
+                  儿童设计奖从“为孩子们的安全·安心做贡献的设计”“开拓孩子们的创造性和未来的设计”“容易生养孩子们的设计”这3个视点选出优秀的产品。
                   <br />
                   <br />
-                  優秀賞
-                  経済産業大臣賞受賞理由として、「最新の科技により、大容量の空气の循環を実現した空气净化器である。また上部にあるファンに巻き込まれてケガをしないよう、ロックされていないとファンが回らない構造になっている。回っている最中に外蓋を取り外そうとすると、その瞬間にファンが止まる機能もある。非常に高い安全性と衛生空間を実現している点を、洗練されたフォルムとともに高く評価した。」とコメントをいただきました。
+                  优秀奖
+                  经济产业大臣奖作为理由,“最新的科技,因此大容量的空气的循环,实现了天空气净化器。另外上部的球迷被卷入不受伤,没有被套牢不能周转和球迷结构。正在旋转的时候,外盖和进展的那一刻,也有球迷停止功能。实现非常高的安全性和卫生空间正在被分,成熟的曲线同时高度评价了。”收到了这样的评论。
                 </p>
               </div>
             </div>

@@ -27,17 +27,14 @@ export default function ProductDetail({ banners, evaluations }) {
   }
 
   useEffect(() => {
-    ;(window as any).initPhotoSwipeFromDOM('.gallery__content')
+    if ((window as any).initPhotoSwipeFromDOM) {
+      ;(window as any).initPhotoSwipeFromDOM('.gallery__content')
+    }
   }, [])
 
   return (
     <Layout>
       <Head>
-        <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css?v=4.1.3-1.0.4" />
-        <link
-          rel="stylesheet"
-          href="https://photoswipe.com/dist/default-skin/default-skin.css?v=4.1.3-1.0.4"
-        />
         <link
           rel="stylesheet"
           media="(max-width: 640px)"
@@ -46,6 +43,11 @@ export default function ProductDetail({ banners, evaluations }) {
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/speaker/style/desktop.css?20210701173839"></link>
+        <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css?v=4.1.3-1.0.4" />
+        <link
+          rel="stylesheet"
+          href="https://photoswipe.com/dist/default-skin/default-skin.css?v=4.1.3-1.0.4"
+        />
         <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe.min.js"></script>
         <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe-init-custom-opacity.js"></script>
       </Head>

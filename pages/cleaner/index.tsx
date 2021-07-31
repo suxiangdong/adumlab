@@ -3,6 +3,7 @@ import ReactSlick from 'react-slick'
 import Head from 'next/head'
 import Layout from '../../layouts/default'
 import API from '../../effects/api'
+import { useEffect } from 'react'
 
 export async function getServerSideProps() {
   try {
@@ -25,6 +26,12 @@ export default function CleanerDetail({ banners, evaluations }) {
     }))
   }
 
+  useEffect(() => {
+    if ((window as any).initPhotoSwipeFromDOM) {
+      ;(window as any).initPhotoSwipeFromDOM('.gallery__content')
+    }
+  }, [])
+
   return (
     <Layout>
       <Head>
@@ -36,6 +43,13 @@ export default function CleanerDetail({ banners, evaluations }) {
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/cleaner/style/desktop.css?20210701173839"></link>
+        <link rel="stylesheet" href="https://photoswipe.com/dist/photoswipe.css?v=4.1.3-1.0.4" />
+        <link
+          rel="stylesheet"
+          href="https://photoswipe.com/dist/default-skin/default-skin.css?v=4.1.3-1.0.4"
+        />
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe.min.js"></script>
+        <script src="https://www.balmuda.com/_theme/vendor/photoswipe/js/photoswipe-init-custom-opacity.js"></script>
       </Head>
 
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
@@ -319,86 +333,169 @@ export default function CleanerDetail({ banners, evaluations }) {
 
           <div className="gallery__content" data-pswp-uid="1">
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/1@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/1.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/1@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/1@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/1@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/1@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/1.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/1@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/1@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/2@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/2.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/2@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/2@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/2@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/2@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/2.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/2@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/2@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/3@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/3.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/3@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/3@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/3@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/3@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/3.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/3@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/3@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/4@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/4.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/4@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/4@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/4@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/4@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/4.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/4@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/4@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/5@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/5.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/5@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/5@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/5@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/5@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/5.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/5@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/5@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/6@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/6.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/6@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/6@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/6@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/6@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/6.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/6@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/6@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/7@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/7.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/7@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/7@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/7@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/7@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/7.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/7@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/7@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/8@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/8.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/8@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/8@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/8@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/8@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/8.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/8@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/8@2x.jpg?20210429"
+                />
+              </a>
             </figure>
             <figure>
-              <img
-                data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/9@2x.jpg?20210429"
-                data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/9.jpg?20210429"
-                data-retina="/cleaner/img/index/gallery/9@2x.jpg?20210429"
-                className="__clip adaptiveimage"
-                src="https://www.balmuda.com/jp/cleaner/img/index/gallery/9@2x.jpg?20210429"
-              />
+              <a
+                href="https://www.balmuda.com/jp/cleaner/img/index/gallery/9@2x.jpg?20210429"
+                data-size="800x800">
+                <img
+                  data-mobile="https://www.balmuda.com/jp/cleaner/img/index/gallery/9@2x.jpg?20210429"
+                  data-desktop="https://www.balmuda.com/jp/cleaner/img/index/gallery/9.jpg?20210429"
+                  data-retina="/cleaner/img/index/gallery/9@2x.jpg?20210429"
+                  className="__clip adaptiveimage"
+                  src="https://www.balmuda.com/jp/cleaner/img/index/gallery/9@2x.jpg?20210429"
+                />
+              </a>
             </figure>
+          </div>
+        </div>
+      </div>
+      <div className="pswp" tabIndex={-1} role="dialog" aria-hidden="true">
+        <div className="pswp__bg"></div>
+
+        <div className="pswp__scroll-wrap">
+          <div className="pswp__container">
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+            <div className="pswp__item"></div>
+          </div>
+
+          <div className="pswp__ui pswp__ui--hidden">
+            <div className="pswp__top-bar">
+              <div className="pswp__counter"></div>
+
+              <button className="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button className="pswp__button pswp__button--share" title="Share"></button>
+
+              <button className="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button className="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <div className="pswp__preloader">
+                <div className="pswp__preloader__icn">
+                  <div className="pswp__preloader__cut">
+                    <div className="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div className="pswp__share-tooltip"></div>
+            </div>
+
+            <button
+              className="pswp__button pswp__button--arrow--left"
+              title="Previous (arrow left)"></button>
+            <button
+              className="pswp__button pswp__button--arrow--right"
+              title="Next (arrow right)"></button>
+            <div className="pswp__caption">
+              <div className="pswp__caption__center"></div>
+            </div>
           </div>
         </div>
       </div>

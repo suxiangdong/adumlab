@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
-
   return (
     <Layout>
       <Head>
@@ -58,9 +57,9 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title __wb">使用方法</h2>
             <p>
-              暑い夏を過ごしやすくするグリーンファンは、
+              让我们轻松度过炎热夏天的绿色风扇
               <br />
-              暮らしの中のさまざまなシーンで活躍する使用方法を備えています。
+              具备在生活中的各种场景中活跃的使用方法。
             </p>
           </div>
         </div>
@@ -70,19 +69,18 @@ export default function ProductDetail() {
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title __wb">
-              エアコンとの併用で
+              和空调一起使用
               <br />
-              健康的に涼しく
+              健康凉爽
             </h2>
             <p>
-              The
-              GreenFanをエアコンの対角線上に配置し、エアコンの方へ向け下に滞留する冷气を循環させると部屋全体が涼しくなります。
+              将The GreenFan配置在空调的对角线上，循环空调方向下停留的冷星空，整个房间都会变凉。
             </p>
           </div>
           <img
             src="https://www.balmuda.com/jp/greenfan/img/design/svg/section--00a.svgz?20210406"
             className="__title"
-            alt="The GreenFanとエアコンの併用"
+            alt="The GreenFan 的使用"
           />
         </div>
       </div>
@@ -91,9 +89,10 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">风を持ち運ぶ</h2>
+            <h2 className="section__title">便携移动 轻松畅享</h2>
             <p>
-              オプションの电池&amp;ドックを使うことでサッと様々な場所で使用することができます。夏の暑いキッチンに、お风呂あがりの脱衣所に。气持ちのよい自然界の风を家中どこでも持ち運べます。
+              GreenFan
+              Japan配合充电池和充电港使用，升级为随处都可以使用的便携式电风扇，充电时仅需放在充电港上即可。由于采用新结构实现了150°超广转角，转动范围约为传统电风扇的2倍。除此以外，头部摆动范围可自由设定。
             </p>
           </div>
         </div>
@@ -103,9 +102,11 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">眠りも妨げない静音性</h2>
+            <h2 className="section__title">不影响睡眠的声音</h2>
             <p>
-              圧倒的な静音性を実現したグリーンファン。风量1の音量はたった13dB、それは蝶2羽の羽ばたきと同じ。气持ちよく静かな风は夏の寝室に最適です。
+              实现静音运行的GreenFan，风量1的噪音只有13dB，和两只蝴蝶扇动翅膀一样，舒适安静的风适合夏天的卧室
+              *注：噪音值由BALMUDA在东京实验室测得声压级数据
+              *注：风扇摆头过程中出现的轻微转动声属于正常情况
             </p>
           </div>
         </div>
@@ -115,9 +116,9 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">洗濯物もあっという間</h2>
+            <h2 className="section__title">洗的衣服能很快风干</h2>
             <p>
-              送风効率のよいグリーンファンは広い面積の风が15メートル先まで届き、首振り角度を自由に設定できるので、部屋干しの洗濯物を効率的に乾かすことができます。
+              送风距离达到15米的GreenFan，可以设定摆头角度，在衣服范围内加速空气流动，帮助晾在房间内的衣物加速风干
             </p>
           </div>
         </div>

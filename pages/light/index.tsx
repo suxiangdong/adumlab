@@ -196,21 +196,17 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
       </div>
 
-      <Link href="/light/story">
-        <a>
-          <div className="section section--index section--05 scrollLoader lazyload">
-            <div className="viewport scrollLoader fadeInUp lazyload">
-              <div className="__content">
-                <h3 className="section__subtitle">開発开发故事</h3>
-                <p className="section__desc">
-                  子どもたちの目を守りたい。そんな思いから始まったBALMUDA The
-                  Lightの開発にまつわる开发故事をご紹介します。
-                </p>
-              </div>
-            </div>
+      <div className="section section--index section--05 scrollLoader lazyload">
+        <div className="viewport scrollLoader fadeInUp lazyload">
+          <div className="__content">
+            <h3 className="section__subtitle">開発开发故事</h3>
+            <p className="section__desc">
+              子どもたちの目を守りたい。そんな思いから始まったBALMUDA The
+              Lightの開発にまつわる开发故事をご紹介します。
+            </p>
           </div>
-        </a>
-      </Link>
+        </div>
+      </div>
       <div className="section section--blockquote">
         <div className="viewport">
           <h2 className="section__title">

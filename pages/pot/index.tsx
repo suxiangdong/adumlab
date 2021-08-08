@@ -136,26 +136,19 @@ export default function ProductDetail({ banners }) {
           </div>
         </div>
       </div>
-      {/*
+
       <div className="section section--index section--02 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h3 className="section__subtitle">淹れ方</h3>
-            <h2 className="section__title __wb">
-              <span>お茶の时间が</span>
-              <span>もっと</span>
-              <span>楽しくなる</span>
-              <span>淹れ方</span>
-            </h2>
+            <h3 className="section__subtitle">冲泡方法</h3>
             <p>
-              コーヒー、紅茶、日本茶のおいしさをさらに広げます。毎日のお茶の时间がもっと楽しくなる淹れ方をご紹介します。
+						让咖啡、红茶、日本茶更美味。为您介绍让每天的茶歇更加快乐的冲泡方法。
             </p>
-            <Link href="/pot/brewing">
-              <a className="btn btn--page">详情</a>
-            </Link>
+						<img src="/_theme/img/mini-prog.png" className="mt-4 w-24 h-24" alt="" />
+
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="section section--index section--03 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">

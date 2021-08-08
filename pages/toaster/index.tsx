@@ -301,7 +301,7 @@ export default function ({ banners, evaluations }) {
         <ReactSlick slidesToShow={3} centerMode infinite dots={false}>
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_010@2x.jpg?20200901"
               alt=""
             />
@@ -310,7 +310,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_041@2x.jpg?20200901"
               alt=""
             />
@@ -319,7 +319,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_006@2x.jpg?20200901"
               alt=""
             />
@@ -328,7 +328,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_008@2x.jpg?20200901"
               alt=""
             />
@@ -337,7 +337,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_042@2x.jpg?20200901"
               alt=""
             />
@@ -346,7 +346,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_035@2x.jpg?20200901"
               alt=""
             />
@@ -355,7 +355,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_053@2x.jpg?20200901"
               alt=""
             />
@@ -364,7 +364,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_044@2x.jpg?20200901"
               alt=""
             />
@@ -373,7 +373,7 @@ export default function ({ banners, evaluations }) {
 
           <div className="block px-5">
             <img
-              className="hover:shadow-xl mb-5"
+              className="custom-shadow mb-5"
               src="https://www.balmuda.com/jp/toaster/img/index/desktop/recipe_054@2x.jpg?20200901"
               alt=""
             />

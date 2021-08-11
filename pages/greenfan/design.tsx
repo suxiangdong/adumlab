@@ -4,6 +4,21 @@ import Head from 'next/head'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
+	const [playing, setPlaying] = useState(false)
+
+  const handlePlay = () => {
+    setPlaying(true)
+    const video = document.getElementById('v3') as HTMLVideoElement
+    video.style.opacity = '1'
+    video.play()
+  }
+
+  const handleEnded = () => {
+    setPlaying(false)
+    const video = document.getElementById('v3') as HTMLVideoElement
+    video.style.opacity = '0'
+    video.pause()
+  }
   return (
     <Layout>
       <Head>
@@ -97,7 +112,30 @@ export default function ProductDetail() {
           </div>
         </div>
       </div>
-
+      <div className="section_wrap" id="turn">
+        <div className="section section--design section--02 scrollLoader lazyload loaded">
+          <div className="__image __is_mobile"></div>
+          <div className="viewport scrollLoader fadeInUp loaded">
+            <div className="__content">
+              <h2 className="section__title">任意转弯</h2>
+              <p>
+                The
+                GreenFan独有的功能“任意转身”。可以根据用途自由地设定摇头角度。天气热的时候，可以缩小角度集中送风，想让整个房间的空气流通的时候，可以将摇头角度设定得更大，这样就能一直创造出舒适的空间。
+              </p>
+              <span className="video_play __is_desktop" data-video-target="v3" onClick={handlePlay}>
+                播放视频
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className={`section_overlay section_overlay--v3 ${playing ? 'visible' : ''}`} id="overlay--v3">
+          <video controls width="100%" id="v3" onEnded={handleEnded}>
+            <source src="//s3.balmuda.com/www/jp/greenfan/movie/v3.mp4" type="video/mp4" />
+            <source src="//s3.balmuda.com/www/jp/greenfan/movie/v3.webm" type="video/webm" />
+          </video>
+          <div className="video_stop __is_desktop" data-video-target="v3" onClick={handleEnded}></div>
+        </div>
+      </div>
       <div className="section section--design section--03 scrollLoader lazyload" id="quiet">
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp lazyload">

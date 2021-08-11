@@ -109,3 +109,7 @@ img {
   content: '（税込）';
   font-size: 0.75rem;
 }
+
+.video_play {
+	box-sizing: content-box !important;
+}

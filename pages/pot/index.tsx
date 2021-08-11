@@ -81,9 +81,15 @@ export default function ProductDetail({ banners }) {
       </div>
       <div className="billboard__wrapper">
         <ReactSlick className="billboard" dots>
-          {banners.data.map((item) => (
-            <img key={item.id} className="w-full" src={item.path} />
-          ))}
+          {banners.data.map((item, index) =>
+            index === 0 ? (
+              <div key={item.id} className="billboard--00">
+                <img className="w-full" src={item.path} />
+              </div>
+            ) : (
+              <img key={item.id} className="w-full" src={item.path} />
+            )
+          )}
         </ReactSlick>
       </div>
 
@@ -141,11 +147,8 @@ export default function ProductDetail({ banners }) {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">冲泡方法</h3>
-            <p>
-						让咖啡、红茶、日本茶更美味。为您介绍让每天的茶歇更加快乐的冲泡方法。
-            </p>
-						<img src="/_theme/img/mini-prog.png" className="mt-4 w-24 h-24" alt="" />
-
+            <p>让咖啡、红茶、日本茶更美味。为您介绍让每天的茶歇更加快乐的冲泡方法。</p>
+            <img src="/_theme/img/mini-prog.png" className="mt-4 w-24 h-24" alt="" />
           </div>
         </div>
       </div>

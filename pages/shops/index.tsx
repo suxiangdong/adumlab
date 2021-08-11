@@ -1432,27 +1432,53 @@ const shops = [
   }
 ]
 
+const provinces = [
+  '北京',
+  '天津',
+  '吉林省',
+  '辽宁省',
+  '內蒙古',
+  '河北省',
+  '河南省',
+  '山东省',
+  '山西省',
+  '陕西省',
+  '上海',
+  '浙江省',
+  '江苏省',
+  '安徽省',
+  '重庆',
+  '四川省',
+  '湖北省',
+  '湖南省',
+  '广东省',
+  '福建省',
+  '江西省'
+]
+
 export default function Shops() {
-  const [keyword, setKeyword] = useState('')
+  const [province, setProvince] = useState('北京')
 
   return (
     <Layout>
       <div className="section min-h-screen relative section--00 flex flex-col">
         <img src="/_theme/img/section--00@2x.jpg" className="absolute top-0 left-0" />
-        <div className="col-span-6 sm:col-span-4 z-10">
-          <label htmlFor="keyword" className="block text-sm font-medium text-gray-700">
-            筛选
+        <div className="col-span-6 sm:col-span-4 z-10 mb-4 flex items-center">
+          <label htmlFor="country" className="block text-sm font-medium text-gray-700">
+            省份：
           </label>
-          <input
-            type="text"
-            name="keyword"
-            id="keyword"
-            autoComplete="given-name"
-            onChange={(e) => setKeyword(e.target.value)}
-            style={{ borderWidth: 1 }}
-            className="mb-4 inline-block w-60 py-2 px-3 border-solid mt-1 focus:ring-indigo-500 focus:border-indigo-500 shadow-sm sm:text-sm border-gray-300 rounded-md"
-          />
+          <select
+            id="country"
+            name="country"
+            autoComplete="country"
+            onChange={(e) => setProvince(e.target.value)}
+            className="block w-56 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+            {provinces.map((p) => (
+              <option key={p}>{p}</option>
+            ))}
+          </select>
         </div>
+
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8 z-20">
           <div className="py-2 align-middle inline-block min-w-full sm:px-3 lg:px-8">
             <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
@@ -1488,11 +1514,7 @@ export default function Shops() {
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {shops
-                    .filter((shop) =>
-                      [shop.province, shop.city, shop.address, shop.shopName].some((i) =>
-                        i.includes(keyword)
-                      )
-                    )
+                    .filter((shop) => shop.province === province)
                     .map((shop, index) => (
                       <tr key={`shop-${shop.address}-${shop.shopName}`}>
                         <td className="px-3 py-4 whitespace-nowrap">
@@ -1511,7 +1533,7 @@ export default function Shops() {
                         <td className="px-3 py-4 whitespace-nowrap text-sm text-gray-500">
                           {shop.address}
                         </td>
-                        <td className="px-3 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <td className="px-3 py-4 whitespace-nowrap text-sm font-medium">
                           {shop.shopWhat}
                         </td>
                       </tr>

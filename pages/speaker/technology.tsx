@@ -60,17 +60,13 @@ export default function ProductDetail() {
         />
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">
-              音楽の熱量を
-              <br />
-              引き出す科技
-            </h2>
+            <h2 className="page__title">释放音乐热能的技术</h2>
             <p>
-              立体的でクリアな音像を実現する独自の構造。
+              独特构造实现立体且清晰的音响效果。更搭配了与乐曲呼应的细致闪耀，
               <br />
-              さらに、楽曲にシンクロする緻密な輝きが加わり、
+              将音乐所饱含的能量传递到耳朵、眼睛
               <br />
-              音楽が持つエネルギーを耳に、目に届け、新しい音楽体験をつくりだします。
+              带来全新的音乐体验
             </p>
           </div>
         </div>
@@ -84,19 +80,15 @@ export default function ProductDetail() {
             alt=""
           />
           <div className="__content">
-            <p className="section__label">上向き構造</p>
-            <h2 className="section__title">
-              360°どこでも
-              <br />
-              同じ音楽体験を
-            </h2>
+            <p className="section__label">向上的构造</p>
+            <h2 className="section__title">360°环绕，同样的音乐体验</h2>
             <p className="section__desc">
-              スピーカーを上向きに設置したユニークな構造。音が上方向に拡散し、どこにいても、何人でも、リスニングポジションを气にせず立体的なサウンドを楽しめます。
+              独特的设计，向上设置的喇叭，声音向上方扩散，无论多少听众都无需在意倾听的位置，从各个角度乐享声音的乐趣。
             </p>
           </div>
           <div className="__box">
             <div className="__item __item__01">
-              <p className="__title">一般的な横向きのスピーカー</p>
+              <p className="__title">一般横向的音箱</p>
               <img
                 data-desktop="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00.png?20200421b"
                 data-retina="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00@2x.png?20200421b"
@@ -105,7 +97,7 @@ export default function ProductDetail() {
                 data-model="black"
                 alt=""
               />
-              <p className="__txt">水平に音が進むので、リスニングポジションが小さく限られます。</p>
+              <p className="__txt">声音水平向前、最佳倾听区域有限。</p>
             </div>
             <div className="__item __item__02">
               <p className="__title">BALMUDA The Speaker</p>
@@ -117,9 +109,7 @@ export default function ProductDetail() {
                 data-model="black"
                 alt=""
               />
-              <p className="__txt">
-                上方向に音が広がり、置き場所を選ばずどこにいても同じように楽曲を聴くことができます。
-              </p>
+              <p className="__txt">上方扩散、各个方向都能同样聆听。</p>
             </div>
           </div>
         </div>
@@ -128,10 +118,10 @@ export default function ProductDetail() {
       <div className="section section--technology section--02 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <p className="section__label">77mmスピーカー</p>
-            <h2 className="section__title">すぐれた再現性</h2>
+            <p className="section__label">77mm扬声器</p>
+            <h2 className="section__title">优秀的表现力</h2>
             <p className="section__desc">
-              全音域をシームレスに再生する77mmフルレンジスピーカーは、楽器やボーカルの声をリアルに再生。不自然なひずみや違和感を感じることなく、素直なサウンドをリスナーへ届けます。
+              77mm全音域喇叭，无缝再现完整音域，带来如同临场般的乐器与歌手声音。不被不自然的变调所扰，带来最真实的声音。
             </p>
           </div>
         </div>
@@ -145,10 +135,10 @@ export default function ProductDetail() {
             alt=""
           />
           <div className="__content">
-            <p className="section__label">独自ドライブユニット</p>
-            <h2 className="section__title">立体的な音像</h2>
+            <p className="section__label">独特的驱动模块</p>
+            <h2 className="section__title">立体的音效</h2>
             <p className="section__desc">
-              低音は下方から、高音は頭上から、そしてボーカルは目の前から聞こえてくるような、奥行きのある音像を生む、独自のドライブユニットを搭載。
+              低音在下，高音在头顶，歌手的声音彷如眼前，搭载独特的驱动模块，带来立体且有深度的音效。
             </p>
           </div>
         </div>
@@ -162,35 +152,25 @@ export default function ProductDetail() {
             alt=""
           />
           <div className="__content">
-            <p className="section__label">密閉型エンクロージャー</p>
-            <h2 className="section__title">
-              輪郭のある
-              <br />
-              クリアな音
-            </h2>
+            <p className="section__label">密闭型包围</p>
+            <h2 className="section__title">清晰有轮廓的声音</h2>
             <p className="section__desc">
-              真空管のような美しいチューブは、強度と硬度も兼ね備えた有機ガラス製。さらに密閉型構造を採用し、しっかりと閉じ込めた空气がバネのように作用し、明瞭でキレのある音を実現しました。
+              真空管般美丽的圆筒、由强度硬度兼备的有机玻璃制成。加之密闭型的结构设计，将空气封闭其中并产生共振，带来明亮且干净的声音。
             </p>
           </div>
         </div>
       </div>
 
-      <div
-        id="LED"
-        className="section section--technology section--05 scrollLoader lazyload">
+      <div id="LED" className="section section--technology section--05 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <p className="section__label">LEDユニット</p>
-            <h2 className="section__title">
-              グルーヴ感を
-              <br />
-              増幅する輝き
-            </h2>
+            <p className="section__label">LED模块组</p>
+            <h2 className="section__title">让节奏感倍增的闪耀</h2>
             <p className="section__desc">
-              楽曲に合わせてライブステージのように輝くLEDユニット。光の色のわずかな差や光量、明滅速度の緩急から成る、緻密で複雑な輝きが1曲のグルーヴ感をさらに高めます。
+              结合乐曲节奏，向舞台上表演一般闪耀的LED模块组。微妙变化的光的颜色与亮度，缓急速度的变化，带来细致且复杂的闪耀演出，让乐曲的节奏感更加突出。
             </p>
             <Link href="/speaker/setting#live_light">
-              <a className="section__btn">LiveLight機能について</a>
+              <a className="section__btn">关于livelight功能</a>
             </Link>
           </div>
         </div>
@@ -199,14 +179,14 @@ export default function ProductDetail() {
       <div className="section section--technology section--06 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <p className="section__label">アルゴリズム</p>
+            <p className="section__label">芯片算法</p>
             <h2 className="section__title">
-              0.004秒の速さで
+              0.004秒的速度
               <br />
-              音と光をシンクロ
+              让声音与光相呼应
             </h2>
             <p className="section__desc">
-              独自のアルゴリズムにより0.004秒の速さで音を光の輝きへと変換。アップテンポな曲から静かな曲まで、音と素晴らしい輝きが融合します。
+              独特的芯片算法，让光结合音乐，以在0.004秒的速度变换。不管是快歌或慢歌，都能完美融合。
             </p>
           </div>
         </div>

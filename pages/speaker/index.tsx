@@ -117,11 +117,9 @@ export default function ProductDetail({ banners, evaluations }) {
           </h2>
           <span className="label__block">无线扬声器</span>
           <p className="overview_text">
-            全新的扬声器登场。
+            360°扩散、立体且穿透力强的舒适音效、搭配令节奏感倍增的闪耀，
             <br />
-            以360°的立体的穿过般的心情好的声音，和放大格布的光辉
-            <br />
-            BALMUDA The Speaker营造出现场演出般的临场感。
+            带来现场舞台表演般的临场感受。
             <br />
             充电式便携式蓝牙<sup>®</sup>·支持AUX输入
             <br />
@@ -160,13 +158,9 @@ export default function ProductDetail({ banners, evaluations }) {
             />
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
-                <h2 className="section__title">
-                  是立体的
-                  <br />
-                  鲜明的声音
-                </h2>
+                <h2 className="section__title">立体且鲜明的音效</h2>
                 <p className="section__desc">
-                  曲子本来的平衡原封不动，声音的轮廓清晰且立体地再生。该音响设计与以主唱为中心的音乐相得益彰。令人惊讶的是，主唱就在附近。
+                  保持乐曲本身平衡的同时、带来立体且轮廓清晰的音效。特别适合突出主唱歌声的音乐，带来犹如在眼前吟唱般的感受。
                 </p>
               </div>
             </div>
@@ -184,13 +178,9 @@ export default function ProductDetail({ banners, evaluations }) {
             />
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
-                <h2 className="section__title">
-                  扩大视野
-                  <br />
-                  临场感
-                </h2>
+                <h2 className="section__title">彷如在眼前展开的临场感</h2>
                 <p className="section__desc">
-                  给曲子的组合印象的是3个LED单元。追随声音的能量，光以0.004秒的速度精密同步。音乐性的光传递像实况录音舞台一样的高扬感。
+                  为乐曲的律动增色的，是三体LED灯光模块，追踪音乐的能量，以0.004秒的速度细腻的闪耀。带来犹如现场舞台表演般的内心跃动。
                 </p>
               </div>
             </div>
@@ -209,7 +199,7 @@ export default function ProductDetail({ banners, evaluations }) {
               <div className="__content">
                 <h2 className="section__title">开发故事</h2>
                 <p className="section__desc">
-                  音乐上的感动只能在现场演奏中得到。改变这种想法的，是设计师带来的奇妙的收录机。BALMUDA
+                  音乐带来的感动，只有临场才能最真实的感受到。改变我这个想法的，是设计师带来的一个奇妙的随身听播放器。BALMUDA
                   The Speaker的故事。
                 </p>
               </div>
@@ -226,13 +216,9 @@ export default function ProductDetail({ banners, evaluations }) {
         />
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">
-              所有的
-              <br />
-              给音乐听众
-            </h2>
+            <h2 className="section__title">献给每一位聆听者</h2>
             <p className="section__desc">
-              来听音乐吧。因为是充电式的便携式的，所以不用选择放置的地方，把这个音乐体验带到任何地方都可以。360度全方位的声音，在那个地方的任何人都能享受音乐。
+              来听音乐吧。充电便携，随意摆放。且声音360度环绕扩散，在场的每一个人都可以乐享音乐乐趣。
             </p>
           </div>
         </div>

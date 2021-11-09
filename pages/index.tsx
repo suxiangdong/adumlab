@@ -134,10 +134,10 @@ export default function Home({ banners, hots, topics, notifications }) {
           </div>
         </div>
       </div>
-      {notifications?.data?.length > 0 && <div className="notice">
+      {notifications?.data?.data?.length > 0 && <div className="notice">
         <div className="viewport">
           <span className="__title">重要通知</span>
-          {notifications.data.map((n) => (
+          {notifications.data.data.map((n) => (
             <p key={n.id} className="__item">
               <a href={`/notice/${n.id}`} className="__link">
                 {n.title}

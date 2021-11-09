@@ -7,7 +7,7 @@ export async function getServerSideProps() {
     const news = await API.getNews()
     return { props: { news } }
   } catch (error) {
-    return { props: { news: {} } }
+    return { props: { news: { data: { data: [] }} } }
   }
 }
 
@@ -15,6 +15,8 @@ export default function News({ news }) {
   if (!news || !news.data || !Array.isArray(news.data.data) || news.data.data.length === 0) {
     news.data.data = []
   }
+
+  const { current_page = 1, last_page = 1 } = news.data
 
   return (
     <Layout>
@@ -44,7 +46,10 @@ export default function News({ news }) {
                 <hr className="Hyde0" />
               </div>
             ))}
-
+            <div className="PageNavigation">
+              {current_page > 1 && <a href="/news/">＜ 前一页</a>}
+              {current_page < last_page && <a href="/news?page=3">后一页 ＞</a>}
+            </div>
           </div>
 
           <div id="SideBar">

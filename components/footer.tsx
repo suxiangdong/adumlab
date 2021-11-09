@@ -14,8 +14,8 @@ export default function Footer() {
 
   useEffect(() => {
     API.getNews().then((res) => {
-      if (res && Array.isArray(res.data) && res.data.length > 0) {
-        setNews(res.data)
+      if (res && Array.isArray(res.data?.data) && res.data?.data.length > 0) {
+        setNews(res.data.data)
       }
     })
   }, [])

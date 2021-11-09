@@ -12,8 +12,8 @@ export async function getServerSideProps() {
 }
 
 export default function News({ news }) {
-  if (!news || !Array.isArray(news.data) || news.data.length === 0) {
-    news.data = []
+  if (!news || !news.data || !Array.isArray(news.data.data) || news.data.data.length === 0) {
+    news.data.data = []
   }
 
   return (
@@ -32,7 +32,7 @@ export default function News({ news }) {
           </div>
 
           <div id="Contents">
-            {news.data.map((n) => (
+            {news.data.data.map((n) => (
               <div key={n.id} className="ThePost">
                 <h3>
                   <a href={n.redirect_url} rel="bookmark" title={n.title}>
@@ -40,7 +40,7 @@ export default function News({ news }) {
                   </a>
                 </h3>
                 <span className="PostDate">{new Date(n.publish_at).toLocaleDateString('zh')}</span>
-                <div className="ColumnPostMain">{n.content}</div>
+                <div className="ColumnPostMain" dangerouslySetInnerHTML={{ __html: n.content }} />
                 <hr className="Hyde0" />
               </div>
             ))}
@@ -50,7 +50,7 @@ export default function News({ news }) {
           <div id="SideBar">
             <h5>最近の記事</h5>
             <ul className="CategoryList">
-              {news.data.map(n => {
+              {news.data.data.map(n => {
                 <li key={n.id}>
                   <a href={`/news/${n.id}`}>
                     {n.title}

@@ -44,19 +44,17 @@ export default function News({ news }) {
                 <hr className="Hyde0" />
               </div>
             ))}
-           
+
           </div>
 
           <div id="SideBar">
             <h5>最近の記事</h5>
             <ul className="CategoryList">
-              {news.data.data.map(n => {
-                <li key={n.id}>
-                  <a href={`/news/${n.id}`}>
-                    {n.title}
-                  </a>
-                </li>
-              })}
+              {news.data.data.map(n => <li key={n.id}>
+                <a href={`/news/${n.id}`}>
+                  {n.title}
+                </a>
+              </li>)}
             </ul>
           </div>
           <hr className="Hyde0" />

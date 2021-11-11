@@ -39,7 +39,7 @@ export default function ProductDetail() {
           </ul>
           <div className="pagemap__btns">
             <a
-              href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=L01A"
+              href="/support?PRODUCT_SERIES=L01A"
               className="btn btn--pagemap">
               购买
             </a>

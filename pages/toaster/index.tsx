@@ -101,7 +101,7 @@ export default function ({ banners, evaluations }) {
           </div>
           <div className="pagemap__btns">
             <a
-              href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=K05A"
+              href="/support?PRODUCT_SERIES=K05A"
               className="btn btn--pagemap">
               购买
             </a>

@@ -44,7 +44,7 @@ export default function ProductDetail() {
 
           <div className="pagemap__btns">
             <a
-              href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=EGF-3300-WK"
+              href="/support"
               className="btn btn--pagemap">
               购买
             </a>

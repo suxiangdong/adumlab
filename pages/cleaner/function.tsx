@@ -75,7 +75,7 @@ export default function CleanerDetail() {
 
           <div className="pagemap__btns">
             <a
-              href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=C01A"
+              href="/support"
               className="btn btn--pagemap">
               购买
             </a>
@@ -599,7 +599,7 @@ export default function CleanerDetail() {
                     ぜひご自宅でお試しください。
                   </p>
                   <a
-                    href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=C01A"
+                    href="/support"
                     className="section__btn">
                     オンラインストアで购买
                   </a>

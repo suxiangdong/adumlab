@@ -74,7 +74,7 @@ export default function ProductDetail({ banners }) {
           </ul>
           <div className="pagemap__btns">
             <a
-              href="https://store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=ERN-1100SD-WK"
+              href="/support?PRODUCT_SERIES=ERN-1100SD-WK"
               className="btn btn--pagemap">
               购买
             </a>

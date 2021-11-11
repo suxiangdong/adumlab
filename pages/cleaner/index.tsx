@@ -85,7 +85,7 @@ export default function CleanerDetail({ banners, evaluations }) {
 
           <div className="pagemap__btns">
             <a
-              href="//store.balmuda.com/disp/CBlSfSelectGoodsPage.jsp?PRODUCT_SERIES=C01A"
+              href="/support"
               className="btn btn--pagemap">
               购买
             </a>

@@ -82,29 +82,7 @@ export default function About() {
                 </div>
               </a>
             </div>
-            <div className="post">
-              <a href="/gohan/story" className="__inner">
-                <div className="__image  __3 scrollLoader lazyload"></div>
-                <div className="__caption">
-                  <h5 className="__title">BALMUDA The Gohan</h5>
-                  <p className="__text">
-                    米粒がごはんに変わる理由、ガスと電气のエネルギーの違い、そして途中の寄り道など。開発チームがたどった...
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="post">
-              <a href="/lantern/story" className="__inner">
-                <div className="__image  __5 scrollLoader lazyload"></div>
-                <div className="__caption">
-                  <h5 className="__title">BALMUDA The Lantern</h5>
-                  <p className="__text">
-                    使う人に、味わい深いよい时间を過ごしてほしい、そんな思いから生まれた BALMUDA The
-                    Lantern...
-                  </p>
-                </div>
-              </a>
-            </div>
+            
             <div className="post">
               <a href="/speaker/story" className="__inner">
                 <div className="__image  __6 scrollLoader lazyload"></div>
@@ -112,17 +90,6 @@ export default function About() {
                   <h5 className="__title">BALMUDA The Speaker</h5>
                   <p className="__text">
                     バルミューダを始めてからこの時まで。私は、オーディオ機器だけは作らないと決めていました...
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="post">
-              <a href="/cleaner/story" className="__inner">
-                <div className="__image  __7 scrollLoader lazyload"></div>
-                <div className="__caption">
-                  <h5 className="__title">BALMUDA The Cleaner</h5>
-                  <p className="__text">
-                    空調、キッチンに続く、次の製品ジャンルの候補として气乗りしなかった掃除機...
                   </p>
                 </div>
               </a>

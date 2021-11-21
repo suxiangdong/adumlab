@@ -230,7 +230,7 @@ export default function ProductDetail() {
                 alt=""
               />
               <div className="__wrap __wrap__02">
-                <h3 className="__title">LiveLight的模式选择</h3>
+                <h3 className="__title">LIGHT的模式选择</h3>
                 <p>
                   背面的
                   <img

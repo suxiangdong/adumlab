@@ -80,7 +80,7 @@ export default function CleanerDetail() {
                 width="231"
                 height="37"
               />
-              <span className="__note">巴慕达代表　寺尾 玄</span>
+              <span className="__note">BALMUDA代表　寺尾 玄</span>
             </div>
           </div>
         </div>

@@ -78,15 +78,18 @@ export default function About() {
             width="231"
             height="37"
           />
-          <p className="text-sm">BALMUDA株式会社社长　寺尾 玄</p>
+          <p className="text-sm">BALMUDA, Inc. CEO 兼 首席设计师　寺尾 玄</p>
         </div>
       </section>
       <section className="relative">
         <img src="/about/img/index/desktop/section--profile@2x.jpg" alt="" />
         <div className="flex flex-col justify-center absolute inset-0 m-auto transform translate-x-1/2 max-w-md">
-          <h3 className="text-lg mb-4">寺尾玄　简介</h3>
+          <h3 className="text-lg mb-4">寺尾玄</h3>
+          <p className="mb-4">Gen Terao / 1973年出生</p>
           <p className="leading-8">
-            1973年出生，17岁时，从高中退学，开始了欧洲游学生活，回国后组建了自己的乐队。2001年乐队解散后自学设计、制造等，2003年创办了BALMUDA，2011年成立了巴慕达株式会社。
+            17岁，高中辍学。开始西班牙、意大利、摩洛哥，沿地中海流浪的旅程。回国后，开始音乐生涯。与主流唱片公司签订合约，致力于乐团活动。
+            2001年，乐队解散后，向往制造方面。通过实际动手接触工厂，自学、设计，掌握生产。
+            2003年，成立BALMUDA有限公司（2011年4月，更名为BALMUDA股份有限公司）。任该公司董事长。
             <a className="" href="//www.shinchosha.co.jp/book/350941/" target="_blank">
               出版著作「行こう、どこにもなかった方法で」（新潮社）
             </a>
@@ -103,10 +106,10 @@ export default function About() {
             <span className="text-sm text-999">地址</span>
             <p className="text-sm mb-3">日本国东京都武藏野市境南町5-1-21 180-0023</p>
             <span className="text-sm text-999">法人代表</span>
-            <p className="text-sm mb-3">董事长兼总经理　寺尾 玄</p>
+            <p className="text-sm mb-3">CEO　寺尾 玄</p>
             <span className="text-sm text-999">成立时间</span>
             <p className="text-sm mb-3">2003年3月</p>
-            <span className="text-sm text-999">中国公司名称</span>
+            <span className="text-sm text-999">中国地区总代理公司</span>
             <p className="text-sm mb-3">星龙达科贸（北京）有限公司</p>
             <span className="text-sm text-999">地址</span>
             <p className="text-sm mb-3">北京市经济技术开发区大族广场T1-1103</p>
@@ -118,11 +121,11 @@ export default function About() {
           <div className="w-1/2 pl-8">
             <h3 className="text-2xl">历史进程</h3>
             <span className="text-sm text-999">2003</span>
-            <p className="text-sm mb-3">balmuda巴慕达成立「X-Base」开始销售</p>
+            <p className="text-sm mb-3">BALMUDA DESGIN有限公司成立</p>
             <span className="text-sm text-999">2010</span>
             <p className="text-sm mb-3">GreenFan开始销售</p>
             <span className="text-sm text-999">2011</span>
-            <p className="text-sm mb-3">BALMUDA巴慕达株式会社成立</p>
+            <p className="text-sm mb-3">BALMUDA株式会社社名変更</p>
             <span className="text-sm text-999">2012</span>
             <p className="text-sm mb-3">韩国开始销售</p>
             <span className="text-sm text-999">2013</span>
@@ -132,31 +135,28 @@ export default function About() {
             <span className="text-sm text-999">2015</span>
             <p className="text-sm mb-3">BALMUDA The Toaster发布、正式进入厨电市场</p>
             <span className="text-sm text-999">2017</span>
-            <p className="text-sm mb-3">中国台湾市场开始销售</p>
+            <p className="text-sm mb-3">中国台湾开始销售</p>
             <span className="text-sm text-999">2020</span>
-            <p className="text-sm mb-3">美国开始销售</p>
+            <p className="text-sm mb-3">日本 Mothers 上市</p>
           </div>
         </div>
       </section>
-			<div className="section section--index section--history scrollLoader lazyload">
-			<ReactSlick className="history" dots>
-        <div>
-          <img className="w-full" src="/about/img/index/desktop/history--00@2x.jpg" />
-        </div>
-        <div>
-          <img className="w-full" src="/about/img/index/desktop/history--01.jpg" />
-        </div>
-        <div>
-          <img className="w-full" src="/about/img/index/desktop/history--02.jpg" />
-        </div>
-        <div>
-          <img className="w-full" src="/about/img/index/desktop/history--03.jpg" />
-        </div>
-        <div>
-          <img className="w-full" src="/about/img/index/desktop/history--04.jpg" />
-        </div>
-      </ReactSlick>
-			</div>
+      <div className="section section--index section--history scrollLoader lazyload">
+        <ReactSlick className="history" dots>
+          <div>
+            <img className="w-full" src="/about/img/index/desktop/history--01.jpg" />
+          </div>
+          <div>
+            <img className="w-full" src="/about/img/index/desktop/history--02.jpg" />
+          </div>
+          <div>
+            <img className="w-full" src="/about/img/index/desktop/history--03.jpg" />
+          </div>
+          <div>
+            <img className="w-full" src="/about/img/index/desktop/history--04.jpg" />
+          </div>
+        </ReactSlick>
+      </div>
 
       <div className="section section--index section--awards-banner scrollLoader lazyload">
         <div className="viewport">

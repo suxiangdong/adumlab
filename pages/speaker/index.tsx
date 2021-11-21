@@ -125,11 +125,11 @@ export default function ProductDetail({ banners, evaluations }) {
             <br />
             以自由的风格享受新的音乐体验。
           </p>
-          <div className="the-price">
+          {/* <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               35,200
             </p>
-          </div>
+          </div> */}
 
           <div className="__trailer __is_mobile">
             <video
@@ -223,7 +223,7 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div>
-      <div className="section section--index section--blockquote">
+      {/* <div className="section section--index section--blockquote">
         <div className="viewport">
           <ReactSlick className="blockquotes" arrows={false} dots>
             {evaluations.data?.map((item) => (
@@ -239,7 +239,7 @@ export default function ProductDetail({ banners, evaluations }) {
             ))}
           </ReactSlick>
         </div>
-      </div>
+      </div> */}
       <div className="section section--index section--gallery">
         <div className="viewport">
           <div className="__content">

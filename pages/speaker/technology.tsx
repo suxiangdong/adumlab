@@ -97,7 +97,7 @@ export default function ProductDetail() {
                 data-model="black"
                 alt=""
               />
-              <p className="__txt">声音水平向前、最佳倾听区域有限。</p>
+              <p className="__txt text-center">声音水平向前、最佳倾听区域有限。</p>
             </div>
             <div className="__item __item__02">
               <p className="__title">BALMUDA The Speaker</p>
@@ -109,7 +109,7 @@ export default function ProductDetail() {
                 data-model="black"
                 alt=""
               />
-              <p className="__txt">上方扩散、各个方向都能同样聆听。</p>
+              <p className="__txt text-center">上方扩散、各个方向都能同样聆听。</p>
             </div>
           </div>
         </div>
@@ -170,7 +170,7 @@ export default function ProductDetail() {
               结合乐曲节奏，向舞台上表演一般闪耀的LED模块组。微妙变化的光的颜色与亮度，缓急速度的变化，带来细致且复杂的闪耀演出，让乐曲的节奏感更加突出。
             </p>
             <Link href="/speaker/setting#live_light">
-              <a className="section__btn">关于livelight功能</a>
+              <a className="section__btn">关于LIGHT功能</a>
             </Link>
           </div>
         </div>

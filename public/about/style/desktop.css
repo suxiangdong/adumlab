@@ -1257,6 +1257,36 @@
     background-image: url('/about/img/story/index/desktop/product_story_7@2x.jpg');
   }
 }
+.section--story-index.section--01 .posts .post .__inner .__image.loaded.__8 {
+  background-image: url('/about/img/story/index/desktop/product_story_8.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min--moz-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section--story-index.section--01 .posts .post .__inner .__image.loaded.__8 {
+    background-image: url('/about/img/story/index/desktop/product_story_8.jpg');
+  }
+}
+.section--story-index.section--01 .posts .post .__inner .__image.loaded.__9 {
+  background-image: url('/about/img/story/index/desktop/product_story_9.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min--moz-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section--story-index.section--01 .posts .post .__inner .__image.loaded.__9 {
+    background-image: url('/about/img/story/index/desktop/product_story_9.jpg');
+  }
+}
+.section--story-index.section--01 .posts .post .__inner .__image.loaded.__10 {
+  background-image: url('/about/img/story/index/desktop/product_story_10.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min--moz-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+  .section--story-index.section--01 .posts .post .__inner .__image.loaded.__10 {
+    background-image: url('/about/img/story/index/desktop/product_story_10.jpg');
+  }
+}
 .section--story-index.section--02 {
   background: no-repeat center top #f2f0f0;
   background-image: url('/about/img/story/index/desktop/section--02.jpg');

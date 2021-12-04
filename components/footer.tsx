@@ -117,14 +117,9 @@ export default function Footer() {
                 <h5 className="sitemap__group__header">Brand Shop</h5>
                 <ul>
                   <li>
-                    <a href="/shops/">时代店铺</a>
-                  </li>
-                  <li>
                     <a href="/shops/">线下店铺列表</a>
                   </li>
-                  <li>
-                    <a href="/shops/">线上旗舰店</a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -197,26 +192,6 @@ export default function Footer() {
                 <div className="region__wrap">
                   <p className="text-xs mt-2">中国代理商：星龙达（科贸）北京有限公司</p>
                 </div>
-              </div>
-              <div className="legal">
-                <a href="https://corp.balmuda.com" className="legal__link" target="_blank">
-                  企業/IR情報
-                </a>
-                <a href="/jp/legal/privacy" className="legal__link">
-                  隐私条款
-                </a>
-                <a href="/jp/legal/announcement" className="legal__link">
-                  個人情報に関する公表事項
-                </a>
-                <a href="/jp/legal/terms" className="legal__link">
-                  使用规定
-                </a>
-                <a href="/jp/legal/deal" className="legal__link">
-                  基于特约商户交易法表示
-                </a>
-                <a href="/jp/30-days/" className="legal__link">
-                  30日間返金保証
-                </a>
               </div>
             </div>
           </div>

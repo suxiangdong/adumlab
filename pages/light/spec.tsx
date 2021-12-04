@@ -38,9 +38,7 @@ export default function ProductDetail() {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=L01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=L01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -48,22 +46,31 @@ export default function ProductDetail() {
       </div>
       <div className="section section--spec section--00">
         <ReactSlick
-				 infinite={true}
-				 speed={500}
-				 slidesToShow={1}
-				 slidesToScroll={1}
-				 dots={true}
-				 dotsClass={'slick-dots'}
-				 customPaging={(i) => (
-					 <button type="button" role="tab" id={`slick-slide-control0${i}`} aria-controls="slick-slide00" aria-label="1 of 3" aria-selected="true">{i}</button>
-				 )}
-				className="spec--image" id="spec--image">
+          infinite={true}
+          speed={500}
+          slidesToShow={1}
+          slidesToScroll={1}
+          dots={true}
+          dotsClass={'slick-dots'}
+          customPaging={(i) => (
+            <button
+              type="button"
+              role="tab"
+              id={`slick-slide-control0${i}`}
+              aria-controls="slick-slide00"
+              aria-label="1 of 3"
+              aria-selected="true">
+              {i}
+            </button>
+          )}
+          className="spec--image"
+          id="spec--image">
           <div className="spec--00">
             <img
               data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/spec--00.jpg?20190222"
               data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00.jpg?20190222"
               data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
-							src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
+              src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--00@2x.jpg?20190222"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
@@ -72,7 +79,7 @@ export default function ProductDetail() {
               data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/spec--01.jpg?20190222"
               data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01.jpg?20190222"
               data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
-							src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
+              src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--01@2x.jpg?20190222"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
@@ -81,7 +88,7 @@ export default function ProductDetail() {
               data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/spec--02.jpg?20190222"
               data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02.jpg?20190222"
               data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
-							src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
+              src="https://www.balmuda.com/jp/light/img/spec/desktop/spec--02@2x.jpg?20190222"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
@@ -95,7 +102,7 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>产品尺寸</th>
-                  <td>幅 191mm、奥行き 264mm、高さ 463mm（標準姿勢）</td>
+                  <td>宽 191 毫米，深 264 毫米，高 463 毫米（标准姿势）</td>
                 </tr>
                 <tr>
                   <th>机身重量</th>
@@ -111,69 +118,63 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>演色性</th>
-                  <td>平均演色評価数Ra97以上</td>
+                  <td>平均显色指数 Ra97 或更高</td>
                 </tr>
                 <tr>
                   <th>光源寿命</th>
-                  <td>40,000时间</td>
+                  <td>40,000个小时</td>
                 </tr>
                 <tr>
                   <th>器具光束</th>
                   <td>430lm</td>
                 </tr>
                 <tr>
-                  <th>調光機能</th>
-                  <td>6段階（15〜100％）</td>
+                  <th>调光功能</th>
+                  <td>6段（15〜100％）</td>
                 </tr>
                 <tr>
-                  <th>イルミネーション機能</th>
-                  <td>あり（ツールボックス）ON/OFFスイッチあり</td>
+                  <th>照明功能</th>
+                  <td>是（工具箱）带开/关开关</td>
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100V 50/60Hz共用（ACアダプター）</td>
+                  <td>AC100V 50 / 60Hz 共享（交流适配器）</td>
                 </tr>
                 <tr>
                   <th>耗电量</th>
-                  <td>全灯時最大14W、消灯時0.1W以下</td>
+                  <td>全灯时最大14W、消灯时0.1W以下</td>
                 </tr>
                 <tr>
                   <th>电源线长度</th>
-                  <td>1.8m（ACアダプター）</td>
+                  <td>1.8m（交流适配器）</td>
                 </tr>
                 <tr>
                   <th>保修期限</th>
-                  <td>购买日から1年</td>
+                  <td>自购买之日起 1 年</td>
                 </tr>
                 <tr>
                   <th>包装内容</th>
-                  <td>本体、ACアダプター、取扱説明書、保証書、ステッカー</td>
+                  <td>主机、电源适配器、使用说明书、保修卡、贴纸</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>黑色（型番: L01A-BK、JANコード: 4560330119828）</td>
+                  <td>黑色（型号:L01A-BK，JAN 代码: 4560330119828）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色（型番:L01A-WH、JANコード: 4560330119835）</td>
+                  <td>白色（型号:L01A-WH、JAN 代码: 4560330119835）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>米色（型番:L01A-BG、JANコード: 4560330119859）</td>
+                  <td>米色（型号:L01A-BG、JAN 代码: 4560330119859）</td>
                 </tr>
                 <tr>
                   <th>用途</th>
-                  <td>家庭用　屋内用　学習・読書用</td>
+                  <td>家庭用　屋内用　学习・阅读用</td>
                 </tr>
                 <tr>
                   <th>产地</th>
                   <td>日本</td>
-                </tr>
-                <tr>
-                  <th>&nbsp;</th>
-                  <td>
-                    本製品は日本国内専用です。海外での使用は保証および修理受付の対象外となりますのでご注意ください。
-                  </td>
                 </tr>
               </tbody>
             </table>
@@ -184,7 +185,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--02">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">同梱物一覧</h2>
+            <h2 className="section__title">随货内容一览表</h2>
             <div className="spec__item">
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
@@ -245,7 +246,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--03">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">傾きと照射範囲</h2>
+            <h2 className="section__title">倾斜角度和照射范围</h2>
             <div className="specimages">
               <div className="specimage __1">
                 <img
@@ -274,15 +275,12 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">获奖经历</h2>
-            <p>
-              BALMUDA The Lightは、2019年度 グッド设计賞、2019年度
-              キッズ设计賞を受賞しました。
-            </p>
+            <p>BALMUDA The Light 荣获 2019 Good Design Award 和 2019 Kids Design Award。</p>
 
             <div className="columns cf">
               <div className="column __award__kids--2019">
                 <p>
-                  キッズ设计賞は「子どもたちの安全・安心に貢献する设计」「子どもたちの創造性と未来を拓く设计」「子どもたちを産み育てやすい设计」の3つの視点において優れた製品が選ばれます。
+                  儿童设计奖从“有助于儿童安全和保障的设计”、“开启儿童创造力和未来的设计”和“易于生育和抚养的设计”三个角度评选优秀产品孩子们。”{' '}
                 </p>
               </div>
               <div className="column __award__gd">

@@ -137,18 +137,18 @@ export default function CleanerDetail() {
                 <tr className="__is_desktop">
                   <th>颜色</th>
                   <td>
-                    白色（型番：C01A-WH、JANコード：4560330118333）
+                    白色（型号：C01A-WH、JAN 代码：4560330118333）
                     <br />
-                    黑色（型番：C01A-BK、JANコード：4560330118326）
+                    黑色（型号：C01A-BK、JAN 代码：4560330118326）
                   </td>
                 </tr>
                 <tr className="__is_mobile">
                   <th>颜色</th>
-                  <td>白色（型番：C01A-WH、JANコード：4560330118333）</td>
+                  <td>白色（型号：C01A-WH、JAN 代码：4560330118333）</td>
                 </tr>
                 <tr className="__is_mobile">
                   <th></th>
-                  <td>黑色（型番：C01A-BK、JANコード：4560330118326）</td>
+                  <td>黑色（型号：C01A-BK、JAN 代码：4560330118326）</td>
                 </tr>
                 <tr>
                   <th>保修期限</th>

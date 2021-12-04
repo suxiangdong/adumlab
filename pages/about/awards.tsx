@@ -149,9 +149,7 @@ export default function About() {
         </div>
       </div>
 
-      <div
-        className="section section--awards section--03 scrollLoader lazyload"
-        id="ifdesign">
+      <div className="section section--awards section--03 scrollLoader lazyload" id="ifdesign">
         <div className="viewport">
           <div className="__content scrollLoader fadeInUp lazyload">
             <h3 className="section__title">iF设计奖</h3>
@@ -196,9 +194,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div
-        className="section section--awards section--04 scrollLoader lazyload"
-        id="kidsdesign">
+      <div className="section section--awards section--04 scrollLoader lazyload" id="kidsdesign">
         <div className="viewport">
           <div className="__content scrollLoader fadeInUp lazyload">
             <h3 className="section__title">儿童设计奖（日本）</h3>
@@ -289,22 +285,7 @@ export default function About() {
             </div>
             <div className="__list">
               <ul>
-                BALMUDA的历史
-                <li>
-                  <a href="/about/story/001">1. 从制作产品的现场开始</a>
-                </li>
-                <li>
-                  <a href="/about/story/002">2. 用心开发的台灯</a>
-                </li>
-                <li>
-                  <a href="/about/story/003">3. 「GreenFan」的开发背景</a>
-                </li>
-                <li>
-                  <a href="/about/story/004">4. 充满创意的团队</a>
-                </li>
-                <li>
-                  <a href="/about/story/006">5. 体验大于产品「Hello Kitchen！」</a>
-                </li>
+                <a href="/about/story">BALMUDA的历史</a>
               </ul>
             </div>
           </div>

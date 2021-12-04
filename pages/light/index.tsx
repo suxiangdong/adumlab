@@ -72,9 +72,7 @@ export default function ProductDetail({ banners, evaluations }) {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=L01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=L01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -109,31 +107,17 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
         <div className="viewport">
           <h2 className="page__title __wb __is_desktop">
-            <span>子どもたちの</span>
-            <span>目を守る光</span>
+            <span>BALMUDA太阳光LED台灯</span>
           </h2>
           <h2 className="page__title __wb __is_mobile">
-            <span>子どもたちの</span>
-            <span>目を守る光</span>
+            <span>BALMUDA太阳光LED台灯</span>
           </h2>
           <span className="label__block">太阳能LED台灯</span>
           <p className="overview_text __wb">
-            <span>BALMUDA The Lightは</span>
-            <span>独自の光拡散技術により、</span>
-            <span>目線の先に影を作らないデスクライト。</span>
+            <span>BALMUDA The Light 可友善守护双眼，提高集中力，</span>
             <br />
-            <span>また、医療現場や美術館で使用される</span>
-            <span>演色性の高い太陽光LEDを採用。</span>
-            <br />
-            <span>真剣な眼差しをやさしく守り、</span>
-            <span>集中力を後押しします。</span>
+            <span>实现视野范围内不会产生阴影的光。</span>
           </p>
-          <div className="the-price">
-            <p className="price price--excl_tax" id="price2">
-              40,700
-            </p>
-            <p className="colores">黑色/白色／米色</p>
-          </div>
         </div>
       </div>
 
@@ -143,18 +127,13 @@ export default function ProductDetail({ banners, evaluations }) {
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
                 <h3 className="section__subtitle __wb">
-                  <span>目線の先に</span>
-                  <span>影ができない光</span>
+                  <span>视野范围内不产生阴影的光</span>
                 </h3>
                 <h4 className="section__h __wb">
-                  <span>フォワードビーム</span>
-                  <span>科技</span>
-                  <span>
-                    <em>（特許登録済）</em>
-                  </span>
+                  <span>ForwardBeam Technology</span>
                 </h4>
                 <p className="section__desc">
-                  医療用の手術灯をヒントに開発した独自の構造で、離れた場所から広く手元を照らします。
+                  以医疗手术灯为灵感而开发的独家结构设计，从一定距离投射而来的光，清楚照明手边大范围
                 </p>
               </div>
             </div>
@@ -168,11 +147,11 @@ export default function ProductDetail({ banners, evaluations }) {
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
                 <h3 className="section__subtitle __wb">
-                  <span>色鮮やか</span>
+                  <span>色彩鲜明</span>
                 </h3>
-                <h4 className="section__h">太陽光LED</h4>
+                <h4 className="section__h">自然光LED</h4>
                 <p className="section__desc">
-                  美術館などの色にシビアな環境で使用される太陽光LEDは自然光に近い光。目にやさしく、集中力を妨げません。
+                  在美术馆等对颜色有严苛要求场域中使用的自然光LED，可友善双眼，提高集中力。
                 </p>
               </div>
             </div>
@@ -183,14 +162,14 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle __wb">
-              <span>ツールボックス&amp;</span>
-              <span>ステッカー</span>
+              <span>工具箱&amp;</span>
+              <span>贴纸</span>
             </h3>
             <p className="section__desc">
-              鉛筆やハサミや定規。ツールボックスにはお气に入りの道具を入れて、ライトアップすることができます。
+              可以将自己喜爱的铅笔、剪刀或圆规等文具放到工具箱内，点亮灯饰照明，方便寻找。
             </p>
             <p className="section__desc">
-              また、本体に貼る事ができる専用ステッカーが付属します。組み合わせて貼れば、自分だけのデスクライトになります。
+              另外，随机附赠可贴在台灯主体上的贴纸，能发挥创意自由组合，轻松打造充满自我风格的台灯。
             </p>
           </div>
         </div>
@@ -199,10 +178,9 @@ export default function ProductDetail({ banners, evaluations }) {
       <div className="section section--index section--05 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h3 className="section__subtitle">開発开发故事</h3>
+            <h3 className="section__subtitle">开发故事</h3>
             <p className="section__desc">
-              子どもたちの目を守りたい。そんな思いから始まったBALMUDA The
-              Lightの開発にまつわる开发故事をご紹介します。
+              介绍关于「想守护孩子们的双眼」这样初心开始 BALMUDA The Light 的开发故事。
             </p>
           </div>
         </div>
@@ -215,7 +193,6 @@ export default function ProductDetail({ banners, evaluations }) {
               className="__title"
               alt="MEDIA"
             />
-            <span className="__caption">様々なメディアに取り上げられています</span>
           </h2>
           <ReactSlick className="blockquotes" arrows={false} dots>
             {evaluations.data?.map((item) => (

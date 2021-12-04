@@ -52,45 +52,148 @@ export default function About() {
 
           <div className="posts">
             <div className="post">
-              <a href="/greenfan/story" className="__inner">
+              <a href="/about/story" className="__inner">
                 <div className="__image __0 scrollLoader lazyload"></div>
                 <div className="__caption">
-                  <h5 className="__title">The GreenFan</h5>
+                  <h5 className="__title">
+                    BALMUDA 历史 <span className="article_num">1</span>
+                  </h5>
                   <p className="__text">
-                    设计一款划时代的风扇吧！从这样的想法开始开发的GreenFan。在现实中出生...
+                    从制造工厂说起：BALMUDA 创始者寺尾玄的进入产品制造领域，可追朔于2001年前...
                   </p>
                 </div>
               </a>
             </div>
             <div className="post">
-              <a href="/toaster/story" className="__inner">
+              <a href="/about/story" className="__inner">
                 <div className="__image __1 scrollLoader lazyload"></div>
                 <div className="__caption">
-                  <h5 className="__title">BALMUDA The Toaster</h5>
+                  <h5 className="__title">
+                    BALMUDA 历史 <span className="article_num">2</span>
+                  </h5>
                   <p className="__text">
-                    BALMUDA The Toaster的开发故事从1991年的西班牙南部的镇上开始
+                    开发完美执着的桌灯：2003年发表电脑冷却台「X-Base」，并在Mac官网新闻里报导，此时不到一小时接到了第一笔订单...
                   </p>
                 </div>
               </a>
             </div>
             <div className="post">
-              <a href="/pot/story" className="__inner">
+              <a href="/about/story" className="__inner">
                 <div className="__image __2 scrollLoader lazyload"></div>
                 <div className="__caption">
-                  <h5 className="__title">BALMUDA The Pot</h5>
-                  <p className="__text">更开心的体验。BALMUDA The Pot是从这样的想法开始开发的。</p>
+                  <h5 className="__title">
+                    BALMUDA 历史 <span className="article_num">3</span>
+                  </h5>
+                  <p className="__text">
+                    「GreenFan」开发的背景：BALMUDA自创立以来，五年来不断地以坚持开发的理念为目标，之后深刻地领悟...
+                  </p>
                 </div>
               </a>
             </div>
-            
+
             <div className="post">
-              <a href="/speaker/story" className="__inner">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __3 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                    BALMUDA 历史 <span className="article_num">4</span>
+                  </h5>
+                  <p className="__text">
+                    支援创作的团队：熟思「必须的道具」的想法得到的答案为「GreenFan」，日后BALMUDA就持续专精研究「舒适的凉感」...
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __4 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                    BALMUDA 历史 <span className="article_num">5</span>
+                  </h5>
+                  <p className="__text">
+                    「GreenFan Japan」的设计：「边思考边持续描绘未来」。 BALMUDA的设计团队与...
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __5 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                    BALMUDA 历史 <span className="article_num">6</span>
+                  </h5>
+                  <p className="__text">
+                    比物品使用体验更重要「Hello Kitchen!」：「GreenFan
+                    Japan」发表后，BALMUDA以寺尾玄为首，设计、技师团队有了更进一步的想法...
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
                 <div className="__image  __6 scrollLoader lazyload"></div>
                 <div className="__caption">
-                  <h5 className="__title">BALMUDA The Speaker</h5>
-                  <p className="__text">
-                    バルミューダを始めてからこの時まで。私は、オーディオ機器だけは作らないと決めていました...
-                  </p>
+                  <h5 className="__title">
+                    和田智 × 寺尾玄 对谈 <span className="article_num">1</span>
+                  </h5>
+                  <p className="__text">和田 智 × 百慕达：汽车设计师 和田 智之前参与百慕达</p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __7 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                    和田智 × 寺尾玄 对谈 <span className="article_num">2</span>
+                  </h5>
+                  <p className="__text">不以表象思维：重要的是，重量、质感、原始的要素</p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __8 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                    和田智 × 寺尾玄 对谈 <span className="article_num">3</span>
+                  </h5>
+                  <p className="__text">GreenFan Japan想传达：为了传达想法的交流</p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __11 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                    和田智 × 寺尾玄 对谈 <span className="article_num">4</span>
+                  </h5>
+                  <p className="__text">日本制造的产品：加入Made in Japan思考</p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __9 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                  方序中解锁 AirEngine <span className="article_num">1</span>
+                  </h5>
+                  <p className="__text">「我觉得它是谦虚，有这么多强大的功能，但全部藏在R角白色的设计里。它不跟你说我有多厉害、又很低调，使用之后，你才发现它非常有存在感，不跟你说大话！」</p>
+                </div>
+              </a>
+            </div>
+            <div className="post">
+              <a href="/about/story" className="__inner">
+                <div className="__image  __10 scrollLoader lazyload"></div>
+                <div className="__caption">
+                  <h5 className="__title">
+                  方序中解锁 AirEngine <span className="article_num">2</span>
+                  </h5>
+                  <p className="__text">「一定要有个梦想在前面，不去计较走到哪里才算停，不管直走或转弯，只要方向对了，就会朝着那个方向走，你会获得意想不到的事情。」</p>
                 </div>
               </a>
             </div>
@@ -164,22 +267,7 @@ export default function About() {
             </div>
             <div className="__list">
               <ul>
-                BALMUDA的历史
-                <li>
-                  <a href="/about/story/001">1. 从制作产品的现场开始</a>
-                </li>
-                <li>
-                  <a href="/about/story/002">2. 用心开发的台灯</a>
-                </li>
-                <li>
-                  <a href="/about/story/003">3. 「GreenFan」的开发背景</a>
-                </li>
-                <li>
-                  <a href="/about/story/004">4. 充满创意的团队</a>
-                </li>
-                <li>
-                  <a href="/about/story/006">5. 体验大于产品「Hello Kitchen！」</a>
-                </li>
+                <a href="/about/story">BALMUDA的历史</a>
               </ul>
             </div>
           </div>

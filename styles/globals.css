@@ -11,23 +11,23 @@
 
 .lazyload,
 .lazyloading {
-	opacity: 0;
+  opacity: 0;
 }
 .loaded {
-	opacity: 1;
-	transition: opacity 300ms;
+  opacity: 1;
+  transition: opacity 300ms;
 }
 
 .section--index {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 img {
-	display: inline-block;
+  display: inline-block;
 }
 
 .flex-imp {
-	display: flex !important;
+  display: flex !important;
 }
 
 .nav-item:hover::after {
@@ -111,5 +111,20 @@ img {
 }
 
 .video_play {
-	box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+
+.article_num {
+  color: #4ba53a;
+  display: block;
+  float: right;
+  font-size: 28px;
+  line-height: 30px;
+  height: 30px;
+  font-weight: 100;
+  margin-top: -5px;
+}
+span.article_num:before {
+  content: 'vol.';
+  font-size: 12px;
 }

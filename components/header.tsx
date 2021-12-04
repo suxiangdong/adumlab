@@ -21,7 +21,6 @@ export default function Header() {
                 src="https://www.balmuda.com/_theme/img/svg/balmuda_fff.min.svgz"
                 style={{ width: 122 }}
               />
-              <span className="text-white font-bold flex-shrink-0 text-xl ml-1">巴慕达</span>
             </a>
           </Link>
         </div>
@@ -234,9 +233,9 @@ export default function Header() {
           </li>
 
           <li className="navigation__item dropdown__trigger navigation__item--cart">
-            <Link href="/news">
+            <Link href="/support">
               <a className="__item support text">
-                <em>News</em>
+                <em>Support</em>
               </a>
             </Link>
           </li>

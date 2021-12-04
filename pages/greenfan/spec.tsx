@@ -278,7 +278,7 @@ export default function ProductDetail() {
                 <br />
                 *2 最小噪音是在无响室距离产品1米处测量的值。
                 <br />
-                *3 型番 :
+                *3 型号 :
                 从EGF-1700开始自动关闭电源的无操作时间，从12小时延长到了18小时。
               </p>
             </div>

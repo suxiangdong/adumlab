@@ -49,14 +49,13 @@ export default function ProductDetail() {
       <div className="section section--howto section--00">
         <div className="viewport">
           <div className="__content">
-            <img
-              src="https://www.balmuda.com/jp/light/img/howto/svg/section--00--title.min.svgz"
-              className="__svg"
-              alt="BALMUDA The Lightは光源の真下ではなく、光源から约30cm前方の位置を中心に、離れた場所を広く照らします。"
-            />
-            <p>
-              BALMUDA The
-              Lightの特徴を最大限に引き出す、効果的な設置方法と使用方法を3つのステップでご紹介します。
+            <p className="font-bold w-96 text-3xl">BALMUDA The Light 并非由</p>
+            <p className="font-bold w-96 text-3xl mt-2">上而下照射的光源，而是将</p>
+            <p className="font-bold w-96 text-3xl mt-2">光照中心点设置在距离主体</p>
+            <p className="font-bold w-96 text-3xl mt-2">约30公分处，达到较大范围</p>
+            <p className="font-bold w-96 text-3xl mt-2">的照明。</p>
+            <p className="mt-2">
+            利用三个步骤介绍有效的放置和使用方法，将 BALMUDA The Light 的功能发挥到极致。
             </p>
           </div>
           <div className="__img">
@@ -76,10 +75,8 @@ export default function ProductDetail() {
           <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
-                <span>本体は利き手と</span>
-                <span>反対側の</span>
-                <span>対角線上に</span>
-                <span>設置します。</span>
+                <span>将台灯放置在惯用手的
+相反方向的对角线上。</span>
               </h2>
               <div className="__img">
                 <img
@@ -92,20 +89,18 @@ export default function ProductDetail() {
               </div>
             </div>
             <div className="__point">
-              <p className="__subtitle">利き手の対角線に置くことで、手元に影ができなくなります。</p>
+              <p className="__subtitle">放置在惯用手的对角线，所以在手边范围不会造成阴影。</p>
             </div>
           </div>
 
           <div className="__column __02 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
-                <span>光源が直接目に</span>
-                <span>入らないように</span>
-                <span>ヘッド部を</span>
-                <span>水平に調整します。</span>
+                <span>光源请勿直接照射眼睛，
+水平调整台灯头部</span>
               </h2>
-              <p>
-                水平でも光源のまぶしさが气になる場合は、更にヘッド部を寝かせ角度を調整してください。
+              <p className="pl-28">
+              即使水平调整也感受到刺眼的话，请再向内调整台灯头部的角度。
               </p>
               <div className="__img">
                 <img
@@ -118,7 +113,7 @@ export default function ProductDetail() {
               </div>
             </div>
             <div className="__point">
-              <p className="__subtitle">机の広さに合わせて使うことが出来ます</p>
+              <p className="__subtitle">可根据办公桌大小使用</p>
               <img
                 data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--2--point--adjust.png"
                 data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust.png"
@@ -132,12 +127,11 @@ export default function ProductDetail() {
           <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
-                <span>設置した環境に合わせ、</span>
-                <span>明るさを</span>
-                <span>調節してください。</span>
-              </h2>
+                <span>配合放置作业环境
+调整明亮度</span>
+                </h2>
               <p>
-                落ち着いた雰囲气の部屋では1～3、明るめの部屋や細かい作業には4～6をおすすめします。
+              在宁静氛围的室内，建议设定1~3，较明亮的室内或进行细微作业时，建议设定4~6
               </p>
               <div className="__img">
                 <img
@@ -150,14 +144,12 @@ export default function ProductDetail() {
               </div>
             </div>
             <div className="__point">
-              <p className="__subtitle">集中力を高める使いかた</p>
+              <p className="__subtitle">提高集中力的使用方法</p>
               <p className="__caption">
-                部屋全体を均一に明るくするよりも、少し暗めの部屋（100～200lx
-                *）でデスクライトを部屋の5～10倍程度の明るさで併用した方が集中力が高まると言われています。
+              比起整间房间都是一样的亮度，在有点昏暗的房间，搭配使用桌上台灯，让房间内有5~10倍左右的明亮度落差，一般认为这样地明暗落差环境的创造，是可提高集中力的。
               </p>
               <p className="__caption">
-                * lx（ルクス＝照度）とは、照らされた面の明るさを表す単位です。
-              </p>
+              * 何谓Lx（照度），代表照射到平面明亮度的单位。              </p>
               <div className="__img">
                 <img
                   data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--point--illuminance.png?20200603"
@@ -175,17 +167,12 @@ export default function ProductDetail() {
       <div className="section section--howto section--02 scrollLoader fadeInUp lazyload">
         <div className="viewport">
           <div className="__content">
-            <img
-              src="https://www.balmuda.com/jp/light/img/howto/svg/section--02--title.min.svgz"
-              className="__svg"
-              alt="BALMUDA The Lightは、離れた場所へ光を届け手もとに影のできない最適な明るさをお届けします。"
-            />
-            <p className="__wb">
-              <span>ツールボックスに</span>
-              <span>お气に入りの</span>
-              <span>文房具を入れて</span>
-              <span>自分だけのデスクライトを</span>
-              <span>お楽しみください。</span>
+          <p className="font-bold w-96 text-3xl">BALMUDA The Light 是可将</p>
+            <p className="font-bold w-96 text-3xl mt-2">光源照射到一定距离的位置</p>
+            <p className="font-bold w-96 text-3xl mt-2">，在手边不会造成阴影，提</p>
+            <p className="font-bold w-96 text-3xl mt-2">供最舒适的明亮度。</p>
+            <p className="__wb mt-2">
+              <span>将自己喜爱的文具放到工具箱里，请享受专属自己桌上护眼台灯的乐趣。</span>
             </p>
           </div>
           <div className="__img">

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 export default function Header() {
@@ -9,6 +10,8 @@ export default function Header() {
   const handleLeave = () => {
     setIsOpen(false)
   }
+  const router = useRouter()
+
   return (
     <>
       <div className="header" id="header">
@@ -27,26 +30,31 @@ export default function Header() {
         <div className="pagemap--mobile" id="pagemap--mobile">
           <div className="__wrapper">
             <ul className="pagemap__content">
-              <li className="pagemap__content__item pagemap__content__item--index __current">
+              <li
+                className={`pagemap__content__item pagemap__content__item--index ${
+                  router.asPath === '/greenfan' ? '__current' : ''
+                }`}>
                 <Link href="/greenfan">概要</Link>
               </li>
-              <li className="pagemap__content__item pagemap__content__item--feature">
+              <li className={`pagemap__content__item pagemap__content__item--feature ${
+                  router.asPath === '/greenfan/feature' ? '__current' : ''
+                }`}>
                 <Link href="/greenfan/feature">风吹得好舒服</Link>
               </li>
-              <li className="pagemap__content__item pagemap__content__item--design">
+              <li className={`pagemap__content__item pagemap__content__item--design ${
+                  router.asPath === '/greenfan/design' ? '__current' : ''
+                }`}>
                 <Link href="/greenfan/design">易用性</Link>
               </li>
-              <li className="pagemap__content__item pagemap__content__item--story">
+              <li className={`pagemap__content__item pagemap__content__item--story ${
+                  router.asPath === '/greenfan/story' ? '__current' : ''
+                }`}>
                 <Link href="/greenfan/story">故事</Link>
               </li>
-              <li className="pagemap__content__item pagemap__content__item--accessory">
-                <Link href="/greenfan/accessory">配件</Link>
-              </li>
-              <li className="pagemap__content__item pagemap__content__item--spec">
+              <li className={`pagemap__content__item pagemap__content__item--spec ${
+                  router.asPath === '/greenfan/spec' ? '__current' : ''
+                }`}>
                 <Link href="/greenfan/spec">规格</Link>
-              </li>
-              <li className="pagemap__content__item pagemap__content__item--dealer">
-                <Link href="/greenfan/dealer">销售店</Link>
               </li>
             </ul>
           </div>

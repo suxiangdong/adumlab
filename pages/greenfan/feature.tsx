@@ -4,8 +4,8 @@ import Head from 'next/head'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
-	const [playingV5, setPlayingV5] = useState(false)
-	const [playingV8, setPlayingV8] = useState(false)
+  const [playingV5, setPlayingV5] = useState(false)
+  const [playingV8, setPlayingV8] = useState(false)
   const handlePlayV5 = () => {
     setPlayingV5(true)
     const video = document.getElementById('v5') as HTMLVideoElement
@@ -18,7 +18,7 @@ export default function ProductDetail() {
     video.pause()
   }
 
-	const handlePlayV8 = () => {
+  const handlePlayV8 = () => {
     setPlayingV8(true)
     const video = document.getElementById('v8') as HTMLVideoElement
     video.play()
@@ -69,9 +69,7 @@ export default function ProductDetail() {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support"
-              className="btn btn--pagemap">
+            <a href="/support" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -82,13 +80,9 @@ export default function ProductDetail() {
         <div className="__image"></div>
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title __wb">
-              再現するのは
-              <br />
-              自然界の风
-            </h2>
+            <h2 className="page__title __wb">重现自然风</h2>
             <p>
-              自然界の风と同じ、広くゆっくり移動する空气の流れをつくり出すグリーンファン。夏の午後を吹き抜ける、あの時の风を部屋の中に再現します。
+              The GreenFan 和自然风相同，可以送出幅度宽广且柔和的风。 重现夏日午后吹拂的徐徐清风。{' '}
             </p>
           </div>
         </div>
@@ -99,22 +93,31 @@ export default function ProductDetail() {
           <div className="__image __is_mobile"></div>
           <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h2 className="section__title">まったく新しい二重構造の羽根</h2>
+              <h2 className="section__title">崭新的双层结构扇叶</h2>
               <p>
-                扇风機から自然界の风を送り出すことはできないだろうか。このアイディアを実現したのが、特徴的な二重構造の羽根でした。独自の羽根によって生まれた风は肌を冷やし過ぎず、いつまでも当たっていたくなるので、夏のお昼寝にもぴったりです。
+                可以从电扇送出自然风吗?
+                实现这想法的就是独特的双层结构扇叶。可同时送出快速风和慢速风，再让两种风速相互碰撞消除涡旋，风幅宽广的电扇因应而生。
               </p>
-              <span className="video_play __is_desktop __fff" data-video-target="v5" onClick={handlePlayV5}>
+              <span
+                className="video_play __is_desktop __fff"
+                data-video-target="v5"
+                onClick={handlePlayV5}>
                 播放视频
               </span>
             </div>
           </div>
         </div>
-        <div className={`section_overlay section_overlay--v5 ${playingV5 ? 'visible': ''}`} id="overlay--v5">
+        <div
+          className={`section_overlay section_overlay--v5 ${playingV5 ? 'visible' : ''}`}
+          id="overlay--v5">
           <video controls={true} width="100%" height="100%" id="v5" onEnded={handlePauseV5}>
             <source src="//s3.balmuda.com/www/jp/greenfan/movie/v5.mp4" type="video/mp4" />
             <source src="//s3.balmuda.com/www/jp/greenfan/movie/v5.webm" type="video/webm" />
           </video>
-          <div className="video_stop __is_desktop" data-video-target="v5" onClick={handlePauseV5}></div>
+          <div
+            className="video_stop __is_desktop"
+            data-video-target="v5"
+            onClick={handlePauseV5}></div>
         </div>
       </div>
 
@@ -123,22 +126,30 @@ export default function ProductDetail() {
           <div className="__image __is_mobile"></div>
           <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h2 className="section__title">大きく広がる风</h2>
+              <h2 className="section__title">风幅宽广</h2>
               <p>
-                大きく広がりゆっくりと進む风が特徴のグリーンファン。一般的な扇风機に比べ、约4倍に広がる风はまさに自然界の风のようにやさしく包みこむ气持ちよさです。
+                送风幅度宽广且柔和是GreenFan的特色。可以送出和一般电扇相比4倍广的风，就如同被自然风环绕的凉爽舒适。
               </p>
-              <span className="video_play __is_desktop __fff" data-video-target="v8" onClick={handlePlayV8}>
+              <span
+                className="video_play __is_desktop __fff"
+                data-video-target="v8"
+                onClick={handlePlayV8}>
                 播放视频
               </span>
             </div>
           </div>
         </div>
-        <div className={`section_overlay section_overlay--v6 ${playingV8 ? 'visible': ''}`} id="overlay--v8">
+        <div
+          className={`section_overlay section_overlay--v6 ${playingV8 ? 'visible' : ''}`}
+          id="overlay--v8">
           <video controls={true} width="100%" height="100%" id="v8" onEnded={handlePauseV8}>
             <source src="//s3.balmuda.com/www/jp/greenfan/movie/v8.mp4" type="video/mp4" />
             <source src="//s3.balmuda.com/www/jp/greenfan/movie/v8.webm" type="video/webm" />
           </video>
-          <div className="video_stop __is_desktop __fff" data-video-target="v8" onClick={handlePauseV8}></div>
+          <div
+            className="video_stop __is_desktop __fff"
+            data-video-target="v8"
+            onClick={handlePauseV8}></div>
         </div>
       </div>
 
@@ -146,13 +157,12 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">最小のエネルギー</h2>
+            <h2 className="section__title">低耗能</h2>
             <p>
-              送风効率のよい独自の羽根とDCブラシレスモーター、専用の低電力回路が先進の省エネルギー性能を実現しました。最小耗电量は1.5W、ひと夏つかっても電气代はわずか29円（*1）です。
+              独特的高效送风扇叶和DC直流马达，专用的省电电路落实先进的节能性能。最低耗电1.5W，一个夏天的电费仅仅
+              90元。
             </p>
-            <p className="note">
-              * 最弱運転で1日8时间、90日使用した場合。電气料金は1kWhあたり27円で計算。
-            </p>
+            <p className="note">* 在最低运转的状况下，1天8小时，使用90天，电费以每度3.7元计算。</p>
           </div>
         </div>
       </div>
@@ -161,9 +171,10 @@ export default function ProductDetail() {
         <div className="__image __is_mobile"></div>
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">远达15米的送风距离届く豊かな风</h2>
+            <h2 className="section__title">送风距离可达15米的大风量</h2>
             <p>
-              広く、大きな风を生み出すグリーンファンの风は远达15米的送风距离风を届けることができます。大量の空气を動かすことができるので、冬場は空气循环扇として利用でき、一年中活躍します。
+              送风幅度宽广，且风量大的GreenFan，其送风距离可达15米。
+              因为可以使空气大量流动，在冬天也可当作循环机使用，全年都适用。
             </p>
           </div>
         </div>

@@ -77,11 +77,11 @@ export default function ProductDetail({ banners }) {
       <div className="section section--index section--00">
         <div className="__mainimage">
           <img
-            data-mobile="https://www.balmuda.com/jp/greenfan/img/index/mobile/main.jpg?20210404"
-            data-desktop="https://www.balmuda.com/jp/greenfan/img/index/desktop/main.jpg?20210404"
-            data-retina="https://www.balmuda.com/jp/greenfan/img/index/desktop/main@2x.jpg?20210404"
+            data-mobile="/greenfan/img/index/mobile/main@2x.jpg?20210404"
+            data-desktop="/greenfan/img/index/desktop/main@2x.jpg?20210404"
+            data-retina="/greenfan/img/index/desktop/main@2x.jpg?20210404"
             className="__image adaptiveimage"
-            src="https://www.balmuda.com/jp/greenfan/img/index/desktop/main@2x.jpg?20210404"
+            src="/greenfan/img/index/desktop/main@2x.jpg?20210404"
           />
         </div>
         <div className="viewport">

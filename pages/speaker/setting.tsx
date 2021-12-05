@@ -56,16 +56,14 @@ export default function ProductDetail() {
               <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting __current">
-              <Link href="/speaker/setting">设置</Link>
+              <Link href="/speaker/setting">设定</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
               <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=M01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=M01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -85,20 +83,17 @@ export default function ProductDetail() {
       <div className="section section--setting section--01 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h1 className="section__title">设置</h1>
+            <h1 className="section__title">设定</h1>
             <p className="section__txt">
               <span>BALMUDA The Speaker，</span>
               <span>
-                使用的设备和蓝牙<sup>®</sup>
+                可以通过 Bluetooth<sup>®</sup>
               </span>
-              <span>或者可以用AUX输入连接。</span>
+              <span>或AUX连接到您的设备。</span>
               <br className="pc" />
-              <span>LED单元的光芒，</span>
-              <span>有三种模式可以选择。</span>
+              <span>提供三种模式选择LED单元的亮度</span>
               <br className="pc" />
-              <span>配合着歌曲和场景</span>
-              <span>你喜欢的风格</span>
-              <span>请享受音乐。</span>
+              <span>可根据歌曲或场景，选择喜好的风格享受音乐。</span>
             </p>
           </div>
         </div>
@@ -108,7 +103,7 @@ export default function ProductDetail() {
         <div className="section section--setting section--02 scrollLoader lazyload">
           <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h2 className="section__title">与再生设备连接</h2>
+              <h2 className="section__title">播放与连接设备</h2>
             </div>
             <div className="__box scrollLoader lazyload">
               <img
@@ -120,9 +115,9 @@ export default function ProductDetail() {
                 alt=""
               />
               <div className="__wrap">
-                <h3 className="__title">蓝牙配对方法</h3>
+                <h3 className="__title">Bluetooth 配對方法</h3>
                 <p className="__txt">
-                  不需要特别的应用程序。用您使用的机器，从启动到配对用智能的操作进行。
+                  无需特殊的应用程序，从启动到配对，简单的智能操作即能使用设备
                 </p>
                 <p className="list__txt">
                   <span className="list__txt--no">
@@ -133,13 +128,13 @@ export default function ProductDetail() {
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__01">
-                    在产品的背面
+                    按下主机背面
                     <img
                       src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--01.svg"
                       className="__icon"
                       alt=""
                     />
-                    按下按钮，电源就会接通。
+                    的电源按钮，即可打开/关闭电源
                   </span>
                 </p>
                 <p className="list__txt">
@@ -156,7 +151,7 @@ export default function ProductDetail() {
                       className="__icon"
                       alt=""
                     />
-                    长按2秒的话，配对的待机开始。
+                    电源打开状态下，长按（light）按钮2秒，开始等待配对。
                   </span>
                 </p>
                 <p className="list__txt">
@@ -168,8 +163,8 @@ export default function ProductDetail() {
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__02">
-                    在你使用的设备的蓝牙<sup>®</sup>选择画面中选择“BALMUDA
-                    M01”就完成配对。用你手头的应用程序播放音乐。
+                    启用使用设备的 Bluetooth 功能，从显示的连接对象列表中选择“BALMUDA
+                    M01”，完成配对，从使用设备中的应用程序中播放音乐。
                   </span>
                 </p>
               </div>
@@ -184,7 +179,7 @@ export default function ProductDetail() {
                 alt=""
               />
               <div className="__wrap">
-                <h3 className="__title">使用AUX输入端子</h3>
+                <h3 className="__title">连接外部设备</h3>
                 <p className="__txt">所有配备音频输出的设备也可以播放。</p>
                 <p className="list__txt">
                   <span className="list__txt--no">
@@ -195,7 +190,7 @@ export default function ProductDetail() {
                     />
                   </span>
                   <span className="list__txt--txt list__txt--txt__02">
-                    产品背面的AUX输入端子和音频设备的立体声迷你插口用对应电缆(市售产品)连接。
+                    使用兼容的AUX线缆的一端连接主机背面的AUX外部输入端子，另一端连接音乐播放器的立体声迷你插孔。
                   </span>
                 </p>
                 <p className="list__txt">
@@ -206,7 +201,9 @@ export default function ProductDetail() {
                       alt=""
                     />
                   </span>
-                  <span className="list__txt--txt list__txt--txt__01">用音响设备播放音乐。</span>
+                  <span className="list__txt--txt list__txt--txt__01">
+                    在音乐播放器上播放音乐。
+                  </span>
                 </p>
               </div>
             </div>
@@ -214,11 +211,7 @@ export default function ProductDetail() {
             <div id="live_light"></div>
 
             <div className="__content __content__02 scrollLoader lazyload">
-              <h2 className="section__title">
-                三个光辉
-                <br className="sp" />
-                从模式中选择
-              </h2>
+              <h2 className="section__title">从三种模式中选择发光亮度</h2>
             </div>
             <div className="__box scrollLoader lazyload">
               <img
@@ -232,22 +225,22 @@ export default function ProductDetail() {
               <div className="__wrap __wrap__02">
                 <h3 className="__title">LIGHT的模式选择</h3>
                 <p>
-                  背面的
+                  按下背面的
                   <img
                     src="https://www.balmuda.com/jp/speaker/img/setting/svg/icon--02.svg"
                     className="__icon"
                     alt=""
                   />
-                  按下后，LED单元的发光方式可以从“Beat”、“Ambient”、“Candle(蜡烛)”三种模式中选择。请配合曲子和场景来享受。
+                  按下后，LED单元的发光方式可以从“Beat”、“Ambient”、“Candle(蜡烛)”三种模式中选择。请根据喜好进行设定，尽享Light模式。
                 </p>
                 <ul className="__speaker">
                   <li className="__speaker_item">
                     <div className="__speaker_info __speaker_info_pc">
                       <p className="__speaker_title">Beat</p>
                       <p className="__speaker_text">
-                        配合着乐曲动态地明灭。
+                        配合音乐的能量和节奏，
                         <br />
-                        最能让人感受到身临其境的感觉。
+                        发出动感的光芒。
                       </p>
                     </div>
                     <img
@@ -262,9 +255,9 @@ export default function ProductDetail() {
                       <div className="__speaker_info_sp">
                         <p className="__speaker_title">Beat</p>
                         <p className="__speaker_text">
-                          配合着乐曲动态地明灭。
+                          配合音乐的能量和节奏，
                           <br />
-                          最能让人感受到身临其境的感觉。
+                          发出动感的光芒。
                         </p>
                       </div>
                       <a
@@ -280,9 +273,9 @@ export default function ProductDetail() {
                     <div className="__speaker_info __speaker_info_pc">
                       <p className="__speaker_title">Ambient</p>
                       <p className="__speaker_text">
-                        配合着乐曲适当的抑扬顿挫
+                        伴随著歌唱声和演奏声，
                         <br />
-                        明灭。
+                        发出温暖的光芒。
                       </p>
                     </div>
                     <img
@@ -297,9 +290,9 @@ export default function ProductDetail() {
                       <div className="__speaker_info_sp">
                         <p className="__speaker_title">Ambient</p>
                         <p className="__speaker_text">
-                          配合着乐曲适当的抑扬顿挫
+                          伴随著歌唱声和演奏声，
                           <br />
-                          明灭。
+                          发出温暖的光芒。
                         </p>
                       </div>
                       <a
@@ -315,9 +308,9 @@ export default function ProductDetail() {
                     <div className="__speaker_info __speaker_info_pc">
                       <p className="__speaker_title">Candle</p>
                       <p className="__speaker_text">
-                        不论乐曲，总是有波动的落下
+                        不与声音联动，如蜡烛般摇曳，
                         <br />
-                        点亮到达的光。
+                        持续安静地发出光芒。
                       </p>
                     </div>
                     <img
@@ -332,9 +325,9 @@ export default function ProductDetail() {
                       <div className="__speaker_info_sp">
                         <p className="__speaker_title">Candle</p>
                         <p className="__speaker_text">
-                          不论乐曲，总是有波动的落下
+                          不与声音联动，如蜡烛般摇曳，
                           <br />
-                          点亮到达的光。
+                          持续安静地发出光芒。
                         </p>
                       </div>
                       <a
@@ -348,21 +341,19 @@ export default function ProductDetail() {
                   </li>
                 </ul>
                 <p className="__txt_sub">
-                  ※按下模式选择的按钮的话通知音会响。根据各模式通知音的次数不同。
+                  ※按下模式选择按钮时，将发出通知音。各模式下按下Light按钮时通知音的次数不同。
                   <br />
-                  通知音3次「Beat」／2次「Ambient」／1次「Candle」
+                  3次为「Beat」，2次为「Ambient」，1次为「Candle」。
                 </p>
                 <div className="__caption">
                   <div className="__caption_box">
                     <p className="__caption_txt __caption_txt_01">
-                      为了充分
+                      为了享受
                       <br className="pc" />
-                      享受
-                      <br />
-                      它的光辉
+                      充足的发光量
                     </p>
                     <p className="__caption_txt __caption_txt_02">
-                      LED单元的光量，不是扬声器本体而是根据播放的终端侧的音量变化。感觉光量不够的时候，请试着提高手机和电脑等终端的音量。
+                      LED单元的发光量是根据俩节的终端设备（智能手机、电脑、外部设备等）的播放音量而变化，而不是扬声器的音量，如果觉的发光量不足，请尝试调整智能手机、电脑等终端设备的音量
                     </p>
                   </div>
                 </div>

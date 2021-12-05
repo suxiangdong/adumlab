@@ -66,7 +66,7 @@ export default function ProductDetail() {
                 width="231"
                 height="37"
               />
-              <span className="__note">BALMUDA代表　寺尾 玄</span>
+              <span className="__note">BALMUDA, Inc. CEO 兼 首席设计师　寺尾 玄</span>
             </div>
           </div>
         </div>

@@ -4,7 +4,6 @@ import ReactSlick from 'react-slick'
 import Layout from '../../layouts/default'
 
 export default function ProductDetail() {
-
   return (
     <Layout>
       <Head>
@@ -46,9 +45,7 @@ export default function ProductDetail() {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=A01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=A01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -70,24 +67,24 @@ export default function ProductDetail() {
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">
-              空气をきれいにする
+              让空气净化的
               <br className="sp" />
-              光の柱
+              光柱
             </h2>
             <p>
-              空气清浄の強さと共に、明るさが変化するBALMUDA The Pure の流路。
+              BALMUDA The Pure 光的明亮度会随着空气清净风量的强弱进行变化，
               <br />
-              本体は極力シンプルに。そして光を设计の一部に取り込みました。
+              主体采极简的风格，导入光成为设计的一部分，
               <br />
-              光の柱を通ることで、部屋の空气は清浄されていきます。
+              透过光柱，让室内空气持续清净，
               <br />
-              部屋が暗くなると、それに合わせて、光も暗くなります。
+              光柱的明亮度，会随着室内光线变暗而变暗。
             </p>
           </div>
         </div>
       </div>
 
-      <div className="section section--design section--01 scrollLoader lazyload">
+      {/* <div className="section section--design section--01 scrollLoader lazyload">
         <div className="__image __is_mobile">
           <img
             data-mobile="https://www.balmuda.com/jp/pure/img/design/mobile/section--01.jpg"
@@ -105,7 +102,7 @@ export default function ProductDetail() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="design--image__wrapper scrollLoader lazyload">
         <ReactSlick dots className="design--image" id="pure--design">
@@ -133,9 +130,9 @@ export default function ProductDetail() {
         <div className="__text">
           <div className="viewport">
             <div className="__content">
-              <h2 className="section__title">清潔な存在感</h2>
+              <h2 className="section__title">简洁的存在感</h2>
               <p>
-                リビングや寝室の主役は、もちろん人であるはずです。そして普段から使う家具やベッド。同じ空間に置く家電は、むしろ存在感がない方がいいと、私たちは考えています。シンプルに、シンプルに。清潔さだけを追求しました。また、設置面積はA4の紙一枚とほぼ同じサイズ。他の家具と一緒に置く時も、邪魔をしません。
+                客厅或房间的主角，理所当然是人。并且会放置着日常使用的家具或床。我们想在相同空间放置的家电，尽量不要让它感受到存在感比较好吧。因此追求极简的简洁感。另外，放置面积亦只需要约A4纸张的大小，和其他家具一起摆放时，也不会感到多余
               </p>
             </div>
           </div>
@@ -145,11 +142,11 @@ export default function ProductDetail() {
       <div className="section section--design section--02 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">簡単な操作</h2>
+            <h2 className="section__title">操作简单</h2>
             <p>
-              すべての操作が上面の3つのボタンで完結。
+              所有的操作，只需利用上方的3个按键，即可完成。
               <br />
-              气持ちよい操作音が快適な使い心地を提供します。
+              令人愉悦的操作音，亦提供使用的舒适感。
             </p>
           </div>
         </div>
@@ -166,40 +163,30 @@ export default function ProductDetail() {
                 <span>
                   运转模式
                   <br />
-                  インジケーター
+                  指示灯
                 </span>
               </div>
               <div className="modechange">
-                <span>
-                  オート／マニュアル
-                  <br />
-                  モードきりかえ
-                </span>
+                <span>自动、手动模式切换</span>
               </div>
               <div className="jetcleaning">
-                <span>
-                  ジェット
-                  <br />
-                  クリーニング
-                  <br className="pc" />
-                  モード
-                </span>
+                <span>喷射清洁模式</span>
               </div>
             </div>
             <div className="desc desc_1">
               <div className="desc__icon">
                 <img
                   src="https://www.balmuda.com/jp/pure/img/design/svg/autoormanual.svg"
-                  alt="オートモード／マニュアルモード"
+                  alt="自动、手动模式"
                 />
               </div>
               <div className="text">
                 <p>
-                  <span className="title">オートモード：</span>
-                  内蔵センサーにより风量を自動コントロール。
+                  <span className="title">自动模式：</span>
+                  搭载内建传感器，可以自动控制风量
                 </p>
                 <p>
-                  <span className="title">マニュアルモード：</span>３段階の风量を設定可能。
+                  <span className="title">手动模式：</span>可以设定3档风量大小
                 </p>
               </div>
             </div>
@@ -207,13 +194,13 @@ export default function ProductDetail() {
               <div className="desc__icon">
                 <img
                   src="https://www.balmuda.com/jp/pure/img/design/svg/jetcleaning.svg"
-                  alt="ジェットクリーニングモード"
+                  alt="喷射清洁模式"
                 />
               </div>
               <div className="text">
                 <p>
-                  <span className="title">ジェットクリーニングモード：</span>
-                  最大风量モード。強力な循環气流により部屋の空气を効率的に清浄します。
+                  <span className="title">喷射清洁模式：</span>
+                  最大风量模式，提供强力循环气流，可以有效净化室内空气。
                 </p>
               </div>
             </div>
@@ -221,7 +208,7 @@ export default function ProductDetail() {
         </div>
       </div>
 
-      <div className="section section--design section--04 scrollLoader lazyload">
+      {/* <div className="section section--design section--04 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title __wb">
@@ -247,7 +234,7 @@ export default function ProductDetail() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </Layout>
   )
 }

@@ -63,7 +63,7 @@ export default function ProductDetail() {
             <h2 className="page__title">味道、香气、及口感</h2>
             <p>
               美味是通过味道和香气，以及口感产生的。
-              BALMUDA电烤箱的蒸汽技术及完美的温度控制，可以将各类面包的美味最大限度的展现出来。
+               BALMUDA The Toaster 的蒸汽技术及完美的温度控制，可以将各类面包的美味最大限度的展现出来。
             </p>
           </div>
         </div>
@@ -78,9 +78,9 @@ export default function ProductDetail() {
               className="__svg"
               alt="トーストモード"
             />
-            <h2 className="section__title">令人感动的吐司</h2>
+            <h2 className="section__title">吐司模式</h2>
             <p>
-              BALMUDA电烤箱烤制的吐司，表面酥脆金黄，内部的水分和香气被充分
+               BALMUDA The Toaster 烤制的吐司，表面酥脆金黄，内部的水分和香气被充分
               保留，且热气腾腾。鲜明的小麦香气令人印象深刻。请涂抹厚厚的新鲜黄油或应季的果酱、蜂蜜品尝吧。
             </p>
           </div>
@@ -96,9 +96,9 @@ export default function ProductDetail() {
               className="__svg"
               alt="トーストモード"
             />
-            <h2 className="section__title">至高无上的芝士吐司</h2>
+            <h2 className="section__title">芝士吐司模式</h2>
             <p>
-              融化且些许焦黄的芝士，令人难以抗拒。BALMUDA电烤箱用蒸汽的力量牢牢锁住芝士的水分与风味，用完美的温度控制烤出绝妙的焦香。不管是简单的芝士吐司还是披萨吐司，都保证带给您绝佳的美味享受。
+              融化且些许焦黄的芝士，令人难以抗拒。 BALMUDA The Toaster 用蒸汽的力量牢牢锁住芝士的水分与风味，用完美的温度控制烤出绝妙的焦香。不管是简单的芝士吐司还是披萨吐司，都保证带给您绝佳的美味享受。
             </p>
           </div>
         </div>
@@ -112,9 +112,9 @@ export default function ProductDetail() {
               className="__svg"
               alt="トーストモード"
             />
-            <h2 className="section__title">幸福的牛角面包</h2>
+            <h2 className="section__title">牛角面包模式</h2>
             <p>
-              顶部总是会被烤箱烤成焦黑的牛角面包，使用BALMUDA电烤箱，也可以再现其刚出炉般的味道。喷香的黄油和层层派皮，让您可以品尝到牛角面包制作时每一细节的美味。
+              顶部总是会被烤箱烤成焦黑的牛角面包，使用 BALMUDA The Toaster ，也可以再现其刚出炉般的味道。喷香的黄油和层层派皮，让您可以品尝到牛角面包制作时每一细节的美味。
             </p>
           </div>
         </div>
@@ -128,9 +128,9 @@ export default function ProductDetail() {
               className="__svg"
               alt="トーストモード"
             />
-            <h2 className="section__title">三星法式长棍</h2>
+            <h2 className="section__title">法式面包模式</h2>
             <p>
-              用烤箱加热法式长棍时，水分会被蒸发，由里到外都会变得坚硬。BALMUDA电烤箱利用水分和精准的温度控制，同时实现表皮的酥脆与内里的松软。扑鼻的香气与口感，媲美高级西餐厅的法式长棍。
+              用烤箱加热法式长棍时，水分会被蒸发，由里到外都会变得坚硬。 BALMUDA The Toaster 利用水分和精准的温度控制，同时实现表皮的酥脆与内里的松软。扑鼻的香气与口感，媲美高级西餐厅的法式长棍。
             </p>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function ProductDetail() {
               <span>冷冻面包也可以很好吃</span>
             </h2>
             <p>
-              BALMUDA电烤箱的蒸汽技术与完美温度控制，冷冻的面包也可以简单地烤出好滋味。
+               BALMUDA The Toaster 的蒸汽技术与完美温度控制，冷冻的面包也可以简单地烤出好滋味。
               只需要将烘烤时间延长1分钟，就可以吃到香喷喷热烘烘的面包。
             </p>
           </div>
@@ -156,7 +156,7 @@ export default function ProductDetail() {
             <h2 className="section__title">其他更多可能</h2>
             <p>
               不使用蒸汽与温度控制，像传统烤箱一样使用上下加热管的经典模式，
-              有170、200、230℃三档温度可以选择。
+              有170、200、250℃三档温度可以选择。
               不管是点心烘焙、冷冻食品加工或者烤箱料理，传统烤箱的功能全部可以实现。
             </p>
           </div>

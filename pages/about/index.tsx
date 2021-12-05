@@ -25,7 +25,7 @@ export default function About() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item __current`}>
-              <Link href="/about">关于巴慕达</Link>
+              <Link href="/about">关于BALMUDA</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/about/story">历史故事</Link>
@@ -162,7 +162,7 @@ export default function About() {
         <div className="viewport">
           <div className="__content">
             <h3 className="section__title">获奖经历</h3>
-            <p>巴慕达的产品曾荣获good设计奖(日本)、iF设计奖(德国)等世界权威设计奖。</p>
+            <p>BALMUDA的产品曾荣获good设计奖(日本)、iF设计奖(德国)等世界权威设计奖。</p>
             <a href="/about/awards" className="button">
               查看获奖经历
             </a>

@@ -22,7 +22,7 @@ export default function ProductDetail() {
             <img
               className="w-full"
               src="/_theme/img/svg/the-greenfan.000.min.svgz"
-              alt="The GreenFan"
+              alt="GreenFan Japan"
             />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
@@ -61,7 +61,7 @@ export default function ProductDetail() {
             </p>
             <div className="__sign">
               <img src="/_theme/img/svg/gen_terao.min.svgz" className="__gen_terao" />
-              <span className="__note">巴慕达株式会社 社长　寺尾 玄</span>
+              <span className="__note">BALMUDA, Inc. CEO 兼 首席设计师　寺尾 玄</span>
             </div>
           </div>
         </div>

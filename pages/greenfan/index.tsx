@@ -39,7 +39,7 @@ export default function ProductDetail({ banners }) {
             <img
               className="w-full"
               src="/_theme/img/svg/the-greenfan.000.min.svgz"
-              alt="The GreenFan"
+              alt="GreenFan Japan"
             />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
@@ -92,17 +92,17 @@ export default function ProductDetail({ banners }) {
           </h2>
           <span className="label__block">直流电扇</span>
           <p className="overview_text">
-            <span>The GreenFan是通过独特的技术再现自然风的电风扇。</span>
+            <span>GreenFan Japan 是通过独特的技术再现自然风的电风扇。</span>
             <span>在房间里再现吹过夏日午后的舒适的风。</span>
             <span>伴随着令人心情愉悦的绿茵场风，</span>
             <span>请度过美好的夏日一天。</span>
           </p>
-          <div className="the-price">
+          {/* <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               39,600
             </p>
             <p className="colores">白色×黑色/白色×灰色/深灰色×黑色/白色×香槟金</p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -111,7 +111,7 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">先进性</h2>
             <p>
-              巴慕达独有的绿色风扇科技。双层结构的叶片产生的是与自然界的风一样，在较大的表面移动的空气流动。与一般的电风扇相比，能扩散约4倍的风是自然界的先进性。
+            BALMUDA 独有的果岭风科技。双层结构的叶片产生的是与自然界的风一样，在较大的表面移动的空气流动。与一般的电风扇相比，能扩散约4倍的风是自然界的先进性。
             </p>
             <Link href="/greenfan/feature">
               <a className="btn btn--page">详情</a>

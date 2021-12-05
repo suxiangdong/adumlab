@@ -24,7 +24,7 @@ export default function About() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item`}>
-              <Link href="/about">关于巴慕达</Link>
+              <Link href="/about">关于BALMUDA</Link>
             </li>
             <li className={`pagemap__content__item`}>
               <Link href="/about/story">历史故事</Link>
@@ -44,7 +44,7 @@ export default function About() {
       <div className="section section--awards section--00">
         <div className="viewport">
           <h2 className="page__title">获奖经历</h2>
-          <p className="overview_text">BALMUDA巴慕达的产品获得了众多的设计奖。</p>
+          <p className="overview_text">BALMUDA 的产品获得了众多的设计奖。</p>
         </div>
       </div>
 
@@ -102,7 +102,7 @@ export default function About() {
                   <a href="/pure/">BALMUDA The Pure (2019)</a>
                 </li>
                 <li>
-                  <a href="/pot/">BALMUDA The Pot (2017)</a>
+                  <a href="/pot/">BALMUDA The Pot  (2017)</a>
                 </li>
                 <li>
                   <a href="/toaster/">BALMUDA The Toaster (2015)</a>
@@ -134,7 +134,7 @@ export default function About() {
             <h4 className="__subtitle">获奖产品</h4>
             <ul className="__awards_list">
               <li>
-                <a href="/pot/">BALMUDA The Pot (2017)</a>
+                <a href="/pot/">BALMUDA The Pot  (2017)</a>
               </li>
               <li>
                 <a href="/rain/">智能加湿器 (2014)</a>
@@ -167,7 +167,7 @@ export default function About() {
                   <a href="/pure/">BALMUDA The Pure (2020)</a>
                 </li>
                 <li>
-                  <a href="/pot/">BALMUDA The Pot (2017)</a>
+                  <a href="/pot/">BALMUDA The Pot  (2017)</a>
                 </li>
                 <li>
                   <a href="/toaster/">BALMUDA The Toaster (2016)</a>

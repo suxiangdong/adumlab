@@ -165,35 +165,35 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>产品尺寸</th>
-                  <td>250mm（宽）× 250mm（长）× 700mm（高）</td>
+                  <td>260mm(宽）x 260mm(深）x 700mm(高）</td>
                 </tr>
                 <tr>
-                  <th>产品重量（包括过滤器）</th>
+                  <th>产品重量（含滤网）</th>
                   <td>约7.4kg</td>
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC220V 50/60Hz</td>
+                  <td>AC110V 50Hz/60Hz</td>
                 </tr>
                 <tr>
-                  <th>耗电量</th>
+                  <th>功率</th>
                   <td>2〜72W</td>
                 </tr>
                 <tr>
                   <th>电线长度</th>
-                  <td>交流电源线：1米／直流电源线1.8米（交流电源适配器 电源线长度）</td>
+                  <td>交流端：1.0m / 直流端：1.8m</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色(型号：A01A-WH，JAN代码：4560330119958）</td>
+                  <td>白色(型号：A01C-WH）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>深灰色(型号：A01A-GR，JAN代码：4560330119460）</td>
+                  <td>深灰色(型号：A01C-GR）</td>
                 </tr>
                 <tr>
-                  <th>包装内容</th>
-                  <td>主机、使用说明书（保证书）、电源适配器、360°溶菌酶滤网</td>
+                  <th>包装清单</th>
+                  <td>主机、使用说明书（保证书）、电源适配器、集尘滤网和除臭滤网套件</td>
                 </tr>
                 <tr>
                   <th>保修期限</th>
@@ -202,9 +202,9 @@ export default function ProductDetail() {
                 <tr>
                   <th>更换用滤网</th>
                   <td>
-                    集尘、除臭过滤器套装(A01A-P100)
+                  集尘滤网和除臭滤网套件(A01C-P100)
                     <br />
-                    除尘过滤器(A01A-S100)、除臭过滤器(A01A-D100)
+                    集尘滤网(A01C-S100)、除臭滤网(A01C-D100)
                   </td>
                 </tr>
                 <tr>
@@ -213,7 +213,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。 </td>
+                  <td>本产品是中国国内专用的。请注意在海外的使用不属于保修及修理受理的对象。 </td>
                 </tr>
               </tbody>
             </table>
@@ -229,32 +229,32 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>标准适用面积</th>
-                  <td>41m²以下（*1）</td>
+                  <td>～18平／～60m² (*1)</td>
                 </tr>
                 <tr>
                   <th>空气净化时间</th>
-                  <td>10m²/6分钟（*1）</td>
+                  <td>10m²/8分钟（*1）</td>
                 </tr>
                 <tr>
                   <th>运转模式 / 清洁风量</th>
                   <td>
-                    风量1 / 0.3㎥/min
+                    风量1 / 0.7㎥/min
                     <br />
-                    风量2 / 1.5㎥/min
+                    风量2 / 2.0㎥/min
                     <br />
-                    风量3 / 4.8㎥/min
+                    风量3 / 3.6㎥/min
                     <br />
-                    喷气清洗 / 7.3㎥/min
+                    喷射清洗 / 5.2㎥/min
                   </td>
                 </tr>
                 <tr>
                   <th>运行分贝</th>
-                  <td>60dB 50dB 40dB 30dB 15dB 7dB以下</td>
+                  <td>19～64dB</td>
                 </tr>
               </tbody>
             </table>
             <p className="note">
-              *1 适用面积以及清洁时间的数值是按照日本JEM1467标准检测的数值（使用喷射清洁模式）。
+              *1 「适用面积」及「清净时间」的数值是根据日本电机工业会JEM1467的数值（喷射清净模式运转时）。
             </p>
           </div>
         </div>
@@ -287,10 +287,9 @@ export default function ProductDetail() {
           </div>
           <div className="__column __02 scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h3 className="column__title">滤网的保养</h3>
+              <h3 className="column__title">滤网的维护</h3>
               <p>
-                打开主机背板，就可以看到滤网。在运转了500小时后，滤网清洁指示灯会点亮，此时请对滤网表面进行清洁。
-              </p>
+              打开主题背面的滤网仓盖，可以很方便的更换滤网。 滤网清洁：请每个月一次用吸尘器吸取滤网表面的灰尘。            </p>
             </div>
             <div className="__img">
               <img
@@ -305,7 +304,7 @@ export default function ProductDetail() {
           </div>
           <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h3 className="column__title">一年更换一次滤网</h3>
+              <h3 className="column__title">建议一年更换一次滤网</h3>
               <p>
                 BALMUDA The Pure的滤网会吸入大量的漂浮物和灰尘。为了保持本来的性能，建议1年更换1次。
               </p>

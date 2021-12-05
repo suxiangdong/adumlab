@@ -34,7 +34,7 @@ export default function ProductDetail() {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <a href="/pot/" className="pagemap__content--logo">
-            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot" />
+            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot " />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index ">
@@ -149,7 +149,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">无论快慢，随心所欲。</h2>
             <p>
-              手冲咖啡时的细缓，泡面时的豪迈。BALMUDA电水壶可以毫无压力的控制流速，让您注水的过程比以往更快乐。
+              手冲咖啡时的细缓，泡面时的豪迈。BALMUDA The Pot 可以毫无压力的控制流速，让您注水的过程比以往更快乐。
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">美好的一刻</h2>
             <p>
-              无论是悠闲地冲泡着咖啡的慢时光，亦或是冲茶待客的招待场合。请尽情享受BALMUDA电水壶带给您的美好一刻。
+              无论是悠闲地冲泡着咖啡的慢时光，亦或是冲茶待客的招待场合。请尽情享受BALMUDA The Pot 带给您的美好一刻。
             </p>
           </div>
         </div>

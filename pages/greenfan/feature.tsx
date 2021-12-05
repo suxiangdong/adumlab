@@ -48,7 +48,7 @@ export default function ProductDetail() {
             <img
               className="w-full"
               src="/_theme/img/svg/the-greenfan.000.min.svgz"
-              alt="The GreenFan"
+              alt="GreenFan Japan"
             />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
@@ -82,7 +82,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title __wb">重现自然风</h2>
             <p>
-              The GreenFan 和自然风相同，可以送出幅度宽广且柔和的风。 重现夏日午后吹拂的徐徐清风。{' '}
+              GreenFan Japan 和自然风相同，可以送出幅度宽广且柔和的风。 重现夏日午后吹拂的徐徐清风。{' '}
             </p>
           </div>
         </div>

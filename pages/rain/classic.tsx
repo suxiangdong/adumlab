@@ -65,9 +65,7 @@ export default function ProductDetail() {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <Link href="/rain/">
-            <a className="pagemap__content--logo">
-              <img src="/_theme/img/svg/balmuda-rain.min.svgz" alt="Rain" />
-            </a>
+            <a className="pagemap__content--logo text-2xl text-left">智能加湿器</a>
           </Link>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index ">

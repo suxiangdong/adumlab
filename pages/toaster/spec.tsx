@@ -75,7 +75,7 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>产品尺寸</th>
-                  <td>357毫米(宽)×321毫米(长)×209毫米(高)</td>
+                  <td>357mm(宽)×321mm(长)×209mm(高)</td>
                 </tr>
                 <tr>
                   <th>库内尺寸</th>
@@ -87,7 +87,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100V 50Hz/60Hz</td>
+                  <td>AC220V</td>
                 </tr>
                 <tr>
                   <th>额定耗电量</th>
@@ -99,7 +99,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>彩色</th>
-                  <td>黑色(型号:K05A-BK, JAN代码:4560330110139)</td>
+                  <td>黑色(型号:K05A-BK)</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
@@ -110,16 +110,12 @@ export default function ProductDetail() {
                   <td>米色(型号:K05A-BG, JAN代码:4560330110153)</td>
                 </tr>
                 <tr>
-                  <th>&nbsp;</th>
-                  <td>灰色(型号:K05A-GR, JAN代码:4560330110665)</td>
-                </tr>
-                <tr>
                   <th>产地</th>
                   <td>中国</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
+                  <td>本产品是中国国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
@@ -138,9 +134,9 @@ export default function ProductDetail() {
           <span className={`__selector ${current === 2 ? '__current' : ''} `} onClick={() => setCurrent(2)} data-model="beige">
             米色
           </span>
-          <span className={`__selector ${current === 3 ? '__current' : ''} `} onClick={() => setCurrent(3)} data-model="gray">
+          {/* <span className={`__selector ${current === 3 ? '__current' : ''} `} onClick={() => setCurrent(3)} data-model="gray">
             灰色
-          </span>
+          </span> */}
         </div>
         <div className="__image_outer __is_desktop">
           <div className="__image_inner">
@@ -499,21 +495,19 @@ export default function ProductDetail() {
             <table className="__basic">
               <tbody>
                 <tr>
-                  <th>计时器</th>
+                  <th>定时</th>
                   <td>1～10 ・ 15分</td>
                 </tr>
                 <tr>
-                  <th>运转模式</th>
+                  <th>运行模式</th>
                   <td>
-                    1. 烤面包模式
+                    1. 吐司模式
                     <br />
-                    2. 奶酪烤面包模式
+                    2. 芝士吐司模式
                     <br />
-                    3. 法国模式
+                    3. 法式面包模式
                     <br />
-                    4. 羊角面包模式
-                    <br />
-                    5. 经典模式(170、200、230°C)
+                    4. 牛角面包模式
                   </td>
                 </tr>
                 <tr>
@@ -526,7 +520,7 @@ export default function ProductDetail() {
             <h2 className="section__title">同捆物品</h2>
             <div className="initems">
               <div className="initems__desc">
-                <p>5cc杯，使用说明书(附有保证书)，指南书</p>
+                <p>5cc量杯，使用指南</p>
               </div>
               <div className="initems__img">
                 <img

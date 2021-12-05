@@ -136,17 +136,12 @@ export default function ProductDetail() {
 
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">プッシュ＆プル</h2>
+            <h2 className="page__title">强力的循环能力，净化室内角落</h2>
             <p>
-              部屋の向こう側の空气も強力に引き寄せて清浄するために。
-              <br />
-              BALMUDA The Pure
-              は、真上に向かって清浄された空气を送り出すと同時に、本体の下に設けられた開口部から大量の空气を吸い込みます。このプッシュ＆プルの設計思想により、
-              <br />
-              部屋や全体の空气を大きく循環させ、毎分7000リットル
-              <em className="asterisk __pointer">*1</em>の空气を清浄します。
+            BALMUDA The Pure通过正上方送出洁净空气的同时，会从设置于主机下方开口处吸取大量空气
+因为PUSH & PULL 的设计，能让室内空气加速循环，每分钟净化5000左右
             </p>
-            <p className="asterisk __ref">*1 : ジェットクリーニングモード運転時</p>
+            <p className="asterisk __ref">*1 : 喷射清洁模式时</p>
           </div>
         </div>
       </div>
@@ -155,37 +150,42 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
-              微細な粒子からウィルスまで捕らえる高性能フィルター
+            不管是灰尘或者是病毒都能补捉的高性能滤网
+
               <em className="asterisk __pointer">*2</em>
             </h2>
             <div className="desc desc_1">
               <div className="text">
                 <h3>
-                  <span>活性炭脱臭フィルター</span>
+                  <span>活性炭除臭滤网
+</span>
                 </h3>
                 <p>
-                  ペット臭やタバコ臭などのニオイ成分から、ホルムアルデヒドなどの有害物質を取り除きます。
+                可去除在意的臭味、甲醛等对身体有害的物质
+
                 </p>
               </div>
               <div className="graph">
                 <figure className="tobacco">
-                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/tobacco.svg" alt="タバコ臭" />
-                  <figcaption>タバコ臭</figcaption>
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/tobacco.svg" alt="烟味" />
+                  <figcaption>烟味</figcaption>
                 </figure>
                 <figure className="pet">
-                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/pet.svg" alt="ペット臭" />
-                  <figcaption>ペット臭</figcaption>
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/pet.svg" alt="宠物异味
+" />
+                  <figcaption>宠物异味
+</figcaption>
                 </figure>
               </div>
             </div>
             <div className="desc desc_2">
               <div className="text">
                 <h3>
-                  <span>TrueHEPAフィルター</span>
+                  <span>TrueHEPA滤网</span>
                   <em className="asterisk __pointer">*3</em>
                 </h3>
                 <p>
-                  ホコリや花粉、PM2.5やハウスダストから、カビやウィルスなど、微細な粒子も確実にキャッチ。
+                灰尘、花粉、PM2.5或者家中粉尘，甚至霉菌、病毒等细微粒子，都能有效过滤。
                 </p>
               </div>
               <div className="graph">
@@ -202,25 +202,25 @@ export default function ProductDetail() {
                   <figcaption>花粉</figcaption>
                 </figure>
                 <figure className="hazard">
-                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/hazard.svg" alt="有害物質" />
-                  <figcaption>有害物質</figcaption>
+                  <img src="https://www.balmuda.com/jp/pure/img/technology/svg/hazard.svg" alt="有害物质" />
+                  <figcaption>有害物质</figcaption>
                 </figure>
               </div>
             </div>
             <div className="desc desc_3">
               <div className="text">
                 <h3>
-                  <span>プレネット</span>
+                  <span>前网</span>
                 </h3>
-                <p>大きなホコリを入り口でキャッチ。抗菌规格が微生物の繁殖を抑制します</p>
+                <p>在入口处捕捉大灰尘。 抗菌状态抑制微生物的生长</p>
               </div>
             </div>
 
             <p className="asterisk __ref re2">
-              *2 : 空气中のすべての有害物質を除去できるものではありません。
+              *2 : 并非空气中的所有有害物质都可以去除。
               <br />
               *3 :
-              0.3μmの微粒子を99.97%以上の粒子捕集率をもつフィルターです。0.3μｍ未満の微粒子状物質については、除去の確認ができていません。
+              对0.3μm的微粒子的捕集率为99.97%以上的过滤器。 我们尚未确认去除小于 0.3 μm 的细小颗粒。
             </p>
           </div>
         </div>
@@ -231,9 +231,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
-              PM2.5集じん性能
-              <br className="sp" />
-              試験結果
+            PM2.5性能实验结果
             </h2>
             <img
               data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--02.png?20190130"
@@ -243,7 +241,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
               alt=""
             />
-            <p className="note">日本電機工業会規格 JEM 1467に基づく</p>
+            <p className="note">基于日本电机工业协会JEM1467的测试结果</p>
           </div>
         </div>
       </div>
@@ -261,7 +259,7 @@ export default function ProductDetail() {
               alt=""
             />
             <a href="#" onClick={handleOpenModal} className="button modal-action" data-modal-for="section--03_modal">
-              詳しい試験結果
+            详细测试结果
             </a>
           </div>
         </div>
@@ -466,9 +464,9 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h2 className="section__title">
-              力強く、
+            强力循环
               <br className="sp" />
-              大量の空气を循環
+              大量的空气
             </h2>
           </div>
         </div>
@@ -481,10 +479,10 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p>
-              BALMUDA The Pure
-              には、空气を送り出すファンの上に、整流翼が用意されています。従来、航空機のジェットエンジンなどで使われるこの科技を、BALMUDA
-              The Pure
-              のために流体力学に基づき再設計しました。これにより、より大容量の空气を、静かに、循環させることが可能になりました。
+            送风扇叶上搭载整流翼的 BALMUDA The Pure
+ 过去只是用在飞机引擎上面的技术，运用到空气净化器上
+基于流体力学进行设计
+可以安静的循环大量的空气
             </p>
           </div>
         </div>

@@ -76,7 +76,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">科学烤面包</h2>
             <p>
-						表面是烤得焦黄的金黄色，里面含有大量水分，热气腾腾的令人感动的吐司。BALMUA The Toaster以科学的眼光彻底追求吐司，通过独特的蒸汽技术和细致的温度控制，任何人都能简单地做出令人惊讶的美味吐司。
+						表面是烤得焦黄的金黄色，里面含有大量水分，热气腾腾的令人感动的吐司。BALMUDA The Toaster以科学的眼光彻底追求吐司，通过独特的蒸汽技术和细致的温度控制，任何人都能简单地做出令人惊讶的美味吐司。
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export default function ProductDetail() {
                 <span>蒸汽技术</span>
               </h2>
               <p>
-                使用BALMUDA电烤箱烘烤时，请先在上方的水槽加入5cc的水。
+                使用 BALMUDA The Toaster 烘烤时，请先在上方的水槽加入5cc的水。
                 开始运行后，蒸汽会充满仓内，在面包表面附着一层薄薄的水膜。由于水分会比气体更快被加热，所以面包表面会被优先加热，水分及黄油等等油脂和香气却会被牢牢所在面包内部。这个时候，上下加热管才正式开始运作加热。
               </p>
               <span
@@ -146,7 +146,7 @@ export default function ProductDetail() {
                   <span>完美的温度控制</span>
                 </h2>
                 <p>
-                  BALMUDA电烤箱通过完美控制三个温度带，再现食物的最佳状态。首先是使面包内部恢复松软和唤醒沉睡风味的60°C左右温度带，另一个是使表面开始呈现金黄色的160°C左右温度带，以及烤出焦黄色的220°C左右温度带。
+                   BALMUDA The Toaster 通过完美控制三个温度带，再现食物的最佳状态。首先是使面包内部恢复松软和唤醒沉睡风味的60°C左右温度带，另一个是使表面开始呈现金黄色的160°C左右温度带，以及烤出焦黄色的220°C左右温度带。
                 </p>
               </div>
               <div className="head__img">
@@ -167,7 +167,7 @@ export default function ProductDetail() {
               </h3>
               <ul className="mode__list">
                 <li className="mode__list_item">
-                  <p className="mode__list_title">烤面包模式</p>
+                  <p className="mode__list_title">吐司模式</p>
                   <p className="mode__list_point">烤制的时候要加强上面的加热器</p>
                   <img
                     data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/mode--01.png?20200915"
@@ -178,7 +178,7 @@ export default function ProductDetail() {
                   />
                 </li>
                 <li className="mode__list_item">
-                  <p className="mode__list_title">奶酪烤面包模式</p>
+                  <p className="mode__list_title">芝士土司模式</p>
                   <p className="mode__list_point">从开始烧的时候开始加大上面的加热器</p>
                   <img
                     data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/mode--02.png?20200915"
@@ -189,7 +189,7 @@ export default function ProductDetail() {
                   />
                 </li>
                 <li className="mode__list_item">
-                  <p className="mode__list_title">法棍模式</p>
+                  <p className="mode__list_title">法国面包模式</p>
                   <p className="mode__list_point">
                     上下的强度不变
                     <br className="sp" />
@@ -236,7 +236,7 @@ export default function ProductDetail() {
             </h2>
             <p>
               在BALMUDA The
-              Toaster中，除了适合面包种类的4种烤法之外，还准备了不使用蒸汽，在一定温度下烤制的经典烤法。不需要预热，也可以制作年糕、焗饭等烤面包机，还可以制作简单的点心。
+              Toaster中，除了适合面包种类的4种烤法之外，还准备了不使用蒸汽，在一定温度下烤制的经典烤法。不需要预热，也可以制作年糕、焗饭等烤箱料理，还可以制作简单的点心。
             </p>
           </div>
         </div>

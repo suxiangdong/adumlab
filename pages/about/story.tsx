@@ -24,7 +24,7 @@ export default function About() {
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className={`pagemap__content__item `}>
-              <Link href="/about">关于巴慕达</Link>
+              <Link href="/about">关于BALMUDA</Link>
             </li>
             <li className={`pagemap__content__item __current`}>
               <Link href="/about/story">历史故事</Link>

@@ -62,7 +62,7 @@ export default function ProductDetail({ banners, evaluations }) {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology">
-              <Link href="/light/technology">科技</Link>
+              <Link href="/light/technology">科技与设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto">
               <Link href="/light/howto">使用方法</Link>
@@ -112,11 +112,11 @@ export default function ProductDetail({ banners, evaluations }) {
           <h2 className="page__title __wb __is_mobile">
             <span>BALMUDA太阳光LED台灯</span>
           </h2>
-          <span className="label__block">太阳能LED台灯</span>
+          <span className="label__block">自然光LED台灯</span>
           <p className="overview_text __wb">
-            <span>BALMUDA The Light 可友善守护双眼，提高集中力，</span>
+            <span>BALMUDA The Light 提高集中力，</span>
             <br />
-            <span>实现视野范围内不会产生阴影的光。</span>
+            <span>实现视野范围内没有阴影的光。</span>
           </p>
         </div>
       </div>
@@ -127,13 +127,13 @@ export default function ProductDetail({ banners, evaluations }) {
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
                 <h3 className="section__subtitle __wb">
-                  <span>视野范围内不产生阴影的光</span>
+                  <span>视野范围内没有阴影的光</span>
                 </h3>
                 <h4 className="section__h __wb">
                   <span>ForwardBeam Technology</span>
                 </h4>
                 <p className="section__desc">
-                  以医疗手术灯为灵感而开发的独家结构设计，从一定距离投射而来的光，清楚照明手边大范围
+                以医疗手术灯为灵感而开发的结构设计，从一定距离投射来的光，在视野范围内没有阴影的影响的光
                 </p>
               </div>
             </div>
@@ -151,7 +151,7 @@ export default function ProductDetail({ banners, evaluations }) {
                 </h3>
                 <h4 className="section__h">自然光LED</h4>
                 <p className="section__desc">
-                  在美术馆等对颜色有严苛要求场域中使用的自然光LED，可友善双眼，提高集中力。
+                  在美术馆等对颜色有严苛要求的场景中使用的自然光LED，可以提高注意力。
                 </p>
               </div>
             </div>
@@ -162,20 +162,19 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle __wb">
-              <span>工具箱&amp;</span>
-              <span>贴纸</span>
+              <span>笔筒和贴纸</span>
             </h3>
             <p className="section__desc">
-              可以将自己喜爱的铅笔、剪刀或圆规等文具放到工具箱内，点亮灯饰照明，方便寻找。
+            可以将自己喜爱的铅笔、剪刀等文具放到笔筒内，点亮灯饰照明，方便寻找。
             </p>
             <p className="section__desc">
-              另外，随机附赠可贴在台灯主体上的贴纸，能发挥创意自由组合，轻松打造充满自我风格的台灯。
+            另外，随机附赠可贴在台灯主体上的贴纸，能发挥创意自由组合，轻松打造充满自我风格的台灯。
             </p>
           </div>
         </div>
       </div>
 
-      <div className="section section--index section--05 scrollLoader lazyload">
+      {/* <div className="section section--index section--05 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <h3 className="section__subtitle">开发故事</h3>
@@ -184,7 +183,7 @@ export default function ProductDetail({ banners, evaluations }) {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="section section--blockquote">
         <div className="viewport">
           <h2 className="section__title">

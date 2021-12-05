@@ -28,7 +28,7 @@ export default function ProductDetail() {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology ">
-              <Link href="/light/technology">科技</Link>
+              <Link href="/light/technology">科技与设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto __current">
               <Link href="/light/howto">使用方法</Link>
@@ -75,8 +75,7 @@ export default function ProductDetail() {
           <div className="__column __01 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
-                <span>将台灯放置在惯用手的
-相反方向的对角线上。</span>
+                <span>将台灯放置在惯用手的相反方向的对角线上。</span>
               </h2>
               <div className="__img">
                 <img
@@ -89,7 +88,7 @@ export default function ProductDetail() {
               </div>
             </div>
             <div className="__point">
-              <p className="__subtitle">放置在惯用手的对角线，所以在手边范围不会造成阴影。</p>
+              <p className="__subtitle">放置在惯用手的对角线，在手边视觉范围内不会造成阴影。</p>
             </div>
           </div>
 
@@ -131,8 +130,7 @@ export default function ProductDetail() {
 调整明亮度</span>
                 </h2>
               <p>
-              在宁静氛围的室内，建议设定1~3，较明亮的室内或进行细微作业时，建议设定4~6
-              </p>
+              在宁静氛围的室内，建议设定1-3档，较明亮的室内或进行细微作业时，建议设定4-6档              </p>
               <div className="__img">
                 <img
                   data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--dial.png"
@@ -146,10 +144,9 @@ export default function ProductDetail() {
             <div className="__point">
               <p className="__subtitle">提高集中力的使用方法</p>
               <p className="__caption">
-              比起整间房间都是一样的亮度，在有点昏暗的房间，搭配使用桌上台灯，让房间内有5~10倍左右的明亮度落差，一般认为这样地明暗落差环境的创造，是可提高集中力的。
-              </p>
+              相比整间房间都是一样的亮度，在有点昏暗的房间，搭配台灯，让房间内有5-10倍左右的亮度差，一般认为何样的明暗落差环境，是可以提高集中力的。           </p>
               <p className="__caption">
-              * 何谓Lx（照度），代表照射到平面明亮度的单位。              </p>
+              * Lx照度：代表照射到平面明亮度的单位。             </p>
               <div className="__img">
                 <img
                   data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--point--illuminance.png?20200603"
@@ -167,12 +164,12 @@ export default function ProductDetail() {
       <div className="section section--howto section--02 scrollLoader fadeInUp lazyload">
         <div className="viewport">
           <div className="__content">
-          <p className="font-bold w-96 text-3xl">BALMUDA The Light 是可将</p>
-            <p className="font-bold w-96 text-3xl mt-2">光源照射到一定距离的位置</p>
-            <p className="font-bold w-96 text-3xl mt-2">，在手边不会造成阴影，提</p>
-            <p className="font-bold w-96 text-3xl mt-2">供最舒适的明亮度。</p>
+          <p className="font-bold w-96 text-3xl">BALMUDA The Light 是通过</p>
+            <p className="font-bold w-96 text-3xl mt-2">前束光技术，手边的视野范</p>
+            <p className="font-bold w-96 text-3xl mt-2">围内不产生阴影，提供舒适</p>
+            <p className="font-bold w-96 text-3xl mt-2">的亮度。</p>
             <p className="__wb mt-2">
-              <span>将自己喜爱的文具放到工具箱里，请享受专属自己桌上护眼台灯的乐趣。</span>
+              <span>将自己喜爱的文具放到工具箱里，享受专属自己的桌面工作乐趣。</span>
             </p>
           </div>
           <div className="__img">

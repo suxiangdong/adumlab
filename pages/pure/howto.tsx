@@ -61,9 +61,7 @@ export default function ProductDetail() {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=A01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=A01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -129,11 +127,11 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">使用方法</h2>
             <p>
-              通常時は、24时间使い続けることをおすすめします。
+              一般推荐24小时持续使用，使用自动模式运转时，
               <br />
-              オートモードで使用すれば、内蔵のセンサーが部屋の空气の状態を検知し、最適なモードで空气を清浄。
+              内建感应器会自动感应 室内的空气状态，
               <br />
-              いつでも快適な状態に保ちます。
+              以适当的模式净化空气 随时保持舒适的生活空间
             </p>
           </div>
         </div>
@@ -142,7 +140,7 @@ export default function ProductDetail() {
       <div className="section section--howto section--01">
         <div className="viewport">
           <h2 className="section__title __wb">
-            <span className="subtitle">効果的な使用方法</span>
+            <span className="subtitle">有效使用方法</span>
           </h2>
 
           <div className="__column __01 scrollLoader fadeInUp lazyload">
@@ -159,13 +157,9 @@ export default function ProductDetail() {
 
             <div className="__content">
               <div className="__wrap">
-                <h3 className="__title">
-                  掃除中の運転で
-                  <br className="sp" />
-                  もっときれいに
-                </h3>
+                <h3 className="__title">打扫中运作， 加倍干净</h3>
                 <p>
-                  効果的に掃除をするなら、掃除機とジェットクリーニングモードの併用がおすすめです。掃除機を併用すれば舞い上がった微細なホコリや浮遊物質を吸引できるので、より効果的に部屋の空气を清浄することができます。
+                  在打扫时，建议一并使用吸尘器和喷射清洁模式。若一起使用吸尘器，因为可吸引空气中飞舞粉尘和悬浮微粒，达到更有效的净化室内空气。{' '}
                 </p>
               </div>
             </div>
@@ -185,11 +179,9 @@ export default function ProductDetail() {
 
             <div className="__content">
               <div className="__wrap">
-                <h3 className="__title">すばやくニオイを脱臭</h3>
+                <h3 className="__title">极速除臭</h3>
                 <p>
-                  調理後、食事後などの部屋にこもったニオイを消したいとき。
-                  <br />
-                  ジェットクリーニングモードは部屋の空气を強力に引き寄せ、活性炭フィルターを通すので、气になるニオイはすばやく除去されます。
+                  想要消除料理后、吃饭后室内弥漫的油烟饭菜异味时，喷射清洁模式可强力吸引室内空气，透过活性炭滤网快速地去除在意的异味。
                 </p>
               </div>
             </div>
@@ -209,13 +201,9 @@ export default function ProductDetail() {
 
             <div className="__content">
               <div className="__wrap">
-                <h3 className="__title">
-                  玄関で花粉の侵入を
-                  <br className="sp" />
-                  防ぐ
-                </h3>
+                <h3 className="__title">放置玄关入口处防止花粉入侵</h3>
                 <p>
-                  花粉は屋外で衣服に付着し、帰宅後に部屋の中に侵入します。花粉の季節は、玄関での設置が効果的。ジェットクリーニングモードを使えば、すばやく花粉を除去し、室内への侵入を防ぐことができます。帰宅後すぐに玄関先で衣服をはたいて花粉が床に落下する前に吸引すると、より効果的です。
+                  花粉是在户外附着于衣服上，回家后入侵到室内。花粉的季节，可放置于玄关入口处是有效果的。使用喷射清净模式时，极速去除花粉，可防止入侵到室内。回家后马上在玄关入口处拍打衣服，于花粉落下到地板前将它吸引，如此一来，将会达到更好的效果。
                 </p>
                 <figure>
                   <img
@@ -245,14 +233,10 @@ export default function ProductDetail() {
 
             <div className="__content">
               <div className="__wrap">
-                <h3 className="__title">
-                  エアコンとの併用で
-                  <br className="sp" />
-                  快適な室温に
-                </h3>
+                <h3 className="__title">和冷气一并使用，轻松快速达到舒适的室温</h3>
                 <p>
-                  BALMUDA
-                  ThePureは大风量で部屋中の空气を循環させるので、冷暖房使用時にできる不快な温度差を解消することができます。また、冷暖房効率をあげられるので省エネにもなります。
+                  因为可利用 BALMUDA The Pure
+                  的大风量，加速循环室内的空气，可消除使用冷暖器机时，不舒服的温度差。另外，可提高冷暖器的效率，达到节能的效果。
                 </p>
                 <figure>
                   <img
@@ -260,7 +244,7 @@ export default function ProductDetail() {
                     data-desktop="https://www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01.jpg?20190524"
                     data-retina="https://www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01@2x.jpg?20190524"
                     className="adaptiveimage"
-                    alt="エアコンとの併用で快適な室温に"
+                    alt="和冷气一并使用，轻松快速达到舒适的室温"
                     src="https://www.balmuda.com/jp/pure/img/howto/desktop/section--04--img--01@2x.jpg?20190524"
                   />
                 </figure>

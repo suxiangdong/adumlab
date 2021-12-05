@@ -39,21 +39,21 @@ export default function Home({ banners, hots, topics, notifications }) {
       },
       {
         id: 2,
-        title: 'BALMUDA The Pot',
+        title: 'BALMUDA The Pot ',
         description: '小而美的电水壶',
         path: 'https://www.balmuda.com/jp/index/img/desktop/popular/2.jpg?20210530',
         url: '/pot'
       },
       {
         id: 3,
-        title: 'BALMUDA The Rain',
-        description: '水洗空气的加湿器',
+        title: '智能加湿器',
+        description: '清洗空气的加湿器',
         path: 'https://www.balmuda.com/jp/index/img/desktop/popular/5.jpg?20210530',
         url: '/rain'
       },
       {
         id: 4,
-        title: 'BALMUDA The GreenFan',
+        title: 'GreenFan Japan',
         description: '自然风果岭风扇',
         path: 'https://www.balmuda.com/jp/index/img/desktop/popular/1.jpg?20210530',
         url: '/greenfan'
@@ -65,8 +65,8 @@ export default function Home({ banners, hots, topics, notifications }) {
     topics.data = [
       {
         id: 1,
-        title: '关于巴慕达',
-        description: '巴慕达是一家2003年在东京成立的创意和科技公司。',
+        title: '关于BALMUDA',
+        description: 'BALMUDA是一家2003年在东京成立的创意和科技公司。',
         path: 'https://www.balmuda.com/jp/index/img/desktop/post/5@2x.jpg?20210530',
         url: '/about'
       },

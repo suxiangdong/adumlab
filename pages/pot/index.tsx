@@ -50,7 +50,7 @@ export default function ProductDetail({ banners }) {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <a href="/pot/" className="pagemap__content--logo">
-            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot" />
+            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot " />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index __current">
@@ -111,16 +111,16 @@ export default function ProductDetail({ banners }) {
           </h2>
           <span className="label__block">600ml 1200w不锈钢电水壶</span>
           <p className="overview_text">
-            BALMUDA电水壶，
+            BALMUDA The Pot ，
             <br />
             前所未有般美丽设计，让你想要每日使用。
           </p>
-          <div className="the-price">
+          {/* <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               12,100
             </p>
             <p className="colores">黑色/白色</p>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -148,7 +148,6 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h3 className="section__subtitle">冲泡方法</h3>
             <p>让咖啡、红茶、日本茶更美味。为您介绍让每天的茶歇更加快乐的冲泡方法。</p>
-            <img src="/_theme/img/mini-prog.png" className="mt-4 w-24 h-24" alt="" />
           </div>
         </div>
       </div>
@@ -158,11 +157,11 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h3 className="section__subtitle">故事</h3>
             <h2 className="section__title __wb">
-              <span>BALMUDA The Potが</span>
+              <span>BALMUDA The Pot が</span>
               <span>生まれるまで</span>
             </h2>
             <p>
-              美味的饮食可以带来活力。即使只是日常的料理，好吃的瞬间都会变成就充满快乐的回忆。BALMUDA电水壶，为这些美好的时间添彩。
+              美味的饮食可以带来活力。即使只是日常的料理，好吃的瞬间都会变成就充满快乐的回忆。BALMUDA The Pot ，为这些美好的时间添彩。
             </p>
             <Link href="/pot/story">
               <a className="btn btn--page">详情</a>

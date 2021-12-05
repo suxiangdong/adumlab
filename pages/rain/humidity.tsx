@@ -27,9 +27,7 @@ export default function ProductDetail() {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <Link href="/rain/">
-            <a className="pagemap__content--logo">
-              <img src="/_theme/img/svg/balmuda-rain.min.svgz" alt="Rain" />
-            </a>
+            <a className="pagemap__content--logo text-2xl text-left">智能加湿器</a>
           </Link>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index ">
@@ -250,7 +248,7 @@ export default function ProductDetail() {
             </div>
 
             <div className="comments">
-              <p>为了让Rain更清洁的使用，过滤器组推荐1年更换一次。</p>
+              <p>为了让智能加湿器更清洁的使用，过滤器组推荐1年更换一次。</p>
             </div>
           </div>
         </div>

@@ -34,16 +34,14 @@ export default function ProductDetail() {
               <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting">
-              <Link href="/speaker/setting">设置</Link>
+              <Link href="/speaker/setting">设定</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
               <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=M01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=M01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -60,13 +58,13 @@ export default function ProductDetail() {
         />
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">释放音乐热能的技术</h2>
+            <h2 className="page__title">释放音乐能量的技术</h2>
             <p>
-              独特构造实现立体且清晰的音响效果。更搭配了与乐曲呼应的细致闪耀，
+              独特的结构可以实现立体且清晰的声音曲线
               <br />
-              将音乐所饱含的能量传递到耳朵、眼睛
+              此外，还伴随着与歌曲同步的精确光效。
               <br />
-              带来全新的音乐体验
+              将音乐拥有的能量，透过听觉、视觉传递，创造崭新的音乐体验。
             </p>
           </div>
         </div>
@@ -80,15 +78,16 @@ export default function ProductDetail() {
             alt=""
           />
           <div className="__content">
-            <p className="section__label">向上的构造</p>
-            <h2 className="section__title">360°环绕，同样的音乐体验</h2>
+            <p className="section__label">向上发声的构造</p>
+            <h2 className="section__title">360°随时随地</h2>
             <p className="section__desc">
-              独特的设计，向上设置的喇叭，声音向上方扩散，无论多少听众都无需在意倾听的位置，从各个角度乐享声音的乐趣。
+              享受相同的音乐体验 扬声器向上的独特结构
+              声音全方位向上传递，无论身在何处、任何人皆可尽情享受立体声效
             </p>
           </div>
           <div className="__box">
             <div className="__item __item__01">
-              <p className="__title">一般横向的音箱</p>
+              <p className="__title">一般单向音响</p>
               <img
                 data-desktop="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00.png?20200421b"
                 data-retina="https://www.balmuda.com/jp/speaker/img/technology/desktop/section--01--00@2x.png?20200421b"
@@ -97,7 +96,7 @@ export default function ProductDetail() {
                 data-model="black"
                 alt=""
               />
-              <p className="__txt text-center">声音水平向前、最佳倾听区域有限。</p>
+              <p className="__txt text-center">由于声音为水平传递，因此聆听位置较小且局限。</p>
             </div>
             <div className="__item __item__02">
               <p className="__title">BALMUDA The Speaker</p>
@@ -109,7 +108,9 @@ export default function ProductDetail() {
                 data-model="black"
                 alt=""
               />
-              <p className="__txt text-center">上方扩散、各个方向都能同样聆听。</p>
+              <p className="__txt text-center">
+                声音向上传递，无需选择聆听位置，在任何地方皆能聆听同样的音乐。
+              </p>
             </div>
           </div>
         </div>
@@ -119,9 +120,10 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <p className="section__label">77mm扬声器</p>
-            <h2 className="section__title">优秀的表现力</h2>
+            <h2 className="section__title">重现音源本质</h2>
             <p className="section__desc">
-              77mm全音域喇叭，无缝再现完整音域，带来如同临场般的乐器与歌手声音。不被不自然的变调所扰，带来最真实的声音。
+              77mm全音域扬声器，无论乐器和人声都可以真实地重现
+              不会感到不自然的失真或违和感，将真实的声音传递给聆听者
             </p>
           </div>
         </div>
@@ -135,10 +137,10 @@ export default function ProductDetail() {
             alt=""
           />
           <div className="__content">
-            <p className="section__label">独特的驱动模块</p>
-            <h2 className="section__title">立体的音效</h2>
+            <p className="section__label">独特的驱动单元</p>
+            <h2 className="section__title">立体声的表现</h2>
             <p className="section__desc">
-              低音在下，高音在头顶，歌手的声音彷如眼前，搭载独特的驱动模块，带来立体且有深度的音效。
+              搭载特殊的驱动单元，使低音从下方共鸣，让高音在顶部发声，而人声的表现犹如在现场演唱一般，实现具有深度的立体表现
             </p>
           </div>
         </div>
@@ -152,10 +154,10 @@ export default function ProductDetail() {
             alt=""
           />
           <div className="__content">
-            <p className="section__label">密闭型包围</p>
-            <h2 className="section__title">清晰有轮廓的声音</h2>
+            <p className="section__label">密闭型音箱</p>
+            <h2 className="section__title">轮廓清晰的声音</h2>
             <p className="section__desc">
-              真空管般美丽的圆筒、由强度硬度兼备的有机玻璃制成。加之密闭型的结构设计，将空气封闭其中并产生共振，带来明亮且干净的声音。
+              复古真空管造型的美丽灯管是由强度与硬度兼具的有机玻璃所制成，透明的箱体采用了密闭式结构，内部密实的空气如弹簧般共鸣，发出清晰明亮的声音
             </p>
           </div>
         </div>
@@ -164,13 +166,14 @@ export default function ProductDetail() {
       <div id="LED" className="section section--technology section--05 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <p className="section__label">LED模块组</p>
-            <h2 className="section__title">让节奏感倍增的闪耀</h2>
+            <p className="section__label">LED 灯光</p>
+            <h2 className="section__title">光线明暗 层次分明</h2>
             <p className="section__desc">
-              结合乐曲节奏，向舞台上表演一般闪耀的LED模块组。微妙变化的光的颜色与亮度，缓急速度的变化，带来细致且复杂的闪耀演出，让乐曲的节奏感更加突出。
+              根据歌曲律动闪耀的 LED
+              灯光，让人宛如亲临演出现场一般，精确而复杂的光效由光线细微差距的颜色、亮度及闪烁速度的快慢组成，更近一步增强了一首歌曲的律动感
             </p>
             <Link href="/speaker/setting#live_light">
-              <a className="section__btn">关于LIGHT功能</a>
+              <a className="section__btn">关于 LIGHT 功能</a>
             </Link>
           </div>
         </div>
@@ -179,14 +182,15 @@ export default function ProductDetail() {
       <div className="section section--technology section--06 scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <p className="section__label">芯片算法</p>
+            <p className="section__label">演算法</p>
             <h2 className="section__title">
-              0.004秒的速度
+              以0.004秒的速度
               <br />
-              让声音与光相呼应
+              同步声音和光
             </h2>
             <p className="section__desc">
-              独特的芯片算法，让光结合音乐，以在0.004秒的速度变换。不管是快歌或慢歌，都能完美融合。
+              根据独特的演算法，可在 0.004
+              秒内将声音转换为光效。从快捷做的歌曲到安静的曲风，声音和美妙的光完美的融合在一起。
             </p>
           </div>
         </div>

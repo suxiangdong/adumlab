@@ -37,7 +37,7 @@ export default function ProductDetail() {
             <img
               className="w-full"
               src="/_theme/img/svg/the-greenfan.000.min.svgz"
-              alt="The GreenFan"
+              alt="GreenFan Japan"
             />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
@@ -89,13 +89,13 @@ export default function ProductDetail() {
               健康凉爽
             </h2>
             <p>
-              将The GreenFan配置在空调的对角线上，循环空调方向下停留的冷星空，整个房间都会变凉。
+              将 GreenFan Japan 配置在空调的对角线上，循环空调方向下停留的冷星空，整个房间都会变凉。
             </p>
           </div>
           <img
             src="https://www.balmuda.com/jp/greenfan/img/design/svg/section--00a.svgz?20210406"
             className="__title"
-            alt="The GreenFan 的使用"
+            alt="GreenFan Japan 的使用"
           />
         </div>
       </div>
@@ -119,8 +119,7 @@ export default function ProductDetail() {
             <div className="__content">
               <h2 className="section__title">任意转弯</h2>
               <p>
-                The
-                GreenFan独有的功能“任意转身”。可以根据用途自由地设定摇头角度。天气热的时候，可以缩小角度集中送风，想让整个房间的空气流通的时候，可以将摇头角度设定得更大，这样就能一直创造出舒适的空间。
+                GreenFan Japan 独有的功能“任意转身”。可以根据用途自由地设定摇头角度。天气热的时候，可以缩小角度集中送风，想让整个房间的空气流通的时候，可以将摇头角度设定得更大，这样就能一直创造出舒适的空间。
               </p>
               <span className="video_play __is_desktop" data-video-target="v3" onClick={handlePlay}>
                 播放视频
@@ -142,7 +141,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">不影响睡眠的声音</h2>
             <p>
-              实现静音运行的GreenFan，风量1的噪音只有13dB，和两只蝴蝶扇动翅膀一样，舒适安静的风适合夏天的卧室
+              实现静音运行的 GreenFan Japan ，风量1的噪音只有13dB，和两只蝴蝶扇动翅膀一样，舒适安静的风适合夏天的卧室
               *注：噪音值由BALMUDA在东京实验室测得声压级数据
               *注：风扇摆头过程中出现的轻微转动声属于正常情况
             </p>
@@ -156,7 +155,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">洗的衣服能很快风干</h2>
             <p>
-              送风距离达到15米的GreenFan，可以设定摆头角度，在衣服范围内加速空气流动，帮助晾在房间内的衣物加速风干
+              送风距离达到15米的 GreenFan Japan，可以设定摆头角度，在衣服范围内加速空气流动，帮助晾在房间内的衣物加速风干
             </p>
           </div>
         </div>

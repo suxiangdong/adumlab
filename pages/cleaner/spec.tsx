@@ -155,7 +155,7 @@ export default function CleanerDetail() {
                   <td>１年</td>
                 </tr>
                 <tr>
-                  <th>包装内容</th>
+                  <th>包装清单</th>
                   <td>
                     BALMUDA The
                     Cleaner本体、ハンディハンドル、すきま用ノズル、充電スタンド、充電アダプター、

@@ -22,16 +22,14 @@ export default function ProductDetail() {
           rel="stylesheet"
           media="(min-width: 641px)"
           href="/rain/style/desktop.css?20210701173839"></link>
-					<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+					<script src="/createjs-2015.11.26.min.js"></script>
 					<script src="/adapter.js?20210729145441"></script>
       </Head>
 
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <Link href="/rain/">
-            <a className="pagemap__content--logo">
-              <img src="/_theme/img/svg/balmuda-rain.min.svgz" alt="Rain" />
-            </a>
+            <a className="pagemap__content--logo text-2xl text-left">智能加湿器</a>
           </Link>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index ">
@@ -95,7 +93,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>白色 (型号:ERN-1100SD-WK, JAN代码:4560330118982）</td>
+                  <td>白色 (型号:1180）</td>
                 </tr>
                 <tr>
                   <th>

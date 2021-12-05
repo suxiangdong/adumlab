@@ -54,9 +54,7 @@ export default function ProductDetail({ banners }) {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <Link href="/rain/">
-            <a className="pagemap__content--logo">
-              <img src="/_theme/img/svg/balmuda-rain.min.svgz" alt="Rain" />
-            </a>
+            <a className="pagemap__content--logo text-2xl text-left">智能加湿器</a>
           </Link>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index __current">
@@ -73,9 +71,7 @@ export default function ProductDetail({ banners }) {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=ERN-1100SD-WK"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=ERN-1100SD-WK" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -106,15 +102,15 @@ export default function ProductDetail({ banners }) {
             <br />
             精美加湿器
           </h2>
-          <span className="label__block">气化式加湿器</span>
+          <span className="label__block">智能加湿器</span>
           <p>
-            巴慕达加湿器是实现了颠覆性无缸结构的精美加湿器。只需从顶部注入清水即可。具有先端的旋转控制环操作和精美的显示器。与空气净化器相同采用了溶菌酶滤网，对吸入主机内空气中所含的细菌进行分解。去除空气中的灰尘及杂菌后，对清洁的空气进行加湿处理并排放到室内。提供清洁、舒适的湿润度。确保您在干燥的季节，也能够健康地生活。
+            BALMUDA加湿器是实现了颠覆性无缸结构的精美加湿器。只需从顶部注入清水即可。具有先端的旋转控制环操作和精美的显示器。与空气净化器相同采用了溶菌酶滤网，对吸入主机内空气中所含的细菌进行分解。去除空气中的灰尘及杂菌后，对清洁的空气进行加湿处理并排放到室内。提供清洁、舒适的湿润度。确保您在干燥的季节，也能够健康地生活。
           </p>
-          <div className="the-price">
+          {/* <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               49,500
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="section section--index section--01 scrollLoader lazyload">
@@ -135,7 +131,7 @@ export default function ProductDetail({ banners }) {
           <div className="__content">
             <h2 className="section__title">清洁适宜的湿润度</h2>
             <p>
-              环境干燥会激发病毒活性。湿润度过高霉菌易于繁殖。最适合人体健康和家居的湿润度是大约50%。巴慕达加湿器利用溶菌酶滤网，对吸入的空气除菌后，加湿并排出到室内，提供清洁舒适的湿润度。
+              环境干燥会激发病毒活性。湿润度过高霉菌易于繁殖。最适合人体健康和家居的湿润度是大约50%。BALMUDA加湿器利用溶菌酶滤网，对吸入的空气除菌后，加湿并排出到室内，提供清洁舒适的湿润度。
             </p>
             <Link href="/rain/humidity">
               <a className="btn btn--page">详情</a>

@@ -28,7 +28,7 @@ export default function ProductDetail() {
               <Link href="/light/">概要</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--technology ">
-              <Link href="/light/technology">科技</Link>
+              <Link href="/light/technology">科技与设计</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--howto ">
               <Link href="/light/howto">使用方法</Link>
@@ -102,7 +102,7 @@ export default function ProductDetail() {
               <tbody>
                 <tr>
                   <th>产品尺寸</th>
-                  <td>宽 191 毫米，深 264 毫米，高 463 毫米（标准姿势）</td>
+                  <td>191mm(宽）x 264mm(深）x 463mm(高）</td>
                 </tr>
                 <tr>
                   <th>机身重量</th>
@@ -110,7 +110,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>光源</th>
-                  <td>LED 3灯</td>
+                  <td>3个灯珠</td>
                 </tr>
                 <tr>
                   <th>色温度</th>
@@ -133,44 +133,36 @@ export default function ProductDetail() {
                   <td>6段（15〜100％）</td>
                 </tr>
                 <tr>
-                  <th>照明功能</th>
-                  <td>是（工具箱）带开/关开关</td>
+                  <th>装饰功能</th>
+                  <td>有(笔筒) 有 ON/OFF 按鍵</td>
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100V 50 / 60Hz 共享（交流适配器）</td>
+                  <td>AC100-240V 50/60Hz共用 (AC适配器)</td>
                 </tr>
                 <tr>
-                  <th>耗电量</th>
-                  <td>全灯时最大14W、消灯时0.1W以下</td>
+                  <th>功率</th>
+                  <td>14W</td>
                 </tr>
                 <tr>
                   <th>电源线长度</th>
-                  <td>1.8m（交流适配器）</td>
+                  <td>1.8m(AC适配器)</td>
                 </tr>
                 <tr>
                   <th>保修期限</th>
                   <td>自购买之日起 1 年</td>
                 </tr>
                 <tr>
-                  <th>包装内容</th>
-                  <td>主机、电源适配器、使用说明书、保修卡、贴纸</td>
+                  <th>包装清单</th>
+                  <td>主机、AC适配器、说明书、质保卡、贴纸</td>
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>黑色（型号:L01A-BK，JAN 代码: 4560330119828）</td>
+                  <td>黑色（L01C-BK）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色（型号:L01A-WH、JAN 代码: 4560330119835）</td>
-                </tr>
-                <tr>
-                  <th>&nbsp;</th>
-                  <td>米色（型号:L01A-BG、JAN 代码: 4560330119859）</td>
-                </tr>
-                <tr>
-                  <th>用途</th>
-                  <td>家庭用　屋内用　学习・阅读用</td>
+                  <td>白色（L01C-WH）</td>
                 </tr>
                 <tr>
                   <th>产地</th>
@@ -185,7 +177,7 @@ export default function ProductDetail() {
       <div className="section section--spec section--02">
         <div className="viewport">
           <div className="__content">
-            <h2 className="section__title">随货内容一览表</h2>
+            <h2 className="section__title">包装清单</h2>
             <div className="spec__item">
               <div className="spec__item--block">
                 <figure className="spec__item--elm">

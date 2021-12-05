@@ -70,7 +70,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title">使用方法</h2>
             <p>
-              BALMUDA电烤箱可以结合面包的种类进行烘烤，展现最佳的美味。也可以像一般的烤箱一样制作各类烤箱料理。
+              BALMUDA The Toaster 可以结合面包的种类进行烘烤，展现最佳的美味。也可以像一般的烤箱一样制作各类烤箱料理。
               <br className="pc" />
               下面介绍一下各模式的使用方法和保养方法。
             </p>
@@ -145,7 +145,7 @@ export default function ProductDetail() {
                   <b>装水</b>
                 </h2>
                 <p className="section__desc">
-                  请每次用专用的5cc杯子往烤面包机上部的供水口里倒一杯水。经典模式无需加水。
+                  请每次用专用的5cc杯子往烤箱料理上部的供水口里倒一杯水。经典模式无需加水。
                 </p>
                 <div className="step__img">
                   <img
@@ -182,10 +182,10 @@ export default function ProductDetail() {
               <h2 className="section__title">
                 STEP<span>3</span>
                 <br />
-                <b>从三种模式中选择</b>
+                <b>按下电源开/关按钮 选择模式</b>
               </h2>
               <p className="section__desc">
-                每种模式的加热结果不同，请按照想要的效果选择相应的模式， 享受更佳的美味。
+              依模式的选择，完成度也会不同。可以依照个人期望调整模式，让成品更加美味。
               </p>
             </div>
             <div className="mode">
@@ -282,7 +282,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <div className="mode">
-              <h3 className="mode__h">烤面包机</h3>
+              <h3 className="mode__h">烤箱料理</h3>
               <p className="mode__desc">
                 如果使用不使用蒸汽的“经典模式”，
                 <br />
@@ -290,7 +290,7 @@ export default function ProductDetail() {
               </p>
               <div className="mode__classic">
                 <p className="lead">
-                  经典模式可以设定170度、200度、230度的上限温度，可以享受焗饭、曲奇、年糕等各种各样的烤面包机料理。
+                  经典模式可以设定170度、200度、250度的上限温度，可以享受焗饭、曲奇、年糕等各种各样的烤箱料理料理。
                 </p>
                 <img
                   data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.mobile.icons.svgz?20200915"
@@ -299,7 +299,7 @@ export default function ProductDetail() {
                   className="adaptiveimage"
                   src="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
                 />
-                <div className="mode__classic__horo">
+                {/* <div className="mode__classic__horo">
                   <div className="horo__img">
                     <img
                       data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_mode_classic_horo.png?20200915"
@@ -316,7 +316,7 @@ export default function ProductDetail() {
                       The Toaster的冰箱里。
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -382,7 +382,7 @@ export default function ProductDetail() {
                 <p className="section__desc">
                   产品维护请根据使用频度，每日使用的情况下每周一次，不经常使用的情况下，在有明显污迹和食物碎屑时，尽快清理擦拭托盘与内仓。
                   <br />
-                  烤架、水槽盖板、导流管都可以拆卸。
+                  烤架、水槽盖板、送水管都可以拆卸。
                 </p>
               </div>
               <div className="step__img">

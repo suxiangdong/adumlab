@@ -28,7 +28,7 @@ export default function Footer() {
             <h4 className="__title">Kitchen</h4>
             <a href="/toaster/" className="__item __item--toaster">
               BALMUDA The Toaster
-              <span className="__caption">蒸汽电烤箱</span>
+              <span className="__caption">蒸汽烤面包机</span>
             </a>
             <a href="/pot/" className="__item __item--pot">
               BALMUDA The Pot<span className="__caption">手冲咖啡壶</span>
@@ -38,7 +38,7 @@ export default function Footer() {
             <h4 className="__title">Air</h4>
             <div className="__wrap">
               <a href="/greenfan/" className="__item __item--greenfan">
-                The GreenFan<span className="__caption">果岭风扇</span>
+              GreenFan Japan<span className="__caption">果岭风扇</span>
               </a>
               <a href="/greenfan-cirq/" className="__item __item--greenfan-cirq">
                 GreenFan Cirq<span className="__caption">空气循环扇</span>
@@ -54,15 +54,15 @@ export default function Footer() {
           <div className="__group __group--right">
             <div className="__group __group--lighting">
               <h4 className="__title">Lighting</h4>
-              <a href="/lantern/" className="__item __item--lantern">
+              {/* <a href="/lantern/" className="__item __item--lantern">
                 BALMUDA The Lantern<span className="__caption">便携式LED灯</span>
-              </a>
+              </a> */}
               <a href="/light/" className="__item __item--light">
                 BALMUDA The Light<span className="__caption">太阳能LED台灯</span>
               </a>
             </div>
             <div className="__group--wrap">
-              <div className="__group __group--audio __onlyPC">
+              {/* <div className="__group __group--audio __onlyPC">
                 <h4 className="__title">Audio</h4>
                 <a href="/speaker/" className="__item __item--speaker">
                   BALMUDA The Speaker<span className="__caption">无线扬声器</span>
@@ -73,7 +73,7 @@ export default function Footer() {
                 <a href="/cleaner/" className="__item __item--cleaner">
                   BALMUDA The Cleaner<span className="__caption">悬臂式吸尘器</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -2500,7 +2500,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--toaster .__name:after {
-  content: "蒸汽电烤箱";
+  content: "蒸汽烤面包机";
 }
 .navigation .__wrap .__item.__item--pot:before {
   content: "";
@@ -2581,7 +2581,7 @@ input[type=checkbox]:disabled:checked + label:after {
   content: "";
 }
 .navigation .__wrap .__item.__item--rain .__name:after {
-  content: "加湿器";
+  content: "智能加湿器";
 }
 .navigation .__wrap .__item.__item--uniauto:before {
   content: "";

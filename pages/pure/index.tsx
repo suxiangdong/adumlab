@@ -160,32 +160,27 @@ export default function ProductDetail({ banners, evaluations }) {
         </div>
         <div className="viewport">
           <h2 className="page__title">
-            卓越的空气净化能力，
-            <br className="sp" />
-            可以体感的
-            <br />
-            空气净化器
+          让纯净空气传散到室内的每个角落。
+
           </h2>
           <span className="label__block">塔式空气净化器</span>
           <p className="overview_text">
             <span>
-              以往的空气净化器无法吸附室内边远处的悬浮物质。
-              <br />
-              为了吸附室内边远处空气，需要强大的循环气流。
+            直立式BALMUDA空气清净机的独家结构设计，实现直达天花板的大风量。
             </span>
             <span>
-              独特的双风扇结构完美实现了这个功能。BALMUDA The Pure
-              能够驱动室内空气流动，因此不仅病毒大小的微细颗粒物和大气污染物质PM2.5，即使较大的如花粉状大小的颗粒物也能够吸附。
-              新型360°溶菌酶滤网在除尘净化的同时，还能够溶菌和除臭。精美的设计和简捷的操作，为您提供安心、清洁的空气。
+            循环室内空气的同时，透过HEPA滤网，可过滤0.3um悬浮微粒效率达99%以上。 亦搭配可吸收相当六座足球场表面积大小*1的活性碳除臭滤网，极速去除恼人的异味。<br />
+            BALMUDA The Pure用纯净的好空气，提供舒适空间给每一位用户。<br />
+*1 ： 从内含于活性炭除臭滤网里的材料总量进行试
             </span>
           </p>
 
-          <div className="the-price">
+          {/* <div className="the-price">
             <p className="price price--excl_tax" id="price2">
               57,200
             </p>
             <p className="colores">白色/深灰色</p>
-          </div>
+          </div> */}
 
           <div className="__trailer __is_mobile">
             <video
@@ -210,11 +205,10 @@ export default function ProductDetail({ banners, evaluations }) {
                     alt="TECHNOLOGY"
                   />
                 </h2>
-                <h3 className="section__subtitle">净享纯净安心的空气。</h3>
+                <h3 className="section__subtitle">净化每分钟5200升*2的空气</h3>
                 <p className="section__desc">
-                  空气净化器能够强力吸附传统空气净化器无法吸附的花粉等较大的颗粒物。对于大气污染物质PM2.5也能卓有成效的去除。新型360°溶菌酶滤网在除尘的同时，还能抗菌和溶菌。
-                </p>
-                <p className="asterisk __ref">*2 : 当喷气清洁模式运行时</p>
+                独家的整流翼及扇叶设计，能强力吸引大量空气。 搭载两个滤网，去除对身体有害的物质。                </p>
+                <p className="asterisk __ref">*2 : 当喷射清洁模式运行时</p>
               </div>
             </div>
           </div>
@@ -231,10 +225,10 @@ export default function ProductDetail({ banners, evaluations }) {
                     alt="DESIGN"
                   />
                 </h2>
-                <h3 className="section__subtitle">全新的结构</h3>
+                <h3 className="section__subtitle">让空气净化的光柱
+</h3>
                 <p className="section__desc">
-                  BALMUDA The Pure
-                  空气净化器独特的双风扇结构，可以吸附室内边远处的悬浮物质，强有力的循环气流，让室内空气短时间多次通过高性能的溶菌酶滤网，有效实现室内空气净化。
+                吸气口及空气吸吐流路会发亮的 BALMUDA The Pure ，透过这个光柱，持续净化空气。 主体采极简风格设计，能融入多种风格的室内装潢。
                 </p>
               </div>
             </div>
@@ -247,18 +241,17 @@ export default function ProductDetail({ banners, evaluations }) {
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
                 <h3 className="section__subtitle">
-                  <span>简单的操作</span>
+                  <span>有效使用方法</span>
                 </h3>
                 <p className="section__desc">
-                  BALMUDA The Pure
-                  空气净化器的操作按钮仅有3个。自动模式可以根据异味传感器和灰尘传感器自动运行。喷射清洁模式有10～30分钟的定时档，能迅速强力净化空气。
+                为了让用户能更有效使用 BALMUDA The Pure，介绍推荐的使用方法。
                 </p>
               </div>
             </div>
           </div>
         </a>
       </Link>
-      <div className="section section--blockquote">
+      {/* <div className="section section--blockquote">
         <div className="viewport">
           <h2 className="section__title">
             <img
@@ -282,7 +275,7 @@ export default function ProductDetail({ banners, evaluations }) {
             ))}
           </ReactSlick>
         </div>
-      </div>
+      </div> */}
 
       <div className="gallery scrollLoader lazyload">
         <div className="viewport scrollLoader fadeInUp lazyload">

@@ -8,7 +8,7 @@ export default function Header() {
     setIsOpen(true)
   }
   const handleLeave = () => {
-    setIsOpen(false)
+    // setIsOpen(false)
   }
   const router = useRouter()
 
@@ -115,7 +115,7 @@ export default function Header() {
                       <Link href="/greenfan">
                         <a className="__item __item--greenfan">
                           <span className="__name">
-                            <em>The GreenFan</em>
+                            <em>GreenFan Japan</em>
                           </span>
                         </a>
                       </Link>

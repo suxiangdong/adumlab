@@ -19,7 +19,7 @@ export default function ProductDetail() {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <a href="/pot/" className="pagemap__content--logo">
-            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot" />
+            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot " />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index ">
@@ -144,7 +144,7 @@ export default function ProductDetail() {
                   <td>自购买日起1年内</td>
                 </tr>
                 <tr>
-                  <th>包装内容</th>
+                  <th>包装清单</th>
                   <td>主机，盖子，电源底座，使用说明书(附保证书)</td>
                 </tr>
                 <tr>

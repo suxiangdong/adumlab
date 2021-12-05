@@ -69,16 +69,14 @@ export default function ProductDetail({ banners, evaluations }) {
               <Link href="/speaker/story">故事</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--setting">
-              <Link href="/speaker/setting">设置</Link>
+              <Link href="/speaker/setting">设定</Link>
             </li>
             <li className="pagemap__content__item pagemap__content__item--spec">
               <Link href="/speaker/spec">规格</Link>
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=M01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=M01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -115,15 +113,13 @@ export default function ProductDetail({ banners, evaluations }) {
           <h2 className="page__title __wb">
             <span>前所未有的音乐体验</span>
           </h2>
-          <span className="label__block">无线扬声器</span>
+          <span className="label__block">蓝牙音箱</span>
           <p className="overview_text">
-            360°扩散、立体且穿透力强的舒适音效、搭配令节奏感倍增的闪耀，
+            蓝牙音箱全新上线
             <br />
-            带来现场舞台表演般的临场感受。
-            <br />
-            充电式便携式蓝牙<sup>®</sup>·支持AUX输入
-            <br />
-            以自由的风格享受新的音乐体验。
+            BALMUDA The Speaker 蓝牙音箱可以 360
+            度输出，并且随着节奏律动变换光影，营造现场演奏版的临场感动。
+            方便携带、支持蓝牙、AUX，可以根据跟人风格享受全新的音乐体验
           </p>
           {/* <div className="the-price">
             <p className="price price--excl_tax" id="price2">
@@ -158,9 +154,9 @@ export default function ProductDetail({ banners, evaluations }) {
             />
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
-                <h2 className="section__title">立体且鲜明的音效</h2>
+                <h2 className="section__title">立体清晰的声音体验</h2>
                 <p className="section__desc">
-                  保持乐曲本身平衡的同时、带来立体且轮廓清晰的音效。特别适合突出主唱歌声的音乐，带来犹如在眼前吟唱般的感受。
+                  完美再现音乐的本质，同时让声音轮廓更加通透并且更具立体感，以人声效果为主的设计，让音乐呈现更为出色，宛如真是人声在耳边吟唱的惊喜感
                 </p>
               </div>
             </div>
@@ -178,9 +174,9 @@ export default function ProductDetail({ banners, evaluations }) {
             />
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
-                <h2 className="section__title">彷如在眼前展开的临场感</h2>
+                <h2 className="section__title">拓展视野的临场感</h2>
                 <p className="section__desc">
-                  为乐曲的律动增色的，是三体LED灯光模块，追踪音乐的能量，以0.004秒的速度细腻的闪耀。带来犹如现场舞台表演般的内心跃动。
+                  三组LED单元岁节奏律动变换光效，光线以0.004秒的速度与音效精准同步，仿佛每一次闪烁都释放出音乐的能量，结合光线的音乐体验让人如置身舞台现场一般。{' '}
                 </p>
               </div>
             </div>
@@ -197,10 +193,10 @@ export default function ProductDetail({ banners, evaluations }) {
             />
             <div className="viewport scrollLoader fadeInUp lazyload">
               <div className="__content">
-                <h2 className="section__title">开发故事</h2>
+                <h2 className="section__title">开发历程</h2>
                 <p className="section__desc">
-                  音乐带来的感动，只有临场才能最真实的感受到。改变我这个想法的，是设计师带来的一个奇妙的随身听播放器。BALMUDA
-                  The Speaker的故事。
+                  创始人身心音乐必须透过现场演奏才能感动人心，直到设计师爱来一个奇妙的收音机后，才改变了这个想法，BALMUDA
+                  The Speaker的故事就此展开
                 </p>
               </div>
             </div>
@@ -216,9 +212,9 @@ export default function ProductDetail({ banners, evaluations }) {
         />
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
-            <h2 className="section__title">献给每一位聆听者</h2>
+            <h2 className="section__title">给所有听音乐的听众</h2>
             <p className="section__desc">
-              来听音乐吧。充电便携，随意摆放。且声音360度环绕扩散，在场的每一个人都可以乐享音乐乐趣。
+              来吧！来听音乐吧。随身携带的蓝牙音箱，无论身在何处，都可以拥有相同的音乐体验，声音可以全方位360°传送，现场的人和人都可以尽情享受音乐
             </p>
           </div>
         </div>

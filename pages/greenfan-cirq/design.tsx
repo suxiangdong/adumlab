@@ -56,9 +56,7 @@ export default function ProductDetail() {
         <div className="__content">
           <h2 className="page__title __wb">全新构造</h2>
           <p>
-            精雕细琢的GreenFan扇叶和直流电机以及支架。GreenFan
-            Cirq特别的外形设计满足了能够高效地送出大量空气，能够自由改变风向并且最大限度降低噪音等条件。GreenFan
-            Cirq设计的创新性体现了功能性与美感的有机结合。
+          叶片及马达是 GreenFan Cirq 的关键。 GreenFan Cirq 特别设计是在于有效率地送出大量空气自由改变风向，减少噪音产生。 满足循环扇所需的条件。
           </p>
         </div>
         <img
@@ -96,9 +94,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">轻松一点，调节风向</h2>
             <p>
-              GreenFan
-              Cirq能够从水平到垂直方向90°自由变换风扇方向，只需轻轻一点，轻松调节。独特设计，平滑转动，自由设定想停就停。室内送风时建议把GreenFan
-              Cirq放置在地面，向上倾斜45°同时应防止前方柜子等较高的障碍物阻挡送风。吹干晾晒的衣物时，建议放置在衣物下方，向正上方90°垂直送风。
+            GreenFan Cirq 可无段差地从水平方向到垂直甚至90度转向。
             </p>
           </div>
         </div>

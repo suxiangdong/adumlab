@@ -24,7 +24,7 @@ export default function ProductDetail() {
             <img
               className="w-full"
               src="/_theme/img/svg/the-greenfan.000.min.svgz"
-              alt="The GreenFan"
+              alt="GreenFan Japan"
             />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
@@ -92,7 +92,7 @@ export default function ProductDetail() {
                   <td>购买之日起1年</td>
                 </tr>
                 <tr>
-                  <th>包装内容</th>
+                  <th>包装清单</th>
                   <td>主机，遥控器，多插件适配器，使用说明书（附保证书）</td>
                 </tr>
                 <tr>

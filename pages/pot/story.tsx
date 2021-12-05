@@ -19,7 +19,7 @@ export default function ProductDetail() {
       <div className="pagemap--desktop __header __is_desktop" id="greedynav">
         <div className="pagemap__content">
           <a href="/pot/" className="pagemap__content--logo">
-            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot" />
+            <img src="/_theme/img/svg/balmuda-the-pot.min.svgz" alt="BALMUDA The Pot " />
           </a>
           <ul className="pagemap__main" id="greedynav-links">
             <li className="pagemap__content__item pagemap__content__item--index ">
@@ -56,11 +56,11 @@ export default function ProductDetail() {
         />
         <div className="viewport">
           <div className="__content">
-            <h2 className="page__title">BALMUDA电水壶的诞生</h2>
+            <h2 className="page__title">BALMUDA The Pot 的诞生</h2>
             <p>
               想要让厨房的体验更加快乐。
               <br />
-              BALMUDA电水壶诞生，蕴含了许许多多的心思。
+              BALMUDA The Pot 诞生，蕴含了许许多多的心思。
             </p>
             <div className="__sign">
               <img
@@ -69,7 +69,7 @@ export default function ProductDetail() {
                 width="231"
                 height="37"
               />
-              <span className="__note">BALMUDA代表　寺尾 玄</span>
+              <span className="__note">BALMUDA, Inc. CEO 兼 首席设计师　寺尾 玄</span>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">美好的早餐</h2>
             <p>
-              以这次经历为契机，我们开发了重视提供体验的巴慕达电烤箱。这个电烤箱在我家也大派用场，面包更加美味，用铸铁的平底锅煎蛋和培根来搭配，早餐变成了比以前更加快乐的体验。如此美食当前，自然而然的就想要来一杯精心冲泡的咖啡。
+              以这次经历为契机，我们开发了重视提供体验的 BALMUDA The Toaster 。这个电烤箱在我家也大派用场，面包更加美味，用铸铁的平底锅煎蛋和培根来搭配，早餐变成了比以前更加快乐的体验。如此美食当前，自然而然的就想要来一杯精心冲泡的咖啡。
             </p>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">咖啡、红茶、汤</h2>
             <p>
-              为了冲泡手冲咖啡，我进行了反复的练习，觉得现在市面上的手冲壶和电水壶，都不是十分顺手。于是我开始思考，能够实现最佳倾注的壶嘴和把手，应该是什么形状呢？制作了许多的试验品，也倾听了专业咖啡师的意见，BALMUDA电水壶渐渐成型。可以满足咖啡、红茶和汤、泡面等各个用图，让厨房和餐桌的体验更加快乐的设计。
+              为了冲泡手冲咖啡，我进行了反复的练习，觉得现在市面上的手冲壶和电水壶，都不是十分顺手。于是我开始思考，能够实现最佳倾注的壶嘴和把手，应该是什么形状呢？制作了许多的试验品，也倾听了专业咖啡师的意见，BALMUDA The Pot 渐渐成型。可以满足咖啡、红茶和汤、泡面等各个用图，让厨房和餐桌的体验更加快乐的设计。
             </p>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="section__title">凌晨的杯面</h2>
             <p>
-              突然想起一个关于杯面的回忆。年轻的时候，每天都骑着摩托车，在街道和森林里徘徊，回到家的时候都是凌晨了。那个时候，家附近的省道边设置了杯面的自动贩卖机，回家路上我经常会去买。在寒冷无人的凌晨街边吃到的热杯面，十分的美味。巴慕达电水壶不止可以实现细腻精准的倾注，出水的速度也经过了推敲。因为泡面，还是讲究速度。
+              突然想起一个关于杯面的回忆。年轻的时候，每天都骑着摩托车，在街道和森林里徘徊，回到家的时候都是凌晨了。那个时候，家附近的省道边设置了杯面的自动贩卖机，回家路上我经常会去买。在寒冷无人的凌晨街边吃到的热杯面，十分的美味。BALMUDA The Pot 不止可以实现细腻精准的倾注，出水的速度也经过了推敲。因为泡面，还是讲究速度。
             </p>
           </div>
         </div>

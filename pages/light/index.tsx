@@ -21,7 +21,7 @@ export default function ProductDetail({ banners, evaluations }) {
   if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
     banners.data = [2, 8, 4, 7, 0, 1].map((i) => ({
       id: i,
-      path: `https://www.balmuda.com/jp/light/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
+      image_url: `https://www.balmuda.com/jp/light/img/index/desktop/billboard--0${i}@2x.jpg?20210505`
     }))
   }
 
@@ -88,7 +88,7 @@ export default function ProductDetail({ banners, evaluations }) {
             setSlickIndex(index)
           }}>
           {banners.data.map((item) => (
-            <img key={item.id} className="w-full" src={item.path} />
+            <img key={item.id} className="w-full" src={item.image_url} />
           ))}
         </ReactSlick>
       </div>

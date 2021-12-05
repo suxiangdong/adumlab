@@ -17,7 +17,7 @@ export default function ProductDetail({ banners }) {
   if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
     banners.data = [0, 1, 2, 3].map((i) => ({
       id: i,
-      path: `https://www.balmuda.com/jp/greenfan/img/index/desktop/billboard--0${i}@2x.jpg?20210410`
+      image_url: `https://www.balmuda.com/jp/greenfan/img/index/desktop/billboard--0${i}@2x.jpg?20210410`
     }))
   }
 
@@ -71,7 +71,7 @@ export default function ProductDetail({ banners }) {
       <div className="billboard__wrapper"></div>
       <ReactSlick className="billboard" dots>
         {banners.data.map((item) => (
-          <img key={item.id} className="w-full" src={item.path} />
+          <img key={item.id} className="w-full" src={item.image_url} />
         ))}
       </ReactSlick>
       <div className="section section--index section--00">

@@ -24,7 +24,7 @@ export default function Home({ banners, hots, topics, notifications }) {
   if (!banners || !Array.isArray(banners.data) || banners.data.length === 0) {
     banners.data = [0, 1, 2, 3].map((i) => ({
       id: i,
-      path: `https://www.balmuda.com/jp/index/img/desktop/billboard/${i}.jpg`
+      image_url: `https://www.balmuda.com/jp/index/img/desktop/billboard/${i}.jpg`
     }))
   }
 
@@ -34,28 +34,28 @@ export default function Home({ banners, hots, topics, notifications }) {
         id: 1,
         title: 'BALMUDA The Toaster',
         description: '幸福的电烤箱',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/0.jpg?20210602',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/popular/0.jpg?20210602',
         url: '/toaster'
       },
       {
         id: 2,
         title: 'BALMUDA The Pot ',
         description: '小而美的电水壶',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/2.jpg?20210530',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/popular/2.jpg?20210530',
         url: '/pot'
       },
       {
         id: 3,
         title: '智能加湿器',
         description: '清洗空气的加湿器',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/5.jpg?20210530',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/popular/5.jpg?20210530',
         url: '/rain'
       },
       {
         id: 4,
         title: 'GreenFan Japan',
         description: '自然风果岭风扇',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/popular/1.jpg?20210530',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/popular/1.jpg?20210530',
         url: '/greenfan'
       }
     ]
@@ -67,21 +67,21 @@ export default function Home({ banners, hots, topics, notifications }) {
         id: 1,
         title: '关于BALMUDA',
         description: 'BALMUDA是一家2003年在东京成立的创意和科技公司。',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/post/5@2x.jpg?20210530',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/post/5@2x.jpg?20210530',
         url: '/about'
       },
       {
         id: 2,
         title: '极容易使用的吸尘器',
         description: '凭借独特的悬浮科技，卓越的操作性能和卓越的吸尘性能，大幅缩短清扫时间。',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/post/6@2x.jpg?20210530',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/post/6@2x.jpg?20210530',
         url: '/cleaner'
       },
       {
         id: 3,
         title: '再现自然界风的电风扇',
         description: 'The GreenFan是再现自然界的风的电风扇。在房间里营造出吹过夏日午后的舒适的风。',
-        path: 'https://www.balmuda.com/jp/index/img/desktop/post/16@2x.jpg?20210530',
+        image_url: 'https://www.balmuda.com/jp/index/img/desktop/post/16@2x.jpg?20210530',
         url: '/greenfan'
       }
     ]
@@ -96,7 +96,7 @@ export default function Home({ banners, hots, topics, notifications }) {
       <div className="billboard__wrapper">
         <ReactSlick arrows={false} dots className="billboard">
           {banners.data?.map((banner) => (
-            <img key={banner.id} className="w-full" src={banner.path} />
+            <img key={banner.id} className="w-full" src={banner.image_url} />
           ))}
         </ReactSlick>
       </div>
@@ -109,7 +109,7 @@ export default function Home({ banners, hots, topics, notifications }) {
               {hots.data.map((item) => (
                 <Link key={item.id} href={item.url}>
                   <a className="popular">
-                    <img className="w-full" src={item.path} alt="" />
+                    <img className="w-full" src={item.image_url} alt="" />
                     <p className="__description">
                       <span className="w-full">{item.title}</span>
                       {item.description}
@@ -126,7 +126,7 @@ export default function Home({ banners, hots, topics, notifications }) {
           <div className="topics">
             {topics.data.map((t) => (
               <a key={t.id} href={t.url} className="topic">
-                <img className="w-full mb-6" src={t.path} alt="" />
+                <img className="w-full mb-6" src={t.image_url} alt="" />
                 <h4 className="__title">{t.title}</h4>
                 <p className="__description">{t.description}</p>
               </a>

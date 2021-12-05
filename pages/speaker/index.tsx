@@ -22,7 +22,7 @@ export default function ProductDetail({ banners, evaluations }) {
     banners.data = [0, 1, 'v', 2, 3, 4].map((i) => ({
       id: i,
       type: i === 'v' ? 'video' : 'image',
-      path: `https://www.balmuda.com/jp/speaker/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
+      image_url: `https://www.balmuda.com/jp/speaker/img/index/desktop/billboard--0${i}@2x.jpg?20210425`
     }))
   }
 
@@ -93,7 +93,7 @@ export default function ProductDetail({ banners, evaluations }) {
                 />
               </video>
             ) : (
-              <img key={item.id} className="w-full" src={item.path} />
+              <img key={item.id} className="w-full" src={item.image_url} />
             )
           )}
         </ReactSlick>

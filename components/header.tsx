@@ -243,7 +243,7 @@ export default function Header() {
           <li className="navigation__item dropdown__trigger navigation__item--cart">
             <Link href="/support">
               <a className="__item support text">
-                <em>Support</em>
+                <em className="text-base">Support</em>
               </a>
             </Link>
           </li>

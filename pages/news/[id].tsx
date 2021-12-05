@@ -14,11 +14,11 @@ export async function getServerSideProps({ query }) {
 
 export default function News({ detail, news }) {
   const n = detail.data
-  
+
   if (!news || !news.data || !Array.isArray(news.data.data) || news.data.data.length === 0) {
     news.data.data = []
   }
-  
+
   return (
     <Layout>
       <Head>
@@ -42,7 +42,7 @@ export default function News({ detail, news }) {
                 </a>
               </h3>
               <span className="PostDate">{new Date(n.publish_at).toLocaleDateString('zh')}</span>
-              <div className="ColumnPostMain">{n.content}</div>
+              <div className="ColumnPostMain" dangerouslySetInnerHTML={{ __html: n.content }} />
               <hr className="Hyde0" />
             </div>
           </div>

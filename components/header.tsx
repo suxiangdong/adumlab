@@ -8,7 +8,7 @@ export default function Header() {
     setIsOpen(true)
   }
   const handleLeave = () => {
-    // setIsOpen(false)
+    setIsOpen(false)
   }
   const router = useRouter()
 

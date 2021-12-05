@@ -128,7 +128,7 @@ export default function Footer() {
 
         <div className="widget">
           <div className="viewport">
-            <div className="widget__item social flex items-center">
+            <div className="widget__item social flex items-center z-10">
               <a className="flex" href="//weibo.com/p/1006063925815979/home" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

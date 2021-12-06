@@ -17,7 +17,7 @@ export default function News({ detail }) {
     <Layout>
       <section className="max-w-4xl m-auto py-24 px-1" style={{ minHeight: 400 }}>
         <h2 className="mb-8 text-4xl">{n.title}</h2>
-        <p>{n.content}</p>
+        <p dangerouslySetInnerHTML={{ __html: n.content }} />
       </section>
     </Layout>
   )

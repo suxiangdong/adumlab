@@ -173,7 +173,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC110V 50Hz/60Hz</td>
+                  <td>220V</td>
                 </tr>
                 <tr>
                   <th>功率</th>
@@ -213,7 +213,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>本产品是中国国内专用的。请注意在海外的使用不属于保修及修理受理的对象。 </td>
+                  <td>本产品是中国大陆专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>

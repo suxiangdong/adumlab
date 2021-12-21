@@ -77,7 +77,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100V　50/60Hz（AC适配器）</td>
+                  <td>220V</td>
                 </tr>
                 <tr>
                   <th>耗电量</th>
@@ -113,11 +113,11 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>产地</th>
-                  <td>日本</td>
+                  <td>中国</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
+                  <td>本产品是中国大陆专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
@@ -128,37 +128,37 @@ export default function ProductDetail() {
         <ReactSlick dots className="spec--image" id="spec--image">
           <div className="spec--00">
             <img
-              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--00.jpg?20210408"
-              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00.jpg?20210408"
-              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00@2x.jpg?20210408"
-              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--00@2x.jpg?20210408"
+              data-mobile="/greenfan/img/spec/01.jpg"
+              data-desktop="/greenfan/img/spec/01.jpg"
+              data-retina="/greenfan/img/spec/01.jpg"
+              src="/greenfan/img/spec/01.jpg"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--01">
             <img
-              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--01.jpg?20210408"
-              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01.jpg?20210408"
-              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01@2x.jpg?20210408"
-              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--01@2x.jpg?20210408"
+              data-mobile="/greenfan/img/spec/02.jpg"
+              data-desktop="/greenfan/img/spec/02.jpg"
+              data-retina="/greenfan/img/spec/02.jpg"
+              src="/greenfan/img/spec/02.jpg"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--02">
             <img
-              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--02.jpg?20210408"
-              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02.jpg?20210408"
-              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02@2x.jpg?20210408"
-              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--02@2x.jpg?20210408"
+              data-mobile="/greenfan/img/spec/03.jpg"
+              data-desktop="/greenfan/img/spec/03.jpg"
+              data-retina="/greenfan/img/spec/03.jpg"
+              src="/greenfan/img/spec/03.jpg"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
           <div className="spec--03">
             <img
-              data-mobile="https://www.balmuda.com/jp/greenfan/img/spec/mobile/spec--03.jpg?20210408"
-              data-desktop="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03.jpg?20210408"
-              data-retina="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03@2x.jpg?20210408"
-              src="https://www.balmuda.com/jp/greenfan/img/spec/desktop/spec--03@2x.jpg?20210408"
+              data-mobile="/greenfan/img/spec/04.jpg"
+              data-desktop="/greenfan/img/spec/04.jpg"
+              data-retina="/greenfan/img/spec/04.jpg"
+              src="/greenfan/img/spec/04.jpg"
               className="__image adaptiveimage slick--lazy"
             />
           </div>
@@ -262,13 +262,13 @@ export default function ProductDetail() {
                     <th>手动角度调节</th>
                     <td>左右各75° ／向上19° ／向下11°</td>
                   </tr>
-                  <tr>
+                  {/* <tr>
                     <th>安全功能</th>
                     <td>
 										电动机异常检测，电池异常检测，异常电压检测，自动断电(18小时无操作时)
                       (*3)
                     </td>
-                  </tr>
+                  </tr> */}
                 </tbody>
               </table>
 

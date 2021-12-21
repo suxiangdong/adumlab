@@ -95,9 +95,7 @@ export default function ProductDetail({ banners, evaluations }) {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=A01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=A01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -159,19 +157,17 @@ export default function ProductDetail({ banners, evaluations }) {
           />
         </div>
         <div className="viewport">
-          <h2 className="page__title">
-          让纯净空气传散到室内的每个角落。
-
-          </h2>
+          <h2 className="page__title">让纯净空气传散到室内的每个角落。</h2>
           <span className="label__block">塔式空气净化器</span>
           <p className="overview_text">
+            <span>塔式BALMUDA空气清净机的独家结构设计，实现直达天花板的大风量。</span>
             <span>
-            直立式BALMUDA空气清净机的独家结构设计，实现直达天花板的大风量。
-            </span>
-            <span>
-            循环室内空气的同时，透过HEPA滤网，可过滤0.3um悬浮微粒效率达99%以上。 亦搭配可吸收相当六座足球场表面积大小*1的活性碳除臭滤网，极速去除恼人的异味。<br />
-            BALMUDA The Pure用纯净的好空气，提供舒适空间给每一位用户。<br />
-*1 ： 从内含于活性炭除臭滤网里的材料总量进行试
+              循环室内空气的同时，透过HEPA滤网，可过滤0.3um悬浮微粒效率达99%以上。
+              亦搭配可吸收相当六座足球场表面积大小*1的活性碳除臭滤网，极速去除恼人的异味。
+              <br />
+              BALMUDA The Pure用纯净的好空气，提供舒适空间给每一位用户。
+              <br />
+              *1 ： 从内含于活性炭除臭滤网里的材料总量进行试
             </span>
           </p>
 
@@ -205,9 +201,10 @@ export default function ProductDetail({ banners, evaluations }) {
                     alt="TECHNOLOGY"
                   />
                 </h2>
-                <h3 className="section__subtitle">净化每分钟5200升*2的空气</h3>
+                <h3 className="section__subtitle">每分钟净化 5000 立升空气</h3>
                 <p className="section__desc">
-                独家的整流翼及扇叶设计，能强力吸引大量空气。 搭载两个滤网，去除对身体有害的物质。                </p>
+                  独家的整流翼及扇叶设计，能强力吸引大量空气。 搭载两个滤网，去除对身体有害的物质。{' '}
+                </p>
                 <p className="asterisk __ref">*2 : 当喷射清洁模式运行时</p>
               </div>
             </div>
@@ -225,10 +222,10 @@ export default function ProductDetail({ banners, evaluations }) {
                     alt="DESIGN"
                   />
                 </h2>
-                <h3 className="section__subtitle">让空气净化的光柱
-</h3>
+                <h3 className="section__subtitle">让空气净化的光柱</h3>
                 <p className="section__desc">
-                吸气口及空气吸吐流路会发亮的 BALMUDA The Pure ，透过这个光柱，持续净化空气。 主体采极简风格设计，能融入多种风格的室内装潢。
+                  吸气口及空气吸吐流路会发亮的 BALMUDA The Pure ，透过这个光柱，持续净化空气。
+                  主体采极简风格设计，能融入多种风格的室内装潢。
                 </p>
               </div>
             </div>
@@ -244,7 +241,7 @@ export default function ProductDetail({ banners, evaluations }) {
                   <span>有效使用方法</span>
                 </h3>
                 <p className="section__desc">
-                为了让用户能更有效使用 BALMUDA The Pure，介绍推荐的使用方法。
+                  为了让用户能更有效使用 BALMUDA The Pure，介绍推荐的使用方法。
                 </p>
               </div>
             </div>

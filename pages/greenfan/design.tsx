@@ -72,7 +72,7 @@ export default function ProductDetail() {
           <div className="__content">
             <h2 className="page__title __wb">使用方法</h2>
             <p>
-              让我们轻松度过炎热夏天的绿色风扇
+              让我们轻松度过炎热夏天的果岭风扇
               <br />
               具备在生活中的各种场景中活跃的使用方法。
             </p>

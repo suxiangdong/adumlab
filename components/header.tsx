@@ -151,13 +151,13 @@ export default function Header() {
                         <em>Lighting</em>
                       </span>
                       <div className="__category__wrap __accordion">
-                        <Link href="/lantern">
+                        {/* <Link href="/lantern">
                           <a className="__item __item--lantern">
                             <span className="__name">
                               <em>BALMUDA The Lantern</em>
                             </span>
                           </a>
-                        </Link>
+                        </Link> */}
                         <Link href="/light">
                           <a className="__item __item--light">
                             <span className="__name">
@@ -168,7 +168,7 @@ export default function Header() {
                       </div>
                     </div>
                     <div className="__group--wrap">
-                      <div className="__group accordion__trigger __group--audio __onlyPC">
+                      {/* <div className="__group accordion__trigger __group--audio __onlyPC">
                         <span className="__title __audio">
                           <em>Audio</em>
                         </span>
@@ -181,8 +181,8 @@ export default function Header() {
                             </a>
                           </Link>
                         </div>
-                      </div>
-                      <div className="__group accordion__trigger __group--cleaner">
+                      </div> */}
+                      {/* <div className="__group accordion__trigger __group--cleaner">
                         <span className="__title __cleaner">
                           <em>Cleaner</em>
                         </span>
@@ -195,7 +195,7 @@ export default function Header() {
                             </a>
                           </Link>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
 
@@ -243,7 +243,7 @@ export default function Header() {
           <li className="navigation__item dropdown__trigger navigation__item--cart">
             <Link href="/support">
               <a className="__item support text">
-                <em className="text-base">Support</em>
+                <em className="text-lg">Support</em>
               </a>
             </Link>
           </li>

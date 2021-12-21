@@ -128,3 +128,7 @@ span.article_num:before {
   content: 'vol.';
   font-size: 12px;
 }
+
+.pagemap__btns {
+  display: none !important;
+}

@@ -131,7 +131,7 @@ export default function About() {
                 </div>
               </a>
             </div>
-            <div className="post">
+            {/* <div className="post">
               <a href="/about/story" className="__inner">
                 <div className="__image  __6 scrollLoader lazyload"></div>
                 <div className="__caption">
@@ -196,7 +196,7 @@ export default function About() {
                   <p className="__text">「一定要有个梦想在前面，不去计较走到哪里才算停，不管直走或转弯，只要方向对了，就会朝着那个方向走，你会获得意想不到的事情。」</p>
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -230,7 +230,7 @@ export default function About() {
                     BALMUDA The Pot
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/lantern/story" target="_blank">
                     BALMUDA The Lantern
                   </a>
@@ -244,7 +244,7 @@ export default function About() {
                   <a href="/cleaner/story" target="_blank">
                     BALMUDA The Cleaner
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 

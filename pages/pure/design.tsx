@@ -67,9 +67,8 @@ export default function ProductDetail() {
         <div className="viewport">
           <div className="__content">
             <h2 className="page__title">
-              让空气净化的
-              <br className="sp" />
-              光柱
+            光的明亮度
+
             </h2>
             <p>
               BALMUDA The Pure 光的明亮度会随着空气清净风量的强弱进行变化，

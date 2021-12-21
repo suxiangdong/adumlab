@@ -113,7 +113,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100V　50Hz/60Hz</td>
+                  <td>220V</td>
                 </tr>
                 <tr>
                   <th>定格耗电量</th>
@@ -149,19 +149,19 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>黑色 (型号 : K02A-BK, JAN代码: 4560330117718）</td>
+                  <td>黑色 (型号 : K02E-BK, JAN代码: 4560330117718）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色(型号 : K02A-WH, JAN代码: 4560330117725)</td>
+                  <td>白色(型号 : K02E-WH, JAN代码: 4560330117725)</td>
                 </tr>
                 <tr>
                   <th>产地</th>
-                  <td>台湾、中国</td>
+                  <td>中国</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>本产品是日本国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
+                  <td>本产品是中国大陆专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>

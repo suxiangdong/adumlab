@@ -114,7 +114,7 @@ export default function About() {
             <span className="text-sm text-999">地址</span>
             <p className="text-sm mb-3">北京市经济技术开发区大族广场T1-1103</p>
             <span className="text-sm text-999">法人代表</span>
-            <p className="text-sm mb-3">于艾灵</p>
+            <p className="text-sm mb-3">早立悟</p>
             <span className="text-sm text-999">成立时间</span>
             <p className="text-sm mb-3">2013年11月</p>
           </div>
@@ -133,11 +133,11 @@ export default function About() {
             <span className="text-sm text-999">2014</span>
             <p className="text-sm mb-3">中国市场开始销售</p>
             <span className="text-sm text-999">2015</span>
-            <p className="text-sm mb-3">BALMUDA The Toaster发布、正式进入厨电市场</p>
+            <p className="text-sm mb-3">BALMUDA The Toaster发布，正式进入厨电市场</p>
             <span className="text-sm text-999">2017</span>
             <p className="text-sm mb-3">中国台湾开始销售</p>
             <span className="text-sm text-999">2020</span>
-            <p className="text-sm mb-3">日本 Mothers 上市</p>
+            <p className="text-sm mb-3">日本 Mothers 上市，美国开始销售</p>
           </div>
         </div>
       </section>
@@ -200,7 +200,7 @@ export default function About() {
                     BALMUDA The Pot
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/lantern/story" target="_blank">
                     BALMUDA The Lantern
                   </a>
@@ -214,7 +214,7 @@ export default function About() {
                   <a href="/cleaner/story" target="_blank">
                     BALMUDA The Cleaner
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 

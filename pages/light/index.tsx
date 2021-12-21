@@ -97,11 +97,10 @@ export default function ProductDetail({ banners, evaluations }) {
         <div className="__mainimage">
           <div className="__inner">
             <img
-              data-mobile="https://www.balmuda.com/jp/light/img/index/mobile/main.jpg?20201006"
-              data-desktop="https://www.balmuda.com/jp/light/img/index/desktop/main.jpg?20201006"
-              data-retina="https://www.balmuda.com/jp/light/img/index/desktop/main@2x.jpg?20201006"
+              data-desktop="/light/img/main@2x.jpg?20201006"
+              data-retina="/light/img/main@2x.jpg?20201006"
               className="__image adaptiveimage"
-              src="https://www.balmuda.com/jp/light/img/index/desktop/main@2x.jpg?20201006"
+              src="/light/img/main@2x.jpg?20201006"
             />
           </div>
         </div>
@@ -112,7 +111,7 @@ export default function ProductDetail({ banners, evaluations }) {
           <h2 className="page__title __wb __is_mobile">
             <span>BALMUDA太阳光LED台灯</span>
           </h2>
-          <span className="label__block">自然光LED台灯</span>
+          <span className="label__block">太阳光LED台灯</span>
           <p className="overview_text __wb">
             <span>BALMUDA The Light 提高集中力，</span>
             <br />
@@ -149,9 +148,9 @@ export default function ProductDetail({ banners, evaluations }) {
                 <h3 className="section__subtitle __wb">
                   <span>色彩鲜明</span>
                 </h3>
-                <h4 className="section__h">自然光LED</h4>
+                <h4 className="section__h">太阳光LED</h4>
                 <p className="section__desc">
-                  在美术馆等对颜色有严苛要求的场景中使用的自然光LED，可以提高注意力。
+                  在美术馆等对颜色有严苛要求的场景中使用的太阳光LED，可以提高注意力。
                 </p>
               </div>
             </div>
@@ -184,11 +183,11 @@ export default function ProductDetail({ banners, evaluations }) {
           </div>
         </div>
       </div> */}
-      <div className="section section--blockquote">
+      {/* <div className="section section--blockquote">
         <div className="viewport">
           <h2 className="section__title">
             <img
-              src="https://www.balmuda.com/jp/light/img/index/svg/media.svgz?20201006"
+              src="/light/img/index/svg/media.svgz?20201006"
               className="__title"
               alt="MEDIA"
             />
@@ -207,7 +206,7 @@ export default function ProductDetail({ banners, evaluations }) {
             ))}
           </ReactSlick>
         </div>
-      </div>
+      </div> */}
 
       <div className="gallery scrollLoader lazyload">
         <div className="viewport">

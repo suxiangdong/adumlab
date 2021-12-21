@@ -181,7 +181,7 @@ export default function ProductDetail() {
             <div className="desc desc_2">
               <div className="text">
                 <h3>
-                  <span>TrueHEPA滤网</span>
+                  <span>HEPA滤网</span>
                   <em className="asterisk __pointer">*3</em>
                 </h3>
                 <p>
@@ -220,7 +220,7 @@ export default function ProductDetail() {
               *2 : 并非空气中的所有有害物质都可以去除。
               <br />
               *3 :
-              对0.3μm的微粒子的捕集率为99.97%以上的过滤器。 我们尚未确认去除小于 0.3 μm 的细小颗粒。
+              对 0.3 μm 的微粒子的捕集率为 99% 以上的过滤器。 我们尚未确认去除小于 0.3 μm 的细小颗粒。
             </p>
           </div>
         </div>

@@ -109,6 +109,10 @@ export default function ProductDetail() {
                   <th>产地</th>
                   <td>中国</td>
                 </tr>
+                <tr>
+                  <th>&nbsp;</th>
+                  <td>本产品是中国大陆专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
+                </tr>
               </tbody>
             </table>
           </div>

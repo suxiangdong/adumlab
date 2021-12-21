@@ -99,15 +99,15 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>彩色</th>
-                  <td>黑色(型号:K05A-BK)</td>
+                  <td>黑色(型号:K05D-BK)</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色(型号:K05A-WH, JAN代码:4560330110146)</td>
+                  <td>白色(型号:K05D-WH, JAN代码:4560330110146)</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>米色(型号:K05A-BG, JAN代码:4560330110153)</td>
+                  <td>奶茶色(型号:K05D-BG, JAN代码:4560330110153)</td>
                 </tr>
                 <tr>
                   <th>产地</th>
@@ -115,7 +115,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>本产品是中国国内专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
+                  <td>本产品是中国大陆专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>
@@ -132,7 +132,7 @@ export default function ProductDetail() {
             白色
           </span>
           <span className={`__selector ${current === 2 ? '__current' : ''} `} onClick={() => setCurrent(2)} data-model="beige">
-            米色
+            奶茶色
           </span>
           {/* <span className={`__selector ${current === 3 ? '__current' : ''} `} onClick={() => setCurrent(3)} data-model="gray">
             灰色

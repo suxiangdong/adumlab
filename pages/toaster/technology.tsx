@@ -151,11 +151,11 @@ export default function ProductDetail() {
               </div>
               <div className="head__img">
                 <img
-                  data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/section--02.png?20200915"
-                  data-desktop="https://www.balmuda.com/jp/toaster/img/technology/desktop/section--02.png?20200915"
-                  data-retina="https://www.balmuda.com/jp/toaster/img/technology/desktop/section--02@2x.png?20200915"
+                  data-mobile="/toaster/img/temp.jpg"
+                  data-desktop="/toaster/img/temp.jpg"
+                  data-retina="/toaster/img/temp.jpg"
+                  src="/toaster/img/temp.jpg"
                   className="__image adaptiveimage"
-                  src="https://www.balmuda.com/jp/toaster/img/technology/desktop/section--02@2x.png?20200915"
                 />
               </div>
             </div>

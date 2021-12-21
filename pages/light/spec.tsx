@@ -118,7 +118,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>演色性</th>
-                  <td>平均显色指数 Ra97 或更高</td>
+                  <td>平均显色指数 Ra97</td>
                 </tr>
                 <tr>
                   <th>光源寿命</th>
@@ -138,7 +138,7 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>电源</th>
-                  <td>AC100-240V 50/60Hz共用 (AC适配器)</td>
+                  <td>220V</td>
                 </tr>
                 <tr>
                   <th>功率</th>
@@ -158,15 +158,19 @@ export default function ProductDetail() {
                 </tr>
                 <tr>
                   <th>颜色</th>
-                  <td>黑色（L01C-BK）</td>
+                  <td>黑色（L01D-BK）</td>
                 </tr>
                 <tr>
                   <th>&nbsp;</th>
-                  <td>白色（L01C-WH）</td>
+                  <td>白色（L01D-WH）</td>
                 </tr>
                 <tr>
                   <th>产地</th>
-                  <td>日本</td>
+                  <td>中国</td>
+                </tr>
+                <tr>
+                  <th>&nbsp;</th>
+                  <td>本产品是中国大陆专用的。请注意在海外的使用不属于保修及修理受理的对象。</td>
                 </tr>
               </tbody>
             </table>

@@ -248,7 +248,7 @@ export default function About() {
                     BALMUDA The Pot
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/lantern/story" target="_blank">
                     BALMUDA The Lantern
                   </a>
@@ -262,7 +262,7 @@ export default function About() {
                   <a href="/cleaner/story" target="_blank">
                     BALMUDA The Cleaner
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 

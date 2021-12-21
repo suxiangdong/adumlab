@@ -74,7 +74,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
-              src="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.min.svgz?20200915"
+              src="/toaster/img/index/desktop/01.png"
               className="__svg"
               alt="トーストモード"
             />
@@ -92,7 +92,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
-              src="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.min.svgz?20200915"
+              src="/toaster/img/index/desktop/02.png"
               className="__svg"
               alt="トーストモード"
             />
@@ -108,7 +108,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
-              src="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.min.svgz?20200915"
+              src="/toaster/img/index/desktop/03.png"
               className="__svg"
               alt="トーストモード"
             />
@@ -124,7 +124,7 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
-              src="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.min.svgz?20200915"
+              src="/toaster/img/index/desktop/04.png"
               className="__svg"
               alt="トーストモード"
             />

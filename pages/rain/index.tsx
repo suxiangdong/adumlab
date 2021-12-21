@@ -98,9 +98,9 @@ export default function ProductDetail({ banners }) {
         </div>
         <div className="viewport">
           <h2 className="page__title __wb">
-            净化空气
+            清洗空气
             <br />
-            精美加湿器
+            的智能加湿器
           </h2>
           <span className="label__block">智能加湿器</span>
           <p>

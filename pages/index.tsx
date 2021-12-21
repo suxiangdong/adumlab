@@ -54,7 +54,7 @@ export default function Home({ banners, hots, topics, notifications }) {
       {
         id: 4,
         title: 'GreenFan Japan',
-        description: '自然风果岭风扇',
+        description: '果岭风扇',
         image_url: 'https://www.balmuda.com/jp/index/img/desktop/popular/1.jpg?20210530',
         url: '/greenfan'
       }

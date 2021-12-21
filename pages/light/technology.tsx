@@ -84,7 +84,7 @@ export default function ProductDetail() {
                   />
                   <div className="forwardbeam__img--head--text">
                     <p className="__wb">
-                      <span>来自于比自己头部更高的光源，往下照射会产生头部的阴影</span>
+                      <span>来自于比自己头部更高的<br />光源，往下照射会产生头部的阴影</span>
                     </p>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ export default function ProductDetail() {
                 </div>
               </div>
             </div>
-            <div className="forwardbeam__light">
+            {/* <div className="forwardbeam__light">
               <div className="forwardbeam__light--inner">
                 <span className="__is_desktop">
                   <img
@@ -164,7 +164,7 @@ export default function ProductDetail() {
                   />
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="forwardbeam--foot">
@@ -226,7 +226,7 @@ export default function ProductDetail() {
                   <h4 className="__title">Ra97显色值</h4>
 
                   <p className="__note">
-                    在追求的是准确与精密的医疗场所或美术馆等环境中使用的自然光LED，能照射出更接近真实的物品本身的颜色
+                    在追求的是准确与精密的医疗场所或美术馆等环境中使用的太阳光LED，能照射出更接近真实的物品本身的颜色
                   </p>
                 </div>
                 <div className="__graph">
@@ -267,11 +267,11 @@ export default function ProductDetail() {
                       <span>仅有一半的蓝光峰值波长</span>
                     </h4>
                     <p>
-                      接近自然界光线波长的自然光LED，蓝光峰值波长的强度，只有一般白色LED灯的一半左右，能减轻视觉负担。
+                      接近自然界光线波长的太阳光LED，蓝光峰值波长的强度，只有一般白色LED灯的一半左右，能减轻视觉负担。
                     </p>
                   </div>
                   <div className="__add">
-                    <p className="__title">自然光和白色LED的区别</p>
+                    <p className="__title">太阳光和白色LED的区别</p>
                     <p>
                       对我们来说，即使是大自然里公认的理想的太阳光，也会含有造成视觉负担的蓝光，而在一般照明或液晶屏幕上的白色LED灯，亦含有高度不自然蓝光的峰值波长，会造成一定程度的视觉负担
                     </p>

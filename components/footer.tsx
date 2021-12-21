@@ -190,7 +190,7 @@ export default function Footer() {
               </div>
               <div className="region">
                 <div className="region__wrap">
-                  <p className="text-xs mt-2">中国代理商：星龙达（科贸）北京有限公司</p>
+                  <p className="text-xs mt-2">中国总代理：星龙达（科贸）北京有限公司</p>
                 </div>
               </div>
             </div>

@@ -24,7 +24,7 @@ export default function Shops() {
 <div className="__cta">
     <a href="#" className="__cta_item __phone modal-action" data-modal-for="buynow">
         <h3 className="__title">电话咨询</h3>
-        <span className="__subtitle">400-668-6726</span>
+        <span className="__subtitle">400-016-6688</span>
     </a>
 
 </div>

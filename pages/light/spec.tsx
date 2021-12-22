@@ -186,51 +186,51 @@ export default function ProductDetail() {
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img1.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img1.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img1@2x.png"
+                    data-mobile="/light/img/img1.png"
+                    data-desktop="/light/img/img1.png"
+                    data-retina="/light/img/img1.png"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img1@2x.png"
+                    src="/light/img/img1.png"
                   />
                 </figure>
               </div>
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img2.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img2.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img2@2x.png"
+                    data-mobile="/light/img/img2.png"
+                    data-desktop="/light/img/img2.png"
+                    data-retina="/light/img/img2.png"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img2@2x.png"
+                    src="/light/img/img2.png"
                   />
                 </figure>
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img3.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img3.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img3@2x.png"
+                    data-mobile="/light/img/img3.png"
+                    data-desktop="/light/img/img3.png"
+                    data-retina="/light/img/img3.png"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img3@2x.png"
+                    src="/light/img/img3.png"
                   />
                 </figure>
               </div>
               <div className="spec__item--block">
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img4.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img4.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img4@2x.png"
+                    data-mobile="/light/img/img4.png"
+                    data-desktop="/light/img/img4.png"
+                    data-retina="/light/img/img4.png"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img4@2x.png"
+                    src="/light/img/img4.png"
                   />
                 </figure>
                 <figure className="spec__item--elm">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/spec/mobile/img5.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/spec/desktop/img5.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/spec/desktop/img5@2x.png"
+                    data-mobile="/light/img/img5.png"
+                    data-desktop="/light/img/img5.png"
+                    data-retina="/light/img/img5.png"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/light/img/spec/desktop/img5@2x.png"
+                    src="/light/img/img5.png"
                   />
                 </figure>
               </div>

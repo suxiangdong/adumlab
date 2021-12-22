@@ -231,12 +231,12 @@ export default function ProductDetail() {
                 </div>
                 <div className="__graph">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--01_re.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re@2x.png"
+                    data-mobile="/light/img/section--04--graph--01_re.png"
+                    data-desktop="/light/img/section--04--graph--01_re.png"
+                    data-retina="/light/img/section--04--graph--01_re.png"
                     className="adaptiveimage"
                     alt=""
-                    src="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--01_re@2x.png"
+                    src="/light/img/section--04--graph--01_re.png"
                   />
                 </div>
               </div>
@@ -253,12 +253,12 @@ export default function ProductDetail() {
               <div className="__wrap">
                 <div className="__graph">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/light/img/technology/mobile/section--04--graph--02.png"
-                    data-desktop="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02.png"
-                    data-retina="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02@2x.png"
+                    data-mobile="/light/img/section--04--graph--02.png"
+                    data-desktop="/light/img/section--04--graph--02.png"
+                    data-retina="/light/img/section--04--graph--02.png"
                     className="adaptiveimage"
                     alt=""
-                    src="https://www.balmuda.com/jp/light/img/technology/desktop/section--04--graph--02@2x.png"
+                    src="/light/img/section--04--graph--02.png"
                   />
                 </div>
                 <div className="__text">

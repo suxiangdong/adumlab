@@ -122,11 +122,11 @@ export default function ProductDetail() {
           <video
             controls={true}
             playsInline={true}
-            poster="./img/technology/mobile/v1b-thumb.jpg"
+            // poster="./img/technology/mobile/v1b-thumb.jpg"
             width="100%"
             height="100%"
             id="v1b">
-            <source src="//s3.balmuda.com/www/jp/toaster/movie/v1b.mp4" type="video/mp4" />
+            <source src="/toaster/movie/v1b.mp4" type="video/mp4" />
           </video>
           <div
             className="video_stop __is_desktop"
@@ -170,22 +170,22 @@ export default function ProductDetail() {
                   <p className="mode__list_title">吐司模式</p>
                   <p className="mode__list_point">烤制的时候要加强上面的加热器</p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/mode--01.png?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--01.png?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--01@2x.png?20200915"
+                    data-mobile="/toaster/img/index/desktop/mode--01.jpg?20200915"
+                    data-desktop="/toaster/img/index/desktop/mode--01.jpg?20200915"
+                    data-retina="/toaster/img/index/desktop/mode--01@2x.jpg?20200915"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--01@2x.png?20200915"
+                    src="/toaster/img/index/desktop/mode--01@2x.jpg?20200915"
                   />
                 </li>
                 <li className="mode__list_item">
                   <p className="mode__list_title">芝士土司模式</p>
                   <p className="mode__list_point">从开始烧的时候开始加大上面的加热器</p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/mode--02.png?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--02.png?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--02@2x.png?20200915"
+                    data-mobile="/toaster/img/index/desktop/mode--02@2x.jpg?20200915"
+                    data-desktop="/toaster/img/index/desktop/mode--02@2x.jpg?20200915"
+                    data-retina="/toaster/img/index/desktop/mode--02@2x.jpg?20200915"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--02@2x.png?20200915"
+                    src="/toaster/img/index/desktop/mode--02@2x.jpg?20200915"
                   />
                 </li>
                 <li className="mode__list_item">
@@ -196,11 +196,11 @@ export default function ProductDetail() {
                     用一定的温度烤制
                   </p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/mode--03.png?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--03.png?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--03@2x.png?20200915"
+                    data-mobile="/toaster/img/index/desktop/mode--03@2x.jpg?20200915"
+                    data-desktop="/toaster/img/index/desktop/mode--03@2x.jpg?20200915"
+                    data-retina="/toaster/img/index/desktop/mode--03@2x.jpg?20200915"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--03@2x.png?20200915"
+                    src="/toaster/img/index/desktop/mode--03@2x.jpg?20200915"
                   />
                 </li>
                 <li className="mode__list_item">
@@ -211,11 +211,11 @@ export default function ProductDetail() {
                     表面很脆弱
                   </p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/technology/mobile/mode--04.png?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--04.png?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--04@2x.png?20200915"
+                    data-mobile="/toaster/img/index/desktop/mode--04@2x.jpg?20200915"
+                    data-desktop="/toaster/img/index/desktop/mode--04@2x.jpg?20200915"
+                    data-retina="/toaster/img/index/desktop/mode--04@2x.jpg?20200915"
                     className="__image adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/technology/desktop/mode--04@2x.png?20200915"
+                    src="/toaster/img/index/desktop/mode--04@2x.jpg?20200915"
                   />
                 </li>
               </ul>

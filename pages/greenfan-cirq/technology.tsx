@@ -76,17 +76,16 @@ export default function ProductDetail() {
           <div className="__image __is_mobile"></div>
           <div className="viewport scrollLoader fadeInUp lazyload">
             <div className="__content">
-              <h2 className="section__title">省エネルギー</h2>
+              <h2 className="section__title">节能</h2>
               <img
-                data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/technology/mobile/section--01.jpg"
-                data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01.jpg"
-                data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01@2x.jpg"
+                data-mobile="/greenfan-cirq/img/section--01.jpg"
+                data-desktop="/greenfan-cirq/img/section--01.jpg"
+                data-retina="/greenfan-cirq/img/section--01.jpg"
                 className="__image adaptiveimage"
-                src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--01@2x.jpg"
+                src="/greenfan-cirq/img/section--01.jpg"
               />
               <p>
-                GreenFan
-                Cirq采用直流无刷电机。具有超群的节能性能，最低档运转时的耗电量仅为3W。每日使用8小时，电费仅为0.01元，非常经济。
+                GreenFan Cirq 采用直流无刷电机。具有超群的节能性能，最低档运转时的耗电量仅为3W。每日使用8小时，电费仅为0.01元，非常经济。
               </p>
               <p className="note">* 电费按每1kWh 0.48元计算。</p>
             </div>
@@ -110,8 +109,7 @@ export default function ProductDetail() {
                 src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--02@2x.png"
               />
               <p>
-                通过GreenFan
-                Cirq出色的空气循环能力，提高空调效率。夏天可将设定温度提高2〜3°C，冬天可将设定温度降低2〜3°C，最大可节省20%电费。
+                通过 GreenFan Cirq 出色的空气循环能力，提高空调效率。夏天可将设定温度提高 2〜3°C，冬天可将设定温度降低 2〜3°C，最大可节省 20% 电费。
               </p>
             </div>
           </div>
@@ -134,8 +132,7 @@ export default function ProductDetail() {
               src="https://www.balmuda.com/jp/greenfan-cirq/img/technology/desktop/section--03@2x.png"
             />
             <p>
-              BALMUDA独特的果岭风科技通过1组扇叶送出两种速度的风，从而改变送风质量。这两种不同风速的风形成旋窝，集中到一点。GreenFan
-              Cirq利用这种技术送出大量的风，并将风送达远端，并且通过调节转速与出口形状，使风尽可能的集中在前方。因此，其送出的强劲风力可推动远达15米范围内的空气。风扇转速低，且出风量大。唯有果岭风科技才能产生如此特别的风。
+              BALMUDA 独特的果岭风科技通过1组扇叶送出两种速度的风，从而改变送风质量。这两种不同风速的风形成旋窝，集中到一点。GreenFan Cirq 利用这种技术送出大量的风，并将风送达远端，并且通过调节转速与出口形状，使风尽可能的集中在前方。因此，其送出的强劲风力可推动远达 15 米范围内的空气。风扇转速低，且出风量大。唯有果岭风科技才能产生如此特别的风。
             </p>
           </div>
         </div>

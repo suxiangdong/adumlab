@@ -55,11 +55,11 @@ export default function ProductDetail() {
 
       <div className="section section--humidity section--00">
         <img
-          data-mobile="https://www.balmuda.com/jp/rain/img/humidity/mobile/section--00.jpg"
-          data-desktop="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00.jpg"
-          data-retina="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
+          data-mobile="/rain/img/humidity/desktop/section--00@2x.jpg"
+          data-desktop="/rain/img/humidity/desktop/section--00@2x.jpg"
+          data-retina="/rain/img/humidity/desktop/section--00@2x.jpg"
           className="__image adaptiveimage m-auto"
-          src="https://www.balmuda.com/jp/rain/img/humidity/desktop/section--00@2x.jpg"
+          src="/rain/img/humidity/desktop/section--00@2x.jpg"
         />
         <div className="viewport">
           <div className="__content">

@@ -234,11 +234,11 @@ export default function ProductDetail() {
             PM2.5性能实验结果
             </h2>
             <img
-              data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--02.png?20190130"
-              data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02.png?20190130"
-              data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
+              data-mobile="/pure/img/technology/desktop/section--02@2x.png?20190130"
+              data-desktop="/pure/img/technology/desktop/section--02@2x.png?20190130"
+              data-retina="/pure/img/technology/desktop/section--02@2x.png?20190130"
               className="__image adaptiveimage"
-              src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--02@2x.png?20190130"
+              src="/pure/img/technology/desktop/section--02@2x.png?20190130"
               alt=""
             />
             <p className="note">基于日本电机工业协会JEM1467的测试结果</p>
@@ -251,11 +251,11 @@ export default function ProductDetail() {
         <div className="viewport scrollLoader fadeInUp lazyload">
           <div className="__content">
             <img
-              data-mobile="https://www.balmuda.com/jp/pure/img/technology/mobile/section--03.png"
-              data-desktop="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03.png"
-              data-retina="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03@2x.png"
+              data-mobile="/pure/img/technology/mobile/section--03@2x.png"
+              data-desktop="/pure/img/technology/desktop/section--03@2x.png"
+              data-retina="/pure/img/technology/desktop/section--03@2x.png"
               className="__image adaptiveimage"
-              src="https://www.balmuda.com/jp/pure/img/technology/desktop/section--03@2x.png"
+              src="/pure/img/technology/desktop/section--03@2x.png"
               alt=""
             />
             <a href="#" onClick={handleOpenModal} className="button modal-action" data-modal-for="section--03_modal">
@@ -270,9 +270,9 @@ export default function ProductDetail() {
               <div className="modal__graph graph_1">
                 <div className="title">
                   <div className="graph__icon">
-                    <img src="https://www.balmuda.com/jp/pure/img/technology/svg/virus.svg" alt="浮遊ウィルス" />
+                    <img src="https://www.balmuda.com/jp/pure/img/technology/svg/virus.svg" alt="漂浮病毒" />
                   </div>
-                  <h3>浮遊ウィルス</h3>
+                  <h3>漂浮病毒</h3>
                 </div>
                 <figure>
                   <img

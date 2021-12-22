@@ -38,9 +38,7 @@ export default function ProductDetail() {
             </li>
           </ul>
           <div className="pagemap__btns">
-            <a
-              href="/support?PRODUCT_SERIES=L01A"
-              className="btn btn--pagemap">
+            <a href="/support?PRODUCT_SERIES=L01A" className="btn btn--pagemap">
               购买
             </a>
           </div>
@@ -54,8 +52,8 @@ export default function ProductDetail() {
             <p className="font-bold w-96 text-3xl mt-2">光照中心点设置在距离主体</p>
             <p className="font-bold w-96 text-3xl mt-2">约30公分处，达到较大范围</p>
             <p className="font-bold w-96 text-3xl mt-2">的照明。</p>
-            <p className="mt-2">
-            利用三个步骤介绍有效的放置和使用方法，将 BALMUDA The Light 的功能发挥到极致。
+            <p className="mt-6">
+              利用三个步骤介绍有效的放置和使用方法，将 BALMUDA The Light 的功能发挥到极致。
             </p>
           </div>
           <div className="__img">
@@ -79,11 +77,11 @@ export default function ProductDetail() {
               </h2>
               <div className="__img">
                 <img
-                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--1--position.png"
-                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--1--position.png"
-                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--1--position@2x.png"
+                  data-mobile="/light/img/column--1--position.png"
+                  data-desktop="/light/img/column--1--position.png"
+                  data-retina="/light/img/column--1--position.png"
                   className="__image adaptiveimage"
-                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--1--position@2x.png"
+                  src="/light/img/column--1--position.png"
                 />
               </div>
             </div>
@@ -95,30 +93,27 @@ export default function ProductDetail() {
           <div className="__column __02 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
-                <span>光源请勿直接照射眼睛，
-水平调整台灯头部</span>
+                <span>光源请勿直接照射眼睛， 水平调整台灯头部</span>
               </h2>
-              <p className="pl-28">
-              即使水平调整也感受到刺眼的话，请再向内调整台灯头部的角度。
-              </p>
+              <p className="pl-28">即使水平调整也感受到刺眼的话，请再向内调整台灯头部的角度。</p>
               <div className="__img">
                 <img
-                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--2--horizontal.png"
-                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal.png"
-                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal@2x.png"
+                  data-mobile="/light/img/column--2--horizontal.png"
+                  data-desktop="/light/img/column--2--horizontal.png"
+                  data-retina="/light/img/column--2--horizontal.png"
                   className="__image adaptiveimage"
-                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--horizontal@2x.png"
+                  src="/light/img/column--2--horizontal.png"
                 />
               </div>
             </div>
             <div className="__point">
               <p className="__subtitle">可根据办公桌大小使用</p>
               <img
-                data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--2--point--adjust.png"
-                data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust.png"
-                data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust@2x.png"
+                data-mobile="/light/img/column--2--point--adjust.png"
+                data-desktop="/light/img/column--2--point--adjust.png"
+                data-retina="/light/img/column--2--point--adjust.png"
                 className="__image adaptiveimage"
-                src="https://www.balmuda.com/jp/light/img/howto/desktop/column--2--point--adjust@2x.png"
+                src="/light/img/column--2--point--adjust.png"
               />
             </div>
           </div>
@@ -126,11 +121,11 @@ export default function ProductDetail() {
           <div className="__column __03 scrollLoader fadeInUp lazyload">
             <div className="__content">
               <h2 className="__title __wb">
-                <span>配合放置作业环境
-调整明亮度</span>
-                </h2>
-              <p>
-              在宁静氛围的室内，建议设定1-3档，较明亮的室内或进行细微作业时，建议设定4-6档              </p>
+                <span>配合放置作业环境 调整明亮度</span>
+              </h2>
+              <p className="pl-28">
+                在宁静氛围的室内，建议设定1-3档，较明亮的室内或进行细微作业时，建议设定4-6档
+              </p>
               <div className="__img">
                 <img
                   data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--dial.png"
@@ -144,16 +139,16 @@ export default function ProductDetail() {
             <div className="__point">
               <p className="__subtitle">提高集中力的使用方法</p>
               <p className="__caption">
-              相比整间房间都是一样的亮度，在有点昏暗的房间，搭配台灯，让房间内有5-10倍左右的亮度差，一般认为何样的明暗落差环境，是可以提高集中力的。           </p>
-              <p className="__caption">
-              * Lx照度：代表照射到平面明亮度的单位。             </p>
+                相比整间房间都是一样的亮度，在有点昏暗的房间，搭配台灯，让房间内有5-10倍左右的亮度差，一般认为何样的明暗落差环境，是可以提高集中力的。{' '}
+              </p>
+              <p className="__caption">* Lx照度：代表照射到平面明亮度的单位。 </p>
               <div className="__img">
                 <img
-                  data-mobile="https://www.balmuda.com/jp/light/img/howto/mobile/column--3--point--illuminance.png?20200603"
-                  data-desktop="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance.png?20200603"
-                  data-retina="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance@2x.png?20200603"
+                  data-mobile="/light/img/column--3--point--illuminance.png?20200603"
+                  data-desktop="/light/img/column--3--point--illuminance.png?20200603"
+                  data-retina="/light/img/column--3--point--illuminance.png?20200603"
                   className="__image adaptiveimage"
-                  src="https://www.balmuda.com/jp/light/img/howto/desktop/column--3--point--illuminance@2x.png?20200603"
+                  src="/light/img/column--3--point--illuminance.png?20200603"
                 />
               </div>
             </div>
@@ -164,11 +159,11 @@ export default function ProductDetail() {
       <div className="section section--howto section--02 scrollLoader fadeInUp lazyload">
         <div className="viewport">
           <div className="__content">
-          <p className="font-bold w-96 text-3xl">BALMUDA The Light 是通过</p>
+            <p className="font-bold w-96 text-3xl">BALMUDA The Light 是通过</p>
             <p className="font-bold w-96 text-3xl mt-2">前束光技术，手边的视野范</p>
             <p className="font-bold w-96 text-3xl mt-2">围内不产生阴影，提供舒适</p>
             <p className="font-bold w-96 text-3xl mt-2">的亮度。</p>
-            <p className="__wb mt-2">
+            <p className="__wb mt-6">
               <span>将自己喜爱的文具放到工具箱里，享受专属自己的桌面工作乐趣。</span>
             </p>
           </div>

@@ -91,11 +91,11 @@ export default function ProductDetail() {
                 </p>
                 <div className="step__img">
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_01.png"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01.png"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                    data-mobile="/toaster/img/img_step_01@2x.png"
+                    data-desktop="/toaster/img/img_step_01@2x.png"
+                    data-retina="/toaster/img/img_step_01@2x.png"
                     className="adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                    src="/toaster/img/img_step_01@2x.png"
                   />
                 </div>
                 <div className="qa">
@@ -123,11 +123,11 @@ export default function ProductDetail() {
               </div>
               <div className="step__img">
                 <img
-                  data-mobile="https://www.balmuda.com/jp/toaster/img/howto/mobile/img_step_01.png"
-                  data-desktop="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01.png"
-                  data-retina="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                  data-mobile="/toaster/img/img_step_01@2x.png"
+                  data-desktop="/toaster/img/img_step_01@2x.png"
+                  data-retina="/toaster/img/img_step_01@2x.png"
                   className="adaptiveimage"
-                  src="https://www.balmuda.com/jp/toaster/img/howto/desktop/img_step_01@2x.png"
+                  src="/toaster/img/img_step_01@2x.png"
                 />
               </div>
             </div>
@@ -203,11 +203,11 @@ export default function ProductDetail() {
                     以将表面烤成金黄色。不仅仅是吐司，也可以用来烘烤横向切成两半的贝果或英式麦芬。
                   </p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.mobile.icons.svgz?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    data-mobile="/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    data-desktop="/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    data-retina="/toaster/img/svg/mode-toast.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-toast.icons.svgz?20200915"
+                    src="/toaster/img/svg/mode-toast.icons.svgz?20200915"
                   />
                 </div>
                 <div className="mode__pnl mode__pnl--cheese">
@@ -221,11 +221,11 @@ export default function ProductDetail() {
                     因为上火很大，所以除了芝士吐司以外，还可以配上烹饪前的食材。也可以是披萨吐司、蔬菜和水果放在上面烤熟的菜单上。
                   </p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.mobile.icons.svgz?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    data-mobile="/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    data-desktop="/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    data-retina="/toaster/img/svg/mode-cheese.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-cheese.icons.svgz?20200915"
+                    src="/toaster/img/svg/mode-cheese.icons.svgz?20200915"
                   />
                 </div>
               </div>
@@ -247,11 +247,11 @@ export default function ProductDetail() {
                     将内部充分加温，表面却不焦糊。最适合烘烤法式面包，黄油餐包和麦芬等面包。
                   </p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.mobile.icons.svgz?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    data-mobile="/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    data-desktop="/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    data-retina="/toaster/img/svg/mode-baguette.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-baguette.icons.svgz?20200915"
+                    src="/toaster/img/svg/mode-baguette.icons.svgz?20200915"
                   />
                 </div>
                 <div className="mode__pnl mode__pnl--croissant">
@@ -265,11 +265,11 @@ export default function ProductDetail() {
                     将内部充分加温，表面烤至酥脆。适合将酥皮类面包或司康等烤出酥脆的表皮，或者将菠萝包二次加热。
                   </p>
                   <img
-                    data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.mobile.icons.svgz?20200915"
-                    data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
-                    data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    data-mobile="/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    data-desktop="/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    data-retina="/toaster/img/svg/mode-croissant.icons.svgz?20200915"
                     className="adaptiveimage"
-                    src="https://www.balmuda.com/jp/toaster/img/svg/mode-croissant.icons.svgz?20200915"
+                    src="/toaster/img/svg/mode-croissant.icons.svgz?20200915"
                   />
                 </div>
               </div>
@@ -293,11 +293,11 @@ export default function ProductDetail() {
                   经典模式可以设定170度、200度、250度的上限温度，可以享受焗饭、曲奇、年糕等各种各样的烤箱料理料理。
                 </p>
                 <img
-                  data-mobile="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.mobile.icons.svgz?20200915"
-                  data-desktop="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
-                  data-retina="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  data-mobile="/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  data-desktop="/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  data-retina="/toaster/img/svg/mode-classic.icons.svgz?20200915"
                   className="adaptiveimage"
-                  src="https://www.balmuda.com/jp/toaster/img/svg/mode-classic.icons.svgz?20200915"
+                  src="/toaster/img/svg/mode-classic.icons.svgz?20200915"
                 />
                 {/* <div className="mode__classic__horo">
                   <div className="horo__img">

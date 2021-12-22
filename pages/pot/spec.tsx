@@ -175,11 +175,11 @@ export default function ProductDetail() {
             <h2 className="section__title">各部的名字</h2>
             <div className="__imagewrap">
               <img
-                data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/wire.png"
-                data-desktop="https://www.balmuda.com/jp/pot/img/spec/desktop/wire.png"
-                data-retina="https://www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
+                data-mobile="/pot/img/wire.jpg"
+                data-desktop="/pot/img/wire.jpg"
+                data-retina="/pot/img/wire.jpg"
                 className="__image adaptiveimage"
-                src="https://www.balmuda.com/jp/pot/img/spec/desktop/wire@2x.png"
+                src="/pot/img/wire.jpg"
               />
             </div>
             <p>电源线可以收纳在电源底部的电源线夹里。设置的时候请调节到适当的长度使用。</p>
@@ -193,11 +193,11 @@ export default function ProductDetail() {
             <h2 className="section__title">关于保养</h2>
             <div className="__imagewrap">
               <img
-                data-mobile="https://www.balmuda.com/jp/pot/img/spec/mobile/maintenance.png"
-                data-desktop="https://www.balmuda.com/jp/pot/img/spec/desktop/maintenance.png"
-                data-retina="https://www.balmuda.com/jp/pot/img/spec/desktop/maintenance@2x.png"
+                data-mobile="/pot/img/maintenance.png"
+                data-desktop="/pot/img/maintenance.png"
+                data-retina="/pot/img/maintenance.png"
                 className="__image adaptiveimage"
-                src="https://www.balmuda.com/jp/pot/img/spec/desktop/maintenance@2x.png"
+                src="/pot/img/maintenance.png"
               />
             </div>
             <p>

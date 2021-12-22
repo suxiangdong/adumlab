@@ -54,11 +54,11 @@ export default function ProductDetail() {
 
       <div className="section section--specs section--00">
         <img
-          data-mobile="https://www.balmuda.com/jp/greenfan-cirq/img/specs/mobile/section--00.jpg"
-          data-desktop="https://www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00.jpg"
-          data-retina="https://www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00@2x.jpg"
+          data-mobile="/greenfan-cirq/img/section--00.png"
+          data-desktop="/greenfan-cirq/img/section--00.png"
+          data-retina="/greenfan-cirq/img/section--00.png"
           className="adaptiveimage"
-          src="https://www.balmuda.com/jp/greenfan-cirq/img/specs/desktop/section--00@2x.jpg"
+          src="/greenfan-cirq/img/section--00.png"
         />
       </div>
       <div className="section section--specs section--01">
